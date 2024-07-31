@@ -1,0 +1,13 @@
+# show the aspects used by a discipline
+
+select distinct ?discipline ?aspect
+where {
+  
+  ?aspect rdf:type gist:Aspect ;
+          gist:isCategorizedBy ?discipline .
+
+  ?discipline rdf:type gist:Discipline .
+  
+  }
+order by ?discipline ?aspect
+

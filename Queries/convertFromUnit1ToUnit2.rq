@@ -1,0 +1,29 @@
+# convert a numeric value from one unit to another, if the units measure the same aspect
+# edit the input section for the from and to values
+
+select ?aspect ?fromUnit ?fromNumericValue ?toUnit ?toNumericValue
+
+where {
+  
+# input 
+
+  bind("27"^^xsd:decimal as ?fromNumericValue)
+  bind(gistd:_UnitOfMeasure_foot as ?fromUnit)
+  bind(gistd:_UnitOfMeasure_yard as ?toUnit)
+
+# a result is returned only if fromUnit and toUnit both measure the same aspect (in the same unit group)
+  
+  ?fromUnit gist:isMemberOf ?unitGroup .  # both units are in the same unit group
+  ?toUnit   gist:isMemberOf ?unitGroup .
+ 
+  ?unitGroup rdf:type gist:UnitGroup .
+
+  ?fromUnit gist:conversionFactor ?fromConversionFactor .
+  
+  ?toUnit   gist:conversionFactor ?toConversionFactor .
+  
+# multiply by the "from" conversion factor and divide by the "to" conversion factor  
+  
+  bind((?fromNumericValue * ?fromConversionFactor / ?toConversionFactor) as ?toNumericValue)
+  }
+

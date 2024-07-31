@@ -1,0 +1,138 @@
+# construct a new unit of measure from two existing units of measure
+#
+# general pattern: new unit = multiplier 
+#                             x (existing unit1)^(exponent of existing unit1) 
+#                             x (existing unit2)^(exponent of existing unit2)
+#
+# edit the input section for your new unit
+#
+# caveat: results are not clean if the request involves a Unit of Measure that does not have a decomposition as a multiple of a product of powers of base units
+#
+# caveat: available math functions may vary by triple-store platform
+prefix math: <http://www.w3.org/2005/xpath-functions/math#>
+
+
+construct {
+
+  ?newUnitIri rdf:type gist:UnitOfMeasure ;
+              skos:prefLabel        ?newUnitPrefLabel        ;
+              skos:definition       ?newUnitDefinition       ;
+              gist:conversionFactor ?newUnitConversionFactor ;
+              skos:scopeNote        ?newUnitEquation         ;
+              .
+
+  ?newUnitIri gist:isMemberOf ?unitGroupOfNewUnit .
+
+  }
+
+where {
+
+# provide the input (no special characters in the prefLabel)
+# the example is for watt-hour
+
+  bind("watt hour"^^xsd:string as ?newUnitPrefLabel)  # alpha-numeric and spaces only
+  bind("One watt for one hour."^^xsd:string as ?newUnitDefinition)
+
+  bind("1.0"^^xsd:decimal as ?multiplier)
+
+  bind(gistd:_UnitOfMeasure_watt as ?unit1)
+  bind("1.0"^^xsd:decimal           as ?exponentOfUnit1)
+
+  bind(gistd:_UnitOfMeasure_hour as ?unit2)
+  bind("1.0"^^xsd:decimal           as ?exponentOfUnit2)
+
+
+# create the IRI of the new unit
+
+  bind(iri(replace(concat("gistd:_UnitOfMeasure_", ?newUnitPrefLabel), " ", "_")) as ?newUnitIri)
+
+# create the new conversion factor
+  ?unit1 gist:conversionFactor ?conversionFactorOfUnit1 .
+  ?unit2 gist:conversionFactor ?conversionFactorOfUnit2 .
+
+  bind(xsd:decimal(math:pow(?conversionFactorOfUnit1, ?exponentOfUnit1)) as ?newUnitConversionFactorTerm1)
+  bind(xsd:decimal(math:pow(?conversionFactorOfUnit2, ?exponentOfUnit2)) as ?newUnitConversionFactorTerm2)
+  
+  bind(?multiplier * ?newUnitConversionFactorTerm1 * ?newUnitConversionFactorTerm2 as ?newUnitConversionFactor)
+
+# create new exponents
+
+  ?unitGroupOfUnit1 ^gist:isMemberOf ?unit1 .  # look up the two Unit Groups
+  ?unitGroupOfUnit2 ^gist:isMemberOf ?unit2 .
+  
+  ?unitGroupOfUnit1 
+            gist:exponentOfAmpere   ?exponentOfAmpere1   ; 
+            gist:exponentOfBit      ?exponentOfBit1      ; 
+            gist:exponentOfCandela  ?exponentOfCandela1  ; 
+            gist:exponentOfKelvin   ?exponentOfKelvin1   ;  
+            gist:exponentOfKilogram ?exponentOfKilogram1 ; 
+            gist:exponentOfMeter    ?exponentOfMeter1    ; 
+            gist:exponentOfMole     ?exponentOfMole1     ; 
+            gist:exponentOfNumber   ?exponentOfNumber1   ; 
+            gist:exponentOfOther    ?exponentOfOther1    ; 
+            gist:exponentOfRadian   ?exponentOfRadian1   ; 
+            gist:exponentOfSecond   ?exponentOfSecond1   ;
+            gist:exponentOfSteradian ?exponentOfSteradian1 ;
+            gist:exponentOfUSDollar ?exponentOfUSDollar1 ;
+            .
+
+  ?unitGroupOfUnit2 
+            gist:exponentOfAmpere   ?exponentOfAmpere2   ; 
+            gist:exponentOfBit      ?exponentOfBit2      ; 
+            gist:exponentOfCandela  ?exponentOfCandela2  ; 
+            gist:exponentOfKelvin   ?exponentOfKelvin2   ;  
+            gist:exponentOfKilogram ?exponentOfKilogram2 ; 
+            gist:exponentOfMeter    ?exponentOfMeter2    ; 
+            gist:exponentOfMole     ?exponentOfMole2     ; 
+            gist:exponentOfNumber   ?exponentOfNumber2   ; 
+            gist:exponentOfOther    ?exponentOfOther2    ; 
+            gist:exponentOfRadian   ?exponentOfRadian2   ; 
+            gist:exponentOfSecond   ?exponentOfSecond2   ;
+            gist:exponentOfSteradian   ?exponentOfSteradian2   ;
+            gist:exponentOfUSDollar ?exponentOfUSDollar2 ;
+            .
+
+# calculate the exponents of the new unitGroup (this is why we always populate the 0-valued exponents)
+
+  bind ((?exponentOfUnit1 * ?exponentOfAmpere1  ) + (?exponentOfUnit2 * ?exponentOfAmpere2   )   as ?newExponentOfAmpere)
+  bind ((?exponentOfUnit1 * ?exponentOfBit1     ) + (?exponentOfUnit2 * ?exponentOfBit2      )   as ?newExponentOfBit)
+  bind ((?exponentOfUnit1 * ?exponentOfCandela1 ) + (?exponentOfUnit2 * ?exponentOfCandela2  )   as ?newExponentOfCandela)
+  bind ((?exponentOfUnit1 * ?exponentOfKelvin1  ) + (?exponentOfUnit2 * ?exponentOfKelvin2   )   as ?newExponentOfKelvin)
+  bind ((?exponentOfUnit1 * ?exponentOfKilogram1) + (?exponentOfUnit2 * ?exponentOfKilogram2 )   as ?newExponentOfKilogram)
+  bind ((?exponentOfUnit1 * ?exponentOfMeter1   ) + (?exponentOfUnit2 * ?exponentOfMeter2    )   as ?newExponentOfMeter)
+  bind ((?exponentOfUnit1 * ?exponentOfMole1    ) + (?exponentOfUnit2 * ?exponentOfMole2     )   as ?newExponentOfMole)
+
+  bind ((?exponentOfUnit1 * ?exponentOfNumber1  ) + (?exponentOfUnit2 * ?exponentOfNumber2   )   as ?newExponentOfNumber)
+  bind ((?exponentOfUnit1 * ?exponentOfOther1   ) + (?exponentOfUnit2 * ?exponentOfOther2    )   as ?newExponentOfOther)
+  bind ((?exponentOfUnit1 * ?exponentOfRadian1  ) + (?exponentOfUnit2 * ?exponentOfRadian2   )   as ?newExponentOfRadian)
+
+  bind ((?exponentOfUnit1 * ?exponentOfSecond1   ) + (?exponentOfUnit2 * ?exponentOfSecond2   )   as ?newExponentOfSecond)
+  bind ((?exponentOfUnit1 * ?exponentOfSteradian1) + (?exponentOfUnit2 * ?exponentOfSteradian2)   as ?newExponentOfSteradian)
+  bind ((?exponentOfUnit1 * ?exponentOfUSDollar1 ) + (?exponentOfUnit2 * ?exponentOfUSDollar2 )   as ?newExponentOfUSDollar)
+
+
+# find Unit Group(s) with the new exponents
+
+  optional {
+     ?unitGroupOfNewUnit  # look up the Group(s)
+
+        gist:exponentOfAmpere   ?newExponentOfAmpere   ; 
+        gist:exponentOfBit      ?newExponentOfBit      ; 
+        gist:exponentOfCandela  ?newExponentOfCandela  ; 
+        gist:exponentOfKelvin   ?newExponentOfKelvin   ;  
+        gist:exponentOfKilogram ?newExponentOfKilogram ; 
+        gist:exponentOfMeter    ?newExponentOfMeter    ; 
+        gist:exponentOfMole     ?newExponentOfMole     ; 
+        gist:exponentOfNumber   ?newExponentOfNumber   ; 
+        gist:exponentOfOther    ?newExponentOfOther    ; 
+        gist:exponentOfRadian   ?newExponentOfRadian   ; 
+        gist:exponentOfSecond   ?newExponentOfSecond   ;
+        gist:exponentOfSteradian ?newExponentOfSteradian   ;
+        gist:exponentOfUSDollar ?newExponentOfUSDollar ;
+        .
+
+        ?unitGroupOfNewUnit skos:scopeNote ?textFormOfExponents .  # look up the coherent unit
+       }
+
+  bind(concat("1 ", ?newUnitPrefLabel, " = ", str(?newUnitConversionFactor), " x ", ?textFormOfExponents) as ?newUnitEquation)
+} 

@@ -1,0 +1,17 @@
+# create a summary list of aspects and units by discipline
+
+select ?discipline ?aspect ?unit
+where {
+
+  ?aspect rdf:type gist:Aspect .
+
+  ?aspect gist:isCategorizedBy ?discipline ;
+          gist:hasUnitGroup    ?unitGroup ;
+          .
+
+  ?unit  gist:isMemberOf ?unitGroup .
+
+  ?discipline rdf:type gist:Discipline .
+  ?unit       rdf:type gist:UnitOfMeasure .
+}
+order by ?discipline ?aspect ?unit
