@@ -1,0 +1,383 @@
+@prefix gist: <https://w3id.org/semanticarts/ns/ontology/gist/> . # external
+@prefix gistd: <https://w3id.org/semanticarts/ns/data/gist/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+gistd:_UnitOfMeasure_Afghani gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Afghani rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Algerian_Dinar gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Algerian_Dinar rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Argentine_Peso gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Argentine_Peso rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Armenian_Dram gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Armenian_Dram rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Aruban_Guilder gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Aruban_Guilder rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Australian_Dollar gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Australian_Dollar rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Azerbaijanian_Manat gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Azerbaijanian_Manat rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Bahamian_Dollar gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Bahamian_Dollar rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Bahraini_Dinar gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Bahraini_Dinar rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Baht gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Baht rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Balboa gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Balboa rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Bangladeshi_Taka gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Bangladeshi_Taka rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Barbados_Dollar gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Barbados_Dollar rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Belarussian_Ruble gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Belarussian_Ruble rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Belize_Dollar gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Belize_Dollar rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Bermuda_Dollar gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Bermuda_Dollar rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Bolivian_Mvdol_Funds_code gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Bolivian_Mvdol_Funds_code rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Boliviano gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Boliviano rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Brazilian_Real gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Brazilian_Real rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_British_pound_per_hour gist:isMemberOf gistd:_UnitGroup_monetary_value_per_duration .
+gistd:_UnitOfMeasure_British_pound_per_hour rdf:type gist:UnitOfMeasure .
+gistd:_UnitOfMeasure_Brunei_Dollar gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Brunei_Dollar rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Bulgarian_Lev gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Bulgarian_Lev rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Burundian_Franc gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Burundian_Franc rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_CFA_Franc_BCEAO gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_CFA_Franc_BCEAO rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_CFA_Franc_BEAC gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_CFA_Franc_BEAC rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_CFP_franc gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_CFP_franc rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Canadian_Dollar gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Canadian_Dollar rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Canadian_Dollar_per_hour gist:isMemberOf gistd:_UnitGroup_monetary_value_per_duration .
+gistd:_UnitOfMeasure_Canadian_Dollar_per_hour rdf:type gist:UnitOfMeasure .
+gistd:_UnitOfMeasure_Cape_Verde_Escudo gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Cape_Verde_Escudo rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Cayman_Islands_Dollar gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Cayman_Islands_Dollar rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Cedi gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Cedi rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Chilean_Peso gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Chilean_Peso rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Chinese_yuan_per_hour gist:isMemberOf gistd:_UnitGroup_monetary_value_per_duration .
+gistd:_UnitOfMeasure_Chinese_yuan_per_hour rdf:type gist:UnitOfMeasure .
+gistd:_UnitOfMeasure_Colombian_Peso gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Colombian_Peso rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Comoro_Franc gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Comoro_Franc rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Convertible_Marks gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Convertible_Marks rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Cordoba_Oro gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Cordoba_Oro rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Costa_Rican_Colon gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Costa_Rican_Colon rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Croatian_Kuna gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Croatian_Kuna rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Cuban_Peso gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Cuban_Peso rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Cyprus_Pound gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Cyprus_Pound rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Czech_Koruna gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Czech_Koruna rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Dalasi gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Dalasi rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Danish_Krone gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Danish_Krone rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Denar gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Denar rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Djibouti_Franc gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Djibouti_Franc rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Dobra gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Dobra rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Dominican_Peso gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Dominican_Peso rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_East_Caribbean_Dollar gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_East_Caribbean_Dollar rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Egyptian_Pound gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Egyptian_Pound rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Ethiopian_Birr gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Ethiopian_Birr rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Euro gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Euro rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Euro_per_hour gist:isMemberOf gistd:_UnitGroup_monetary_value_per_duration .
+gistd:_UnitOfMeasure_Euro_per_hour rdf:type gist:UnitOfMeasure .
+gistd:_UnitOfMeasure_European_Composite_Unit_EURCO_Bonds_market_unit gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_European_Composite_Unit_EURCO_Bonds_market_unit rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_European_Monetary_Unit_EMU_6_Bonds_market_unit gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_European_Monetary_Unit_EMU_6_Bonds_market_unit rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_European_Unit_of_Account_17_EUA_17_Bonds_market_unit gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_European_Unit_of_Account_17_EUA_17_Bonds_market_unit rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_European_Unit_of_Account_9_EUA_9_Bonds_market_unit gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_European_Unit_of_Account_9_EUA_9_Bonds_market_unit rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Falkland_Islands_Pound gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Falkland_Islands_Pound rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Fiji_Dollar gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Fiji_Dollar rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Forint gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Forint rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Franc_Congolais gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Franc_Congolais rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Gibraltar_pound gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Gibraltar_pound rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Gold_franc_special_settlement_currency gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Gold_franc_special_settlement_currency rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Gold_one_Troy_ounce gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Gold_one_Troy_ounce rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Guarani gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Guarani rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Guinea_Franc gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Guinea_Franc rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Guyana_Dollar gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Guyana_Dollar rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Haiti_Gourde gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Haiti_Gourde rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Hong_Kong_Dollar gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Hong_Kong_Dollar rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Hryvnia gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Hryvnia rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Iceland_Krona gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Iceland_Krona rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Indian_Rupee gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Indian_Rupee rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Indian_Rupee_per_hour gist:isMemberOf gistd:_UnitGroup_monetary_value_per_duration .
+gistd:_UnitOfMeasure_Indian_Rupee_per_hour rdf:type gist:UnitOfMeasure .
+gistd:_UnitOfMeasure_Iranian_Rial gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Iranian_Rial rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Iraqi_Dinar gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Iraqi_Dinar rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Jamaican_Dollar gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Jamaican_Dollar rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Japanese_yen gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Japanese_yen rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Japanese_yen_per_hour gist:isMemberOf gistd:_UnitGroup_monetary_value_per_duration .
+gistd:_UnitOfMeasure_Japanese_yen_per_hour rdf:type gist:UnitOfMeasure .
+gistd:_UnitOfMeasure_Jordanian_Dinar gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Jordanian_Dinar rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Kenyan_Shilling gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Kenyan_Shilling rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Kina gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Kina rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Kroon gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Kroon rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Kuwaiti_Dinar gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Kuwaiti_Dinar rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Kwanza gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Kwanza rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Kyat gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Kyat rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Lao_kip gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Lao_kip rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Lari gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Lari rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Latvian_Lats gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Latvian_Lats rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Lebanese_Pound gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Lebanese_Pound rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Lek gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Lek rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Lempira gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Lempira rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Leone gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Leone rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Liberian_Dollar gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Liberian_Dollar rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Libyan_Dinar gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Libyan_Dinar rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Lilangeni gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Lilangeni rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Lithuanian_Litas gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Lithuanian_Litas rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Loti gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Loti rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Malagasy_Ariary gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Malagasy_Ariary rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Malawi_Kwacha gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Malawi_Kwacha rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Malaysian_Ringgit gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Malaysian_Ringgit rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Maltese_Lira gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Maltese_Lira rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Manat gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Manat rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Mauritius_Rupee gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Mauritius_Rupee rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Metical gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Metical rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Mexican_Peso gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Mexican_Peso rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Mexican_Unidad_de_Inversion_UDI_Funds_code gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Mexican_Unidad_de_Inversion_UDI_Funds_code rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Million_US_dollars gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Million_US_dollars rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Moldovan_Leu gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Moldovan_Leu rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Mongolian_Tugrik gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Mongolian_Tugrik rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Moroccan_Dirham gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Moroccan_Dirham rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Naira gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Naira rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Nakfa gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Nakfa rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Namibian_Dollar gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Namibian_Dollar rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Nepalese_Rupee gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Nepalese_Rupee rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Netherlands_Antillian_Guilder gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Netherlands_Antillian_Guilder rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_New_Israeli_Shekel gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_New_Israeli_Shekel rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_New_Taiwan_Dollar gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_New_Taiwan_Dollar rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_New_Turkish_Lira gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_New_Turkish_Lira rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_New_Zealand_Dollar gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_New_Zealand_Dollar rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Ngultrum gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Ngultrum rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_North_Korean_Won gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_North_Korean_Won rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Norwegian_Krone gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Norwegian_Krone rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Nuevo_Sol gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Nuevo_Sol rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Ouguiya gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Ouguiya rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Pa_anga gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Pa_anga rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Pakistan_Rupee gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Pakistan_Rupee rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Palladium_one_Troy_ounce gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Palladium_one_Troy_ounce rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Pataca gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Pataca rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Peso_Uruguayo gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Peso_Uruguayo rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Philippine_Peso gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Philippine_Peso rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Platinum_one_Troy_ounce gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Platinum_one_Troy_ounce rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Pound_Sterling gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Pound_Sterling rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Pula gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Pula rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Qatari_Rial gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Qatari_Rial rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Quetzal gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Quetzal rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Rial_Omani gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Rial_Omani rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Riel gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Riel rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Romanian_New_Leu gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Romanian_New_Leu rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Rufiyaa gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Rufiyaa rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Rupiah gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Rupiah rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Russian_Ruble gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Russian_Ruble rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Rwanda_Franc gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Rwanda_Franc rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Saint_Helena_Pound gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Saint_Helena_Pound rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Samoan_Tala gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Samoan_Tala rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Saudi_Riyal gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Saudi_Riyal rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Serbian_Dinar gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Serbian_Dinar rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Seychelles_Rupee gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Seychelles_Rupee rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Silver_one_Troy_ounce gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Silver_one_Troy_ounce rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Singapore_Dollar gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Singapore_Dollar rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Slovak_Koruna gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Slovak_Koruna rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Solomon_Islands_Dollar gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Solomon_Islands_Dollar rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Som gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Som rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Somali_Shilling gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Somali_Shilling rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Somoni gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Somoni rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_South_African_Rand gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_South_African_Rand rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_South_Korean_Won gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_South_Korean_Won rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Special_Drawing_Rights gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Special_Drawing_Rights rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Sri_Lanka_Rupee gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Sri_Lanka_Rupee rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Sudanese_Pound gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Sudanese_Pound rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Surinam_Dollar gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Surinam_Dollar rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Swedish_Krona gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Swedish_Krona rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Swiss_Franc gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Swiss_Franc rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Syrian_Pound gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Syrian_Pound rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Tanzanian_Shilling gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Tanzanian_Shilling rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Tenge gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Tenge rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Trinidad_and_Tobago_Dollar gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Trinidad_and_Tobago_Dollar rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Tunisian_Dinar gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Tunisian_Dinar rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_UIC_franc_special_settlement_currency gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_UIC_franc_special_settlement_currency rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_US_dollar gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_US_dollar rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_US_dollar_per_hour gist:isMemberOf gistd:_UnitGroup_monetary_value_per_duration .
+gistd:_UnitOfMeasure_US_dollar_per_hour rdf:type gist:UnitOfMeasure .
+gistd:_UnitOfMeasure_Uganda_Shilling gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Uganda_Shilling rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Unidad_de_Valor_Real gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Unidad_de_Valor_Real rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Unidades_de_formento_Funds_code gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Unidades_de_formento_Funds_code rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_United_Arab_Emirates_dirham gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_United_Arab_Emirates_dirham rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_United_States_Dollar_next_day_funds_code gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_United_States_Dollar_next_day_funds_code rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_United_States_Dollar_same_day_funds_code gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_United_States_Dollar_same_day_funds_code rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Uzbekistan_Som gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Uzbekistan_Som rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Vatu gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Vatu rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Venezuelan_bolvar gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Venezuelan_bolvar rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Vietnamese_ng gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Vietnamese_ng rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_WIR_Euro_complementary_currency gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_WIR_Euro_complementary_currency rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_WIR_Franc_complementary_currency gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_WIR_Franc_complementary_currency rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Yemeni_Rial gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Yemeni_Rial rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Yuan_Renminbi gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Yuan_Renminbi rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Zambian_Kwacha gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Zambian_Kwacha rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Zimbabwe_Dollar gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Zimbabwe_Dollar rdf:type gist:UnitOfMeasure .  # added
+gistd:_UnitOfMeasure_Zloty gist:isMemberOf gistd:_UnitGroup_monetary_value .
+gistd:_UnitOfMeasure_Zloty rdf:type gist:UnitOfMeasure .  # added
