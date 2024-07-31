@@ -7,9 +7,7 @@ Reference data curated by Semantic Arts, including units of measure, aspects, et
 - uomReferenceData-starter-set.ttl A subset of the reference data that includes a few entries for each discipline.
 - currency.ttl Complete set of currencies extracted from QUDT.
 - currency-starter-set.ttl A small subset of currencies.
-
 - prefixes.ttl
-- templateForX.ttl where X is Aspect, UnitGroup, or UnitOfMeasure.
 
 ## Setting up your own repository (starter set)
 
@@ -20,6 +18,5 @@ Reference data curated by Semantic Arts, including units of measure, aspects, et
 
 ## Queries
 
-The queries provided are a good starting point for exploring and using the reference data.
-- Copy the queries into the repository.
-Reference data curated by Semantic Arts, including units of measure, aspects, etc.
+The queries provided are a good starting point for using the reference data. Copy the queries into the repository.
+
