@@ -27,7 +27,7 @@ gistd:_Aspect_absolute_humidity skos:prefLabel "absolute humidity" .
 gistd:_Aspect_absorbed_dose gist:hasUnitGroup gistd:_UnitGroup_absorbed_dose . # added
 gistd:_Aspect_absorbed_dose gist:isCategorizedBy gistd:_Discipline_medicine, gistd:_Discipline_radiology, gistd:_Discipline_biology .
 gistd:_Aspect_absorbed_dose rdf:type gist:Aspect .
-gistd:_Aspect_absorbed_dose rdfs:comment "Note that the absorbed dose is not a good indicator of the likely biological effect. 1 Gy of alpha radiation would be much more biologically damaging than 1 Gy of photon radiation for example. Appropriate weighting factors can be applied reflecting the different relative biological effects to find the equivalent dose. The risk of stoctic effects due to radiation exposure can be quantified using the effective dose, which is a weighted average of the equivalent dose to each organ depending upon its radiosensitivity. When ionising radiation is used to treat cancer, the doctor will usually prescribe the radiotherapy treatment in Gy. When risk from ionising radiation is being discussed, a related unit, the Sievert is used." .
+gistd:_Aspect_absorbed_dose rdfs:comment "Note that the absorbed dose is not a good indicator of the likely biological effect. 1 Gy of alpha radiation would be much more biologically damaging than 1 Gy of photon radiation for example. Appropriate weighting factors can be applied reflecting the different relative biological effects to find the equivalent dose. The risk of toxic effects due to radiation exposure can be quantified using the effective dose, which is a weighted average of the equivalent dose to each organ depending upon its radiosensitivity. When ionising radiation is used to treat cancer, the doctor will usually prescribe the radiotherapy treatment in Gy. When risk from ionising radiation is being discussed, a related unit, the Sievert is used." .
 gistd:_Aspect_absorbed_dose rdfs:seeAlso "http://en.wikipedia.org/wiki/Absorbed_dose"^^xsd:anyURI .
 gistd:_Aspect_absorbed_dose rdfs:seeAlso "http://www.iso.org/iso/catalogue_detail?csnumber=31895"^^xsd:anyURI .
 gistd:_Aspect_absorbed_dose skos:closeMatch <http://qudt.org/vocab/quantitykind/AbsorbedDose> .
@@ -4486,7 +4486,7 @@ gistd:_Aspect_quantum_number gist:isCategorizedBy gistd:_Discipline_atomic_physi
 gistd:_Aspect_quantum_number rdf:type gist:Aspect . # added
 gistd:_Aspect_quantum_number skos:prefLabel "quantum number" . # added
 gistd:_Aspect_quartic_electric_dipole_moment_per_cubic_energy gist:hasUnitGroup gistd:_UnitGroup_quartic_electric_dipole_moment_per_cubic_energy . # added
-gistd:_Aspect_quartic_electric_dipole_moment_per_cubic_energy gist:isCategorizedBy gistd:_electricity_and_magnetism . # added
+gistd:_Aspect_quartic_electric_dipole_moment_per_cubic_energy gist:isCategorizedBy gistd:_Discipline_electricity_and_magnetism . # added
 gistd:_Aspect_quartic_electric_dipole_moment_per_cubic_energy rdf:type gist:Aspect . # added
 gistd:_Aspect_quartic_electric_dipole_moment_per_cubic_energy skos:prefLabel "quartic electric dipole moment per cubic energy" . # added
 gistd:_Aspect_radiance gist:hasUnitGroup gistd:_UnitGroup_radiance . # added
