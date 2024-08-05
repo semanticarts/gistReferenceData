@@ -21,6 +21,7 @@ The gist reference data includes units of measure and measurable characteristics
 
 - Make sure all the namespaces in the prefix.ttl file are defined in your repository.
 - Load the latest version of [gist](https://www.semanticarts.com/gist) into its own named graph.
+
 - Load the uomReferenceData-starter-set.ttl into its own named graph.
 - Load the currency-starter-set.ttl into its own named graph.
 
@@ -37,4 +38,3 @@ However, many of your own aspects (measurable characteristics) might not be incl
 ## Special acknowledgement
 
 A substantial portion of the data set originated from the open source data at [QUDT](https://qudt.org)
-
