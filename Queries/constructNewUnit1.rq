@@ -1,0 +1,114 @@
+# construct a new unit of measure from one existing unit of measure
+# creates triples that can be added to a named graph 
+#
+# general pattern: new unit = multiplier x (existing unit)^(exponent of existing unit)
+#
+# edit the input section for your new unit
+#
+# caveat: results are not clean if the request involves a Unit of Measure that does not have a decomposition as a multiple of a product of powers of base units
+#
+# caveat: available math functions may vary by triple-store platform
+prefix math: <http://www.w3.org/2005/xpath-functions/math#>
+
+construct {
+
+  ?newUnitIri rdf:type gist:UnitOfMeasure ;
+              skos:prefLabel        ?newUnitPrefLabel        ;
+              skos:definition       ?newUnitDefinition       ;
+              gist:conversionFactor ?newUnitConversionFactor ;
+              skos:scopeNote        ?newUnitEquation         ;
+              .
+
+# ?unitGroupOfNewUnit ^gist:isMemberOf ?newUnitIri .
+
+  ?newUnitIri gist:isMemberOf ?unitGroupOfNewUnit .
+
+  }
+
+where {
+
+# provide the input
+#  smoot = 1.7018 meter^1
+
+  bind("smoot"^^xsd:string as  ?newUnitPrefLabel)  # alphanumeric and spaces only
+
+  bind("A fictitious unit of measure to validate the ontology." as  ?newUnitDefinition)
+ 
+  bind("1.7018"^^xsd:decimal        as ?multiplier)          
+  bind(gistd:_UnitOfMeasure_meter as ?existingUnit)         
+  bind("1.0"^^xsd:decimal           as ?exponentOfExistingUnit)
+
+
+# create the IRI of the new unit
+
+  bind(iri(replace(concat("gistd:_UnitOfMeasure_", ?newUnitPrefLabel), " ", "_")) as ?newUnitIri)
+
+# create the new conversion factor
+
+  ?existingUnit gist:conversionFactor ?conversionFactorOfExistingUnit .
+
+  bind(xsd:decimal(math:pow(?conversionFactorOfExistingUnit, ?exponentOfExistingUnit)) as ?newUnitConversionFactorTerm)
+  
+  bind(?multiplier * ?newUnitConversionFactorTerm as ?newUnitConversionFactor)
+
+# create the new exponents
+
+  ?unitGroupOfExistingUnit ^gist:isMemberOf ?existingUnit . 
+  
+  ?unitGroupOfExistingUnit 
+            gist:exponentOfAmpere   ?exponentOfAmpere   ; 
+            gist:exponentOfBit      ?exponentOfBit      ; 
+            gist:exponentOfCandela  ?exponentOfCandela  ; 
+            gist:exponentOfKelvin   ?exponentOfKelvin   ;  
+            gist:exponentOfKilogram ?exponentOfKilogram ; 
+            gist:exponentOfMeter    ?exponentOfMeter    ; 
+            gist:exponentOfMole     ?exponentOfMole     ; 
+            gist:exponentOfNumber   ?exponentOfNumber   ; 
+            gist:exponentOfOther    ?exponentOfOther   ; 
+            gist:exponentOfRadian   ?exponentOfRadian   ; 
+            gist:exponentOfSecond   ?exponentOfSecond   ;
+            gist:exponentOfSteradian ?exponentOfSteradian   ;
+            gist:exponentOfUSDollar ?exponentOfUSDollar ;
+            .
+
+# calculate the exponents of the new unitGroup (this is why we always populate the 0-valued exponents)
+
+  bind ((?exponentOfExistingUnit * ?exponentOfAmpere  )    as ?newExponentOfAmpere)
+  bind ((?exponentOfExistingUnit * ?exponentOfBit     )    as ?newExponentOfBit)
+  bind ((?exponentOfExistingUnit * ?exponentOfCandela )    as ?newExponentOfCandela)
+  bind ((?exponentOfExistingUnit * ?exponentOfKelvin  )    as ?newExponentOfKelvin)
+  bind ((?exponentOfExistingUnit * ?exponentOfKilogram)    as ?newExponentOfKilogram)
+  bind ((?exponentOfExistingUnit * ?exponentOfMeter   )    as ?newExponentOfMeter)
+  bind ((?exponentOfExistingUnit * ?exponentOfMole    )    as ?newExponentOfMole)
+  bind ((?exponentOfExistingUnit * ?exponentOfNumber  )    as ?newExponentOfNumber)
+  bind ((?exponentOfExistingUnit * ?exponentOfOther   )    as ?newExponentOfOther)
+  bind ((?exponentOfExistingUnit * ?exponentOfRadian  )    as ?newExponentOfRadian)
+  bind ((?exponentOfExistingUnit * ?exponentOfSecond  )    as ?newExponentOfSecond)
+  bind ((?exponentOfExistingUnit * ?exponentOfSteradian)   as ?newExponentOfSteradian)
+  bind ((?exponentOfExistingUnit * ?exponentOfUSDollar)    as ?newExponentOfUSDollar)
+
+# find Unit Group(s) with the new exponents
+
+  optional {
+     ?unitGroupOfNewUnit 
+
+        gist:exponentOfAmpere   ?newExponentOfAmpere   ; 
+        gist:exponentOfBit      ?newExponentOfBit      ; 
+        gist:exponentOfCandela  ?newExponentOfCandela  ; 
+        gist:exponentOfKelvin   ?newExponentOfKelvin   ;  
+        gist:exponentOfKilogram ?newExponentOfKilogram ; 
+        gist:exponentOfMeter    ?newExponentOfMeter    ; 
+        gist:exponentOfMole     ?newExponentOfMole     ; 
+        gist:exponentOfNumber   ?newExponentOfNumber   ; 
+        gist:exponentOfOther    ?newExponentOfOther    ; 
+        gist:exponentOfRadian   ?newExponentOfRadian   ; 
+        gist:exponentOfSecond   ?newExponentOfSecond   ;
+        gist:exponentOfSteradian ?newExponentOfSteradian  ;
+        gist:exponentOfUSDollar ?newExponentOfUSDollar ;
+        .
+
+        ?unitGroupOfNewUnit skos:scopeNote ?textFormOfExponents . 
+       }
+  
+  bind(concat("1 ", ?newUnitPrefLabel, " = ", str(?newUnitConversionFactor), " x ", ?textFormOfExponents) as ?newUnitEquation)
+}

@@ -1,0 +1,94 @@
+# format a user-friendly text version of product of powers of base units
+
+select ?textFormOfExponents
+
+where {
+
+# input
+
+  bind( "1" as ?exponentOfAmpere)
+  bind( "0" as ?exponentOfBit)
+  bind( "0" as ?exponentOfCandela)
+  bind( "0" as ?exponentOfKelvin)
+  bind( "0" as ?exponentOfKilogram)
+  bind( "-2" as ?exponentOfMeter)
+  bind( "0" as ?exponentOfMole)
+  bind( "0" as ?exponentOfNumber)
+  bind( "0" as ?exponentOfOther)
+  bind( "0" as ?exponentOfRadian)
+  bind( "0" as ?exponentOfSecond)
+  bind( "0" as ?exponentOfSteradian)
+  bind( "0" as ?exponentOfUSDollar)
+
+
+# form the text version
+# all positive exponents go first, followed by "per" and then negative exponents
+
+  bind(concat("_ampere_",    ?exponentOfAmpere  ) as ?exponentOfAmpereString  ) # must follow naming convention
+  bind(concat("_bit_",       ?exponentOfBit     ) as ?exponentOfBitString     )
+  bind(concat("_candela_",   ?exponentOfCandela ) as ?exponentOfCandelaString )
+  bind(concat("_kelvin_",    ?exponentOfKelvin  ) as ?exponentOfKelvinString  )
+  bind(concat("_kilogram_",  ?exponentOfKilogram) as ?exponentOfKilogramString)
+  bind(concat("_meter_",     ?exponentOfMeter   ) as ?exponentOfMeterString   )
+  bind(concat("_mole_",      ?exponentOfMole    ) as ?exponentOfMoleString    )
+  bind(concat("_number_",    ?exponentOfNumber  ) as ?exponentOfNumberString  )
+  bind(concat("_other_",     ?exponentOfOther   ) as ?exponentOfOtherString  )
+  bind(concat("_radian_",    ?exponentOfRadian  ) as ?exponentOfRadianString  )
+  bind(concat("_second_",    ?exponentOfSecond  ) as ?exponentOfSecondString  )
+  bind(concat("_steradian_", ?exponentOfSteradian) as ?exponentOfSteradianString  )
+  bind(concat("_USDollar_",  ?exponentOfUSDollar) as ?exponentOfUSDollarString)
+
+  bind(if(xsd:decimal(?exponentOfAmpere)   > 0, ?exponentOfAmpereString,   "") as ?textFormOfExponentsTerm1)
+  bind(if(xsd:decimal(?exponentOfBit)      > 0, ?exponentOfBitString,      "") as ?textFormOfExponentsTerm2)
+  bind(if(xsd:decimal(?exponentOfCandela)  > 0, ?exponentOfCandelaString,  "") as ?textFormOfExponentsTerm3)
+  bind(if(xsd:decimal(?exponentOfKelvin)   > 0, ?exponentOfKelvinString,   "") as ?textFormOfExponentsTerm4)
+  bind(if(xsd:decimal(?exponentOfKilogram) > 0, ?exponentOfKilogramString, "") as ?textFormOfExponentsTerm5)
+  bind(if(xsd:decimal(?exponentOfMeter)    > 0, ?exponentOfMeterString,    "") as ?textFormOfExponentsTerm6)
+  bind(if(xsd:decimal(?exponentOfMole)     > 0, ?exponentOfMoleString,     "") as ?textFormOfExponentsTerm7)
+  bind(if(xsd:decimal(?exponentOfNumber)   > 0, ?exponentOfNumberString,   "") as ?textFormOfExponentsTerm8)
+  bind(if(xsd:decimal(?exponentOfOther)    > 0, ?exponentOfOtherString,    "") as ?textFormOfExponentsTerm9)
+  bind(if(xsd:decimal(?exponentOfRadian)   > 0, ?exponentOfRadianString,   "") as ?textFormOfExponentsTerm10)
+  bind(if(xsd:decimal(?exponentOfSecond)   > 0, ?exponentOfSecondString,   "") as ?textFormOfExponentsTerm11)
+  bind(if(xsd:decimal(?exponentOfSteradian)> 0, ?exponentOfSteradianString,"") as ?textFormOfExponentsTerm12)
+  bind(if(xsd:decimal(?exponentOfUSDollar) > 0, ?exponentOfUSDollarString, "") as ?textFormOfExponentsTerm13)
+
+  bind(if(xsd:decimal(?exponentOfAmpere)   < 0, ?exponentOfAmpereString,   "") as ?textFormOfExponentsTerm101)
+  bind(if(xsd:decimal(?exponentOfBit)      < 0, ?exponentOfBitString,      "") as ?textFormOfExponentsTerm102)
+  bind(if(xsd:decimal(?exponentOfCandela)  < 0, ?exponentOfCandelaString,  "") as ?textFormOfExponentsTerm103)
+  bind(if(xsd:decimal(?exponentOfKelvin)   < 0, ?exponentOfKelvinString,   "") as ?textFormOfExponentsTerm104)
+  bind(if(xsd:decimal(?exponentOfKilogram) < 0, ?exponentOfKilogramString, "") as ?textFormOfExponentsTerm105)
+  bind(if(xsd:decimal(?exponentOfMeter)    < 0, ?exponentOfMeterString,    "") as ?textFormOfExponentsTerm106)
+  bind(if(xsd:decimal(?exponentOfMole)     < 0, ?exponentOfMoleString,     "") as ?textFormOfExponentsTerm107)
+  bind(if(xsd:decimal(?exponentOfNumber)   < 0, ?exponentOfNumberString,   "") as ?textFormOfExponentsTerm108)
+  bind(if(xsd:decimal(?exponentOfOther)    < 0, ?exponentOfOtherString,    "") as ?textFormOfExponentsTerm109)
+  bind(if(xsd:decimal(?exponentOfRadian)   < 0, ?exponentOfRadianString,   "") as ?textFormOfExponentsTerm110)
+  bind(if(xsd:decimal(?exponentOfSecond)   < 0, ?exponentOfSecondString,   "") as ?textFormOfExponentsTerm111)
+  bind(if(xsd:decimal(?exponentOfSteradian)< 0, ?exponentOfSteradianString,"") as ?textFormOfExponentsTerm112)
+  bind(if(xsd:decimal(?exponentOfUSDollar) < 0, ?exponentOfUSDollarString, "") as ?textFormOfExponentsTerm113)
+
+  bind(concat(?textFormOfExponentsTerm1, ?textFormOfExponentsTerm2, ?textFormOfExponentsTerm3, ?textFormOfExponentsTerm4, ?textFormOfExponentsTerm5, ?textFormOfExponentsTerm6, ?textFormOfExponentsTerm7, ?textFormOfExponentsTerm8, ?textFormOfExponentsTerm9, ?textFormOfExponentsTerm10, ?textFormOfExponentsTerm11, ?textFormOfExponentsTerm12, ?textFormOfExponentsTerm13, "_per", ?textFormOfExponentsTerm101, ?textFormOfExponentsTerm102, ?textFormOfExponentsTerm103, ?textFormOfExponentsTerm104, ?textFormOfExponentsTerm105, ?textFormOfExponentsTerm106, ?textFormOfExponentsTerm107, ?textFormOfExponentsTerm108, ?textFormOfExponentsTerm109, ?textFormOfExponentsTerm110, ?textFormOfExponentsTerm111, ?textFormOfExponentsTerm112, ?textFormOfExponentsTerm113) as ?textFormOfExponentsString0)
+
+  bind(replace(?textFormOfExponentsString0, "-", "") as ?textFormOfExponentsString1)     # remove minus signs (they are all after the "per")
+
+  bind(replace(?textFormOfExponentsString1,  "_1_|_1$",  "_")             as ?textFormOfExponentsString2)  # omit "to the first power" leaving just the unit
+  bind(replace(?textFormOfExponentsString2,  "_2_|_2$",  "Squared_")      as ?textFormOfExponentsString3)  # the "or" is because some occur at the end of the string
+  bind(replace(?textFormOfExponentsString3,  "_3_|_3$",  "Cubed_")        as ?textFormOfExponentsString4)
+  bind(replace(?textFormOfExponentsString4,  "_4_|_4$",  "ToTheFourth_")  as ?textFormOfExponentsString5)
+  bind(replace(?textFormOfExponentsString5,  "_5_|_5$",  "ToTheFifth_")   as ?textFormOfExponentsString6)
+  bind(replace(?textFormOfExponentsString6,  "_6_|_6$",  "ToTheSixth_")   as ?textFormOfExponentsString7)
+  bind(replace(?textFormOfExponentsString7,  "_7_|_7$",  "ToTheSeventh_") as ?textFormOfExponentsString8)
+  bind(replace(?textFormOfExponentsString8,  "_8_|_8$",  "ToTheEighth_")  as ?textFormOfExponentsString9)
+  bind(replace(?textFormOfExponentsString9,  "_9_|_9$",  "ToTheNinth_")   as ?textFormOfExponentsString10)
+  bind(replace(?textFormOfExponentsString10, "_10_|_10$", "ToTheTenth_")   as ?textFormOfExponentsString11)
+
+  bind(replace(?textFormOfExponentsString11,  "^_",  "")            as ?textFormOfExponentsString12)   # remove leading underscore
+  bind(replace(?textFormOfExponentsString12,  "_$",  "")            as ?textFormOfExponentsString13)   # remove leading underscore
+  bind(replace(?textFormOfExponentsString13, "_per$", "")           as ?textFormOfExponentsString14)   # remove trailing _per
+  bind(replace(?textFormOfExponentsString14, "[.]", "dot")          as ?textFormOfExponentsString15)   # change decimal point to "dot" for fractional exponents
+
+  bind(?textFormOfExponentsString15 as ?textFormOfExponentsString)
+
+  bind(replace(?textFormOfExponentsString, "_", " ")  as ?textFormOfExponents)
+
+}
+

@@ -1,0 +1,29 @@
+# find data associated with a set of values of the exponents
+# fill in the values for exponents to do the search
+
+select ?aspect ?unitGroup ?unit
+
+where {
+
+      ?unitGroup a gist:UnitGroup ;
+             gist:exponentOfAmpere    "0"^^xsd:decimal ; 
+             gist:exponentOfBit       "0"^^xsd:decimal ; 
+             gist:exponentOfCandela   "0"^^xsd:decimal ; 
+             gist:exponentOfKelvin    "0"^^xsd:decimal ;  
+             gist:exponentOfKilogram  "1"^^xsd:decimal ; 
+             gist:exponentOfMeter     "0"^^xsd:decimal ; 
+             gist:exponentOfMole      "0"^^xsd:decimal ; 
+             gist:exponentOfNumber    "0"^^xsd:decimal ; 
+             gist:exponentOfOther     "0"^^xsd:decimal ; 
+             gist:exponentOfRadian    "0"^^xsd:decimal ; 
+             gist:exponentOfSecond    "0"^^xsd:decimal ;
+             gist:exponentOfSteradian "0"^^xsd:decimal ;
+             gist:exponentOfUSDollar  "0"^^xsd:decimal ;
+             .
+
+      ?aspect gist:hasUnitGroup ?unitGroup . 
+
+      ?unit   gist:isMemberOf ?unitGroup .
+
+      }
+order by ?aspect ?unitGroup ?unit

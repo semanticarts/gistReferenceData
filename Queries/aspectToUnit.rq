@@ -1,0 +1,16 @@
+# find units of measure that can be used to measure each aspect
+
+select distinct ?aspect ?unit ?conversionFactor
+
+where {
+  ?aspect rdf:type gist:Aspect ;
+          gist:hasUnitGroup/^gist:isMemberOf ?unit .
+  
+  optional {?unit gist:conversionFactor ?conversionFactor .}
+
+# optional filters to exclude finance or view only finance
+#    filter not exists {?aspect gist:isCategorizedBy gistd:_Discipline_finance}
+#    filter exists     {?aspect gist:isCategorizedBy gistd:_Discipline_finance}
+  
+  }
+order by ?aspect ?conversionFactor ?unit
