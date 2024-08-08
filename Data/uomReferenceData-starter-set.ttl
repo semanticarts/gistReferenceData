@@ -1,5 +1,5 @@
 <https://w3id.org/semanticarts/ns/data/gist/_Aspect_absorbed_dose> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/semanticarts/ns/ontology/gist/Aspect> .
-<https://w3id.org/semanticarts/ns/data/gist/_Aspect_absorbed_dose> <http://www.w3.org/2000/01/rdf-schema#comment> "Note that the absorbed dose is not a good indicator of the likely biological effect. 1 Gy of alpha radiation would be much more biologically damaging than 1 Gy of photon radiation for example. Appropriate weighting factors can be applied reflecting the different relative biological effects to find the equivalent dose. The risk of stoctic effects due to radiation exposure can be quantified using the effective dose, which is a weighted average of the equivalent dose to each organ depending upon its radiosensitivity. When ionising radiation is used to treat cancer, the doctor will usually prescribe the radiotherapy treatment in Gy. When risk from ionising radiation is being discussed, a related unit, the Sievert is used." .
+<https://w3id.org/semanticarts/ns/data/gist/_Aspect_absorbed_dose> <http://www.w3.org/2000/01/rdf-schema#comment> "Note that the absorbed dose is not a good indicator of the likely biological effect. 1 Gy of alpha radiation would be much more biologically damaging than 1 Gy of photon radiation for example. Appropriate weighting factors can be applied reflecting the different relative biological effects to find the equivalent dose. The risk of toxic effects due to radiation exposure can be quantified using the effective dose, which is a weighted average of the equivalent dose to each organ depending upon its radiosensitivity. When ionising radiation is used to treat cancer, the doctor will usually prescribe the radiotherapy treatment in Gy. When risk from ionising radiation is being discussed, a related unit, the Sievert is used." .
 <https://w3id.org/semanticarts/ns/data/gist/_Aspect_absorbed_dose> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://en.wikipedia.org/wiki/Absorbed_dose"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
 <https://w3id.org/semanticarts/ns/data/gist/_Aspect_absorbed_dose> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://www.iso.org/iso/catalogue_detail?csnumber=31895"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
 <https://w3id.org/semanticarts/ns/data/gist/_Aspect_absorbed_dose> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://qudt.org/vocab/quantitykind/AbsorbedDose> .
@@ -45,8 +45,7 @@
 <https://w3id.org/semanticarts/ns/data/gist/_Aspect_amount_of_substance> <https://w3id.org/semanticarts/ns/ontology/gist/isCategorizedBy> <https://w3id.org/semanticarts/ns/data/gist/_Discipline_chemistry> .
 <https://w3id.org/semanticarts/ns/data/gist/_Aspect_angle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/semanticarts/ns/ontology/gist/Aspect> .
 <https://w3id.org/semanticarts/ns/data/gist/_Aspect_angle> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://qudt.org/vocab/quantitykind/Angle> .
-<https://w3id.org/semanticarts/ns/data/gist/_Aspect_angle> <http://www.w3.org/2004/02/skos/core#definition> "Plane angle." .
-<https://w3id.org/semanticarts/ns/data/gist/_Aspect_angle> <http://www.w3.org/2004/02/skos/core#definition> "from QUDT: Plane angle." .
+<https://w3id.org/semanticarts/ns/data/gist/_Aspect_angle> <http://www.w3.org/2004/02/skos/core#definition> "An angle formed by two rays, also known as a plane angle." .
 <https://w3id.org/semanticarts/ns/data/gist/_Aspect_angle> <http://www.w3.org/2004/02/skos/core#prefLabel> "angle" .
 <https://w3id.org/semanticarts/ns/data/gist/_Aspect_angle> <https://w3id.org/semanticarts/ns/ontology/gist/hasUnitGroup> <https://w3id.org/semanticarts/ns/data/gist/_UnitGroup_angle> .
 <https://w3id.org/semanticarts/ns/data/gist/_Aspect_angle> <https://w3id.org/semanticarts/ns/ontology/gist/isCategorizedBy> <https://w3id.org/semanticarts/ns/data/gist/_Discipline_space_and_time> .
@@ -305,7 +304,7 @@
 <https://w3id.org/semanticarts/ns/data/gist/_Aspect_molar_concentration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/semanticarts/ns/ontology/gist/Aspect> .
 <https://w3id.org/semanticarts/ns/data/gist/_Aspect_molar_concentration> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://en.wikipedia.org/wiki/Concentration"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
 <https://w3id.org/semanticarts/ns/data/gist/_Aspect_molar_concentration> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://qudt.org/vocab/quantitykind/Concentration> .
-<https://w3id.org/semanticarts/ns/data/gist/_Aspect_molar_concentration> <http://www.w3.org/2004/02/skos/core#definition> "from QUDT: In chemistry, concentration is defined as the abundance of a constituent divided by the total volume of a mixture. Furthermore, in chemistry, four types of mathematical description can be distinguished: mass concentration, molar concentration, number concentration, and volume concentration. The term concentration can be applied to any kind of chemical mixture, but most frequently it refers to solutes in solutions." .
+<https://w3id.org/semanticarts/ns/data/gist/_Aspect_molar_concentration> <http://www.w3.org/2004/02/skos/core#definition> "The amount of substance of a solute per unit volume of solution." .
 <https://w3id.org/semanticarts/ns/data/gist/_Aspect_molar_concentration> <http://www.w3.org/2004/02/skos/core#prefLabel> "molar concentration" .
 <https://w3id.org/semanticarts/ns/data/gist/_Aspect_molar_concentration> <https://w3id.org/semanticarts/ns/ontology/gist/hasUnitGroup> <https://w3id.org/semanticarts/ns/data/gist/_UnitGroup_amount_of_substance_per_volume> .
 <https://w3id.org/semanticarts/ns/data/gist/_Aspect_molar_concentration> <https://w3id.org/semanticarts/ns/ontology/gist/isCategorizedBy> <https://w3id.org/semanticarts/ns/data/gist/_Discipline_chemistry> .
@@ -351,7 +350,6 @@
 <https://w3id.org/semanticarts/ns/data/gist/_Aspect_power> <http://www.w3.org/2004/02/skos/core#definition> "from QUDT: Power is the rate at which work is performed or energy is transmitted, or the amount of energy required or expended for a given unit of time. As a rate of change of work done or the energy of a subsystem, power is: \\(P = W/t\\), where \\(P\\) is power, \\(W\\) is work and {t} is time." .
 <https://w3id.org/semanticarts/ns/data/gist/_Aspect_power> <http://www.w3.org/2004/02/skos/core#prefLabel> "power" .
 <https://w3id.org/semanticarts/ns/data/gist/_Aspect_power> <https://w3id.org/semanticarts/ns/ontology/gist/hasUnitGroup> <https://w3id.org/semanticarts/ns/data/gist/_UnitGroup_power> .
-<https://w3id.org/semanticarts/ns/data/gist/_Aspect_power> <https://w3id.org/semanticarts/ns/ontology/gist/isCategorizedBy> <https://w3id.org/semanticarts/ns/data/gist/_Discipline_energy> .
 <https://w3id.org/semanticarts/ns/data/gist/_Aspect_power> <https://w3id.org/semanticarts/ns/ontology/gist/isCategorizedBy> <https://w3id.org/semanticarts/ns/data/gist/_Discipline_mechanics> .
 <https://w3id.org/semanticarts/ns/data/gist/_Aspect_probability> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/semanticarts/ns/ontology/gist/Aspect> .
 <https://w3id.org/semanticarts/ns/data/gist/_Aspect_probability> <http://www.w3.org/2004/02/skos/core#definition> "The aspect probability."^^<http://www.w3.org/2001/XMLSchema#string> .
@@ -377,6 +375,7 @@
 <https://w3id.org/semanticarts/ns/data/gist/_Aspect_ratio> <https://w3id.org/semanticarts/ns/ontology/gist/hasUnitGroup> <https://w3id.org/semanticarts/ns/data/gist/_UnitGroup_ratio> .
 <https://w3id.org/semanticarts/ns/data/gist/_Aspect_ratio> <https://w3id.org/semanticarts/ns/ontology/gist/isCategorizedBy> <https://w3id.org/semanticarts/ns/data/gist/_Discipline_numeric> .
 <https://w3id.org/semanticarts/ns/data/gist/_Aspect_ratio_of_distances> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/semanticarts/ns/ontology/gist/Aspect> .
+<https://w3id.org/semanticarts/ns/data/gist/_Aspect_ratio_of_distances> <http://www.w3.org/2004/02/skos/core#definition> "Ratio of distances, such as a ratio of width to height or the aspect ratio of a wing." .
 <https://w3id.org/semanticarts/ns/data/gist/_Aspect_ratio_of_distances> <http://www.w3.org/2004/02/skos/core#prefLabel> "ratio of distances" .
 <https://w3id.org/semanticarts/ns/data/gist/_Aspect_ratio_of_distances> <https://w3id.org/semanticarts/ns/ontology/gist/hasUnitGroup> <https://w3id.org/semanticarts/ns/data/gist/_UnitGroup_ratio_of_distances> .
 <https://w3id.org/semanticarts/ns/data/gist/_Aspect_ratio_of_distances> <https://w3id.org/semanticarts/ns/ontology/gist/isCategorizedBy> <https://w3id.org/semanticarts/ns/data/gist/_Discipline_mechanics> .
@@ -427,7 +426,6 @@
 <https://w3id.org/semanticarts/ns/data/gist/_Aspect_thrust> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/semanticarts/ns/ontology/gist/Aspect> .
 <https://w3id.org/semanticarts/ns/data/gist/_Aspect_thrust> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://qudt.org/vocab/quantitykind/Thrust> .
 <https://w3id.org/semanticarts/ns/data/gist/_Aspect_thrust> <http://www.w3.org/2004/02/skos/core#definition> "from QUDT: Thrust is a reaction force described quantitatively by Newton's Second and Third Laws. When a system expels or accelerates mass in one direction the accelerated mass will cause a proportional but opposite force on that system." .
-<https://w3id.org/semanticarts/ns/data/gist/_Aspect_thrust> <http://www.w3.org/2004/02/skos/core#definition> "from QUDT: Thrust is a reaction force described quantitatively by Newton's Second and Third Laws. When a system expels or accelerates mass in one direction the accelerated mass will cause a proportional but opposite force on that system.\nThe pushing or pulling force developed by an aircraft engine or a rocket engine.\nThe force exerted in any direction by a fluid jet or by a powered screw, as, the thrust of an antitorque rotor.\nSpecifically, in rocketry, \\( F\\,= m\\cdot v\\) where m is propellant mass flow and v is exhaust velocity relative to the vehicle. Also called momentum thrust." .
 <https://w3id.org/semanticarts/ns/data/gist/_Aspect_thrust> <http://www.w3.org/2004/02/skos/core#prefLabel> "thrust" .
 <https://w3id.org/semanticarts/ns/data/gist/_Aspect_thrust> <https://w3id.org/semanticarts/ns/ontology/gist/hasUnitGroup> <https://w3id.org/semanticarts/ns/data/gist/_UnitGroup_space_vehicle_thrust> .
 <https://w3id.org/semanticarts/ns/data/gist/_Aspect_thrust> <https://w3id.org/semanticarts/ns/ontology/gist/isCategorizedBy> <https://w3id.org/semanticarts/ns/data/gist/_Discipline_propulsion> .
@@ -603,7 +601,7 @@
 <https://w3id.org/semanticarts/ns/data/gist/_UnitGroup_amount_of_substance> <https://w3id.org/semanticarts/ns/ontology/gist/exponentOfUSDollar> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <https://w3id.org/semanticarts/ns/data/gist/_UnitGroup_amount_of_substance_per_volume> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/semanticarts/ns/ontology/gist/UnitGroup> .
 <https://w3id.org/semanticarts/ns/data/gist/_UnitGroup_amount_of_substance_per_volume> <http://www.w3.org/2004/02/skos/core#definition> "Based on QUDT Quantity Kind Dimension Vector A1E0L-3I0M0H0T0D0." .
-<https://w3id.org/semanticarts/ns/data/gist/_UnitGroup_amount_of_substance_per_volume> <http://www.w3.org/2004/02/skos/core#prefLabel> "units that measure amount of substance per unit volume"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/semanticarts/ns/data/gist/_UnitGroup_amount_of_substance_per_volume> <http://www.w3.org/2004/02/skos/core#prefLabel> "units that measure amount of substance per volume"^^<http://www.w3.org/2001/XMLSchema#string> .
 <https://w3id.org/semanticarts/ns/data/gist/_UnitGroup_amount_of_substance_per_volume> <http://www.w3.org/2004/02/skos/core#scopeNote> "mole per meterCubed" .
 <https://w3id.org/semanticarts/ns/data/gist/_UnitGroup_amount_of_substance_per_volume> <https://w3id.org/semanticarts/ns/ontology/gist/exponentOfAmpere> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <https://w3id.org/semanticarts/ns/data/gist/_UnitGroup_amount_of_substance_per_volume> <https://w3id.org/semanticarts/ns/ontology/gist/exponentOfBit> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
@@ -635,7 +633,7 @@
 <https://w3id.org/semanticarts/ns/data/gist/_UnitGroup_angle> <https://w3id.org/semanticarts/ns/ontology/gist/exponentOfSteradian> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <https://w3id.org/semanticarts/ns/data/gist/_UnitGroup_angle> <https://w3id.org/semanticarts/ns/ontology/gist/exponentOfUSDollar> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <https://w3id.org/semanticarts/ns/data/gist/_UnitGroup_angular_velocity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/semanticarts/ns/ontology/gist/UnitGroup> .
-<https://w3id.org/semanticarts/ns/data/gist/_UnitGroup_angular_velocity> <http://www.w3.org/2004/02/skos/core#prefLabel> "units that measure angular velocity"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/semanticarts/ns/data/gist/_UnitGroup_angular_velocity> <http://www.w3.org/2004/02/skos/core#prefLabel> "units that measure angular_velocity"^^<http://www.w3.org/2001/XMLSchema#string> .
 <https://w3id.org/semanticarts/ns/data/gist/_UnitGroup_angular_velocity> <http://www.w3.org/2004/02/skos/core#scopeNote> "radian per second" .
 <https://w3id.org/semanticarts/ns/data/gist/_UnitGroup_angular_velocity> <https://w3id.org/semanticarts/ns/ontology/gist/exponentOfAmpere> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <https://w3id.org/semanticarts/ns/data/gist/_UnitGroup_angular_velocity> <https://w3id.org/semanticarts/ns/ontology/gist/exponentOfBit> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
@@ -1151,7 +1149,7 @@
 <https://w3id.org/semanticarts/ns/data/gist/_UnitGroup_monetary_value> <https://w3id.org/semanticarts/ns/ontology/gist/exponentOfUSDollar> "1.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <https://w3id.org/semanticarts/ns/data/gist/_UnitGroup_monetary_value_per_duration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/semanticarts/ns/ontology/gist/UnitGroup> .
 <https://w3id.org/semanticarts/ns/data/gist/_UnitGroup_monetary_value_per_duration> <http://www.w3.org/2004/02/skos/core#prefLabel> "units that measure monetary value per duration"^^<http://www.w3.org/2001/XMLSchema#string> .
-<https://w3id.org/semanticarts/ns/data/gist/_UnitGroup_monetary_value_per_duration> <http://www.w3.org/2004/02/skos/core#scopeNote> "USDollar per second" .
+<https://w3id.org/semanticarts/ns/data/gist/_UnitGroup_monetary_value_per_duration> <http://www.w3.org/2004/02/skos/core#scopeNote> "US Dollar per second" .
 <https://w3id.org/semanticarts/ns/data/gist/_UnitGroup_monetary_value_per_duration> <https://w3id.org/semanticarts/ns/ontology/gist/exponentOfAmpere> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <https://w3id.org/semanticarts/ns/data/gist/_UnitGroup_monetary_value_per_duration> <https://w3id.org/semanticarts/ns/ontology/gist/exponentOfBit> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <https://w3id.org/semanticarts/ns/data/gist/_UnitGroup_monetary_value_per_duration> <https://w3id.org/semanticarts/ns/ontology/gist/exponentOfCandela> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
@@ -1166,7 +1164,6 @@
 <https://w3id.org/semanticarts/ns/data/gist/_UnitGroup_monetary_value_per_duration> <https://w3id.org/semanticarts/ns/ontology/gist/exponentOfSteradian> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <https://w3id.org/semanticarts/ns/data/gist/_UnitGroup_monetary_value_per_duration> <https://w3id.org/semanticarts/ns/ontology/gist/exponentOfUSDollar> "1.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <https://w3id.org/semanticarts/ns/data/gist/_UnitGroup_number> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/semanticarts/ns/ontology/gist/UnitGroup> .
-<https://w3id.org/semanticarts/ns/data/gist/_UnitGroup_number> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "Unit Group for number of things." .
 <https://w3id.org/semanticarts/ns/data/gist/_UnitGroup_number> <http://www.w3.org/2004/02/skos/core#definition> "Units expressed as pure numbers." .
 <https://w3id.org/semanticarts/ns/data/gist/_UnitGroup_number> <http://www.w3.org/2004/02/skos/core#prefLabel> "units that are expressed as pure numbers"^^<http://www.w3.org/2001/XMLSchema#string> .
 <https://w3id.org/semanticarts/ns/data/gist/_UnitGroup_number> <http://www.w3.org/2004/02/skos/core#scopeNote> "number" .
@@ -1407,7 +1404,7 @@
 <https://w3id.org/semanticarts/ns/data/gist/_UnitGroup_ratio_of_masses> <https://w3id.org/semanticarts/ns/ontology/gist/exponentOfSteradian> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <https://w3id.org/semanticarts/ns/data/gist/_UnitGroup_ratio_of_masses> <https://w3id.org/semanticarts/ns/ontology/gist/exponentOfUSDollar> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <https://w3id.org/semanticarts/ns/data/gist/_UnitGroup_score> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/semanticarts/ns/ontology/gist/UnitGroup> .
-<https://w3id.org/semanticarts/ns/data/gist/_UnitGroup_score> <http://www.w3.org/2004/02/skos/core#prefLabel> "units that measure scores "^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/semanticarts/ns/data/gist/_UnitGroup_score> <http://www.w3.org/2004/02/skos/core#prefLabel> "units that measure scores"^^<http://www.w3.org/2001/XMLSchema#string> .
 <https://w3id.org/semanticarts/ns/data/gist/_UnitGroup_score> <http://www.w3.org/2004/02/skos/core#scopeNote> "a numerical score" .
 <https://w3id.org/semanticarts/ns/data/gist/_UnitGroup_score> <https://w3id.org/semanticarts/ns/ontology/gist/exponentOfAmpere> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <https://w3id.org/semanticarts/ns/data/gist/_UnitGroup_score> <https://w3id.org/semanticarts/ns/ontology/gist/exponentOfBit> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
@@ -1555,19 +1552,19 @@
 <https://w3id.org/semanticarts/ns/data/gist/_UnitGroup_volume_per_duration> <https://w3id.org/semanticarts/ns/ontology/gist/exponentOfSecond> "-1.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <https://w3id.org/semanticarts/ns/data/gist/_UnitGroup_volume_per_duration> <https://w3id.org/semanticarts/ns/ontology/gist/exponentOfSteradian> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <https://w3id.org/semanticarts/ns/data/gist/_UnitGroup_volume_per_duration> <https://w3id.org/semanticarts/ns/ontology/gist/exponentOfUSDollar> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
-<https://w3id.org/semanticarts/ns/data/gist/_UnitOfMeasure_US_dollar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/semanticarts/ns/ontology/gist/UnitOfMeasure> .
-<https://w3id.org/semanticarts/ns/data/gist/_UnitOfMeasure_US_dollar> <http://www.w3.org/2004/02/skos/core#altLabel> "US dollars" .
-<https://w3id.org/semanticarts/ns/data/gist/_UnitOfMeasure_US_dollar> <http://www.w3.org/2004/02/skos/core#definition> "Currency of the United States." .
-<https://w3id.org/semanticarts/ns/data/gist/_UnitOfMeasure_US_dollar> <http://www.w3.org/2004/02/skos/core#prefLabel> "US dollar"^^<http://www.w3.org/2001/XMLSchema#string> .
-<https://w3id.org/semanticarts/ns/data/gist/_UnitOfMeasure_US_dollar> <https://w3id.org/semanticarts/ns/ontology/gist/conversionFactor> "1.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
-<https://w3id.org/semanticarts/ns/data/gist/_UnitOfMeasure_US_dollar> <https://w3id.org/semanticarts/ns/ontology/gist/isMemberOf> <https://w3id.org/semanticarts/ns/data/gist/_UnitGroup_monetary_value> .
-<https://w3id.org/semanticarts/ns/data/gist/_UnitOfMeasure_US_dollar_per_hour> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/semanticarts/ns/ontology/gist/UnitOfMeasure> .
-<https://w3id.org/semanticarts/ns/data/gist/_UnitOfMeasure_US_dollar_per_hour> <http://www.w3.org/2004/02/skos/core#altLabel> "US dollars per hour" .
-<https://w3id.org/semanticarts/ns/data/gist/_UnitOfMeasure_US_dollar_per_hour> <http://www.w3.org/2004/02/skos/core#definition> "US dollar per hour." .
-<https://w3id.org/semanticarts/ns/data/gist/_UnitOfMeasure_US_dollar_per_hour> <http://www.w3.org/2004/02/skos/core#prefLabel> "US dollar per hour" .
-<https://w3id.org/semanticarts/ns/data/gist/_UnitOfMeasure_US_dollar_per_hour> <http://www.w3.org/2004/02/skos/core#scopeNote> "1 US dollar per hour = 0.000277777777 x US dollar per second " .
-<https://w3id.org/semanticarts/ns/data/gist/_UnitOfMeasure_US_dollar_per_hour> <https://w3id.org/semanticarts/ns/ontology/gist/conversionFactor> "0.000277777777"^^<http://www.w3.org/2001/XMLSchema#decimal> .
-<https://w3id.org/semanticarts/ns/data/gist/_UnitOfMeasure_US_dollar_per_hour> <https://w3id.org/semanticarts/ns/ontology/gist/isMemberOf> <https://w3id.org/semanticarts/ns/data/gist/_UnitGroup_monetary_value_per_duration> .
+<https://w3id.org/semanticarts/ns/data/gist/_UnitOfMeasure_US_Dollar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/semanticarts/ns/ontology/gist/UnitOfMeasure> .
+<https://w3id.org/semanticarts/ns/data/gist/_UnitOfMeasure_US_Dollar> <http://www.w3.org/2004/02/skos/core#altLabel> "US dollars" .
+<https://w3id.org/semanticarts/ns/data/gist/_UnitOfMeasure_US_Dollar> <http://www.w3.org/2004/02/skos/core#definition> "Currency of the United States." .
+<https://w3id.org/semanticarts/ns/data/gist/_UnitOfMeasure_US_Dollar> <http://www.w3.org/2004/02/skos/core#prefLabel> "US dollar"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/semanticarts/ns/data/gist/_UnitOfMeasure_US_Dollar> <https://w3id.org/semanticarts/ns/ontology/gist/conversionFactor> "1.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://w3id.org/semanticarts/ns/data/gist/_UnitOfMeasure_US_Dollar> <https://w3id.org/semanticarts/ns/ontology/gist/isMemberOf> <https://w3id.org/semanticarts/ns/data/gist/_UnitGroup_monetary_value> .
+<https://w3id.org/semanticarts/ns/data/gist/_UnitOfMeasure_US_Dollar_per_hour> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/semanticarts/ns/ontology/gist/UnitOfMeasure> .
+<https://w3id.org/semanticarts/ns/data/gist/_UnitOfMeasure_US_Dollar_per_hour> <http://www.w3.org/2004/02/skos/core#altLabel> "US dollars per hour" .
+<https://w3id.org/semanticarts/ns/data/gist/_UnitOfMeasure_US_Dollar_per_hour> <http://www.w3.org/2004/02/skos/core#definition> "US dollar per hour." .
+<https://w3id.org/semanticarts/ns/data/gist/_UnitOfMeasure_US_Dollar_per_hour> <http://www.w3.org/2004/02/skos/core#prefLabel> "US dollar per hour" .
+<https://w3id.org/semanticarts/ns/data/gist/_UnitOfMeasure_US_Dollar_per_hour> <http://www.w3.org/2004/02/skos/core#scopeNote> "1 US dollar per hour = 0.000277777777 x US dollar per second " .
+<https://w3id.org/semanticarts/ns/data/gist/_UnitOfMeasure_US_Dollar_per_hour> <https://w3id.org/semanticarts/ns/ontology/gist/conversionFactor> "0.000277777777"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://w3id.org/semanticarts/ns/data/gist/_UnitOfMeasure_US_Dollar_per_hour> <https://w3id.org/semanticarts/ns/ontology/gist/isMemberOf> <https://w3id.org/semanticarts/ns/data/gist/_UnitGroup_monetary_value_per_duration> .
 <https://w3id.org/semanticarts/ns/data/gist/_UnitOfMeasure_acre> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/semanticarts/ns/ontology/gist/UnitOfMeasure> .
 <https://w3id.org/semanticarts/ns/data/gist/_UnitOfMeasure_acre> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://en.wikipedia.org/wiki/Acre?oldid=495387342"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
 <https://w3id.org/semanticarts/ns/data/gist/_UnitOfMeasure_acre> <http://www.w3.org/2004/02/skos/core#altLabel> "acres" .
