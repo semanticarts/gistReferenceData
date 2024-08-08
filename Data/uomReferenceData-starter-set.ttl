@@ -635,7 +635,7 @@
 <https://w3id.org/semanticarts/ns/data/gist/_UnitGroup_angle> <https://w3id.org/semanticarts/ns/ontology/gist/exponentOfSteradian> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <https://w3id.org/semanticarts/ns/data/gist/_UnitGroup_angle> <https://w3id.org/semanticarts/ns/ontology/gist/exponentOfUSDollar> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <https://w3id.org/semanticarts/ns/data/gist/_UnitGroup_angular_velocity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/semanticarts/ns/ontology/gist/UnitGroup> .
-<https://w3id.org/semanticarts/ns/data/gist/_UnitGroup_angular_velocity> <http://www.w3.org/2004/02/skos/core#prefLabel> "units that measure angular_velocity"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/semanticarts/ns/data/gist/_UnitGroup_angular_velocity> <http://www.w3.org/2004/02/skos/core#prefLabel> "units that measure angular velocity"^^<http://www.w3.org/2001/XMLSchema#string> .
 <https://w3id.org/semanticarts/ns/data/gist/_UnitGroup_angular_velocity> <http://www.w3.org/2004/02/skos/core#scopeNote> "radian per second" .
 <https://w3id.org/semanticarts/ns/data/gist/_UnitGroup_angular_velocity> <https://w3id.org/semanticarts/ns/ontology/gist/exponentOfAmpere> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <https://w3id.org/semanticarts/ns/data/gist/_UnitGroup_angular_velocity> <https://w3id.org/semanticarts/ns/ontology/gist/exponentOfBit> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
