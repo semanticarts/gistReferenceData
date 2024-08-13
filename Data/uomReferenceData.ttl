@@ -923,8 +923,8 @@ gistd:_Aspect_coupling_factor rdfs:seeAlso "http://www.iso.org/iso/home/store/ca
 gistd:_Aspect_coupling_factor skos:closeMatch <http://qudt.org/vocab/quantitykind/CouplingFactor> .
 gistd:_Aspect_coupling_factor skos:definition "from QUDT: \"Coupling Factor\" is the ratio of an electromagnetic quantity, usually voltage or current, appearing at a specified location of a given circuit to the corresponding quantity at a specified location in the circuit from which energy is transferred by coupling." .
 gistd:_Aspect_coupling_factor skos:prefLabel "coupling factor" .
-gistd:_Aspect_cross-section gist:isCategorizedBy gistd:_Discipline_atomic_physics .
-gistd:_Aspect_cross-sectional_area gist:isCategorizedBy gistd:_Discipline_propulsion, gistd:_Discipline_space_and_time .
+gistd:_Aspect_cross_section gist:isCategorizedBy gistd:_Discipline_atomic_physics .
+gistd:_Aspect_cross_sectional_area gist:isCategorizedBy gistd:_Discipline_propulsion, gistd:_Discipline_space_and_time .
 gistd:_Aspect_cross_section gist:hasUnitGroup gistd:_UnitGroup_area .
 gistd:_Aspect_cross_section gist:isCategorizedBy gistd:_Discipline_space_and_time .
 gistd:_Aspect_cross_section rdf:type gist:Aspect .
@@ -986,14 +986,14 @@ gistd:_Aspect_days_duration gist:isCategorizedBy gistd:_Discipline_space_and_tim
 gistd:_Aspect_days_duration rdf:type gist:Aspect .
 gistd:_Aspect_days_duration skos:definition "A duration that must be expressed in days." .
 gistd:_Aspect_days_duration skos:prefLabel "days duration" .
-gistd:_Aspect_debye-waller_factor gist:hasUnitGroup gistd:_UnitGroup_ratio .
-gistd:_Aspect_debye-waller_factor gist:isCategorizedBy gistd:_Discipline_solid_state_physics .
-gistd:_Aspect_debye-waller_factor rdf:type gist:Aspect .
-gistd:_Aspect_debye-waller_factor rdfs:seeAlso "http://en.wikipedia.org/wiki/Debye–Waller_factor"^^xsd:anyURI .
-gistd:_Aspect_debye-waller_factor rdfs:seeAlso "http://www.iso.org/iso/catalogue_detail?csnumber=31897"^^xsd:anyURI .
-gistd:_Aspect_debye-waller_factor skos:closeMatch <http://qudt.org/vocab/quantitykind/Debye-WallerFactor> .
-gistd:_Aspect_debye-waller_factor skos:definition "from QUDT: \"Debye-Waller Factor\" (DWF), named after Peter Debye and Ivar Waller, is used in condensed matter physics to describe the attenuation of x-ray scattering or coherent neutron scattering caused by thermal motion. Also, a factor by which the intensity of a diffraction line is reduced because of the lattice vibrations." .
-gistd:_Aspect_debye-waller_factor skos:prefLabel "debye-waller factor" .
+gistd:_Aspect_debye_waller_factor gist:hasUnitGroup gistd:_UnitGroup_ratio .
+gistd:_Aspect_debye_waller_factor gist:isCategorizedBy gistd:_Discipline_solid_state_physics .
+gistd:_Aspect_debye_waller_factor rdf:type gist:Aspect .
+gistd:_Aspect_debye_waller_factor rdfs:seeAlso "http://en.wikipedia.org/wiki/Debye–Waller_factor"^^xsd:anyURI .
+gistd:_Aspect_debye_waller_factor rdfs:seeAlso "http://www.iso.org/iso/catalogue_detail?csnumber=31897"^^xsd:anyURI .
+gistd:_Aspect_debye_waller_factor skos:closeMatch <http://qudt.org/vocab/quantitykind/Debye-WallerFactor> .
+gistd:_Aspect_debye_waller_factor skos:definition "from QUDT: \"Debye-Waller Factor\" (DWF), named after Peter Debye and Ivar Waller, is used in condensed matter physics to describe the attenuation of x-ray scattering or coherent neutron scattering caused by thermal motion. Also, a factor by which the intensity of a diffraction line is reduced because of the lattice vibrations." .
+gistd:_Aspect_debye_waller_factor skos:prefLabel "debye-waller factor" .
 gistd:_Aspect_debye_angular_frequency gist:hasUnitGroup gistd:_UnitGroup_angular_velocity .
 gistd:_Aspect_debye_angular_frequency gist:isCategorizedBy gistd:_Discipline_solid_state_physics .
 gistd:_Aspect_debye_angular_frequency rdf:type gist:Aspect .
@@ -1884,7 +1884,7 @@ gistd:_Aspect_exhaust_stream_power gist:isCategorizedBy gistd:_Discipline_propul
 gistd:_Aspect_exhaust_stream_power rdf:type gist:Aspect .
 gistd:_Aspect_exhaust_stream_power skos:closeMatch <http://qudt.org/vocab/quantitykind/ExhaustStreamPower> .
 gistd:_Aspect_exhaust_stream_power skos:prefLabel "exhaust stream power" .
-gistd:_Aspect_exit_plane_cross-sectional_area gist:isCategorizedBy gistd:_Discipline_propulsion .
+gistd:_Aspect_exit_plane_cross_sectional_area gist:isCategorizedBy gistd:_Discipline_propulsion .
 gistd:_Aspect_exit_plane_cross_sectional_area gist:hasUnitGroup gistd:_UnitGroup_area .
 gistd:_Aspect_exit_plane_cross_sectional_area gist:isCategorizedBy gistd:_Discipline_propulsion .
 gistd:_Aspect_exit_plane_cross_sectional_area rdf:type gist:Aspect .
@@ -2115,14 +2115,14 @@ gistd:_Aspect_fugacity skos:definition "from QUDT: \"Fugacity\" of a real gas is
 gistd:_Aspect_fugacity skos:prefLabel "fugacity" .
 gistd:_Aspect_fundamental_lattice_vector gist:isCategorizedBy gistd:_Discipline_solid_state_physics .
 gistd:_Aspect_fundamental_reciprocal_lattice_vector gist:isCategorizedBy gistd:_Discipline_solid_state_physics .
-gistd:_Aspect_g-factor_of_nucleus gist:hasUnitGroup gistd:_UnitGroup_number .
-gistd:_Aspect_g-factor_of_nucleus gist:isCategorizedBy gistd:_Discipline_atomic_physics .
-gistd:_Aspect_g-factor_of_nucleus rdf:type gist:Aspect .
-gistd:_Aspect_g-factor_of_nucleus rdfs:seeAlso "http://en.wikipedia.org/wiki/Landé_g-factor"^^xsd:anyURI .
-gistd:_Aspect_g-factor_of_nucleus rdfs:seeAlso "http://www.iso.org/iso/catalogue_detail?csnumber=31895"^^xsd:anyURI .
-gistd:_Aspect_g-factor_of_nucleus skos:closeMatch <http://qudt.org/vocab/quantitykind/GFactorOfNucleus> .
-gistd:_Aspect_g-factor_of_nucleus skos:definition "from QUDT: The \"g-Factor of Nucleus\" is associated with the spin and magnetic moments of protons, neutrons, and many nuclei." .
-gistd:_Aspect_g-factor_of_nucleus skos:prefLabel "g-factor of nucleus" .
+gistd:_Aspect_g_factor_of_nucleus gist:hasUnitGroup gistd:_UnitGroup_number .
+gistd:_Aspect_g_factor_of_nucleus gist:isCategorizedBy gistd:_Discipline_atomic_physics .
+gistd:_Aspect_g_factor_of_nucleus rdf:type gist:Aspect .
+gistd:_Aspect_g_factor_of_nucleus rdfs:seeAlso "http://en.wikipedia.org/wiki/Landé_g-factor"^^xsd:anyURI .
+gistd:_Aspect_g_factor_of_nucleus rdfs:seeAlso "http://www.iso.org/iso/catalogue_detail?csnumber=31895"^^xsd:anyURI .
+gistd:_Aspect_g_factor_of_nucleus skos:closeMatch <http://qudt.org/vocab/quantitykind/GFactorOfNucleus> .
+gistd:_Aspect_g_factor_of_nucleus skos:definition "from QUDT: The \"g-Factor of Nucleus\" is associated with the spin and magnetic moments of protons, neutrons, and many nuclei." .
+gistd:_Aspect_g_factor_of_nucleus skos:prefLabel "g-factor of nucleus" .
 gistd:_Aspect_gain gist:hasUnitGroup gistd:_UnitGroup_ratio .
 gistd:_Aspect_gain gist:isCategorizedBy gistd:_Discipline_communications .
 gistd:_Aspect_gain rdf:type gist:Aspect .
@@ -2204,13 +2204,13 @@ gistd:_Aspect_gravitational_constant gist:hasUnitGroup gistd:_UnitGroup_gravitat
 gistd:_Aspect_gravitational_constant gist:isCategorizedBy gistd:_Discipline_mechanics .
 gistd:_Aspect_gravitational_constant rdf:type gist:Aspect .
 gistd:_Aspect_gravitational_constant skos:prefLabel "gravitational constant" .
-gistd:_Aspect_gross_lift-off_weight gist:hasUnitGroup gistd:_UnitGroup_space_vehicle_masses .
-gistd:_Aspect_gross_lift-off_weight gist:isCategorizedBy gistd:_Discipline_propulsion .
-gistd:_Aspect_gross_lift-off_weight rdf:type gist:Aspect .
-gistd:_Aspect_gross_lift-off_weight rdfs:seeAlso "http://en.wikipedia.org/wiki/Maximum_Takeoff_Weight"^^xsd:anyURI .
-gistd:_Aspect_gross_lift-off_weight skos:closeMatch <http://qudt.org/vocab/quantitykind/GROSS-LIFT-OFF-WEIGHT> .
-gistd:_Aspect_gross_lift-off_weight skos:definition "from QUDT: The sum of a rocket's inert mass and usable fluids and gases at sea level." .
-gistd:_Aspect_gross_lift-off_weight skos:prefLabel "gross lift-off weight" .
+gistd:_Aspect_gross_lift_off_weight gist:hasUnitGroup gistd:_UnitGroup_space_vehicle_masses .
+gistd:_Aspect_gross_lift_off_weight gist:isCategorizedBy gistd:_Discipline_propulsion .
+gistd:_Aspect_gross_lift_off_weight rdf:type gist:Aspect .
+gistd:_Aspect_gross_lift_off_weight rdfs:seeAlso "http://en.wikipedia.org/wiki/Maximum_Takeoff_Weight"^^xsd:anyURI .
+gistd:_Aspect_gross_lift_off_weight skos:closeMatch <http://qudt.org/vocab/quantitykind/GROSS-LIFT-OFF-WEIGHT> .
+gistd:_Aspect_gross_lift_off_weight skos:definition "from QUDT: The sum of a rocket's inert mass and usable fluids and gases at sea level." .
+gistd:_Aspect_gross_lift_off_weight skos:prefLabel "gross lift-off weight" .
 gistd:_Aspect_group_speed_of_sound gist:hasUnitGroup gistd:_UnitGroup_speed_of_sound .
 gistd:_Aspect_group_speed_of_sound gist:isCategorizedBy gistd:_Discipline_acoustics .
 gistd:_Aspect_group_speed_of_sound rdf:type gist:Aspect .
@@ -2240,22 +2240,22 @@ gistd:_Aspect_gyromagnetic_ratio rdfs:seeAlso "http://en.wikipedia.org/wiki/Gyro
 gistd:_Aspect_gyromagnetic_ratio skos:closeMatch <http://qudt.org/vocab/quantitykind/GyromagneticRatio> .
 gistd:_Aspect_gyromagnetic_ratio skos:definition "from QUDT: \"Gyromagnetic Ratio}, also sometimes known as the magnetogyric ratio in other disciplines, of a particle or system is the ratio of its magnetic dipole moment to its angular momentum, and it is often denoted by the symbol, \\(\\gamma\\). Its SI units are radian per second per tesla (\\(rad s^{-1} \\cdot T^{1}\\)) or, equivalently, coulomb per kilogram (\\(C \\cdot kg^{-1\"\\))." .
 gistd:_Aspect_gyromagnetic_ratio skos:prefLabel "gyromagnetic ratio" .
-gistd:_Aspect_half-life gist:hasUnitGroup gistd:_UnitGroup_duration .
-gistd:_Aspect_half-life gist:isCategorizedBy gistd:_Discipline_atomic_physics .
-gistd:_Aspect_half-life rdf:type gist:Aspect .
-gistd:_Aspect_half-life rdfs:seeAlso "http://en.wikipedia.org/wiki/Half-life"^^xsd:anyURI .
-gistd:_Aspect_half-life rdfs:seeAlso "http://www.iso.org/iso/catalogue_detail?csnumber=31895"^^xsd:anyURI .
-gistd:_Aspect_half-life skos:closeMatch <http://qudt.org/vocab/quantitykind/Half-Life> .
-gistd:_Aspect_half-life skos:definition "from QUDT: The \"Half-Life\" is the average duration required for the decay of one half of the atoms or nuclei." .
-gistd:_Aspect_half-life skos:prefLabel "half-life" .
-gistd:_Aspect_half-value_thickness gist:hasUnitGroup gistd:_UnitGroup_half_value_distance .
-gistd:_Aspect_half-value_thickness gist:isCategorizedBy gistd:_Discipline_atomic_physics .
-gistd:_Aspect_half-value_thickness rdf:type gist:Aspect .
-gistd:_Aspect_half-value_thickness rdfs:seeAlso "http://en.wikipedia.org/wiki/Half-value_layer"^^xsd:anyURI .
-gistd:_Aspect_half-value_thickness rdfs:seeAlso "http://www.iso.org/iso/catalogue_detail?csnumber=31895"^^xsd:anyURI .
-gistd:_Aspect_half-value_thickness skos:closeMatch <http://qudt.org/vocab/quantitykind/Half-ValueThickness> .
-gistd:_Aspect_half-value_thickness skos:definition "from QUDT: The \"Half-Value Thickness\" is the thickness of the material at which the intensity of radiation entering it is reduced by one half." .
-gistd:_Aspect_half-value_thickness skos:prefLabel "half-value thickness" .
+gistd:_Aspect_half_life gist:hasUnitGroup gistd:_UnitGroup_duration .
+gistd:_Aspect_half_life gist:isCategorizedBy gistd:_Discipline_atomic_physics .
+gistd:_Aspect_half_life rdf:type gist:Aspect .
+gistd:_Aspect_half_life rdfs:seeAlso "http://en.wikipedia.org/wiki/Half-life"^^xsd:anyURI .
+gistd:_Aspect_half_life rdfs:seeAlso "http://www.iso.org/iso/catalogue_detail?csnumber=31895"^^xsd:anyURI .
+gistd:_Aspect_half_life skos:closeMatch <http://qudt.org/vocab/quantitykind/Half-Life> .
+gistd:_Aspect_half_life skos:definition "from QUDT: The \"Half-Life\" is the average duration required for the decay of one half of the atoms or nuclei." .
+gistd:_Aspect_half_life skos:prefLabel "half-life" .
+gistd:_Aspect_half_value_thickness gist:hasUnitGroup gistd:_UnitGroup_half_value_distance .
+gistd:_Aspect_half_value_thickness gist:isCategorizedBy gistd:_Discipline_atomic_physics .
+gistd:_Aspect_half_value_thickness rdf:type gist:Aspect .
+gistd:_Aspect_half_value_thickness rdfs:seeAlso "http://en.wikipedia.org/wiki/Half-value_layer"^^xsd:anyURI .
+gistd:_Aspect_half_value_thickness rdfs:seeAlso "http://www.iso.org/iso/catalogue_detail?csnumber=31895"^^xsd:anyURI .
+gistd:_Aspect_half_value_thickness skos:closeMatch <http://qudt.org/vocab/quantitykind/Half-ValueThickness> .
+gistd:_Aspect_half_value_thickness skos:definition "from QUDT: The \"Half-Value Thickness\" is the thickness of the material at which the intensity of radiation entering it is reduced by one half." .
+gistd:_Aspect_half_value_thickness skos:prefLabel "half-value thickness" .
 gistd:_Aspect_hall_coefficient gist:hasUnitGroup gistd:_UnitGroup_hall_coefficient .
 gistd:_Aspect_hall_coefficient gist:isCategorizedBy gistd:_Discipline_solid_state_physics .
 gistd:_Aspect_hall_coefficient rdf:type gist:Aspect .
@@ -2744,23 +2744,23 @@ gistd:_Aspect_lagrange_function rdfs:seeAlso "http://www.iso.org/iso/catalogue_d
 gistd:_Aspect_lagrange_function skos:closeMatch <http://qudt.org/vocab/quantitykind/LagrangeFunction> .
 gistd:_Aspect_lagrange_function skos:definition "from QUDT: The Lagrange Function is a function that summarizes the dynamics of the system." .
 gistd:_Aspect_lagrange_function skos:prefLabel "lagrange function" .
-gistd:_Aspect_landau-ginzburg_number gist:hasUnitGroup gistd:_UnitGroup_ratio .
-gistd:_Aspect_landau-ginzburg_number gist:isCategorizedBy gistd:_Discipline_solid_state_physics .
-gistd:_Aspect_landau-ginzburg_number rdf:type gist:Aspect .
-gistd:_Aspect_landau-ginzburg_number rdfs:seeAlso "http://en.wikipedia.org/wiki/Ginzburg–Landau_theory"^^xsd:anyURI .
-gistd:_Aspect_landau-ginzburg_number rdfs:seeAlso "http://www.iso.org/iso/catalogue_detail?csnumber=31897"^^xsd:anyURI .
-gistd:_Aspect_landau-ginzburg_number skos:closeMatch <http://qudt.org/vocab/quantitykind/Landau-GinzburgNumber> .
-gistd:_Aspect_landau-ginzburg_number skos:definition "from QUDT: \"Landau-Ginzburg Number\", also known as the Ginzburg-Landau parameter, describes the relationship between London penetration depth and coherence length." .
-gistd:_Aspect_landau-ginzburg_number skos:prefLabel "landau-ginzburg number" .
-gistd:_Aspect_lande_g-factor gist:hasUnitGroup gistd:_UnitGroup_ratio .
-gistd:_Aspect_lande_g-factor gist:isCategorizedBy gistd:_Discipline_atomic_physics .
-gistd:_Aspect_lande_g-factor rdf:type gist:Aspect .
-gistd:_Aspect_lande_g-factor rdfs:seeAlso "http://en.wikipedia.org/wiki/G-factor_(physics)"^^xsd:anyURI .
-gistd:_Aspect_lande_g-factor rdfs:seeAlso "http://en.wikipedia.org/wiki/Landé_g-factor"^^xsd:anyURI .
-gistd:_Aspect_lande_g-factor rdfs:seeAlso "http://www.iso.org/iso/catalogue_detail?csnumber=31895"^^xsd:anyURI .
-gistd:_Aspect_lande_g-factor skos:closeMatch <http://qudt.org/vocab/quantitykind/LandeGFactor> .
-gistd:_Aspect_lande_g-factor skos:definition "from QUDT: The \"Lande g-Factor\" is a particular example of a g-factor, namely for an electron with both spin and orbital angular momenta. It is named after Alfred Landé, who first described it in 1921." .
-gistd:_Aspect_lande_g-factor skos:prefLabel "lande g-factor" .
+gistd:_Aspect_landau_ginzburg_number gist:hasUnitGroup gistd:_UnitGroup_ratio .
+gistd:_Aspect_landau_ginzburg_number gist:isCategorizedBy gistd:_Discipline_solid_state_physics .
+gistd:_Aspect_landau_ginzburg_number rdf:type gist:Aspect .
+gistd:_Aspect_landau_ginzburg_number rdfs:seeAlso "http://en.wikipedia.org/wiki/Ginzburg–Landau_theory"^^xsd:anyURI .
+gistd:_Aspect_landau_ginzburg_number rdfs:seeAlso "http://www.iso.org/iso/catalogue_detail?csnumber=31897"^^xsd:anyURI .
+gistd:_Aspect_landau_ginzburg_number skos:closeMatch <http://qudt.org/vocab/quantitykind/Landau-GinzburgNumber> .
+gistd:_Aspect_landau_ginzburg_number skos:definition "from QUDT: \"Landau-Ginzburg Number\", also known as the Ginzburg-Landau parameter, describes the relationship between London penetration depth and coherence length." .
+gistd:_Aspect_landau_ginzburg_number skos:prefLabel "landau-ginzburg number" .
+gistd:_Aspect_lande_g_factor gist:hasUnitGroup gistd:_UnitGroup_ratio .
+gistd:_Aspect_lande_g_factor gist:isCategorizedBy gistd:_Discipline_atomic_physics .
+gistd:_Aspect_lande_g_factor rdf:type gist:Aspect .
+gistd:_Aspect_lande_g_factor rdfs:seeAlso "http://en.wikipedia.org/wiki/G-factor_(physics)"^^xsd:anyURI .
+gistd:_Aspect_lande_g_factor rdfs:seeAlso "http://en.wikipedia.org/wiki/Landé_g-factor"^^xsd:anyURI .
+gistd:_Aspect_lande_g_factor rdfs:seeAlso "http://www.iso.org/iso/catalogue_detail?csnumber=31895"^^xsd:anyURI .
+gistd:_Aspect_lande_g_factor skos:closeMatch <http://qudt.org/vocab/quantitykind/LandeGFactor> .
+gistd:_Aspect_lande_g_factor skos:definition "from QUDT: The \"Lande g-Factor\" is a particular example of a g-factor, namely for an electron with both spin and orbital angular momenta. It is named after Alfred Landé, who first described it in 1921." .
+gistd:_Aspect_lande_g_factor skos:prefLabel "lande g-factor" .
 gistd:_Aspect_larmor_angular_frequency gist:hasUnitGroup gistd:_UnitGroup_angular_velocity .
 gistd:_Aspect_larmor_angular_frequency gist:isCategorizedBy gistd:_Discipline_atomic_physics .
 gistd:_Aspect_larmor_angular_frequency rdf:type gist:Aspect .
@@ -2980,7 +2980,7 @@ gistd:_Aspect_london_penetration_depth rdfs:seeAlso "http://www.iso.org/iso/cata
 gistd:_Aspect_london_penetration_depth skos:closeMatch <http://qudt.org/vocab/quantitykind/LondonPenetrationDepth> .
 gistd:_Aspect_london_penetration_depth skos:definition "from QUDT: \"London Penetration Depth\" characterizes the distance to which a magnetic field penetrates into a superconductor and becomes equal to 1/e times that of the magnetic field at the surface of the superconductor." .
 gistd:_Aspect_london_penetration_depth skos:prefLabel "london penetration depth" .
-gistd:_Aspect_long-range_order_parameter gist:isCategorizedBy gistd:_Discipline_solid_state_physics .
+gistd:_Aspect_long_range_order_parameter gist:isCategorizedBy gistd:_Discipline_solid_state_physics .
 gistd:_Aspect_long_range_order_parameter gist:hasUnitGroup gistd:_UnitGroup_ratio .
 gistd:_Aspect_long_range_order_parameter gist:isCategorizedBy gistd:_Discipline_thermodynamics .
 gistd:_Aspect_long_range_order_parameter rdf:type gist:Aspect .
@@ -3081,7 +3081,7 @@ gistd:_Aspect_luminous_intensity_per_unit_of_power gist:isCategorizedBy gistd:_D
 gistd:_Aspect_luminous_intensity_per_unit_of_power rdf:type gist:Aspect .
 gistd:_Aspect_luminous_intensity_per_unit_of_power skos:prefLabel "luminous intensity per unit of power " .
 gistd:_Aspect_mach_number gist:isCategorizedBy gistd:_Discipline_propulsion, gistd:_Discipline_space_and_time .
-gistd:_Aspect_macroscopic_cross-section gist:isCategorizedBy gistd:_Discipline_atomic_physics .
+gistd:_Aspect_macroscopic_cross_section gist:isCategorizedBy gistd:_Discipline_atomic_physics .
 gistd:_Aspect_macroscopic_cross_section gist:hasUnitGroup gistd:_UnitGroup_area .
 gistd:_Aspect_macroscopic_cross_section gist:isCategorizedBy gistd:_Discipline_space_and_time .
 gistd:_Aspect_macroscopic_cross_section rdf:type gist:Aspect .
@@ -3090,7 +3090,7 @@ gistd:_Aspect_macroscopic_cross_section rdfs:seeAlso "http://www.iso.org/iso/cat
 gistd:_Aspect_macroscopic_cross_section skos:closeMatch <http://qudt.org/vocab/quantitykind/MacroscopicCrossSection> .
 gistd:_Aspect_macroscopic_cross_section skos:definition "from QUDT: \"Macroscopic Cross-section\" is the sum of the cross_sections for a reaction or process of a specified type over all atoms or other entities in a given 3D domain, divided by the volume of that domain." .
 gistd:_Aspect_macroscopic_cross_section skos:prefLabel "macroscopic cross_section" .
-gistd:_Aspect_macroscopic_total_cross-section gist:isCategorizedBy gistd:_Discipline_atomic_physics .
+gistd:_Aspect_macroscopic_total_cross_section gist:isCategorizedBy gistd:_Discipline_atomic_physics .
 gistd:_Aspect_macroscopic_total_cross_section gist:hasUnitGroup gistd:_UnitGroup_area .
 gistd:_Aspect_macroscopic_total_cross_section gist:isCategorizedBy gistd:_Discipline_space_and_time .
 gistd:_Aspect_macroscopic_total_cross_section rdf:type gist:Aspect .
@@ -3461,13 +3461,13 @@ gistd:_Aspect_max_sea_level_thrust rdf:type gist:Aspect .
 gistd:_Aspect_max_sea_level_thrust rdfs:comment "Max Sea Level thrust (Mlbf) " .
 gistd:_Aspect_max_sea_level_thrust skos:closeMatch <http://qudt.org/vocab/quantitykind/MaxSeaLevelThrust> .
 gistd:_Aspect_max_sea_level_thrust skos:prefLabel "max sea level thrust" .
-gistd:_Aspect_maximum_beta-particle_energy gist:hasUnitGroup gistd:_UnitGroup_particle_energy .
-gistd:_Aspect_maximum_beta-particle_energy gist:isCategorizedBy gistd:_Discipline_atomic_physics .
-gistd:_Aspect_maximum_beta-particle_energy rdf:type gist:Aspect .
-gistd:_Aspect_maximum_beta-particle_energy rdfs:seeAlso "http://www.iso.org/iso/catalogue_detail?csnumber=31895"^^xsd:anyURI .
-gistd:_Aspect_maximum_beta-particle_energy skos:closeMatch <http://qudt.org/vocab/quantitykind/MaximumBeta-ParticleEnergy> .
-gistd:_Aspect_maximum_beta-particle_energy skos:definition "from QUDT: \"Maximum Beta-Particle Energy\" is the maximum energy of the energy spectrum in a beta-particle disintegration process." .
-gistd:_Aspect_maximum_beta-particle_energy skos:prefLabel "maximum beta-particle energy" .
+gistd:_Aspect_maximum_beta_particle_energy gist:hasUnitGroup gistd:_UnitGroup_particle_energy .
+gistd:_Aspect_maximum_beta_particle_energy gist:isCategorizedBy gistd:_Discipline_atomic_physics .
+gistd:_Aspect_maximum_beta_particle_energy rdf:type gist:Aspect .
+gistd:_Aspect_maximum_beta_particle_energy rdfs:seeAlso "http://www.iso.org/iso/catalogue_detail?csnumber=31895"^^xsd:anyURI .
+gistd:_Aspect_maximum_beta_particle_energy skos:closeMatch <http://qudt.org/vocab/quantitykind/MaximumBeta-ParticleEnergy> .
+gistd:_Aspect_maximum_beta_particle_energy skos:definition "from QUDT: \"Maximum Beta-Particle Energy\" is the maximum energy of the energy spectrum in a beta-particle disintegration process." .
+gistd:_Aspect_maximum_beta_particle_energy skos:prefLabel "maximum beta-particle energy" .
 gistd:_Aspect_maximum_expected_operating_pressure gist:hasUnitGroup gistd:_UnitGroup_force_per_area .
 gistd:_Aspect_maximum_expected_operating_pressure gist:isCategorizedBy gistd:_Discipline_propulsion .
 gistd:_Aspect_maximum_expected_operating_pressure rdf:type gist:Aspect .
@@ -3920,14 +3920,14 @@ gistd:_Aspect_nominal_ascent_propellant_mass rdfs:seeAlso "http://elib.dlr.de/68
 gistd:_Aspect_nominal_ascent_propellant_mass skos:closeMatch <http://qudt.org/vocab/quantitykind/NOMINAL-ASCENT-PROPELLANT-MASS> .
 gistd:_Aspect_nominal_ascent_propellant_mass skos:definition "from QUDT: The amount of propellant mass within a stage that is available for impulse for use in nominal payload performance prediction. This mass excludes loaded propellant that has been set aside for off- nominal performance behavior (FPR and fuel bias)." .
 gistd:_Aspect_nominal_ascent_propellant_mass skos:prefLabel "nominal ascent propellant mass" .
-gistd:_Aspect_non-leakage_probability gist:hasUnitGroup gistd:_UnitGroup_probability .
-gistd:_Aspect_non-leakage_probability gist:isCategorizedBy gistd:_Discipline_atomic_physics .
-gistd:_Aspect_non-leakage_probability rdf:type gist:Aspect .
-gistd:_Aspect_non-leakage_probability rdfs:seeAlso "http://en.wikipedia.org/wiki/Six_factor_formula"^^xsd:anyURI .
-gistd:_Aspect_non-leakage_probability rdfs:seeAlso "http://www.iso.org/iso/catalogue_detail?csnumber=31895"^^xsd:anyURI .
-gistd:_Aspect_non-leakage_probability skos:closeMatch <http://qudt.org/vocab/quantitykind/Non-LeakageProbability> .
-gistd:_Aspect_non-leakage_probability skos:definition "from QUDT: The \"Non-Leakage Probability\" is the probability that a neutron will not escape from the reactor during the slowing-down process or while it diffuses as a thermal neutron" .
-gistd:_Aspect_non-leakage_probability skos:prefLabel "non-leakage probability" .
+gistd:_Aspect_non_leakage_probability gist:hasUnitGroup gistd:_UnitGroup_probability .
+gistd:_Aspect_non_leakage_probability gist:isCategorizedBy gistd:_Discipline_atomic_physics .
+gistd:_Aspect_non_leakage_probability rdf:type gist:Aspect .
+gistd:_Aspect_non_leakage_probability rdfs:seeAlso "http://en.wikipedia.org/wiki/Six_factor_formula"^^xsd:anyURI .
+gistd:_Aspect_non_leakage_probability rdfs:seeAlso "http://www.iso.org/iso/catalogue_detail?csnumber=31895"^^xsd:anyURI .
+gistd:_Aspect_non_leakage_probability skos:closeMatch <http://qudt.org/vocab/quantitykind/Non-LeakageProbability> .
+gistd:_Aspect_non_leakage_probability skos:definition "from QUDT: The \"Non-Leakage Probability\" is the probability that a neutron will not escape from the reactor during the slowing-down process or while it diffuses as a thermal neutron" .
+gistd:_Aspect_non_leakage_probability skos:prefLabel "non-leakage probability" .
 gistd:_Aspect_non_active_power gist:hasUnitGroup gistd:_UnitGroup_non_active_power .
 gistd:_Aspect_non_active_power gist:isCategorizedBy gistd:_Discipline_electricity_and_magnetism .
 gistd:_Aspect_non_active_power rdf:type gist:Aspect .
@@ -3944,7 +3944,7 @@ gistd:_Aspect_normal_stress rdfs:seeAlso "http://www.iso.org/iso/catalogue_detai
 gistd:_Aspect_normal_stress skos:closeMatch <http://qudt.org/vocab/quantitykind/NormalStress> .
 gistd:_Aspect_normal_stress skos:definition "from QUDT: Normal stress is defined as the stress resulting from a force acting normal to a body surface. Normal stress can be caused by several loading methods, the most common being axial tension and compression, bending, and hoop stress." .
 gistd:_Aspect_normal_stress skos:prefLabel "normal stress" .
-gistd:_Aspect_nozzle_throat_cross-sectional_area gist:isCategorizedBy gistd:_Discipline_propulsion .
+gistd:_Aspect_nozzle_throat_cross_sectional_area gist:isCategorizedBy gistd:_Discipline_propulsion .
 gistd:_Aspect_nozzle_throat_cross_sectional_area gist:hasUnitGroup gistd:_UnitGroup_area .
 gistd:_Aspect_nozzle_throat_cross_sectional_area gist:isCategorizedBy gistd:_Discipline_propulsion .
 gistd:_Aspect_nozzle_throat_cross_sectional_area rdf:type gist:Aspect .
@@ -4096,12 +4096,12 @@ gistd:_Aspect_osmotic_pressure rdfs:seeAlso "http://www.iso.org/iso/catalogue_de
 gistd:_Aspect_osmotic_pressure skos:closeMatch <http://qudt.org/vocab/quantitykind/OsmoticPressure> .
 gistd:_Aspect_osmotic_pressure skos:definition "from QUDT: The \"Osmotic Pressure\" is the pressure which needs to be applied to a solution to prevent the inward flow of water across a semipermeable membrane." .
 gistd:_Aspect_osmotic_pressure skos:prefLabel "osmotic pressure" .
-gistd:_Aspect_over-range_distance gist:hasUnitGroup gistd:_UnitGroup_space_vehicle_distances .
-gistd:_Aspect_over-range_distance gist:isCategorizedBy gistd:_Discipline_propulsion .
-gistd:_Aspect_over-range_distance rdf:type gist:Aspect .
-gistd:_Aspect_over-range_distance skos:closeMatch <http://qudt.org/vocab/quantitykind/OverRangeDistance> .
-gistd:_Aspect_over-range_distance skos:definition "from QUDT: Additional distance traveled by a rocket because Of excessive initial velocity." .
-gistd:_Aspect_over-range_distance skos:prefLabel "over-range distance" .
+gistd:_Aspect_over_range_distance gist:hasUnitGroup gistd:_UnitGroup_space_vehicle_distances .
+gistd:_Aspect_over_range_distance gist:isCategorizedBy gistd:_Discipline_propulsion .
+gistd:_Aspect_over_range_distance rdf:type gist:Aspect .
+gistd:_Aspect_over_range_distance skos:closeMatch <http://qudt.org/vocab/quantitykind/OverRangeDistance> .
+gistd:_Aspect_over_range_distance skos:definition "from QUDT: Additional distance traveled by a rocket because Of excessive initial velocity." .
+gistd:_Aspect_over_range_distance skos:prefLabel "over-range distance" .
 gistd:_Aspect_packing_fraction gist:hasUnitGroup gistd:_UnitGroup_ratio .
 gistd:_Aspect_packing_fraction gist:isCategorizedBy gistd:_Discipline_atomic_physics .
 gistd:_Aspect_packing_fraction rdf:type gist:Aspect .
@@ -4846,13 +4846,13 @@ gistd:_Aspect_reynolds_number rdfs:seeAlso "http://www.iso.org/iso/catalogue_det
 gistd:_Aspect_reynolds_number skos:closeMatch <http://qudt.org/vocab/quantitykind/ReynoldsNumber> .
 gistd:_Aspect_reynolds_number skos:definition "from QUDT: The \"Reynolds Number\" (Re) is a dimensionless number that gives a measure of the ratio of inertial forces to viscous forces and consequently quantifies the relative importance of these two types of forces for given flow conditions." .
 gistd:_Aspect_reynolds_number skos:prefLabel "reynolds number" .
-gistd:_Aspect_rf-power_level gist:hasUnitGroup gistd:_UnitGroup_electric_field_strength .
-gistd:_Aspect_rf-power_level gist:isCategorizedBy gistd:_Discipline_communications .
-gistd:_Aspect_rf-power_level rdf:type gist:Aspect .
-gistd:_Aspect_rf-power_level rdfs:seeAlso "https://www.analog.com/en/technical-articles/measurement-control-rf-power-parti.html"^^xsd:anyURI .
-gistd:_Aspect_rf-power_level skos:closeMatch <http://qudt.org/vocab/quantitykind/RF-Power> .
-gistd:_Aspect_rf-power_level skos:definition "from QUDT: Radio-Frequency Power. Power level of electromagnetic waves alternating at the frequency of radio waves (up to 10^10 Hz)." .
-gistd:_Aspect_rf-power_level skos:prefLabel "rf-power level" .
+gistd:_Aspect_rf_power_level gist:hasUnitGroup gistd:_UnitGroup_electric_field_strength .
+gistd:_Aspect_rf_power_level gist:isCategorizedBy gistd:_Discipline_communications .
+gistd:_Aspect_rf_power_level rdf:type gist:Aspect .
+gistd:_Aspect_rf_power_level rdfs:seeAlso "https://www.analog.com/en/technical-articles/measurement-control-rf-power-parti.html"^^xsd:anyURI .
+gistd:_Aspect_rf_power_level skos:closeMatch <http://qudt.org/vocab/quantitykind/RF-Power> .
+gistd:_Aspect_rf_power_level skos:definition "from QUDT: Radio-Frequency Power. Power level of electromagnetic waves alternating at the frequency of radio waves (up to 10^10 Hz)." .
+gistd:_Aspect_rf_power_level skos:prefLabel "rf-power level" .
 gistd:_Aspect_richardson_constant gist:hasUnitGroup gistd:_UnitGroup_richardson_constant .
 gistd:_Aspect_richardson_constant gist:isCategorizedBy gistd:_Discipline_solid_state_physics .
 gistd:_Aspect_richardson_constant rdf:type gist:Aspect .
@@ -4979,13 +4979,13 @@ gistd:_Aspect_shear_stress rdfs:seeAlso "http://www.iso.org/iso/catalogue_detail
 gistd:_Aspect_shear_stress skos:closeMatch <http://qudt.org/vocab/quantitykind/ShearStress> .
 gistd:_Aspect_shear_stress skos:definition "from QUDT: Shear stress occurs when the force occurs in shear, or perpendicular to the normal." .
 gistd:_Aspect_shear_stress skos:prefLabel "shear stress" .
-gistd:_Aspect_short-range_order_parameter gist:hasUnitGroup gistd:_UnitGroup_number .
-gistd:_Aspect_short-range_order_parameter gist:isCategorizedBy gistd:_Discipline_solid_state_physics .
-gistd:_Aspect_short-range_order_parameter rdf:type gist:Aspect .
-gistd:_Aspect_short-range_order_parameter rdfs:seeAlso "http://www.iso.org/iso/catalogue_detail?csnumber=31897"^^xsd:anyURI .
-gistd:_Aspect_short-range_order_parameter skos:closeMatch <http://qudt.org/vocab/quantitykind/Short-RangeOrderParameter> .
-gistd:_Aspect_short-range_order_parameter skos:definition "from QUDT: \"Short-Range Order Parameter\" is the fraction of the nearest-neighbor atom pairs in an Ising ferromagnet having magnetic moments in one direction, minus the fraction having magnetic moments in the opposite direction." .
-gistd:_Aspect_short-range_order_parameter skos:prefLabel "short-range order parameter" .
+gistd:_Aspect_short_range_order_parameter gist:hasUnitGroup gistd:_UnitGroup_number .
+gistd:_Aspect_short_range_order_parameter gist:isCategorizedBy gistd:_Discipline_solid_state_physics .
+gistd:_Aspect_short_range_order_parameter rdf:type gist:Aspect .
+gistd:_Aspect_short_range_order_parameter rdfs:seeAlso "http://www.iso.org/iso/catalogue_detail?csnumber=31897"^^xsd:anyURI .
+gistd:_Aspect_short_range_order_parameter skos:closeMatch <http://qudt.org/vocab/quantitykind/Short-RangeOrderParameter> .
+gistd:_Aspect_short_range_order_parameter skos:definition "from QUDT: \"Short-Range Order Parameter\" is the fraction of the nearest-neighbor atom pairs in an Ising ferromagnet having magnetic moments in one direction, minus the fraction having magnetic moments in the opposite direction." .
+gistd:_Aspect_short_range_order_parameter skos:prefLabel "short-range order parameter" .
 gistd:_Aspect_signal_detection_threshold gist:isCategorizedBy gistd:_Discipline_communications .
 gistd:_Aspect_signal_strength gist:hasUnitGroup gistd:_UnitGroup_electric_field_strength .
 gistd:_Aspect_signal_strength gist:isCategorizedBy gistd:_Discipline_communications .
@@ -4998,29 +4998,29 @@ gistd:_Aspect_single_stage_launcher_mass_ratio gist:isCategorizedBy gistd:_Disci
 gistd:_Aspect_single_stage_launcher_mass_ratio rdf:type gist:Aspect .
 gistd:_Aspect_single_stage_launcher_mass_ratio skos:closeMatch <http://qudt.org/vocab/quantitykind/SingleStageLauncherMassRatio> .
 gistd:_Aspect_single_stage_launcher_mass_ratio skos:prefLabel "single stage launcher mass ratio" .
-gistd:_Aspect_slowing-down_area gist:hasUnitGroup gistd:_UnitGroup_area .
-gistd:_Aspect_slowing-down_area gist:isCategorizedBy gistd:_Discipline_atomic_physics .
-gistd:_Aspect_slowing-down_area rdf:type gist:Aspect .
-gistd:_Aspect_slowing-down_area rdfs:seeAlso "http://www.iso.org/iso/catalogue_detail?csnumber=31895"^^xsd:anyURI .
-gistd:_Aspect_slowing-down_area skos:closeMatch <http://qudt.org/vocab/quantitykind/Slowing-DownArea> .
-gistd:_Aspect_slowing-down_area skos:definition "from QUDT: \"Slowing-Down Area\" in an infinite homogenous medium, is one-sixth of the mean square distance between the neutron source and the point where a neutron reaches a given energy." .
-gistd:_Aspect_slowing-down_area skos:prefLabel "slowing-down area" .
-gistd:_Aspect_slowing-down_density gist:hasUnitGroup gistd:_UnitGroup_activity_concentration .
-gistd:_Aspect_slowing-down_density gist:isCategorizedBy gistd:_Discipline_atomic_physics .
-gistd:_Aspect_slowing-down_density rdf:type gist:Aspect .
-gistd:_Aspect_slowing-down_density rdfs:seeAlso "http://encyclopedia2.thefreedictionary.com/slowing-down+density"^^xsd:anyURI .
-gistd:_Aspect_slowing-down_density rdfs:seeAlso "http://www.iso.org/iso/catalogue_detail?csnumber=31895"^^xsd:anyURI .
-gistd:_Aspect_slowing-down_density skos:closeMatch <http://qudt.org/vocab/quantitykind/Slowing-DownDensity> .
-gistd:_Aspect_slowing-down_density skos:definition "from QUDT: \"Slowing-Down Density\" is a measure of the rate at which neutrons lose energy in a nuclear reactor through collisions; equal to the number of neutrons that fall below a given energy per unit volume per unit time." .
-gistd:_Aspect_slowing-down_density skos:prefLabel "slowing-down density" .
-gistd:_Aspect_slowing-down_distance gist:hasUnitGroup gistd:_UnitGroup_particle_path_length .
-gistd:_Aspect_slowing-down_distance gist:isCategorizedBy gistd:_Discipline_atomic_physics .
-gistd:_Aspect_slowing-down_distance rdf:type gist:Aspect .
-gistd:_Aspect_slowing-down_distance rdfs:seeAlso "http://nuclearpowertraining.tpub.com/h1013v2/css/h1013v2_32.htm"^^xsd:anyURI .
-gistd:_Aspect_slowing-down_distance rdfs:seeAlso "http://www.iso.org/iso/catalogue_detail?csnumber=31895"^^xsd:anyURI .
-gistd:_Aspect_slowing-down_distance skos:closeMatch <http://qudt.org/vocab/quantitykind/Slowing-DownLength> .
-gistd:_Aspect_slowing-down_distance skos:definition "from QUDT: \"Slowing-Down Length\" is the average straight-line distance that a fast neutron will travel between its introduction into the slowing-downmedium (moderator) and thermalization." .
-gistd:_Aspect_slowing-down_distance skos:prefLabel "slowing-down distance" .
+gistd:_Aspect_slowing_down_area gist:hasUnitGroup gistd:_UnitGroup_area .
+gistd:_Aspect_slowing_down_area gist:isCategorizedBy gistd:_Discipline_atomic_physics .
+gistd:_Aspect_slowing_down_area rdf:type gist:Aspect .
+gistd:_Aspect_slowing_down_area rdfs:seeAlso "http://www.iso.org/iso/catalogue_detail?csnumber=31895"^^xsd:anyURI .
+gistd:_Aspect_slowing_down_area skos:closeMatch <http://qudt.org/vocab/quantitykind/Slowing-DownArea> .
+gistd:_Aspect_slowing_down_area skos:definition "from QUDT: \"Slowing-Down Area\" in an infinite homogenous medium, is one-sixth of the mean square distance between the neutron source and the point where a neutron reaches a given energy." .
+gistd:_Aspect_slowing_down_area skos:prefLabel "slowing-down area" .
+gistd:_Aspect_slowing_down_density gist:hasUnitGroup gistd:_UnitGroup_activity_concentration .
+gistd:_Aspect_slowing_down_density gist:isCategorizedBy gistd:_Discipline_atomic_physics .
+gistd:_Aspect_slowing_down_density rdf:type gist:Aspect .
+gistd:_Aspect_slowing_down_density rdfs:seeAlso "http://encyclopedia2.thefreedictionary.com/slowing-down+density"^^xsd:anyURI .
+gistd:_Aspect_slowing_down_density rdfs:seeAlso "http://www.iso.org/iso/catalogue_detail?csnumber=31895"^^xsd:anyURI .
+gistd:_Aspect_slowing_down_density skos:closeMatch <http://qudt.org/vocab/quantitykind/Slowing-DownDensity> .
+gistd:_Aspect_slowing_down_density skos:definition "from QUDT: \"Slowing-Down Density\" is a measure of the rate at which neutrons lose energy in a nuclear reactor through collisions; equal to the number of neutrons that fall below a given energy per unit volume per unit time." .
+gistd:_Aspect_slowing_down_density skos:prefLabel "slowing-down density" .
+gistd:_Aspect_slowing_down_distance gist:hasUnitGroup gistd:_UnitGroup_particle_path_length .
+gistd:_Aspect_slowing_down_distance gist:isCategorizedBy gistd:_Discipline_atomic_physics .
+gistd:_Aspect_slowing_down_distance rdf:type gist:Aspect .
+gistd:_Aspect_slowing_down_distance rdfs:seeAlso "http://nuclearpowertraining.tpub.com/h1013v2/css/h1013v2_32.htm"^^xsd:anyURI .
+gistd:_Aspect_slowing_down_distance rdfs:seeAlso "http://www.iso.org/iso/catalogue_detail?csnumber=31895"^^xsd:anyURI .
+gistd:_Aspect_slowing_down_distance skos:closeMatch <http://qudt.org/vocab/quantitykind/Slowing-DownLength> .
+gistd:_Aspect_slowing_down_distance skos:definition "from QUDT: \"Slowing-Down Length\" is the average straight-line distance that a fast neutron will travel between its introduction into the slowing-downmedium (moderator) and thermalization." .
+gistd:_Aspect_slowing_down_distance skos:prefLabel "slowing-down distance" .
 gistd:_Aspect_soil_adsorption_coefficient gist:hasUnitGroup gistd:_UnitGroup_specific_volume .
 gistd:_Aspect_soil_adsorption_coefficient gist:isCategorizedBy gistd:_Discipline_biology .
 gistd:_Aspect_soil_adsorption_coefficient gist:isCategorizedBy gistd:_Discipline_earth_sciences .
@@ -5293,7 +5293,7 @@ gistd:_Aspect_specific_volume rdfs:seeAlso "http://www.iso.org/iso/catalogue_det
 gistd:_Aspect_specific_volume skos:closeMatch <http://qudt.org/vocab/quantitykind/SpecificVolume> .
 gistd:_Aspect_specific_volume skos:definition "from QUDT: \"Specific Volume\" (\\(\\nu\\)) is the volume occupied by a unit of mass of a material. It is equal to the inverse of density." .
 gistd:_Aspect_specific_volume skos:prefLabel "specific volume" .
-gistd:_Aspect_spectral_angular_cross-section gist:isCategorizedBy gistd:_Discipline_atomic_physics .
+gistd:_Aspect_spectral_angular_cross_section gist:isCategorizedBy gistd:_Discipline_atomic_physics .
 gistd:_Aspect_spectral_angular_cross_section gist:hasUnitGroup gistd:_UnitGroup_linear_compressibility .
 gistd:_Aspect_spectral_angular_cross_section gist:isCategorizedBy gistd:_Discipline_optics .
 gistd:_Aspect_spectral_angular_cross_section gist:isCategorizedBy gistd:_Discipline_radiology .
@@ -5303,7 +5303,7 @@ gistd:_Aspect_spectral_angular_cross_section rdfs:seeAlso "http://www.iso.org/is
 gistd:_Aspect_spectral_angular_cross_section skos:closeMatch <http://qudt.org/vocab/quantitykind/SpectralAngularCrossSection> .
 gistd:_Aspect_spectral_angular_cross_section skos:definition "from QUDT: \"Spectral Angular Cross-section\" is the cross_section for ejecting or scattering a particle into an elementary cone with energy \\(E\\) in an energy interval, divided by the solid angle \\(d\\Omega\\) of that cone and the range \\(dE\\) of that interval." .
 gistd:_Aspect_spectral_angular_cross_section skos:prefLabel "spectral angular cross_section" .
-gistd:_Aspect_spectral_cross-section gist:isCategorizedBy gistd:_Discipline_atomic_physics .
+gistd:_Aspect_spectral_cross_section gist:isCategorizedBy gistd:_Discipline_atomic_physics .
 gistd:_Aspect_spectral_cross_section gist:hasUnitGroup gistd:_UnitGroup_linear_compressibility .
 gistd:_Aspect_spectral_cross_section gist:isCategorizedBy gistd:_Discipline_optics .
 gistd:_Aspect_spectral_cross_section gist:isCategorizedBy gistd:_Discipline_radiology .
@@ -5465,13 +5465,13 @@ gistd:_Aspect_stress rdfs:seeAlso "http://www.freestudy.co.uk/mech%20prin%20h2/s
 gistd:_Aspect_stress skos:closeMatch <http://qudt.org/vocab/quantitykind/Stress> .
 gistd:_Aspect_stress skos:definition "from QUDT: Stress is a measure of the average amount of force exerted per unit area of a surface within a deformable body on which internal forces act. In other words, it is a measure of the intensity or internal distribution of the total internal forces acting within a deformable body across imaginary surfaces. These internal forces are produced between the particles in the body as a reaction to external forces applied on the body. Stress is defined as \\({\\rm{Stress}} = \\frac{F}{A}\\)." .
 gistd:_Aspect_stress skos:prefLabel "stress" .
-gistd:_Aspect_stress-optic_coefficient gist:hasUnitGroup gistd:_UnitGroup_inverse_pressure .
-gistd:_Aspect_stress-optic_coefficient gist:isCategorizedBy gistd:_Discipline_optics .
-gistd:_Aspect_stress-optic_coefficient rdf:type gist:Aspect .
-gistd:_Aspect_stress-optic_coefficient rdfs:seeAlso "https://en.wikipedia.org/w/index.php?title=Photoelasticity&oldid=1109858854#Experimental_principles"^^xsd:anyURI .
-gistd:_Aspect_stress-optic_coefficient skos:closeMatch <http://qudt.org/vocab/quantitykind/StressOpticCoefficient> .
-gistd:_Aspect_stress-optic_coefficient skos:definition "from QUDT: When a ray of light passes through a photoelastic material, its electromagnetic wave components are resolved along the two principal stress directions and each component experiences a different refractive index due to the birefringence. The difference in the refractive indices leads to a relative phase retardation between the two components. Assuming a thin specimen made of isotropic materials, where two-dimensional photoelasticity is applicable, the magnitude of the relative retardation is given by the stress-optic law Δ=((2πt)/λ)C(σ₁-σ₂), where Δ is the induced retardation, C is the stress-optic coefficient, t is the specimen thickness, λ is the vacuum wavelength, and σ₁ and σ₂ are the first and second principal stresses, respectively." .
-gistd:_Aspect_stress-optic_coefficient skos:prefLabel "stress-optic coefficient" .
+gistd:_Aspect_stress_optic_coefficient gist:hasUnitGroup gistd:_UnitGroup_inverse_pressure .
+gistd:_Aspect_stress_optic_coefficient gist:isCategorizedBy gistd:_Discipline_optics .
+gistd:_Aspect_stress_optic_coefficient rdf:type gist:Aspect .
+gistd:_Aspect_stress_optic_coefficient rdfs:seeAlso "https://en.wikipedia.org/w/index.php?title=Photoelasticity&oldid=1109858854#Experimental_principles"^^xsd:anyURI .
+gistd:_Aspect_stress_optic_coefficient skos:closeMatch <http://qudt.org/vocab/quantitykind/StressOpticCoefficient> .
+gistd:_Aspect_stress_optic_coefficient skos:definition "from QUDT: When a ray of light passes through a photoelastic material, its electromagnetic wave components are resolved along the two principal stress directions and each component experiences a different refractive index due to the birefringence. The difference in the refractive indices leads to a relative phase retardation between the two components. Assuming a thin specimen made of isotropic materials, where two-dimensional photoelasticity is applicable, the magnitude of the relative retardation is given by the stress-optic law Δ=((2πt)/λ)C(σ₁-σ₂), where Δ is the induced retardation, C is the stress-optic coefficient, t is the specimen thickness, λ is the vacuum wavelength, and σ₁ and σ₂ are the first and second principal stresses, respectively." .
+gistd:_Aspect_stress_optic_coefficient skos:prefLabel "stress-optic coefficient" .
 gistd:_Aspect_structural_efficiency gist:hasUnitGroup gistd:_UnitGroup_number .
 gistd:_Aspect_structural_efficiency gist:isCategorizedBy gistd:_Discipline_propulsion .
 gistd:_Aspect_structural_efficiency rdf:type gist:Aspect .
@@ -5861,7 +5861,7 @@ gistd:_Aspect_total_atomic_stopping_power rdfs:seeAlso "http://www.iso.org/iso/c
 gistd:_Aspect_total_atomic_stopping_power skos:closeMatch <http://qudt.org/vocab/quantitykind/TotalAtomicStoppingPower> .
 gistd:_Aspect_total_atomic_stopping_power skos:definition "from QUDT: The \"Total Atomic Stopping Power\" for an ionizing particle passing through an element, is the particle's energy loss per atom within a unit area normal to the particle's path; equal to the linear energy transfer (energy loss per unit path length) divided by the number of atoms per unit volume." .
 gistd:_Aspect_total_atomic_stopping_power skos:prefLabel "total atomic stopping power" .
-gistd:_Aspect_total_cross-section gist:isCategorizedBy gistd:_Discipline_atomic_physics .
+gistd:_Aspect_total_cross_section gist:isCategorizedBy gistd:_Discipline_atomic_physics .
 gistd:_Aspect_total_cross_section gist:hasUnitGroup gistd:_UnitGroup_area .
 gistd:_Aspect_total_cross_section gist:isCategorizedBy gistd:_Discipline_space_and_time .
 gistd:_Aspect_total_cross_section rdf:type gist:Aspect .
@@ -6022,7 +6022,6 @@ gistd:_Aspect_visible_radiant_energy rdfs:seeAlso "http://www.iso.org/iso/catalo
 gistd:_Aspect_visible_radiant_energy skos:closeMatch <http://qudt.org/vocab/quantitykind/VisibleRadiantEnergy> .
 gistd:_Aspect_visible_radiant_energy skos:definition "from QUDT: \"Visible Radiant Energy\", also known as luminous energy, is the energy of electromagnetic waves. It is energy of the particles that are emitted, transferred, or received as radiation." .
 gistd:_Aspect_visible_radiant_energy skos:prefLabel "visible radiant energy" .
-gistd:_Aspect_vision_threshods gist:isCategorizedBy gistd:_Discipline_biometrics .
 gistd:_Aspect_voltage gist:hasUnitGroup gistd:_UnitGroup_energy_or_work_per_electric_charge .
 gistd:_Aspect_voltage gist:isCategorizedBy gistd:_Discipline_electricity_and_magnetism .
 gistd:_Aspect_voltage rdf:type gist:Aspect .
@@ -6201,7 +6200,7 @@ gistd:_Aspect_work_function rdf:type gist:Aspect .
 gistd:_Aspect_work_function rdfs:seeAlso "http://en.wikipedia.org/wiki/Work_function"^^xsd:anyURI .
 gistd:_Aspect_work_function rdfs:seeAlso "http://www.iso.org/iso/catalogue_detail?csnumber=31897"^^xsd:anyURI .
 gistd:_Aspect_work_function skos:closeMatch <http://qudt.org/vocab/quantitykind/WorkFunction> .
-gistd:_Aspect_work_function skos:definition "from QUDT: \"Work Function\" is the energy difference between an electron at rest at infinity and an electron at a certain energy level. The minimum energy (usually measured in electronvolts) needed to remove an electron from a solid to a point immediately outside the solid surface (or energy needed to move an electron from the Fermi level into vacuum)." .
+gistd:_Aspect_work_function skos:definition "from QUDT: \"Work Function\" is the energy difference between an electron at rest at infinity and an electron at a certain energy level. The minimum energy (usually measured in electron_volts) needed to remove an electron from a solid to a point immediately outside the solid surface (or energy needed to move an electron from the Fermi level into vacuum)." .
 gistd:_Aspect_work_function skos:prefLabel "work function" .
 gistd:_Aspect_worked_duration gist:hasUnitGroup gistd:_UnitGroup_duration .
 gistd:_Aspect_worked_duration gist:isCategorizedBy gistd:_Discipline_finance .
@@ -11492,15 +11491,15 @@ gistd:_UnitOfMeasure_assay_ton skos:altLabel "assay tons" .
 gistd:_UnitOfMeasure_assay_ton skos:closeMatch <http://qudt.org/vocab/unit/TON_Assay> .
 gistd:_UnitOfMeasure_assay_ton skos:prefLabel "assay ton" .
 gistd:_UnitOfMeasure_assay_ton skos:scopeNote "1 assay ton = 0.02916667 x kilogram" .
-gistd:_UnitOfMeasure_astronomical-unit gist:conversionFactor "149597870691.6"^^xsd:decimal .
-gistd:_UnitOfMeasure_astronomical-unit gist:isMemberOf gistd:_UnitGroup_distance .
-gistd:_UnitOfMeasure_astronomical-unit rdf:type gist:UnitOfMeasure .
-gistd:_UnitOfMeasure_astronomical-unit rdfs:seeAlso "http://en.wikipedia.org/wiki/Astronomical_unit"^^xsd:anyURI .
-gistd:_UnitOfMeasure_astronomical-unit skos:altLabel "astronomical-units" .
-gistd:_UnitOfMeasure_astronomical-unit skos:closeMatch <http://qudt.org/vocab/unit/AU> .
-gistd:_UnitOfMeasure_astronomical-unit skos:definition "from QUDT: An astronomical unit (abbreviated as AU, au, a.u., or ua) is a unit of length equal to 149,597,870,700 metres (92,955,807.273 mi) or approximately the mean Earth Sun distance. The symbol ua is recommended by the International Bureau of Weights and Measures, and the international standard ISO 80000, while au is recommended by the International Astronomical Union, and is more common in Anglosphere countries. In general, the International System of Units only uses capital letters for the symbols of units which are named after individual scientists, while au or a.u. can also mean atomic unit or even arbitrary unit. However, the use of AU to refer to the astronomical unit is widespread. The astronomical constant whose value is one astronomical unit is referred to as unit distance and is given the symbol A. [Wikipedia]" .
-gistd:_UnitOfMeasure_astronomical-unit skos:prefLabel "astronomical-unit" .
-gistd:_UnitOfMeasure_astronomical-unit skos:scopeNote "1 astronomical-unit = 149597870691.6 x meter" .
+gistd:_UnitOfMeasure_astronomical_unit gist:conversionFactor "149597870691.6"^^xsd:decimal .
+gistd:_UnitOfMeasure_astronomical_unit gist:isMemberOf gistd:_UnitGroup_distance .
+gistd:_UnitOfMeasure_astronomical_unit rdf:type gist:UnitOfMeasure .
+gistd:_UnitOfMeasure_astronomical_unit rdfs:seeAlso "http://en.wikipedia.org/wiki/Astronomical_unit"^^xsd:anyURI .
+gistd:_UnitOfMeasure_astronomical_unit skos:altLabel "astronomical-units" .
+gistd:_UnitOfMeasure_astronomical_unit skos:closeMatch <http://qudt.org/vocab/unit/AU> .
+gistd:_UnitOfMeasure_astronomical_unit skos:definition "from QUDT: An astronomical unit (abbreviated as AU, au, a.u., or ua) is a unit of length equal to 149,597,870,700 metres (92,955,807.273 mi) or approximately the mean Earth Sun distance. The symbol ua is recommended by the International Bureau of Weights and Measures, and the international standard ISO 80000, while au is recommended by the International Astronomical Union, and is more common in Anglosphere countries. In general, the International System of Units only uses capital letters for the symbols of units which are named after individual scientists, while au or a.u. can also mean atomic unit or even arbitrary unit. However, the use of AU to refer to the astronomical unit is widespread. The astronomical constant whose value is one astronomical unit is referred to as unit distance and is given the symbol A. [Wikipedia]" .
+gistd:_UnitOfMeasure_astronomical_unit skos:prefLabel "astronomical-unit" .
+gistd:_UnitOfMeasure_astronomical_unit skos:scopeNote "1 astronomical-unit = 149597870691.6 x meter" .
 gistd:_UnitOfMeasure_atmosphere_cubic_meter_per_mole gist:conversionFactor "101325.0"^^xsd:decimal .
 gistd:_UnitOfMeasure_atmosphere_cubic_meter_per_mole gist:isMemberOf gistd:_UnitGroup_molar_energy .
 gistd:_UnitOfMeasure_atmosphere_cubic_meter_per_mole rdf:type gist:UnitOfMeasure .
@@ -11983,16 +11982,16 @@ gistd:_UnitOfMeasure_british_thermal_unit_thermochemical_per_second skos:prefLab
 gistd:_UnitOfMeasure_british_thermal_unit_thermochemical_per_second skos:scopeNote "1 british thermal unit (thermochemical) per second = 1054.35 x kilogram meterSquared per secondCubed" .
 gistd:_UnitOfMeasure_british_thermal_unit_thermochemical_scopeNote gist:conversionFactor "1054.3502645"^^xsd:decimal .
 gistd:_UnitOfMeasure_british_thermal_unit_thermochemical_scopeNote skos:definition "1 british thermal unit (thermochemical definition) = 1054.3502645 x kilogram meterSquared per secondSquared" .
-gistd:_UnitOfMeasure_btu-it-per-lb gist:conversionFactor "2326.0"^^xsd:decimal .
-gistd:_UnitOfMeasure_btu-it-per-lb gist:isMemberOf gistd:_UnitGroup_specific_energy .
-gistd:_UnitOfMeasure_btu-it-per-lb rdf:type gist:UnitOfMeasure .
-gistd:_UnitOfMeasure_btu-it-per-lb rdfs:seeAlso "http://physics.nist.gov/Pubs/SP811/appenB9.html"^^xsd:anyURI .
-gistd:_UnitOfMeasure_btu-it-per-lb rdfs:seeAlso "http://www.efunda.com/glossary/units/units--energy_density--british_thermal_unit_it_per_cubic_foot.cfm"^^xsd:anyURI .
-gistd:_UnitOfMeasure_btu-it-per-lb skos:altLabel "btus-it-per-lb" .
-gistd:_UnitOfMeasure_btu-it-per-lb skos:closeMatch <http://qudt.org/vocab/unit/BTU_IT-PER-LB> .
-gistd:_UnitOfMeasure_btu-it-per-lb skos:definition "from QUDT: Is part of the IMPERIAL system." .
-gistd:_UnitOfMeasure_btu-it-per-lb skos:prefLabel "btu-it-per-lb" .
-gistd:_UnitOfMeasure_btu-it-per-lb skos:scopeNote "1 btu-it-per-lb = 2326.0 x meterSquared per secondSquared" .
+gistd:_UnitOfMeasure_btu_it_per_lb gist:conversionFactor "2326.0"^^xsd:decimal .
+gistd:_UnitOfMeasure_btu_it_per_lb gist:isMemberOf gistd:_UnitGroup_specific_energy .
+gistd:_UnitOfMeasure_btu_it_per_lb rdf:type gist:UnitOfMeasure .
+gistd:_UnitOfMeasure_btu_it_per_lb rdfs:seeAlso "http://physics.nist.gov/Pubs/SP811/appenB9.html"^^xsd:anyURI .
+gistd:_UnitOfMeasure_btu_it_per_lb rdfs:seeAlso "http://www.efunda.com/glossary/units/units--energy_density--british_thermal_unit_it_per_cubic_foot.cfm"^^xsd:anyURI .
+gistd:_UnitOfMeasure_btu_it_per_lb skos:altLabel "btus-it-per-lb" .
+gistd:_UnitOfMeasure_btu_it_per_lb skos:closeMatch <http://qudt.org/vocab/unit/BTU_IT-PER-LB> .
+gistd:_UnitOfMeasure_btu_it_per_lb skos:definition "from QUDT: Is part of the IMPERIAL system." .
+gistd:_UnitOfMeasure_btu_it_per_lb skos:prefLabel "btu-it-per-lb" .
+gistd:_UnitOfMeasure_btu_it_per_lb skos:scopeNote "1 btu-it-per-lb = 2326.0 x meterSquared per secondSquared" .
 gistd:_UnitOfMeasure_btu_foot gist:conversionFactor "321.581024"^^xsd:decimal .
 gistd:_UnitOfMeasure_btu_foot gist:isMemberOf gistd:_UnitGroup_distance_energy .
 gistd:_UnitOfMeasure_btu_foot rdf:type gist:UnitOfMeasure .
@@ -13914,22 +13913,22 @@ gistd:_UnitOfMeasure_electron_volt_second skos:altLabel "electron volt seconds" 
 gistd:_UnitOfMeasure_electron_volt_second skos:closeMatch <http://qudt.org/vocab/unit/EV-SEC> .
 gistd:_UnitOfMeasure_electron_volt_second skos:prefLabel "electron volt second" .
 gistd:_UnitOfMeasure_electron_volt_second skos:scopeNote "1 electron volt second = 0.0000000000000000001602176634 x kilogram meterSquared per second" .
-gistd:_UnitOfMeasure_electronvolt_per_angstrom gist:conversionFactor "0.000000001602176634"^^xsd:decimal .
-gistd:_UnitOfMeasure_electronvolt_per_angstrom gist:isMemberOf gistd:_UnitGroup_force .
-gistd:_UnitOfMeasure_electronvolt_per_angstrom rdf:type gist:UnitOfMeasure .
-gistd:_UnitOfMeasure_electronvolt_per_angstrom skos:altLabel "electronvolts per angstrom" .
-gistd:_UnitOfMeasure_electronvolt_per_angstrom skos:closeMatch <http://qudt.org/vocab/unit/EV-PER-ANGSTROM> .
-gistd:_UnitOfMeasure_electronvolt_per_angstrom skos:definition "from QUDT: unit electronvolt divided by the unit angstrom" .
-gistd:_UnitOfMeasure_electronvolt_per_angstrom skos:prefLabel "electronvolt per angstrom" .
-gistd:_UnitOfMeasure_electronvolt_per_angstrom skos:scopeNote "1 electronvolt per angstrom = 0.000000001602176634 x kilogram meter per secondSquared" .
-gistd:_UnitOfMeasure_electronvolt_per_meter gist:conversionFactor "0.0000000000000000001602176634"^^xsd:decimal .
-gistd:_UnitOfMeasure_electronvolt_per_meter gist:isMemberOf gistd:_UnitGroup_force .
-gistd:_UnitOfMeasure_electronvolt_per_meter rdf:type gist:UnitOfMeasure .
-gistd:_UnitOfMeasure_electronvolt_per_meter skos:altLabel "electronvolts per meter" .
-gistd:_UnitOfMeasure_electronvolt_per_meter skos:closeMatch <http://qudt.org/vocab/unit/EV-PER-M> .
-gistd:_UnitOfMeasure_electronvolt_per_meter skos:definition "from QUDT: unit electronvolt divided by the SI base unit metre" .
-gistd:_UnitOfMeasure_electronvolt_per_meter skos:prefLabel "electronvolt per meter" .
-gistd:_UnitOfMeasure_electronvolt_per_meter skos:scopeNote "1 electronvolt per meter = 0.0000000000000000001602176634 x kilogram meter per secondSquared" .
+gistd:_UnitOfMeasure_electron_volt_per_angstrom gist:conversionFactor "0.000000001602176634"^^xsd:decimal .
+gistd:_UnitOfMeasure_electron_volt_per_angstrom gist:isMemberOf gistd:_UnitGroup_force .
+gistd:_UnitOfMeasure_electron_volt_per_angstrom rdf:type gist:UnitOfMeasure .
+gistd:_UnitOfMeasure_electron_volt_per_angstrom skos:altLabel "electron_volts per angstrom" .
+gistd:_UnitOfMeasure_electron_volt_per_angstrom skos:closeMatch <http://qudt.org/vocab/unit/EV-PER-ANGSTROM> .
+gistd:_UnitOfMeasure_electron_volt_per_angstrom skos:definition "from QUDT: unit electron_volt divided by the unit angstrom" .
+gistd:_UnitOfMeasure_electron_volt_per_angstrom skos:prefLabel "electron_volt per angstrom" .
+gistd:_UnitOfMeasure_electron_volt_per_angstrom skos:scopeNote "1 electron_volt per angstrom = 0.000000001602176634 x kilogram meter per secondSquared" .
+gistd:_UnitOfMeasure_electron_volt_per_meter gist:conversionFactor "0.0000000000000000001602176634"^^xsd:decimal .
+gistd:_UnitOfMeasure_electron_volt_per_meter gist:isMemberOf gistd:_UnitGroup_force .
+gistd:_UnitOfMeasure_electron_volt_per_meter rdf:type gist:UnitOfMeasure .
+gistd:_UnitOfMeasure_electron_volt_per_meter skos:altLabel "electron_volts per meter" .
+gistd:_UnitOfMeasure_electron_volt_per_meter skos:closeMatch <http://qudt.org/vocab/unit/EV-PER-M> .
+gistd:_UnitOfMeasure_electron_volt_per_meter skos:definition "from QUDT: unit electron_volt divided by the SI base unit metre" .
+gistd:_UnitOfMeasure_electron_volt_per_meter skos:prefLabel "electron_volt per meter" .
+gistd:_UnitOfMeasure_electron_volt_per_meter skos:scopeNote "1 electron_volt per meter = 0.0000000000000000001602176634 x kilogram meter per secondSquared" .
 gistd:_UnitOfMeasure_elementary_charge gist:conversionFactor "0.0000000000000000001602176634"^^xsd:decimal .
 gistd:_UnitOfMeasure_elementary_charge gist:isMemberOf gistd:_UnitGroup_electric_charge .
 gistd:_UnitOfMeasure_elementary_charge gist:isMemberOf gistd:_UnitGroup_particle_charge .
@@ -15214,14 +15213,14 @@ gistd:_UnitOfMeasure_hour_square_foot skos:definition "from QUDT: Is part of the
 gistd:_UnitOfMeasure_hour_square_foot skos:definition "from QUDT: Is part of the USCS system." .
 gistd:_UnitOfMeasure_hour_square_foot skos:prefLabel "hour square foot" .
 gistd:_UnitOfMeasure_hour_square_foot skos:scopeNote "1 hour square foot = 334.450944 x meterSquared second" .
-gistd:_UnitOfMeasure_hundred_weight_-_short gist:conversionFactor "45.359237"^^xsd:decimal .
-gistd:_UnitOfMeasure_hundred_weight_-_short gist:isMemberOf gistd:_UnitGroup_mass .
-gistd:_UnitOfMeasure_hundred_weight_-_short rdf:type gist:UnitOfMeasure .
-gistd:_UnitOfMeasure_hundred_weight_-_short skos:altLabel "hundred weight - short" .
-gistd:_UnitOfMeasure_hundred_weight_-_short skos:closeMatch <http://qudt.org/vocab/unit/CWT_SHORT> .
-gistd:_UnitOfMeasure_hundred_weight_-_short skos:definition "from QUDT: Is part of the USCS system." .
-gistd:_UnitOfMeasure_hundred_weight_-_short skos:prefLabel "hundred weight - short" .
-gistd:_UnitOfMeasure_hundred_weight_-_short skos:scopeNote "1 hundred weight - short = 45.359237 x kilogram" .
+gistd:_UnitOfMeasure_hundred_weight_short gist:conversionFactor "45.359237"^^xsd:decimal .
+gistd:_UnitOfMeasure_hundred_weight_short gist:isMemberOf gistd:_UnitGroup_mass .
+gistd:_UnitOfMeasure_hundred_weight_short rdf:type gist:UnitOfMeasure .
+gistd:_UnitOfMeasure_hundred_weight_short skos:altLabel "hundred weight - short" .
+gistd:_UnitOfMeasure_hundred_weight_short skos:closeMatch <http://qudt.org/vocab/unit/CWT_SHORT> .
+gistd:_UnitOfMeasure_hundred_weight_short skos:definition "from QUDT: Is part of the USCS system." .
+gistd:_UnitOfMeasure_hundred_weight_short skos:prefLabel "hundred weight - short" .
+gistd:_UnitOfMeasure_hundred_weight_short skos:scopeNote "1 hundred weight - short = 45.359237 x kilogram" .
 gistd:_UnitOfMeasure_hundredweight_uk gist:conversionFactor "50.80235"^^xsd:decimal .
 gistd:_UnitOfMeasure_hundredweight_uk gist:isMemberOf gistd:_UnitGroup_mass .
 gistd:_UnitOfMeasure_hundredweight_uk rdf:type gist:UnitOfMeasure .
@@ -18117,14 +18116,14 @@ gistd:_UnitOfMeasure_mile_us_statute skos:closeMatch <http://qudt.org/vocab/unit
 gistd:_UnitOfMeasure_mile_us_statute skos:definition "from QUDT: Is part of the USCS system." .
 gistd:_UnitOfMeasure_mile_us_statute skos:prefLabel "mile us statute" .
 gistd:_UnitOfMeasure_mile_us_statute skos:scopeNote "1 mile us statute = 1609.347 x meter" .
-gistd:_UnitOfMeasure_milli-inch gist:conversionFactor "0.0000254"^^xsd:decimal .
-gistd:_UnitOfMeasure_milli-inch gist:isMemberOf gistd:_UnitGroup_distance .
-gistd:_UnitOfMeasure_milli-inch rdf:type gist:UnitOfMeasure .
-gistd:_UnitOfMeasure_milli-inch skos:altLabel "milli-inches" .
-gistd:_UnitOfMeasure_milli-inch skos:closeMatch <http://qudt.org/vocab/unit/MilliIN> .
-gistd:_UnitOfMeasure_milli-inch skos:definition "from QUDT: 0.001-fold of the unit inch according to the Anglo-American and Imperial system of units" .
-gistd:_UnitOfMeasure_milli-inch skos:prefLabel "milli-inch" .
-gistd:_UnitOfMeasure_milli-inch skos:scopeNote "1 milli-inch = 0.0000254 x meter" .
+gistd:_UnitOfMeasure_milli_inch gist:conversionFactor "0.0000254"^^xsd:decimal .
+gistd:_UnitOfMeasure_milli_inch gist:isMemberOf gistd:_UnitGroup_distance .
+gistd:_UnitOfMeasure_milli_inch rdf:type gist:UnitOfMeasure .
+gistd:_UnitOfMeasure_milli_inch skos:altLabel "milli-inches" .
+gistd:_UnitOfMeasure_milli_inch skos:closeMatch <http://qudt.org/vocab/unit/MilliIN> .
+gistd:_UnitOfMeasure_milli_inch skos:definition "from QUDT: 0.001-fold of the unit inch according to the Anglo-American and Imperial system of units" .
+gistd:_UnitOfMeasure_milli_inch skos:prefLabel "milli-inch" .
+gistd:_UnitOfMeasure_milli_inch skos:scopeNote "1 milli-inch = 0.0000254 x meter" .
 gistd:_UnitOfMeasure_milli_arcsecond gist:isMemberOf gistd:_UnitGroup_angle .
 gistd:_UnitOfMeasure_milli_arcsecond rdf:type gist:UnitOfMeasure .
 gistd:_UnitOfMeasure_milli_arcsecond rdfs:seeAlso "http://en.wikipedia.org/wiki/Minute_of_arc"^^xsd:anyURI .
@@ -22629,16 +22628,16 @@ gistd:_UnitOfMeasure_synodic_month rdfs:seeAlso "http://www.thefreedictionary.co
 gistd:_UnitOfMeasure_synodic_month skos:altLabel "synodic months" .
 gistd:_UnitOfMeasure_synodic_month skos:closeMatch <http://qudt.org/vocab/unit/MO_Synodic> .
 gistd:_UnitOfMeasure_synodic_month skos:prefLabel "synodic month" .
-gistd:_UnitOfMeasure_t-m gist:isMemberOf gistd:_UnitGroup_magnetic_flux_per_unit_distance .
-gistd:_UnitOfMeasure_t-m rdf:type gist:UnitOfMeasure .
-gistd:_UnitOfMeasure_t-m skos:altLabel "t-m" .
-gistd:_UnitOfMeasure_t-m skos:closeMatch <http://qudt.org/vocab/unit/T-M> .
-gistd:_UnitOfMeasure_t-m skos:prefLabel "t-m" .
-gistd:_UnitOfMeasure_t-sec gist:isMemberOf gistd:_UnitGroup_mass_per_electric_charge .
-gistd:_UnitOfMeasure_t-sec rdf:type gist:UnitOfMeasure .
-gistd:_UnitOfMeasure_t-sec skos:altLabel "t-sec" .
-gistd:_UnitOfMeasure_t-sec skos:closeMatch <http://qudt.org/vocab/unit/T-SEC> .
-gistd:_UnitOfMeasure_t-sec skos:prefLabel "t-sec" .
+gistd:_UnitOfMeasure_t_m gist:isMemberOf gistd:_UnitGroup_magnetic_flux_per_unit_distance .
+gistd:_UnitOfMeasure_t_m rdf:type gist:UnitOfMeasure .
+gistd:_UnitOfMeasure_t_m skos:altLabel "t-m" .
+gistd:_UnitOfMeasure_t_m skos:closeMatch <http://qudt.org/vocab/unit/T-M> .
+gistd:_UnitOfMeasure_t_m skos:prefLabel "t-m" .
+gistd:_UnitOfMeasure_t_sec gist:isMemberOf gistd:_UnitGroup_mass_per_electric_charge .
+gistd:_UnitOfMeasure_t_sec rdf:type gist:UnitOfMeasure .
+gistd:_UnitOfMeasure_t_sec skos:altLabel "t-sec" .
+gistd:_UnitOfMeasure_t_sec skos:closeMatch <http://qudt.org/vocab/unit/T-SEC> .
+gistd:_UnitOfMeasure_t_sec skos:prefLabel "t-sec" .
 gistd:_UnitOfMeasure_tablespoon gist:conversionFactor "0.0000147867656"^^xsd:decimal .
 gistd:_UnitOfMeasure_tablespoon gist:isMemberOf gistd:_UnitGroup_liquid_volume .
 gistd:_UnitOfMeasure_tablespoon gist:isMemberOf gistd:_UnitGroup_volume .
@@ -23077,18 +23076,18 @@ gistd:_UnitOfMeasure_us_survey_foot skos:closeMatch <http://qudt.org/vocab/unit/
 gistd:_UnitOfMeasure_us_survey_foot skos:definition "from QUDT: Is part of the USCS system." .
 gistd:_UnitOfMeasure_us_survey_foot skos:prefLabel "us survey foot" .
 gistd:_UnitOfMeasure_us_survey_foot skos:scopeNote "1 us survey foot = 0.3048006 x meter" .
-gistd:_UnitOfMeasure_v-m gist:conversionFactor "1.0"^^xsd:decimal .
-gistd:_UnitOfMeasure_v-m gist:isMemberOf gistd:_UnitGroup_electric_flux .
-gistd:_UnitOfMeasure_v-m rdf:type gist:UnitOfMeasure .
-gistd:_UnitOfMeasure_v-m skos:altLabel "v-m" .
-gistd:_UnitOfMeasure_v-m skos:closeMatch <http://qudt.org/vocab/unit/V-M> .
-gistd:_UnitOfMeasure_v-m skos:prefLabel "v-m" .
-gistd:_UnitOfMeasure_v-m skos:scopeNote "1 v-m = 1.0 x kilogram meterCubed per ampere secondCubed" .
-gistd:_UnitOfMeasure_v_stat-centim gist:isMemberOf gistd:_UnitGroup_electric_flux .
-gistd:_UnitOfMeasure_v_stat-centim rdf:type gist:UnitOfMeasure .
-gistd:_UnitOfMeasure_v_stat-centim skos:altLabel "v_stat-centim" .
-gistd:_UnitOfMeasure_v_stat-centim skos:closeMatch <http://qudt.org/vocab/unit/V_Stat-CentiM> .
-gistd:_UnitOfMeasure_v_stat-centim skos:prefLabel "v_stat-centim" .
+gistd:_UnitOfMeasure_v_m gist:conversionFactor "1.0"^^xsd:decimal .
+gistd:_UnitOfMeasure_v_m gist:isMemberOf gistd:_UnitGroup_electric_flux .
+gistd:_UnitOfMeasure_v_m rdf:type gist:UnitOfMeasure .
+gistd:_UnitOfMeasure_v_m skos:altLabel "v-m" .
+gistd:_UnitOfMeasure_v_m skos:closeMatch <http://qudt.org/vocab/unit/V-M> .
+gistd:_UnitOfMeasure_v_m skos:prefLabel "v-m" .
+gistd:_UnitOfMeasure_v_m skos:scopeNote "1 v-m = 1.0 x kilogram meterCubed per ampere secondCubed" .
+gistd:_UnitOfMeasure_v_stat_centim gist:isMemberOf gistd:_UnitGroup_electric_flux .
+gistd:_UnitOfMeasure_v_stat_centim rdf:type gist:UnitOfMeasure .
+gistd:_UnitOfMeasure_v_stat_centim skos:altLabel "v_stat-centim" .
+gistd:_UnitOfMeasure_v_stat_centim skos:closeMatch <http://qudt.org/vocab/unit/V_Stat-CentiM> .
+gistd:_UnitOfMeasure_v_stat_centim skos:prefLabel "v_stat-centim" .
 gistd:_UnitOfMeasure_volt gist:conversionFactor "1.0"^^xsd:decimal .
 gistd:_UnitOfMeasure_volt gist:isMemberOf gistd:_UnitGroup_energy_or_work_per_electric_charge .
 gistd:_UnitOfMeasure_volt rdf:type gist:UnitOfMeasure .
@@ -23204,18 +23203,18 @@ gistd:_UnitOfMeasure_volt_second_per_meter skos:closeMatch <http://qudt.org/voca
 gistd:_UnitOfMeasure_volt_second_per_meter skos:definition "from QUDT: product of the SI derived unit volt and the SI base unit second divided by the SI base unit metre" .
 gistd:_UnitOfMeasure_volt_second_per_meter skos:prefLabel "volt second per meter" .
 gistd:_UnitOfMeasure_volt_second_per_meter skos:scopeNote "1 volt second per meter = 1.0 x kilogram meter per ampere secondSquared" .
-gistd:_UnitOfMeasure_w-m2 gist:conversionFactor "1.0"^^xsd:decimal .
-gistd:_UnitOfMeasure_w-m2 gist:isMemberOf gistd:_UnitGroup_power_area .
-gistd:_UnitOfMeasure_w-m2 rdf:type gist:UnitOfMeasure .
-gistd:_UnitOfMeasure_w-m2 skos:altLabel "w-m2" .
-gistd:_UnitOfMeasure_w-m2 skos:closeMatch <http://qudt.org/vocab/unit/W-M2> .
-gistd:_UnitOfMeasure_w-m2 skos:prefLabel "w-m2" .
-gistd:_UnitOfMeasure_w-m2 skos:scopeNote "1 w-m2 = 1.0 x kilogram meterToTheFourth per secondCubed" .
-gistd:_UnitOfMeasure_w-m2-per-sr gist:isMemberOf gistd:_UnitGroup_power_area .
-gistd:_UnitOfMeasure_w-m2-per-sr rdf:type gist:UnitOfMeasure .
-gistd:_UnitOfMeasure_w-m2-per-sr skos:altLabel "w-m2-per-sr" .
-gistd:_UnitOfMeasure_w-m2-per-sr skos:closeMatch <http://qudt.org/vocab/unit/W-M2-PER-SR> .
-gistd:_UnitOfMeasure_w-m2-per-sr skos:prefLabel "w-m2-per-sr" .
+gistd:_UnitOfMeasure_w_m2 gist:conversionFactor "1.0"^^xsd:decimal .
+gistd:_UnitOfMeasure_w_m2 gist:isMemberOf gistd:_UnitGroup_power_area .
+gistd:_UnitOfMeasure_w_m2 rdf:type gist:UnitOfMeasure .
+gistd:_UnitOfMeasure_w_m2 skos:altLabel "w-m2" .
+gistd:_UnitOfMeasure_w_m2 skos:closeMatch <http://qudt.org/vocab/unit/W-M2> .
+gistd:_UnitOfMeasure_w_m2 skos:prefLabel "w-m2" .
+gistd:_UnitOfMeasure_w_m2 skos:scopeNote "1 w-m2 = 1.0 x kilogram meterToTheFourth per secondCubed" .
+gistd:_UnitOfMeasure_w_m2_per_sr gist:isMemberOf gistd:_UnitGroup_power_area .
+gistd:_UnitOfMeasure_w_m2_per_sr rdf:type gist:UnitOfMeasure .
+gistd:_UnitOfMeasure_w_m2_per_sr skos:altLabel "w-m2-per-sr" .
+gistd:_UnitOfMeasure_w_m2_per_sr skos:closeMatch <http://qudt.org/vocab/unit/W-M2-PER-SR> .
+gistd:_UnitOfMeasure_w_m2_per_sr skos:prefLabel "w-m2-per-sr" .
 gistd:_UnitOfMeasure_watt gist:conversionFactor "1.0"^^xsd:decimal .
 gistd:_UnitOfMeasure_watt gist:isMemberOf gistd:_UnitGroup_electric_power .
 gistd:_UnitOfMeasure_watt gist:isMemberOf gistd:_UnitGroup_heat_flow_rate .
