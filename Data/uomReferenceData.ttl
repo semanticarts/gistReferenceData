@@ -283,7 +283,7 @@ gistd:_Aspect_angular_acceleration rdf:type gist:Aspect .
 gistd:_Aspect_angular_acceleration skos:closeMatch <http://qudt.org/vocab/quantitykind/AngularAcceleration> .
 gistd:_Aspect_angular_acceleration skos:definition "from QUDT: Angular acceleration is the rate of change of angular velocity over time. Measurement of the change made in the rate of change of an angle that a spinning object undergoes per unit time. It is a vector quantity. Also called Rotational acceleration. In SI units, it is measured in radians per second squared (\\(rad/s^2\\)), and is usually denoted by the Greek letter alpha." .
 gistd:_Aspect_angular_acceleration skos:prefLabel "angular acceleration" .
-gistd:_Aspect_angular_cross-section gist:isCategorizedBy gistd:_Discipline_atomic_physics .
+gistd:_Aspect_angular_cross_section gist:isCategorizedBy gistd:_Discipline_atomic_physics .
 gistd:_Aspect_angular_cross_section gist:hasUnitGroup gistd:_UnitGroup_angular_cross_section .
 gistd:_Aspect_angular_cross_section gist:isCategorizedBy gistd:_Discipline_space_and_time .
 gistd:_Aspect_angular_cross_section rdf:type gist:Aspect .
