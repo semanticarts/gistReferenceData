@@ -1636,13 +1636,13 @@
 <https://w3id.org/semanticarts/ns/data/gist/_UnitOfMeasure_candela> <https://w3id.org/semanticarts/ns/ontology/gist/conversionFactor> "1.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <https://w3id.org/semanticarts/ns/data/gist/_UnitOfMeasure_candela> <https://w3id.org/semanticarts/ns/ontology/gist/isMemberOf> <https://w3id.org/semanticarts/ns/data/gist/_UnitGroup_luminous_flux> .
 <https://w3id.org/semanticarts/ns/data/gist/_UnitOfMeasure_candela> <https://w3id.org/semanticarts/ns/ontology/gist/isMemberOf> <https://w3id.org/semanticarts/ns/data/gist/_UnitGroup_luminous_intensity> .
-<https://w3id.org/semanticarts/ns/data/gist/_UnitOfMeasure_cases_per_1000_individuals_per_year> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/semanticarts/ns/ontology/gist/UnitOfMeasure> .
-<https://w3id.org/semanticarts/ns/data/gist/_UnitOfMeasure_cases_per_1000_individuals_per_year> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://en.wikipedia.org/wiki/Incidence_(epidemiology)"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
-<https://w3id.org/semanticarts/ns/data/gist/_UnitOfMeasure_cases_per_1000_individuals_per_year> <http://www.w3.org/2004/02/skos/core#altLabel> "cases per 1000 individuals per year" .
-<https://w3id.org/semanticarts/ns/data/gist/_UnitOfMeasure_cases_per_1000_individuals_per_year> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://qudt.org/vocab/unit/CASES-PER-1000I-YR> .
-<https://w3id.org/semanticarts/ns/data/gist/_UnitOfMeasure_cases_per_1000_individuals_per_year> <http://www.w3.org/2004/02/skos/core#definition> "from QUDT: The typical expression of morbidity rate, expressed as cases per 1000 individuals, per year." .
-<https://w3id.org/semanticarts/ns/data/gist/_UnitOfMeasure_cases_per_1000_individuals_per_year> <http://www.w3.org/2004/02/skos/core#prefLabel> "case per 1000 individuals per year" .
-<https://w3id.org/semanticarts/ns/data/gist/_UnitOfMeasure_cases_per_1000_individuals_per_year> <https://w3id.org/semanticarts/ns/ontology/gist/isMemberOf> <https://w3id.org/semanticarts/ns/data/gist/_UnitGroup_rate_of_morbidity> .
+<https://w3id.org/semanticarts/ns/data/gist/_UnitOfMeasure_case_per_1000_individuals_per_year> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/semanticarts/ns/ontology/gist/UnitOfMeasure> .
+<https://w3id.org/semanticarts/ns/data/gist/_UnitOfMeasure_case_per_1000_individuals_per_year> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://en.wikipedia.org/wiki/Incidence_(epidemiology)"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<https://w3id.org/semanticarts/ns/data/gist/_UnitOfMeasure_case_per_1000_individuals_per_year> <http://www.w3.org/2004/02/skos/core#altLabel> "cases per 1000 individuals per year" .
+<https://w3id.org/semanticarts/ns/data/gist/_UnitOfMeasure_case_per_1000_individuals_per_year> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://qudt.org/vocab/unit/CASES-PER-1000I-YR> .
+<https://w3id.org/semanticarts/ns/data/gist/_UnitOfMeasure_case_per_1000_individuals_per_year> <http://www.w3.org/2004/02/skos/core#definition> "from QUDT: The typical expression of morbidity rate, expressed as cases per 1000 individuals, per year." .
+<https://w3id.org/semanticarts/ns/data/gist/_UnitOfMeasure_case_per_1000_individuals_per_year> <http://www.w3.org/2004/02/skos/core#prefLabel> "case per 1000 individuals per year" .
+<https://w3id.org/semanticarts/ns/data/gist/_UnitOfMeasure_case_per_1000_individuals_per_year> <https://w3id.org/semanticarts/ns/ontology/gist/isMemberOf> <https://w3id.org/semanticarts/ns/data/gist/_UnitGroup_rate_of_morbidity> .
 <https://w3id.org/semanticarts/ns/data/gist/_UnitOfMeasure_centimeter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/semanticarts/ns/ontology/gist/UnitOfMeasure> .
 <https://w3id.org/semanticarts/ns/data/gist/_UnitOfMeasure_centimeter> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://en.wikipedia.org/wiki/Centimetre?oldid=494931891"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
 <https://w3id.org/semanticarts/ns/data/gist/_UnitOfMeasure_centimeter> <http://www.w3.org/2004/02/skos/core#altLabel> "centimeters" .
@@ -1669,7 +1669,7 @@
 <https://w3id.org/semanticarts/ns/data/gist/_UnitOfMeasure_count_per_minute> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/semanticarts/ns/ontology/gist/UnitOfMeasure> .
 <https://w3id.org/semanticarts/ns/data/gist/_UnitOfMeasure_count_per_minute> <http://www.w3.org/2004/02/skos/core#altLabel> "count_per_minute" .
 <https://w3id.org/semanticarts/ns/data/gist/_UnitOfMeasure_count_per_minute> <http://www.w3.org/2004/02/skos/core#definition> "Count per minute." .
-<https://w3id.org/semanticarts/ns/data/gist/_UnitOfMeasure_count_per_minute> <http://www.w3.org/2004/02/skos/core#prefLabel> "counts_per_minute" .
+<https://w3id.org/semanticarts/ns/data/gist/_UnitOfMeasure_count_per_minute> <http://www.w3.org/2004/02/skos/core#prefLabel> "count_per_minute" .
 <https://w3id.org/semanticarts/ns/data/gist/_UnitOfMeasure_count_per_minute> <http://www.w3.org/2004/02/skos/core#scopeNote> "1 count_per_minute = 0.0166666666666 x number per second" .
 <https://w3id.org/semanticarts/ns/data/gist/_UnitOfMeasure_count_per_minute> <https://w3id.org/semanticarts/ns/ontology/gist/conversionFactor> "0.0166666666666"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <https://w3id.org/semanticarts/ns/data/gist/_UnitOfMeasure_count_per_minute> <https://w3id.org/semanticarts/ns/ontology/gist/isMemberOf> <https://w3id.org/semanticarts/ns/data/gist/_UnitGroup_count_per_minute_duration> .
@@ -1715,16 +1715,16 @@
 <https://w3id.org/semanticarts/ns/data/gist/_UnitOfMeasure_day_per_week> <http://www.w3.org/2004/02/skos/core#prefLabel> "day per week" .
 <https://w3id.org/semanticarts/ns/data/gist/_UnitOfMeasure_day_per_week> <https://w3id.org/semanticarts/ns/ontology/gist/conversionFactor> "0.14285714"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <https://w3id.org/semanticarts/ns/data/gist/_UnitOfMeasure_day_per_week> <https://w3id.org/semanticarts/ns/ontology/gist/isMemberOf> <https://w3id.org/semanticarts/ns/data/gist/_UnitGroup_labor_consumption_rate> .
-<https://w3id.org/semanticarts/ns/data/gist/_UnitOfMeasure_deaths_per_million_individuals_per_year> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/semanticarts/ns/ontology/gist/UnitOfMeasure> .
-<https://w3id.org/semanticarts/ns/data/gist/_UnitOfMeasure_deaths_per_million_individuals_per_year> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://en.wikipedia.org/wiki/Mortality_rate"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
-<https://w3id.org/semanticarts/ns/data/gist/_UnitOfMeasure_deaths_per_million_individuals_per_year> <http://www.w3.org/2004/02/skos/core#altLabel> "deaths per million individuals per year" .
-<https://w3id.org/semanticarts/ns/data/gist/_UnitOfMeasure_deaths_per_million_individuals_per_year> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://qudt.org/vocab/unit/DEATHS-PER-1000000I-YR> .
-<https://w3id.org/semanticarts/ns/data/gist/_UnitOfMeasure_deaths_per_million_individuals_per_year> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://qudt.org/vocab/unit/DEATHS-PER-MegaINDIV-YR> .
-<https://w3id.org/semanticarts/ns/data/gist/_UnitOfMeasure_deaths_per_million_individuals_per_year> <http://www.w3.org/2004/02/skos/core#definition> "from QUDT: The expression of mortality rate, expressed as deaths per Million individuals, per year." .
-<https://w3id.org/semanticarts/ns/data/gist/_UnitOfMeasure_deaths_per_million_individuals_per_year> <http://www.w3.org/2004/02/skos/core#prefLabel> "deaths per million individuals per year" .
-<https://w3id.org/semanticarts/ns/data/gist/_UnitOfMeasure_deaths_per_million_individuals_per_year> <http://www.w3.org/2004/02/skos/core#scopeNote> "1 deaths per million individuals per year = 0.000001 x per second" .
-<https://w3id.org/semanticarts/ns/data/gist/_UnitOfMeasure_deaths_per_million_individuals_per_year> <https://w3id.org/semanticarts/ns/ontology/gist/conversionFactor> "0.000001"^^<http://www.w3.org/2001/XMLSchema#decimal> .
-<https://w3id.org/semanticarts/ns/data/gist/_UnitOfMeasure_deaths_per_million_individuals_per_year> <https://w3id.org/semanticarts/ns/ontology/gist/isMemberOf> <https://w3id.org/semanticarts/ns/data/gist/_UnitGroup_rate_of_mortality> .
+<https://w3id.org/semanticarts/ns/data/gist/_UnitOfMeasure_death_per_million_individuals_per_year> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/semanticarts/ns/ontology/gist/UnitOfMeasure> .
+<https://w3id.org/semanticarts/ns/data/gist/_UnitOfMeasure_death_per_million_individuals_per_year> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://en.wikipedia.org/wiki/Mortality_rate"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<https://w3id.org/semanticarts/ns/data/gist/_UnitOfMeasure_death_per_million_individuals_per_year> <http://www.w3.org/2004/02/skos/core#altLabel> "deaths per million individuals per year" .
+<https://w3id.org/semanticarts/ns/data/gist/_UnitOfMeasure_death_per_million_individuals_per_year> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://qudt.org/vocab/unit/DEATHS-PER-1000000I-YR> .
+<https://w3id.org/semanticarts/ns/data/gist/_UnitOfMeasure_death_per_million_individuals_per_year> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://qudt.org/vocab/unit/DEATHS-PER-MegaINDIV-YR> .
+<https://w3id.org/semanticarts/ns/data/gist/_UnitOfMeasure_death_per_million_individuals_per_year> <http://www.w3.org/2004/02/skos/core#definition> "from QUDT: The expression of mortality rate, expressed as deaths per Million individuals, per year." .
+<https://w3id.org/semanticarts/ns/data/gist/_UnitOfMeasure_death_per_million_individuals_per_year> <http://www.w3.org/2004/02/skos/core#prefLabel> "deaths per million individuals per year" .
+<https://w3id.org/semanticarts/ns/data/gist/_UnitOfMeasure_death_per_million_individuals_per_year> <http://www.w3.org/2004/02/skos/core#scopeNote> "1 deaths per million individuals per year = 0.000001 x per second" .
+<https://w3id.org/semanticarts/ns/data/gist/_UnitOfMeasure_death_per_million_individuals_per_year> <https://w3id.org/semanticarts/ns/ontology/gist/conversionFactor> "0.000001"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://w3id.org/semanticarts/ns/data/gist/_UnitOfMeasure_death_per_million_individuals_per_year> <https://w3id.org/semanticarts/ns/ontology/gist/isMemberOf> <https://w3id.org/semanticarts/ns/data/gist/_UnitGroup_rate_of_mortality> .
 <https://w3id.org/semanticarts/ns/data/gist/_UnitOfMeasure_decibel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/semanticarts/ns/ontology/gist/UnitOfMeasure> .
 <https://w3id.org/semanticarts/ns/data/gist/_UnitOfMeasure_decibel> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://en.wikipedia.org/wiki/Decibel?oldid=495380648"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
 <https://w3id.org/semanticarts/ns/data/gist/_UnitOfMeasure_decibel> <http://www.w3.org/2004/02/skos/core#altLabel> "decibels" .
