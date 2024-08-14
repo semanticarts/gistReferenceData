@@ -105,7 +105,7 @@ gistd:_Aspect_action_time rdf:type gist:Aspect .
 gistd:_Aspect_action_time rdfs:comment "Action Time (sec) " .
 gistd:_Aspect_action_time skos:closeMatch <http://qudt.org/vocab/quantitykind/ActionTime> .
 gistd:_Aspect_action_time skos:prefLabel "action time" .
-gistd:_Aspect_active_energy gist:hasUnitGroup gistd:_UnitGroup_electrical_energy .
+gistd:_Aspect_active_energy gist:hasUnitGroup gistd:_UnitGroup_electric_energy .
 gistd:_Aspect_active_energy gist:isCategorizedBy gistd:_Discipline_electricity_and_magnetism .
 gistd:_Aspect_active_energy rdf:type gist:Aspect .
 gistd:_Aspect_active_energy rdfs:seeAlso "http://www.electropedia.org/iev/iev.nsf/display?openform&ievref=601-01-19"^^xsd:anyURI .
@@ -1602,12 +1602,12 @@ gistd:_Aspect_electric_susceptibility rdfs:seeAlso "http://www.iso.org/iso/home/
 gistd:_Aspect_electric_susceptibility skos:closeMatch <http://qudt.org/vocab/quantitykind/ElectricSusceptibility> .
 gistd:_Aspect_electric_susceptibility skos:definition "from QUDT: \"Electric Susceptibility\" is the ratio of electric polarization to electric field strength, normalized to the electric constant. The definition applies to an isotropic medium. For an anisotropic medium, electric susceptibility is a second order tensor." .
 gistd:_Aspect_electric_susceptibility skos:prefLabel "electric susceptibility" .
-gistd:_Aspect_electrical_energy gist:hasUnitGroup gistd:_UnitGroup_electrical_energy .
-gistd:_Aspect_electrical_energy gist:isCategorizedBy gistd:_Discipline_electricity_and_magnetism .
-gistd:_Aspect_electrical_energy rdf:type gist:Aspect .
-gistd:_Aspect_electrical_energy rdfs:seeAlso "http://www.electropedia.org/iev/iev.nsf/display?openform&ievref=601-01-19"^^xsd:anyURI .
-gistd:_Aspect_electrical_energy skos:prefLabel "electrical energy" .
-gistd:_Aspect_electrical_power_to_mass_ratio gist:isCategorizedBy gistd:_Discipline_propulsion .
+gistd:_Aspect_electric_energy gist:hasUnitGroup gistd:_UnitGroup_electric_energy .
+gistd:_Aspect_electric_energy gist:isCategorizedBy gistd:_Discipline_electricity_and_magnetism .
+gistd:_Aspect_electric_energy rdf:type gist:Aspect .
+gistd:_Aspect_electric_energy rdfs:seeAlso "http://www.electropedia.org/iev/iev.nsf/display?openform&ievref=601-01-19"^^xsd:anyURI .
+gistd:_Aspect_electric_energy skos:prefLabel "electrical energy" .
+gistd:_Aspect_electric_power_to_mass_ratio gist:isCategorizedBy gistd:_Discipline_propulsion .
 gistd:_Aspect_electrolytic_conductivity gist:hasUnitGroup gistd:_UnitGroup_electric_conductivity .
 gistd:_Aspect_electrolytic_conductivity gist:isCategorizedBy gistd:_Discipline_chemistry .
 gistd:_Aspect_electrolytic_conductivity rdf:type gist:Aspect .
@@ -3382,7 +3382,7 @@ gistd:_Aspect_mass_of_electric_power_supply gist:isCategorizedBy gistd:_Discipli
 gistd:_Aspect_mass_of_electric_power_supply rdf:type gist:Aspect .
 gistd:_Aspect_mass_of_electric_power_supply skos:closeMatch <http://qudt.org/vocab/quantitykind/MassOfElectricalPowerSupply> .
 gistd:_Aspect_mass_of_electric_power_supply skos:prefLabel "mass of electrical power supply" .
-gistd:_Aspect_mass_of_electrical_power_supply gist:isCategorizedBy gistd:_Discipline_propulsion .
+gistd:_Aspect_mass_of_electric_power_supply gist:isCategorizedBy gistd:_Discipline_propulsion .
 gistd:_Aspect_mass_of_solid_booster gist:hasUnitGroup gistd:_UnitGroup_space_vehicle_masses .
 gistd:_Aspect_mass_of_solid_booster gist:isCategorizedBy gistd:_Discipline_propulsion .
 gistd:_Aspect_mass_of_solid_booster rdf:type gist:Aspect .
@@ -7624,22 +7624,22 @@ gistd:_UnitGroup_electric_susceptibility gist:exponentOfSteradian "0.0"^^xsd:dec
 gistd:_UnitGroup_electric_susceptibility gist:exponentOfUSDollar "0"^^xsd:decimal .
 gistd:_UnitGroup_electric_susceptibility rdf:type gist:UnitGroup .
 gistd:_UnitGroup_electric_susceptibility skos:prefLabel "units that measure electric susceptibility"^^xsd:string .
-gistd:_UnitGroup_electrical_energy gist:exponentOfAmpere "0"^^xsd:decimal .
-gistd:_UnitGroup_electrical_energy gist:exponentOfBit "0"^^xsd:decimal .
-gistd:_UnitGroup_electrical_energy gist:exponentOfCandela "0"^^xsd:decimal .
-gistd:_UnitGroup_electrical_energy gist:exponentOfKelvin "0"^^xsd:decimal .
-gistd:_UnitGroup_electrical_energy gist:exponentOfKilogram "1"^^xsd:decimal .
-gistd:_UnitGroup_electrical_energy gist:exponentOfMeter "2"^^xsd:decimal .
-gistd:_UnitGroup_electrical_energy gist:exponentOfMole "0"^^xsd:decimal .
-gistd:_UnitGroup_electrical_energy gist:exponentOfNumber "0"^^xsd:decimal .
-gistd:_UnitGroup_electrical_energy gist:exponentOfOther "0"^^xsd:decimal .
-gistd:_UnitGroup_electrical_energy gist:exponentOfRadian "0"^^xsd:decimal .
-gistd:_UnitGroup_electrical_energy gist:exponentOfSecond "-2"^^xsd:decimal .
-gistd:_UnitGroup_electrical_energy gist:exponentOfSteradian "0"^^xsd:decimal .
-gistd:_UnitGroup_electrical_energy gist:exponentOfUSDollar "0"^^xsd:decimal .
-gistd:_UnitGroup_electrical_energy rdf:type gist:UnitGroup .
-gistd:_UnitGroup_electrical_energy skos:prefLabel "units that measure electrical energy"^^xsd:string .
-gistd:_UnitGroup_electrical_energy skos:scopeNote "kilogram meterSquared per secondSquared" .
+gistd:_UnitGroup_electric_energy gist:exponentOfAmpere "0"^^xsd:decimal .
+gistd:_UnitGroup_electric_energy gist:exponentOfBit "0"^^xsd:decimal .
+gistd:_UnitGroup_electric_energy gist:exponentOfCandela "0"^^xsd:decimal .
+gistd:_UnitGroup_electric_energy gist:exponentOfKelvin "0"^^xsd:decimal .
+gistd:_UnitGroup_electric_energy gist:exponentOfKilogram "1"^^xsd:decimal .
+gistd:_UnitGroup_electric_energy gist:exponentOfMeter "2"^^xsd:decimal .
+gistd:_UnitGroup_electric_energy gist:exponentOfMole "0"^^xsd:decimal .
+gistd:_UnitGroup_electric_energy gist:exponentOfNumber "0"^^xsd:decimal .
+gistd:_UnitGroup_electric_energy gist:exponentOfOther "0"^^xsd:decimal .
+gistd:_UnitGroup_electric_energy gist:exponentOfRadian "0"^^xsd:decimal .
+gistd:_UnitGroup_electric_energy gist:exponentOfSecond "-2"^^xsd:decimal .
+gistd:_UnitGroup_electric_energy gist:exponentOfSteradian "0"^^xsd:decimal .
+gistd:_UnitGroup_electric_energy gist:exponentOfUSDollar "0"^^xsd:decimal .
+gistd:_UnitGroup_electric_energy rdf:type gist:UnitGroup .
+gistd:_UnitGroup_electric_energy skos:prefLabel "units that measure electrical energy"^^xsd:string .
+gistd:_UnitGroup_electric_energy skos:scopeNote "kilogram meterSquared per secondSquared" .
 gistd:_UnitGroup_employee_er_share_multiplier gist:exponentOfAmpere "0"^^xsd:decimal .
 gistd:_UnitGroup_employee_er_share_multiplier gist:exponentOfBit "0"^^xsd:decimal .
 gistd:_UnitGroup_employee_er_share_multiplier gist:exponentOfCandela "0"^^xsd:decimal .
@@ -15417,7 +15417,7 @@ gistd:_UnitOfMeasure_item skos:definition "One item, when counting." .
 gistd:_UnitOfMeasure_item skos:prefLabel "item" .
 gistd:_UnitOfMeasure_joule gist:conversionFactor "1.0"^^xsd:decimal .
 gistd:_UnitOfMeasure_joule gist:isMemberOf gistd:_UnitGroup_amount_of_heat .
-gistd:_UnitOfMeasure_joule gist:isMemberOf gistd:_UnitGroup_electrical_energy .
+gistd:_UnitOfMeasure_joule gist:isMemberOf gistd:_UnitGroup_electric_energy .
 gistd:_UnitOfMeasure_joule gist:isMemberOf gistd:_UnitGroup_energy_or_work .
 gistd:_UnitOfMeasure_joule gist:isMemberOf gistd:_UnitGroup_ionization_energy .
 gistd:_UnitOfMeasure_joule gist:isMemberOf gistd:_UnitGroup_mechanical_energy .
@@ -16708,7 +16708,7 @@ gistd:_UnitOfMeasure_kilowatt skos:closeMatch <http://qudt.org/vocab/unit/KiloW>
 gistd:_UnitOfMeasure_kilowatt skos:prefLabel "kilowatt" .
 gistd:_UnitOfMeasure_kilowatt skos:scopeNote "1 kilowatt = 1000.0 x kilogram meterSquared per secondCubed" .
 gistd:_UnitOfMeasure_kilowatt_hour gist:conversionFactor "3600000.0"^^xsd:decimal .
-gistd:_UnitOfMeasure_kilowatt_hour gist:isMemberOf gistd:_UnitGroup_electrical_energy .
+gistd:_UnitOfMeasure_kilowatt_hour gist:isMemberOf gistd:_UnitGroup_electric_energy .
 gistd:_UnitOfMeasure_kilowatt_hour rdf:type gist:UnitOfMeasure .
 gistd:_UnitOfMeasure_kilowatt_hour skos:altLabel "kilowatt hours" .
 gistd:_UnitOfMeasure_kilowatt_hour skos:closeMatch <http://qudt.org/vocab/unit/KiloW> .
@@ -23228,7 +23228,7 @@ gistd:_UnitOfMeasure_watt skos:definition "from QUDT: Is part of the SI system."
 gistd:_UnitOfMeasure_watt skos:prefLabel "watt" .
 gistd:_UnitOfMeasure_watt skos:scopeNote "1 watt = 1.0 x kilogram meterSquared per secondCubed" .
 gistd:_UnitOfMeasure_watt_hour gist:conversionFactor "3600"^^xsd:decimal .
-gistd:_UnitOfMeasure_watt_hour gist:isMemberOf gistd:_UnitGroup_electrical_energy .
+gistd:_UnitOfMeasure_watt_hour gist:isMemberOf gistd:_UnitGroup_electric_energy .
 gistd:_UnitOfMeasure_watt_hour rdf:type gist:UnitOfMeasure .
 gistd:_UnitOfMeasure_watt_hour skos:altLabel "watt hour" .
 gistd:_UnitOfMeasure_watt_hour skos:closeMatch <http://qudt.org/vocab/unit/W-HR> .
