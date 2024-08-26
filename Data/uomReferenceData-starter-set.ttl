@@ -103,6 +103,11 @@
 <https://w3id.org/semanticarts/ns/data/gist/_Aspect_capacitance> <http://www.w3.org/2004/02/skos/core#prefLabel> "capacitance" .
 <https://w3id.org/semanticarts/ns/data/gist/_Aspect_capacitance> <https://w3id.org/semanticarts/ns/ontology/gist/hasUnitGroup> <https://w3id.org/semanticarts/ns/data/gist/_UnitGroup_capacitance> .
 <https://w3id.org/semanticarts/ns/data/gist/_Aspect_capacitance> <https://w3id.org/semanticarts/ns/ontology/gist/isCategorizedBy> <https://w3id.org/semanticarts/ns/data/gist/_Discipline_electricity_and_magnetism> .
+<https://w3id.org/semanticarts/ns/data/gist/_Aspect_cost> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/semanticarts/ns/ontology/gist/Aspect> .
+<https://w3id.org/semanticarts/ns/data/gist/_Aspect_cost> <http://www.w3.org/2004/02/skos/core#definition> "The expense incurred to purchase something or create a product or service." .
+<https://w3id.org/semanticarts/ns/data/gist/_Aspect_cost> <http://www.w3.org/2004/02/skos/core#prefLabel> "cost" .
+<https://w3id.org/semanticarts/ns/data/gist/_Aspect_cost> <https://w3id.org/semanticarts/ns/ontology/gist/hasUnitGroup> <https://w3id.org/semanticarts/ns/data/gist/_UnitGroup_monetary_value> .
+<https://w3id.org/semanticarts/ns/data/gist/_Aspect_cost> <https://w3id.org/semanticarts/ns/ontology/gist/isCategorizedBy> <https://w3id.org/semanticarts/ns/data/gist/_Discipline_finance> .
 <https://w3id.org/semanticarts/ns/data/gist/_Aspect_cycle_time> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/semanticarts/ns/ontology/gist/Aspect> .
 <https://w3id.org/semanticarts/ns/data/gist/_Aspect_cycle_time> <http://www.w3.org/2004/02/skos/core#definition> "The time a process takes to complete." .
 <https://w3id.org/semanticarts/ns/data/gist/_Aspect_cycle_time> <http://www.w3.org/2004/02/skos/core#prefLabel> "cycle time" .
@@ -351,6 +356,11 @@
 <https://w3id.org/semanticarts/ns/data/gist/_Aspect_power> <http://www.w3.org/2004/02/skos/core#prefLabel> "power" .
 <https://w3id.org/semanticarts/ns/data/gist/_Aspect_power> <https://w3id.org/semanticarts/ns/ontology/gist/hasUnitGroup> <https://w3id.org/semanticarts/ns/data/gist/_UnitGroup_power> .
 <https://w3id.org/semanticarts/ns/data/gist/_Aspect_power> <https://w3id.org/semanticarts/ns/ontology/gist/isCategorizedBy> <https://w3id.org/semanticarts/ns/data/gist/_Discipline_mechanics> .
+<https://w3id.org/semanticarts/ns/data/gist/_Aspect_price> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/semanticarts/ns/ontology/gist/Aspect> .
+<https://w3id.org/semanticarts/ns/data/gist/_Aspect_price> <http://www.w3.org/2004/02/skos/core#definition> "The amount of money a seller is asking buyers to pay for a product or service." .
+<https://w3id.org/semanticarts/ns/data/gist/_Aspect_price> <http://www.w3.org/2004/02/skos/core#prefLabel> "price" .
+<https://w3id.org/semanticarts/ns/data/gist/_Aspect_price> <https://w3id.org/semanticarts/ns/ontology/gist/hasUnitGroup> <https://w3id.org/semanticarts/ns/data/gist/_UnitGroup_monetary_value> .
+<https://w3id.org/semanticarts/ns/data/gist/_Aspect_price> <https://w3id.org/semanticarts/ns/ontology/gist/isCategorizedBy> <https://w3id.org/semanticarts/ns/data/gist/_Discipline_finance> .
 <https://w3id.org/semanticarts/ns/data/gist/_Aspect_probability> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/semanticarts/ns/ontology/gist/Aspect> .
 <https://w3id.org/semanticarts/ns/data/gist/_Aspect_probability> <http://www.w3.org/2004/02/skos/core#definition> "The aspect probability."^^<http://www.w3.org/2001/XMLSchema#string> .
 <https://w3id.org/semanticarts/ns/data/gist/_Aspect_probability> <http://www.w3.org/2004/02/skos/core#definition> "The likelihood of something occurring." .

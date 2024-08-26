@@ -910,6 +910,11 @@ gistd:_Aspect_correlated_colour_temperature rdfs:seeAlso "https://www.lrc.rpi.ed
 gistd:_Aspect_correlated_colour_temperature skos:closeMatch <http://qudt.org/vocab/quantitykind/CorrelatedColorTemperature> .
 gistd:_Aspect_correlated_colour_temperature skos:definition "from QUDT: Correlated color temperature (CCT) is a measure of light source color appearance defined by the proximity of the light source's chromaticity coordinates to the blackbody locus, as a single number rather than the two required to specify a chromaticity." .
 gistd:_Aspect_correlated_colour_temperature skos:prefLabel "correlated colour temperature" .
+gistd:_Aspect_cost gist:hasUnitGroup  gistd:_UnitGroup_monetary_value . 
+gistd:_Aspect_cost gist:isCategorizedBy gistd:_Discipline_finance . 
+gistd:_Aspect_cost rdf:type gist:Aspect . 
+gistd:_Aspect_cost skos:definition "The expense incurred to purchase something or create a product or service." . 
+gistd:_Aspect_cost skos:prefLabel "cost" . 
 gistd:_Aspect_cost_of_goods_sold gist:hasUnitGroup gistd:_UnitGroup_monetary_value_per_duration .
 gistd:_Aspect_cost_of_goods_sold gist:isCategorizedBy gistd:_Discipline_finance .
 gistd:_Aspect_cost_of_goods_sold rdf:type gist:Aspect .
@@ -4467,6 +4472,11 @@ gistd:_Aspect_pressure gist:isCategorizedBy gistd:_Discipline_mechanics .
 gistd:_Aspect_pressure rdf:type gist:Aspect .
 gistd:_Aspect_pressure skos:definition "Force per area" .
 gistd:_Aspect_pressure skos:prefLabel "pressure" .
+gistd:_Aspect_price gist:hasUnitGroup  gistd:_UnitGroup_monetary_value . 
+gistd:_Aspect_price gist:isCategorizedBy gistd:_Discipline_finance . 
+gistd:_Aspect_price rdf:type gist:Aspect . 
+gistd:_Aspect_price skos:definition "The amount of money a seller is asking buyers to pay for a product or service." . 
+gistd:_Aspect_price skos:prefLabel "price" . 
 gistd:_Aspect_probability gist:hasUnitGroup gistd:_UnitGroup_probability .
 gistd:_Aspect_probability gist:isCategorizedBy gistd:_Discipline_numeric .
 gistd:_Aspect_probability rdf:type gist:Aspect .
