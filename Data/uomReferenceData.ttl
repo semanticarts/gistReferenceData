@@ -231,7 +231,7 @@ gistd:_Aspect_amount_of_substance_per_mass_per_duration gist:hasUnitGroup gistd:
 gistd:_Aspect_amount_of_substance_per_mass_per_duration gist:isCategorizedBy gistd:_Discipline_biology .
 gistd:_Aspect_amount_of_substance_per_mass_per_duration gist:isCategorizedBy gistd:_Discipline_chemistry .
 gistd:_Aspect_amount_of_substance_per_mass_per_duration rdf:type gist:Aspect .
-gistd:_Aspect_amount_of_substance_per_mass_per_duration skos:prefLabel "amount of substance per mass per_duration" .
+gistd:_Aspect_amount_of_substance_per_mass_per_duration skos:prefLabel "amount of substance per mass per duration" .
 gistd:_Aspect_amount_of_substance_per_unit_mass gist:hasUnitGroup gistd:_UnitGroup_amount_of_substance_per_unit_mass .
 gistd:_Aspect_amount_of_substance_per_unit_mass gist:isCategorizedBy gistd:_Discipline_chemistry .
 gistd:_Aspect_amount_of_substance_per_unit_mass rdf:type gist:Aspect .
@@ -290,8 +290,8 @@ gistd:_Aspect_angular_cross_section rdf:type gist:Aspect .
 gistd:_Aspect_angular_cross_section rdfs:seeAlso "http://en.wikipedia.org/wiki/Cross_section_(physics)"^^xsd:anyURI .
 gistd:_Aspect_angular_cross_section rdfs:seeAlso "http://www.iso.org/iso/catalogue_detail?csnumber=31895"^^xsd:anyURI .
 gistd:_Aspect_angular_cross_section skos:closeMatch <http://qudt.org/vocab/quantitykind/AngularCrossSection> .
-gistd:_Aspect_angular_cross_section skos:definition "from QUDT: \"Angular Cross-section\" is the cross_section for ejecting or scattering a particle into an elementary cone, divided by the solid angle \\(d\\Omega\\) of that cone." .
-gistd:_Aspect_angular_cross_section skos:prefLabel "angular cross_section" .
+gistd:_Aspect_angular_cross_section skos:definition "from QUDT: \"Angular Cross-section\" is the cross section for ejecting or scattering a particle into an elementary cone, divided by the solid angle \\(d\\Omega\\) of that cone." .
+gistd:_Aspect_angular_cross_section skos:prefLabel "angular cross section" .
 gistd:_Aspect_angular_distance gist:hasUnitGroup gistd:_UnitGroup_angle .
 gistd:_Aspect_angular_distance gist:isCategorizedBy gistd:_Discipline_propulsion .
 gistd:_Aspect_angular_distance rdf:type gist:Aspect .
@@ -932,12 +932,12 @@ gistd:_Aspect_cross_section rdfs:seeAlso "http://en.wikipedia.org/wiki/Cross_sec
 gistd:_Aspect_cross_section rdfs:seeAlso "http://www.iso.org/iso/catalogue_detail?csnumber=31895"^^xsd:anyURI .
 gistd:_Aspect_cross_section skos:closeMatch <http://qudt.org/vocab/quantitykind/CrossSection> .
 gistd:_Aspect_cross_section skos:definition "from QUDT: \"Cross-section\" is used to express the likelihood of interaction between particles. For a specified target particle and for a specified reaction or process produced by incident charged or uncharged particles of specified type and energy, it is the mean number of such reactions or processes divided by the incident-particle fluence." .
-gistd:_Aspect_cross_section skos:prefLabel "cross_section" .
+gistd:_Aspect_cross_section skos:prefLabel "cross section" .
 gistd:_Aspect_cross_sectional_area gist:hasUnitGroup gistd:_UnitGroup_area .
 gistd:_Aspect_cross_sectional_area gist:isCategorizedBy gistd:_Discipline_space_and_time .
 gistd:_Aspect_cross_sectional_area rdf:type gist:Aspect .
 gistd:_Aspect_cross_sectional_area skos:closeMatch <http://qudt.org/vocab/quantitykind/CrossSectionalArea> .
-gistd:_Aspect_cross_sectional_area skos:prefLabel "cross_sectional area" .
+gistd:_Aspect_cross_sectional_area skos:prefLabel "cross sectional area" .
 gistd:_Aspect_cubic_electric_dipole_moment_per_square_energy gist:hasUnitGroup gistd:_UnitGroup_cubic_electric_dipole_moment_per_square_energy .
 gistd:_Aspect_cubic_electric_dipole_moment_per_square_energy gist:isCategorizedBy gistd:_Discipline_electricity_and_magnetism .
 gistd:_Aspect_cubic_electric_dipole_moment_per_square_energy rdf:type gist:Aspect .
@@ -1057,7 +1057,7 @@ gistd:_Aspect_delta_v rdf:type gist:Aspect .
 gistd:_Aspect_delta_v rdfs:seeAlso "http://en.wikipedia.org/wiki/Delta-v"^^xsd:anyURI .
 gistd:_Aspect_delta_v skos:closeMatch <http://qudt.org/vocab/quantitykind/DELTA-V> .
 gistd:_Aspect_delta_v skos:definition "from QUDT: The change in translational velocity including all losses for a propulsive system or module. Delta-V losses include, but are not limited to, gravity losses and steering losses." .
-gistd:_Aspect_delta_v skos:prefLabel "delta_v" .
+gistd:_Aspect_delta_v skos:prefLabel "delta v" .
 gistd:_Aspect_density gist:hasUnitGroup gistd:_UnitGroup_mass_density .
 gistd:_Aspect_density gist:isCategorizedBy gistd:_Discipline_acoustics, gistd:_Discipline_mechanics .
 gistd:_Aspect_density rdf:type gist:Aspect .
@@ -1890,7 +1890,7 @@ gistd:_Aspect_exit_plane_cross_sectional_area gist:isCategorizedBy gistd:_Discip
 gistd:_Aspect_exit_plane_cross_sectional_area rdf:type gist:Aspect .
 gistd:_Aspect_exit_plane_cross_sectional_area skos:closeMatch <http://qudt.org/vocab/quantitykind/ExitPlaneCrossSectionalArea> .
 gistd:_Aspect_exit_plane_cross_sectional_area skos:definition "from QUDT: Cross-sectional area at exit plane of nozzle" .
-gistd:_Aspect_exit_plane_cross_sectional_area skos:prefLabel "exit plane cross_sectional area" .
+gistd:_Aspect_exit_plane_cross_sectional_area skos:prefLabel "exit plane cross sectional area" .
 gistd:_Aspect_exit_plane_pressure gist:hasUnitGroup gistd:_UnitGroup_force_per_area .
 gistd:_Aspect_exit_plane_pressure gist:isCategorizedBy gistd:_Discipline_propulsion .
 gistd:_Aspect_exit_plane_pressure rdf:type gist:Aspect .
@@ -3088,8 +3088,8 @@ gistd:_Aspect_macroscopic_cross_section rdf:type gist:Aspect .
 gistd:_Aspect_macroscopic_cross_section rdfs:seeAlso "http://en.wikipedia.org/wiki/Cross_section_(physics)"^^xsd:anyURI .
 gistd:_Aspect_macroscopic_cross_section rdfs:seeAlso "http://www.iso.org/iso/catalogue_detail?csnumber=31895"^^xsd:anyURI .
 gistd:_Aspect_macroscopic_cross_section skos:closeMatch <http://qudt.org/vocab/quantitykind/MacroscopicCrossSection> .
-gistd:_Aspect_macroscopic_cross_section skos:definition "from QUDT: \"Macroscopic Cross-section\" is the sum of the cross_sections for a reaction or process of a specified type over all atoms or other entities in a given 3D domain, divided by the volume of that domain." .
-gistd:_Aspect_macroscopic_cross_section skos:prefLabel "macroscopic cross_section" .
+gistd:_Aspect_macroscopic_cross_section skos:definition "from QUDT: \"Macroscopic Cross-section\" is the sum of the cross sections for a reaction or process of a specified type over all atoms or other entities in a given 3D domain, divided by the volume of that domain." .
+gistd:_Aspect_macroscopic_cross_section skos:prefLabel "macroscopic cross section" .
 gistd:_Aspect_macroscopic_total_cross_section gist:isCategorizedBy gistd:_Discipline_atomic_physics .
 gistd:_Aspect_macroscopic_total_cross_section gist:hasUnitGroup gistd:_UnitGroup_area .
 gistd:_Aspect_macroscopic_total_cross_section gist:isCategorizedBy gistd:_Discipline_space_and_time .
@@ -3098,8 +3098,8 @@ gistd:_Aspect_macroscopic_total_cross_section rdfs:seeAlso "http://en.wikipedia.
 gistd:_Aspect_macroscopic_total_cross_section rdfs:seeAlso "http://en.wikipedia.org/wiki/Nuclear_cross_section"^^xsd:anyURI .
 gistd:_Aspect_macroscopic_total_cross_section rdfs:seeAlso "http://www.iso.org/iso/catalogue_detail?csnumber=31895"^^xsd:anyURI .
 gistd:_Aspect_macroscopic_total_cross_section skos:closeMatch <http://qudt.org/vocab/quantitykind/MacroscopicTotalCrossSection> .
-gistd:_Aspect_macroscopic_total_cross_section skos:definition "from QUDT: \"Macroscopic Total Cross-section\" is the total cross_sections for all atoms or other entities in a given 3D domain, divided by the volume of that domain." .
-gistd:_Aspect_macroscopic_total_cross_section skos:prefLabel "macroscopic total cross_section" .
+gistd:_Aspect_macroscopic_total_cross_section skos:definition "from QUDT: \"Macroscopic Total Cross-section\" is the total cross sections for all atoms or other entities in a given 3D domain, divided by the volume of that domain." .
+gistd:_Aspect_macroscopic_total_cross_section skos:prefLabel "macroscopic total cross section" .
 gistd:_Aspect_madelung_constant gist:hasUnitGroup gistd:_UnitGroup_number .
 gistd:_Aspect_madelung_constant gist:isCategorizedBy gistd:_Discipline_solid_state_physics .
 gistd:_Aspect_madelung_constant rdf:type gist:Aspect .
@@ -3950,7 +3950,7 @@ gistd:_Aspect_nozzle_throat_cross_sectional_area gist:isCategorizedBy gistd:_Dis
 gistd:_Aspect_nozzle_throat_cross_sectional_area rdf:type gist:Aspect .
 gistd:_Aspect_nozzle_throat_cross_sectional_area skos:closeMatch <http://qudt.org/vocab/quantitykind/NozzleThroatCrossSectionalArea> .
 gistd:_Aspect_nozzle_throat_cross_sectional_area skos:definition "from QUDT: Cross-sectional area of the nozzle at the throat." .
-gistd:_Aspect_nozzle_throat_cross_sectional_area skos:prefLabel "nozzle throat cross_sectional area" .
+gistd:_Aspect_nozzle_throat_cross_sectional_area skos:prefLabel "nozzle throat cross sectional area" .
 gistd:_Aspect_nozzle_throat_diameter gist:hasUnitGroup gistd:_UnitGroup_distance .
 gistd:_Aspect_nozzle_throat_diameter gist:isCategorizedBy gistd:_Discipline_propulsion .
 gistd:_Aspect_nozzle_throat_diameter rdf:type gist:Aspect .
@@ -4348,7 +4348,7 @@ gistd:_Aspect_polar_moment_of_inertia gist:isCategorizedBy gistd:_Discipline_mec
 gistd:_Aspect_polar_moment_of_inertia rdf:type gist:Aspect .
 gistd:_Aspect_polar_moment_of_inertia rdfs:seeAlso "http://en.wikipedia.org/wiki/Second_moment_of_area"^^xsd:anyURI .
 gistd:_Aspect_polar_moment_of_inertia skos:closeMatch <http://qudt.org/vocab/quantitykind/PolarMomentOfInertia> .
-gistd:_Aspect_polar_moment_of_inertia skos:definition "from QUDT: The polar moment of inertia is a quantity used to predict an object's ability to resist torsion, in objects (or segments of objects) with an invariant circular cross_section and no significant warping or out-of-plane deformation. It is used to calculate the angular displacement of an object subjected to a torque. It is analogous to the area moment of inertia, which characterizes an object's ability to resist bending. " .
+gistd:_Aspect_polar_moment_of_inertia skos:definition "from QUDT: The polar moment of inertia is a quantity used to predict an object's ability to resist torsion, in objects (or segments of objects) with an invariant circular cross section and no significant warping or out-of-plane deformation. It is used to calculate the angular displacement of an object subjected to a torque. It is analogous to the area moment of inertia, which characterizes an object's ability to resist bending. " .
 gistd:_Aspect_polar_moment_of_inertia skos:prefLabel "polar moment of inertia" .
 gistd:_Aspect_polarizability gist:hasUnitGroup gistd:_UnitGroup_polarizability .
 gistd:_Aspect_polarizability gist:isCategorizedBy gistd:_Discipline_electricity_and_magnetism .
@@ -4457,7 +4457,7 @@ gistd:_Aspect_practical_salinity gist:hasUnitGroup gistd:_UnitGroup_practical_sa
 gistd:_Aspect_practical_salinity gist:isCategorizedBy gistd:_Discipline_biology .
 gistd:_Aspect_practical_salinity gist:isCategorizedBy gistd:_Discipline_chemistry .
 gistd:_Aspect_practical_salinity rdf:type gist:Aspect .
-gistd:_Aspect_practical_salinity skos:prefLabel "practical_salinity" .
+gistd:_Aspect_practical_salinity skos:prefLabel "practical salinity" .
 gistd:_Aspect_predicted_mass gist:hasUnitGroup gistd:_UnitGroup_mass .
 gistd:_Aspect_predicted_mass gist:isCategorizedBy gistd:_Discipline_propulsion .
 gistd:_Aspect_predicted_mass rdf:type gist:Aspect .
@@ -4905,7 +4905,7 @@ gistd:_Aspect_second_moment_of_area gist:isCategorizedBy gistd:_Discipline_mecha
 gistd:_Aspect_second_moment_of_area rdf:type gist:Aspect .
 gistd:_Aspect_second_moment_of_area rdfs:seeAlso "http://en.wikipedia.org/wiki/Second_moment_of_area"^^xsd:anyURI .
 gistd:_Aspect_second_moment_of_area skos:closeMatch <http://qudt.org/vocab/quantitykind/SecondMomentOfArea> .
-gistd:_Aspect_second_moment_of_area skos:definition "from QUDT: The second moment of area is a property of a physical object that can be used to predict its resistance to bending and deflection. The deflection of an object under load depends not only on the load, but also on the geometry of the object's cross_section." .
+gistd:_Aspect_second_moment_of_area skos:definition "from QUDT: The second moment of area is a property of a physical object that can be used to predict its resistance to bending and deflection. The deflection of an object under load depends not only on the load, but also on the geometry of the object's cross section." .
 gistd:_Aspect_second_moment_of_area skos:prefLabel "second moment of area" .
 gistd:_Aspect_second_polar_moment_of_area gist:hasUnitGroup gistd:_UnitGroup_second_axial_moment_of_area .
 gistd:_Aspect_second_polar_moment_of_area gist:isCategorizedBy gistd:_Discipline_mechanics .
@@ -4933,7 +4933,7 @@ gistd:_Aspect_section_modulus rdf:type gist:Aspect .
 gistd:_Aspect_section_modulus rdfs:seeAlso "http://en.wikipedia.org/wiki/Section_modulus"^^xsd:anyURI .
 gistd:_Aspect_section_modulus rdfs:seeAlso "http://www.iso.org/iso/catalogue_detail?csnumber=31889"^^xsd:anyURI .
 gistd:_Aspect_section_modulus skos:closeMatch <http://qudt.org/vocab/quantitykind/SectionModulus> .
-gistd:_Aspect_section_modulus skos:definition "from QUDT: The Section Modulus is a geometric property for a given cross_section used in the design of beams or flexural members." .
+gistd:_Aspect_section_modulus skos:definition "from QUDT: The Section Modulus is a geometric property for a given cross section used in the design of beams or flexural members." .
 gistd:_Aspect_section_modulus skos:prefLabel "section modulus" .
 gistd:_Aspect_seebeck_coefficient gist:hasUnitGroup gistd:_UnitGroup_seebeck_coefficient .
 gistd:_Aspect_seebeck_coefficient gist:isCategorizedBy gistd:_Discipline_solid_state_physics .
@@ -5123,7 +5123,7 @@ gistd:_Aspect_sound_volume_velocity gist:isCategorizedBy gistd:_Discipline_acous
 gistd:_Aspect_sound_volume_velocity rdf:type gist:Aspect .
 gistd:_Aspect_sound_volume_velocity rdfs:seeAlso "http://en.wikipedia.org/wiki/Acoustic_impedance"^^xsd:anyURI .
 gistd:_Aspect_sound_volume_velocity skos:closeMatch <http://qudt.org/vocab/quantitykind/SoundVolumeVelocity> .
-gistd:_Aspect_sound_volume_velocity skos:definition "from QUDT: Sound Volume Velocity is the product of particle velocity \\(v\\) and the surface area \\(S\\) through which an acoustic wave of frequency \\(f\\) propagates. Also, the surface integral of the normal component of the sound particle velocity over the cross_section (through which the sound propagates). It is used to calculate acoustic impedance." .
+gistd:_Aspect_sound_volume_velocity skos:definition "from QUDT: Sound Volume Velocity is the product of particle velocity \\(v\\) and the surface area \\(S\\) through which an acoustic wave of frequency \\(f\\) propagates. Also, the surface integral of the normal component of the sound particle velocity over the cross section (through which the sound propagates). It is used to calculate acoustic impedance." .
 gistd:_Aspect_sound_volume_velocity skos:prefLabel "sound volume velocity" .
 gistd:_Aspect_source_voltage gist:hasUnitGroup gistd:_UnitGroup_energy_or_work_per_electric_charge .
 gistd:_Aspect_source_voltage gist:isCategorizedBy gistd:_Discipline_electricity_and_magnetism .
@@ -5301,8 +5301,8 @@ gistd:_Aspect_spectral_angular_cross_section rdf:type gist:Aspect .
 gistd:_Aspect_spectral_angular_cross_section rdfs:seeAlso "http://en.wikipedia.org/wiki/Cross_section_(physics)"^^xsd:anyURI .
 gistd:_Aspect_spectral_angular_cross_section rdfs:seeAlso "http://www.iso.org/iso/catalogue_detail?csnumber=31895"^^xsd:anyURI .
 gistd:_Aspect_spectral_angular_cross_section skos:closeMatch <http://qudt.org/vocab/quantitykind/SpectralAngularCrossSection> .
-gistd:_Aspect_spectral_angular_cross_section skos:definition "from QUDT: \"Spectral Angular Cross-section\" is the cross_section for ejecting or scattering a particle into an elementary cone with energy \\(E\\) in an energy interval, divided by the solid angle \\(d\\Omega\\) of that cone and the range \\(dE\\) of that interval." .
-gistd:_Aspect_spectral_angular_cross_section skos:prefLabel "spectral angular cross_section" .
+gistd:_Aspect_spectral_angular_cross_section skos:definition "from QUDT: \"Spectral Angular Cross-section\" is the cross section for ejecting or scattering a particle into an elementary cone with energy \\(E\\) in an energy interval, divided by the solid angle \\(d\\Omega\\) of that cone and the range \\(dE\\) of that interval." .
+gistd:_Aspect_spectral_angular_cross_section skos:prefLabel "spectral angular cross section" .
 gistd:_Aspect_spectral_cross_section gist:isCategorizedBy gistd:_Discipline_atomic_physics .
 gistd:_Aspect_spectral_cross_section gist:hasUnitGroup gistd:_UnitGroup_linear_compressibility .
 gistd:_Aspect_spectral_cross_section gist:isCategorizedBy gistd:_Discipline_optics .
@@ -5311,8 +5311,8 @@ gistd:_Aspect_spectral_cross_section rdf:type gist:Aspect .
 gistd:_Aspect_spectral_cross_section rdfs:seeAlso "http://en.wikipedia.org/wiki/Cross_section_(physics)"^^xsd:anyURI .
 gistd:_Aspect_spectral_cross_section rdfs:seeAlso "http://www.iso.org/iso/catalogue_detail?csnumber=31895"^^xsd:anyURI .
 gistd:_Aspect_spectral_cross_section skos:closeMatch <http://qudt.org/vocab/quantitykind/SpectralCrossSection> .
-gistd:_Aspect_spectral_cross_section skos:definition "from QUDT: \"Spectral Cross-section\" is the cross_section for a process in which the energy of the ejected or scattered particle is in an interval of energy, divided by the range \\(dE\\) of this interval." .
-gistd:_Aspect_spectral_cross_section skos:prefLabel "spectral cross_section" .
+gistd:_Aspect_spectral_cross_section skos:definition "from QUDT: \"Spectral Cross-section\" is the cross section for a process in which the energy of the ejected or scattered particle is in an interval of energy, divided by the range \\(dE\\) of this interval." .
+gistd:_Aspect_spectral_cross_section skos:prefLabel "spectral cross section" .
 gistd:_Aspect_spectral_luminous_efficiency gist:hasUnitGroup gistd:_UnitGroup_percentage .
 gistd:_Aspect_spectral_luminous_efficiency gist:isCategorizedBy gistd:_Discipline_radiometry, gistd:_Discipline_optics .
 gistd:_Aspect_spectral_luminous_efficiency rdf:type gist:Aspect .
@@ -5868,8 +5868,8 @@ gistd:_Aspect_total_cross_section rdf:type gist:Aspect .
 gistd:_Aspect_total_cross_section rdfs:seeAlso "http://en.wikipedia.org/wiki/Cross_section_(physics)"^^xsd:anyURI .
 gistd:_Aspect_total_cross_section rdfs:seeAlso "http://www.iso.org/iso/catalogue_detail?csnumber=31895"^^xsd:anyURI .
 gistd:_Aspect_total_cross_section skos:closeMatch <http://qudt.org/vocab/quantitykind/TotalCrossSection> .
-gistd:_Aspect_total_cross_section skos:definition "from QUDT: \"Total Cross-section\" is related to the absorbance of the light intensity through Beer-Lambert's law. It is the sum of all cross_sections corresponding to the various reactions or processes between an incident particle of specified type and energy and a target particle." .
-gistd:_Aspect_total_cross_section skos:prefLabel "total cross_section" .
+gistd:_Aspect_total_cross_section skos:definition "from QUDT: \"Total Cross-section\" is related to the absorbance of the light intensity through Beer-Lambert's law. It is the sum of all cross sections corresponding to the various reactions or processes between an incident particle of specified type and energy and a target particle." .
+gistd:_Aspect_total_cross_section skos:prefLabel "total cross section" .
 gistd:_Aspect_total_current gist:hasUnitGroup gistd:_UnitGroup_electric_current .
 gistd:_Aspect_total_current gist:isCategorizedBy gistd:_Discipline_electricity_and_magnetism .
 gistd:_Aspect_total_current rdf:type gist:Aspect .
@@ -6200,7 +6200,7 @@ gistd:_Aspect_work_function rdf:type gist:Aspect .
 gistd:_Aspect_work_function rdfs:seeAlso "http://en.wikipedia.org/wiki/Work_function"^^xsd:anyURI .
 gistd:_Aspect_work_function rdfs:seeAlso "http://www.iso.org/iso/catalogue_detail?csnumber=31897"^^xsd:anyURI .
 gistd:_Aspect_work_function skos:closeMatch <http://qudt.org/vocab/quantitykind/WorkFunction> .
-gistd:_Aspect_work_function skos:definition "from QUDT: \"Work Function\" is the energy difference between an electron at rest at infinity and an electron at a certain energy level. The minimum energy (usually measured in electron_volts) needed to remove an electron from a solid to a point immediately outside the solid surface (or energy needed to move an electron from the Fermi level into vacuum)." .
+gistd:_Aspect_work_function skos:definition "from QUDT: \"Work Function\" is the energy difference between an electron at rest at infinity and an electron at a certain energy level. The minimum energy (usually measured in electron volts) needed to remove an electron from a solid to a point immediately outside the solid surface (or energy needed to move an electron from the Fermi level into vacuum)." .
 gistd:_Aspect_work_function skos:prefLabel "work function" .
 gistd:_Aspect_worked_duration gist:hasUnitGroup gistd:_UnitGroup_duration .
 gistd:_Aspect_worked_duration gist:isCategorizedBy gistd:_Discipline_finance .
@@ -6639,7 +6639,7 @@ gistd:_UnitGroup_angular_velocity gist:exponentOfSecond "-1"^^xsd:decimal .
 gistd:_UnitGroup_angular_velocity gist:exponentOfSteradian "0.0"^^xsd:decimal .
 gistd:_UnitGroup_angular_velocity gist:exponentOfUSDollar "0"^^xsd:decimal .
 gistd:_UnitGroup_angular_velocity rdf:type gist:UnitGroup .
-gistd:_UnitGroup_angular_velocity skos:prefLabel "units that measure angular_velocity"^^xsd:string .
+gistd:_UnitGroup_angular_velocity skos:prefLabel "units that measure angular velocity"^^xsd:string .
 gistd:_UnitGroup_angular_velocity skos:scopeNote "radian per second" .
 gistd:_UnitGroup_area gist:exponentOfAmpere "0"^^xsd:decimal .
 gistd:_UnitGroup_area gist:exponentOfBit "0"^^xsd:decimal .
@@ -7986,7 +7986,7 @@ gistd:_UnitGroup_gravitational_constant gist:exponentOfSteradian "0.0"^^xsd:deci
 gistd:_UnitGroup_gravitational_constant gist:exponentOfUSDollar "0"^^xsd:decimal .
 gistd:_UnitGroup_gravitational_constant rdf:type gist:UnitGroup .
 gistd:_UnitGroup_gravitational_constant skos:prefLabel "units that measure gravitational constant"^^xsd:string .
-gistd:_UnitGroup_gravitational_constant skos:scopeNote "meterCubed_per_kilogram_secondSquared" .
+gistd:_UnitGroup_gravitational_constant skos:scopeNote "meterCubed per kilogram secondSquared" .
 gistd:_UnitGroup_half_value_distance gist:exponentOfAmpere "0"^^xsd:decimal .
 gistd:_UnitGroup_half_value_distance gist:exponentOfBit "0"^^xsd:decimal .
 gistd:_UnitGroup_half_value_distance gist:exponentOfCandela "0"^^xsd:decimal .
@@ -9953,7 +9953,7 @@ gistd:_UnitGroup_ratio_of_luminous_intensities gist:exponentOfSecond "0"^^xsd:de
 gistd:_UnitGroup_ratio_of_luminous_intensities gist:exponentOfSteradian "0.0"^^xsd:decimal .
 gistd:_UnitGroup_ratio_of_luminous_intensities gist:exponentOfUSDollar "0"^^xsd:decimal .
 gistd:_UnitGroup_ratio_of_luminous_intensities rdf:type gist:UnitGroup .
-gistd:_UnitGroup_ratio_of_luminous_intensities skos:prefLabel "units that measure degree_api"^^xsd:string .
+gistd:_UnitGroup_ratio_of_luminous_intensities skos:prefLabel "units that measure degree api"^^xsd:string .
 gistd:_UnitGroup_ratio_of_luminous_intensities skos:scopeNote "a ratio with units that cancel" .
 gistd:_UnitGroup_ratio_of_masses gist:exponentOfAmpere "0"^^xsd:decimal .
 gistd:_UnitGroup_ratio_of_masses gist:exponentOfBit "0"^^xsd:decimal .
@@ -10082,7 +10082,7 @@ gistd:_UnitGroup_relative_electromagnetic_permeability gist:exponentOfSecond "0"
 gistd:_UnitGroup_relative_electromagnetic_permeability gist:exponentOfSteradian "0.0"^^xsd:decimal .
 gistd:_UnitGroup_relative_electromagnetic_permeability gist:exponentOfUSDollar "0"^^xsd:decimal .
 gistd:_UnitGroup_relative_electromagnetic_permeability rdf:type gist:UnitGroup .
-gistd:_UnitGroup_relative_electromagnetic_permeability skos:prefLabel "units that measure relative_electromagnetic_permeability"^^xsd:string .
+gistd:_UnitGroup_relative_electromagnetic_permeability skos:prefLabel "units that measure relative electromagnetic permeability"^^xsd:string .
 gistd:_UnitGroup_relative_electromagnetic_permeability skos:scopeNote "a ratio with units that cancel" .
 gistd:_UnitGroup_relative_permeability gist:exponentOfAmpere "0"^^xsd:decimal .
 gistd:_UnitGroup_relative_permeability gist:exponentOfBit "0"^^xsd:decimal .
@@ -10098,7 +10098,7 @@ gistd:_UnitGroup_relative_permeability gist:exponentOfSecond "0"^^xsd:decimal .
 gistd:_UnitGroup_relative_permeability gist:exponentOfSteradian "0.0"^^xsd:decimal .
 gistd:_UnitGroup_relative_permeability gist:exponentOfUSDollar "0"^^xsd:decimal .
 gistd:_UnitGroup_relative_permeability rdf:type gist:UnitGroup .
-gistd:_UnitGroup_relative_permeability skos:prefLabel "units that measure relative_permeability"^^xsd:string .
+gistd:_UnitGroup_relative_permeability skos:prefLabel "units that measure relative permeability"^^xsd:string .
 gistd:_UnitGroup_relative_permeability skos:scopeNote "a ratio with units that cancel" .
 gistd:_UnitGroup_relative_permittivity gist:exponentOfAmpere "0"^^xsd:decimal .
 gistd:_UnitGroup_relative_permittivity gist:exponentOfBit "0"^^xsd:decimal .
@@ -10114,7 +10114,7 @@ gistd:_UnitGroup_relative_permittivity gist:exponentOfSecond "0"^^xsd:decimal .
 gistd:_UnitGroup_relative_permittivity gist:exponentOfSteradian "0.0"^^xsd:decimal .
 gistd:_UnitGroup_relative_permittivity gist:exponentOfUSDollar "0"^^xsd:decimal .
 gistd:_UnitGroup_relative_permittivity rdf:type gist:UnitGroup .
-gistd:_UnitGroup_relative_permittivity skos:prefLabel "units that measure relative_permittivity"^^xsd:string .
+gistd:_UnitGroup_relative_permittivity skos:prefLabel "units that measure relative permittivity"^^xsd:string .
 gistd:_UnitGroup_relative_permittivity skos:scopeNote "a ratio with units that cancel" .
 gistd:_UnitGroup_reluctance gist:exponentOfAmpere "2"^^xsd:decimal .
 gistd:_UnitGroup_reluctance gist:exponentOfBit "0"^^xsd:decimal .
@@ -12781,10 +12781,10 @@ gistd:_UnitOfMeasure_count skos:prefLabel "count" .
 gistd:_UnitOfMeasure_count_per_minute gist:conversionFactor "0.0166666666666"^^xsd:decimal .
 gistd:_UnitOfMeasure_count_per_minute gist:isMemberOf gistd:_UnitGroup_count_per_minute_duration .
 gistd:_UnitOfMeasure_count_per_minute rdf:type gist:UnitOfMeasure .
-gistd:_UnitOfMeasure_count_per_minute skos:altLabel "count_per_minute" .
+gistd:_UnitOfMeasure_count_per_minute skos:altLabel "count per minute" .
 gistd:_UnitOfMeasure_count_per_minute skos:definition "Count per minute." .
-gistd:_UnitOfMeasure_count_per_minute skos:prefLabel "counts_per_minute" .
-gistd:_UnitOfMeasure_count_per_minute skos:scopeNote "1 count_per_minute = 0.0166666666666 x number per second" .
+gistd:_UnitOfMeasure_count_per_minute skos:prefLabel "counts per minute" .
+gistd:_UnitOfMeasure_count_per_minute skos:scopeNote "1 count per minute = 0.0166666666666 x number per second" .
 gistd:_UnitOfMeasure_count_per_second_steradian gist:conversionFactor "1"^^xsd:decimal .
 gistd:_UnitOfMeasure_count_per_second_steradian gist:isMemberOf gistd:_UnitGroup_count_per_duration_solid_angle .
 gistd:_UnitOfMeasure_count_per_second_steradian rdf:type gist:UnitOfMeasure .
@@ -13916,19 +13916,19 @@ gistd:_UnitOfMeasure_electron_volt_second skos:scopeNote "1 electron volt second
 gistd:_UnitOfMeasure_electron_volt_per_angstrom gist:conversionFactor "0.000000001602176634"^^xsd:decimal .
 gistd:_UnitOfMeasure_electron_volt_per_angstrom gist:isMemberOf gistd:_UnitGroup_force .
 gistd:_UnitOfMeasure_electron_volt_per_angstrom rdf:type gist:UnitOfMeasure .
-gistd:_UnitOfMeasure_electron_volt_per_angstrom skos:altLabel "electron_volts per angstrom" .
+gistd:_UnitOfMeasure_electron_volt_per_angstrom skos:altLabel "electron volts per angstrom" .
 gistd:_UnitOfMeasure_electron_volt_per_angstrom skos:closeMatch <http://qudt.org/vocab/unit/EV-PER-ANGSTROM> .
-gistd:_UnitOfMeasure_electron_volt_per_angstrom skos:definition "from QUDT: unit electron_volt divided by the unit angstrom" .
-gistd:_UnitOfMeasure_electron_volt_per_angstrom skos:prefLabel "electron_volt per angstrom" .
-gistd:_UnitOfMeasure_electron_volt_per_angstrom skos:scopeNote "1 electron_volt per angstrom = 0.000000001602176634 x kilogram meter per secondSquared" .
+gistd:_UnitOfMeasure_electron_volt_per_angstrom skos:definition "from QUDT: unit electron volt divided by the unit angstrom" .
+gistd:_UnitOfMeasure_electron_volt_per_angstrom skos:prefLabel "electron volt per angstrom" .
+gistd:_UnitOfMeasure_electron_volt_per_angstrom skos:scopeNote "1 electron volt per angstrom = 0.000000001602176634 x kilogram meter per secondSquared" .
 gistd:_UnitOfMeasure_electron_volt_per_meter gist:conversionFactor "0.0000000000000000001602176634"^^xsd:decimal .
 gistd:_UnitOfMeasure_electron_volt_per_meter gist:isMemberOf gistd:_UnitGroup_force .
 gistd:_UnitOfMeasure_electron_volt_per_meter rdf:type gist:UnitOfMeasure .
-gistd:_UnitOfMeasure_electron_volt_per_meter skos:altLabel "electron_volts per meter" .
+gistd:_UnitOfMeasure_electron_volt_per_meter skos:altLabel "electron volts per meter" .
 gistd:_UnitOfMeasure_electron_volt_per_meter skos:closeMatch <http://qudt.org/vocab/unit/EV-PER-M> .
-gistd:_UnitOfMeasure_electron_volt_per_meter skos:definition "from QUDT: unit electron_volt divided by the SI base unit metre" .
-gistd:_UnitOfMeasure_electron_volt_per_meter skos:prefLabel "electron_volt per meter" .
-gistd:_UnitOfMeasure_electron_volt_per_meter skos:scopeNote "1 electron_volt per meter = 0.0000000000000000001602176634 x kilogram meter per secondSquared" .
+gistd:_UnitOfMeasure_electron_volt_per_meter skos:definition "from QUDT: unit electron volt divided by the SI base unit metre" .
+gistd:_UnitOfMeasure_electron_volt_per_meter skos:prefLabel "electron volt per meter" .
+gistd:_UnitOfMeasure_electron_volt_per_meter skos:scopeNote "1 electron volt per meter = 0.0000000000000000001602176634 x kilogram meter per secondSquared" .
 gistd:_UnitOfMeasure_elementary_charge gist:conversionFactor "0.0000000000000000001602176634"^^xsd:decimal .
 gistd:_UnitOfMeasure_elementary_charge gist:isMemberOf gistd:_UnitGroup_electric_charge .
 gistd:_UnitOfMeasure_elementary_charge gist:isMemberOf gistd:_UnitGroup_particle_charge .
@@ -22784,9 +22784,9 @@ gistd:_UnitOfMeasure_thing skos:definition "One thing." .
 gistd:_UnitOfMeasure_thing skos:prefLabel "thing" .
 gistd:_UnitOfMeasure_thm_eec gist:isMemberOf gistd:_UnitGroup_amount_of_heat .
 gistd:_UnitOfMeasure_thm_eec rdf:type gist:UnitOfMeasure .
-gistd:_UnitOfMeasure_thm_eec skos:altLabel "thm_eec" .
+gistd:_UnitOfMeasure_thm_eec skos:altLabel "thm eec" .
 gistd:_UnitOfMeasure_thm_eec skos:closeMatch <http://qudt.org/vocab/unit/THM_EEC> .
-gistd:_UnitOfMeasure_thm_eec skos:prefLabel "thm_eec" .
+gistd:_UnitOfMeasure_thm_eec skos:prefLabel "thm eec" .
 gistd:_UnitOfMeasure_ton_energy gist:conversionFactor "4184000000.0"^^xsd:decimal .
 gistd:_UnitOfMeasure_ton_energy gist:isMemberOf gistd:_UnitGroup_energy_or_work .
 gistd:_UnitOfMeasure_ton_energy gist:isMemberOf gistd:_UnitGroup_mechanical_energy .
@@ -23085,9 +23085,9 @@ gistd:_UnitOfMeasure_v_m skos:prefLabel "v-m" .
 gistd:_UnitOfMeasure_v_m skos:scopeNote "1 v-m = 1.0 x kilogram meterCubed per ampere secondCubed" .
 gistd:_UnitOfMeasure_v_stat_centim gist:isMemberOf gistd:_UnitGroup_electric_flux .
 gistd:_UnitOfMeasure_v_stat_centim rdf:type gist:UnitOfMeasure .
-gistd:_UnitOfMeasure_v_stat_centim skos:altLabel "v_stat-centim" .
+gistd:_UnitOfMeasure_v_stat_centim skos:altLabel "v stat centim" .
 gistd:_UnitOfMeasure_v_stat_centim skos:closeMatch <http://qudt.org/vocab/unit/V_Stat-CentiM> .
-gistd:_UnitOfMeasure_v_stat_centim skos:prefLabel "v_stat-centim" .
+gistd:_UnitOfMeasure_v_stat_centim skos:prefLabel "v stat centim" .
 gistd:_UnitOfMeasure_volt gist:conversionFactor "1.0"^^xsd:decimal .
 gistd:_UnitOfMeasure_volt gist:isMemberOf gistd:_UnitGroup_energy_or_work_per_electric_charge .
 gistd:_UnitOfMeasure_volt rdf:type gist:UnitOfMeasure .
