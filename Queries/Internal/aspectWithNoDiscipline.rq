@@ -1,0 +1,16 @@
+# find aspects that are not categorized by discipline
+
+select distinct ?aspect ?discipline
+
+where {
+  
+  ?aspect rdf:type gist:Aspect .
+  
+  ?narrowerAspect gist:hasBroader* ?aspect .
+  
+  filter not exists {?narrowerAspect gist:isCategorizedBy ?discipline .}
+   
+
+  
+  }
+order by ?aspect 

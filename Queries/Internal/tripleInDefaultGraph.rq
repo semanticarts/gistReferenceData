@@ -1,0 +1,10 @@
+# look for triples in default graph (they should all be in named graphs)
+
+select ?s ?p ?o
+
+where {
+  {?s ?p ?o .}
+  minus
+  {graph ?g {?s ?p ?o .}}
+  }
+

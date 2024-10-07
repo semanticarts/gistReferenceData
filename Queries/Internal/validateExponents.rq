@@ -1,0 +1,35 @@
+# validate that exponents match what is in QUDT, when QUDT dimension vector is available
+
+select ?unitGroup ?definition
+
+where {
+
+  ?unitGroup rdf:type gist:UnitGroup ;
+             skos:definition ?definition ;
+             gist:exponentOfAmpere    ?exponentOfAmpere    ;
+             gist:exponentOfBit       ?exponentOfBit       ;
+             gist:exponentOfCandela   ?exponentOfCandela   ;
+             gist:exponentOfKelvin    ?exponentOfKelvin    ;
+             gist:exponentOfKilogram  ?exponentOfKilogram  ;
+             gist:exponentOfMeter     ?exponentOfMeter     ;
+             gist:exponentOfMole      ?exponentOfMole      ;
+             gist:exponentOfNumber    ?exponentOfNumber    ;
+             gist:exponentOfOther     ?exponentOfOther     ;
+             gist:exponentOfRadian    ?exponentOfRadian    ;
+             gist:exponentOfSecond    ?exponentOfSecond    ;
+             gist:exponentOfSteradian ?exponentOfSteradian ;
+             gist:exponentOfUSDollar  ?exponentOfUSDollar  ;
+             .
+
+filter not exists {
+   filter(contains(?definition, concat("E", str(xsd:int(?exponentOfAmpere)))))
+   filter(contains(?definition, concat("I", str(xsd:int(?exponentOfCandela)))))
+   filter(contains(?definition, concat("H", str(xsd:int(?exponentOfKelvin)))))
+   filter(contains(?definition, concat("M", str(xsd:int(?exponentOfKilogram)))))
+   filter(contains(?definition, concat("L", str(xsd:int(?exponentOfMeter)))))
+   filter(contains(?definition, concat("A", str(xsd:int(?exponentOfMole)))))
+   filter(contains(?definition, concat("T", str(xsd:int(?exponentOfSecond)))))
+   }
+}
+order by ?unitGroup
+

@@ -1,0 +1,73 @@
+# extract entries the client will be using
+# modify the input section to include the aspects and units of measure the client wants to use
+
+# note: sequence of clauses in the union is important
+
+# select distinct ?unitGroup ?unitGroupPredicate ?unitGroupObject
+
+construct {
+  ?unitOfMeasure ?unitOfMeasurePredicate ?unitOfMeasureObject .  
+  ?category      ?categoryPredicate      ?categoryObject .  
+  ?unitGroup     ?unitGroupPredicate     ?unitGroupObject .
+  ?broaderAspect ?broaderAspectPredicate ?broaderAspectObject .
+  }
+
+where {
+
+# input is a list of Aspects and a list of Units the client will be using
+
+  values ?aspect {
+
+         gistd:_Aspect_actual_pay_rate
+         gistd:_Aspect_base_pay_rate
+         gistd:_Aspect_billing_rate 
+         gistd:_Aspect_budget
+         gistd:_Aspect_duration
+         gistd:_Aspect_earned_revenue
+         gistd:_Aspect_earned_revenue_adjustment
+         gistd:_Aspect_employee_er_share_multiplier
+         gistd:_Aspect_financial_balance
+         gistd:_Aspect_labor_consumption_rate
+         gistd:_Aspect_monetary_value
+         gistd:_Aspect_monetary_value_per_duration
+         gistd:_Aspect_paid_hours
+         gistd:_Aspect_paid_time_off
+         gistd:_Aspect_worked_hours
+         gistd:_Aspect_write_off
+         }
+    
+# reference data for the units
+  {
+   values ?unitOfMeasure {
+
+         gistd:_UnitOfMeasure_day_per_week
+         gistd:_UnitOfMeasure_decimal
+         gistd:_UnitOfMeasure_hour
+         gistd:_UnitOfMeasure_hour_per_week
+         gistd:_UnitOfMeasure_US_dollar_per_day  
+         gistd:_UnitOfMeasure_US_dollar_per_hour 
+         }
+    
+    ?unitOfMeasure ?unitOfMeasurePredicate ?unitOfMeasureObject .}
+   
+# reference data for the categories
+  union {
+  ?aspect gist:hasBroader* ?broaderAspect .
+  ?broaderAspect gist:isCategorizedBy ?category .
+  ?category ?categoryPredicate ?categoryObject .
+  }
+
+# reference data for the unit groups
+  union {
+  ?aspect gist:hasBroader* ?broaderAspect .
+  ?broaderAspect gist:hasUnitGroup ?unitGroup .
+  ?unitGroup ?unitGroupPredicate ?unitGroupObject .
+  }
+  
+# reference data for the aspects and broader aspects
+  union {
+  ?aspect gist:hasBroader* ?broaderAspect .
+  ?broaderAspect ?broaderAspectPredicate ?broaderAspectObject .
+  }  
+}
+
