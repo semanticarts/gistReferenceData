@@ -423,7 +423,7 @@ gistd:_Aspect_atmospheric_pressure skos:prefLabel "atmospheric pressure" .
 gistd:_Aspect_atom_scattering_factor gist:hasUnitGroup gistd:_UnitGroup_ratio .
 gistd:_Aspect_atom_scattering_factor gist:isCategorizedBy gistd:_Discipline_solid_state_physics .
 gistd:_Aspect_atom_scattering_factor rdf:type gist:Aspect .
-gistd:_Aspect_atom_scattering_factor rdfs:seeAlso "https://reference.iucr.org/dictionary/Atomic_scattering_factor"^^xsd:anyURI .
+gistd:_Aspect_atom_scattering_factor rdfs:seeAlso "http://reference.iucr.org/dictionary/Atomic_scattering_factor"^^xsd:anyURI .
 gistd:_Aspect_atom_scattering_factor rdfs:seeAlso "https://www.iso.org/iso/catalogue_detail?csnumber=31897"^^xsd:anyURI .
 gistd:_Aspect_atom_scattering_factor skos:closeMatch <http://qudt.org/vocab/quantitykind/AtomScatteringFactor> .
 gistd:_Aspect_atom_scattering_factor skos:definition "from QUDT: \"Atom Scattering Factor\" is measure of the scattering power of an isolated atom." .
@@ -561,7 +561,6 @@ gistd:_Aspect_blood_glucose_level gist:hasUnitGroup gistd:_UnitGroup_blood_gluco
 gistd:_Aspect_blood_glucose_level gist:isCategorizedBy gistd:_Discipline_medicine, gistd:_Discipline_biology .
 gistd:_Aspect_blood_glucose_level rdf:type gist:Aspect .
 gistd:_Aspect_blood_glucose_level rdfs:comment "citation: https://en.wikipedia.org/wiki/Blood_sugar_level" .
-gistd:_Aspect_blood_glucose_level rdfs:seeAlso "https://www.faqs.org/faqs/diabetes/faq/part1/section-9.html"^^xsd:anyURI .
 gistd:_Aspect_blood_glucose_level skos:closeMatch <http://qudt.org/vocab/quantitykind/BloodGlucoseLevel> .
 gistd:_Aspect_blood_glucose_level skos:definition "from QUDT: The blood sugar level, blood sugar concentration, or blood glucose level is the amount of glucose present in the blood of humans and other animals. Glucose is a simple sugar and approximately 4 grams of glucose are present in the blood of humans at all times. The body tightly regulates blood glucose levels as a part of metabolic homeostasis. Glucose is stored in skeletal muscle and liver cells in the form of glycogen;[2] in fasted individuals, blood glucose is maintained at a constant level at the expense of glycogen stores in the liver and skeletal muscle. [Wikipedia] \\(\\\\\\) There are two main methods of describing concentrations: by weight, and by molecular count. Weights are in grams, molecular counts in moles. A mole is \\(6.022\\times 10^{23}\\) molecules.) In both cases, the unit is usually modified by \\(milli-\\) or \\(micro-\\) or other prefix, and is always \\(per\\) some volume, often a liter. Conversion factors depend on the molecular weight of the substance in question. \\(\\\\\\) \\(mmol/L\\) is millimoles/liter, and is the world standard unit for measuring glucose in blood. Specifically, it is the designated SI (Systeme International) unit. 'World standard' is not universal; not only the US but a number of other countries use mg/dl. A mole is about \\(6\\times 10^{23}\\) molecules. \\(\\\\\\) \\(mg/dL\\) (milligrams/deciliter) is the traditional unit for measuring bG (blood glucose). There is a trend toward using \\(mmol/L\\) however mg/dL is much in practice. Some use is made of \\(mmol/L\\) as the primary unit with \\(mg/dL\\) quoted in parentheses. This acknowledges the large base of health care providers, researchers and patients who are already familiar with \\(mg/dL|)." .
 gistd:_Aspect_blood_glucose_level skos:prefLabel "blood glucose level" .
@@ -569,7 +568,6 @@ gistd:_Aspect_blood_glucose_level_by_mass gist:hasUnitGroup gistd:_UnitGroup_blo
 gistd:_Aspect_blood_glucose_level_by_mass gist:isCategorizedBy gistd:_Discipline_medicine, gistd:_Discipline_biology .
 gistd:_Aspect_blood_glucose_level_by_mass rdf:type gist:Aspect .
 gistd:_Aspect_blood_glucose_level_by_mass rdfs:comment "citation: https://en.wikipedia.org/wiki/Blood_sugar_level" .
-gistd:_Aspect_blood_glucose_level_by_mass rdfs:seeAlso "https://www.faqs.org/faqs/diabetes/faq/part1/section-9.html"^^xsd:anyURI .
 gistd:_Aspect_blood_glucose_level_by_mass skos:closeMatch <http://qudt.org/vocab/quantitykind/BloodGlucoseLevelMass> .
 gistd:_Aspect_blood_glucose_level_by_mass skos:definition "from QUDT: The blood sugar level, blood sugar concentration, or blood glucose level is the amount of glucose present in the blood of humans and other animals. Glucose is a simple sugar and approximately 4 grams of glucose are present in the blood of humans at all times. The body tightly regulates blood glucose levels as a part of metabolic homeostasis. Glucose is stored in skeletal muscle and liver cells in the form of glycogen;[2] in fasted individuals, blood glucose is maintained at a constant level at the expense of glycogen stores in the liver and skeletal muscle. [Wikipedia] \\(\\\\\\) There are two main methods of describing concentrations: by weight, and by molecular count. Weights are in grams, molecular counts in moles. A mole is \\(6.022\\times 10^{23}\\) molecules.) In both cases, the unit is usually modified by \\(milli-\\) or \\(micro-\\) or other prefix, and is always \\(per\\) some volume, often a liter. Conversion factors depend on the molecular weight of the substance in question. \\(\\\\\\) \\(mmol/L\\) is millimoles/liter, and is the world standard unit for measuring glucose in blood. Specifically, it is the designated SI (Systeme International) unit. 'World standard' is not universal; not only the US but a number of other countries use mg/dl. A mole is about \\(6\\times 10^{23}\\) molecules. \\(\\\\\\) \\(mg/dL\\) (milligrams/deciliter) is the traditional unit for measuring bG (blood glucose). There is a trend toward using \\(mmol/L\\) however mg/dL is much in practice. Some use is made of \\(mmol/L\\) as the primary unit with \\(mg/dL\\) quoted in parentheses. This acknowledges the large base of health care providers, researchers and patients who are already familiar with \\(mg/dL|)." .
 gistd:_Aspect_blood_glucose_level_by_mass skos:prefLabel "blood glucose level by mass" .
@@ -594,7 +592,7 @@ gistd:_Aspect_boiling_point_temperature skos:prefLabel "boiling point temperatur
 gistd:_Aspect_bragg_angle gist:hasUnitGroup gistd:_UnitGroup_angle .
 gistd:_Aspect_bragg_angle gist:isCategorizedBy gistd:_Discipline_solid_state_physics .
 gistd:_Aspect_bragg_angle rdf:type gist:Aspect .
-gistd:_Aspect_bragg_angle rdfs:seeAlso "https://reference.iucr.org/dictionary/Bragg_angle"^^xsd:anyURI .
+gistd:_Aspect_bragg_angle rdfs:seeAlso "http://reference.iucr.org/dictionary/Bragg_angle"^^xsd:anyURI .
 gistd:_Aspect_bragg_angle rdfs:seeAlso "https://www.iso.org/iso/catalogue_detail?csnumber=31897"^^xsd:anyURI .
 gistd:_Aspect_bragg_angle skos:closeMatch <http://qudt.org/vocab/quantitykind/BraggAngle> .
 gistd:_Aspect_bragg_angle skos:definition "from QUDT: \"Bragg Angle\" describes the condition for a plane wave to be diffracted from a family of lattice planes, the angle between the wavevector of the incident plane wave, and the lattice planes." .
@@ -1378,7 +1376,7 @@ gistd:_Aspect_efficiency skos:prefLabel "efficiency" .
 gistd:_Aspect_einstein_transition_probability gist:hasUnitGroup gistd:_UnitGroup_probability .
 gistd:_Aspect_einstein_transition_probability gist:isCategorizedBy gistd:_Discipline_radiometry .
 gistd:_Aspect_einstein_transition_probability rdf:type gist:Aspect .
-gistd:_Aspect_einstein_transition_probability rdfs:seeAlso "https://electron6.phys.utk.edu/qm2/modules/m10/einstein.htm"^^xsd:anyURI .
+gistd:_Aspect_einstein_transition_probability rdfs:seeAlso "http://electron6.phys.utk.edu/qm2/modules/m10/einstein.htm"^^xsd:anyURI .
 gistd:_Aspect_einstein_transition_probability skos:closeMatch <http://qudt.org/vocab/quantitykind/EinsteinTransitionProbability> .
 gistd:_Aspect_einstein_transition_probability skos:definition "from QUDT: Given two atomic states of energy \\(E_j\\) and \\(E_k\\). Let \\(E_j > E_k\\). Assume the atom is bathed in radiation of energy density \\(u(w)\\). Transitions between these states can take place in three different ways. Spontaneous, induced/stimulated emission, and induced absorption. \\(A_jk\\) represents the Einstein transition probability for spontaneous emission." .
 gistd:_Aspect_einstein_transition_probability skos:prefLabel "einstein transition probability" .
@@ -2281,7 +2279,6 @@ gistd:_Aspect_head_end_pressure skos:prefLabel "head end pressure" .
 gistd:_Aspect_heart_rate gist:hasUnitGroup gistd:_UnitGroup_count_per_minute_duration .
 gistd:_Aspect_heart_rate gist:isCategorizedBy gistd:_Discipline_biology, gistd:_Discipline_medicine .
 gistd:_Aspect_heart_rate rdf:type gist:Aspect .
-gistd:_Aspect_heart_rate rdfs:seeAlso "https://www.medterms.com/script/main/art.asp?articlekey=3674"^^xsd:anyURI .
 gistd:_Aspect_heart_rate rdfs:seeAlso "https://www.oxfordreference.com/view/10.1093/oi/authority.20110803100354463"^^xsd:anyURI .
 gistd:_Aspect_heart_rate skos:closeMatch <http://qudt.org/vocab/quantitykind/HeartRate> .
 gistd:_Aspect_heart_rate skos:definition "from QUDT: The number of heartbeats per unit of time, usually per minute. The heart rate is based on the number of contractions of the ventricles (the lower chambers of the heart). The heart rate may be too fast (tachycardia) or too slow (bradycardia). The average adult pulse rate at rest is 60–80 per minute, but exercise, injury, illness, and emotion may produce much faster rates." .
@@ -3602,7 +3599,7 @@ gistd:_Aspect_mobility skos:prefLabel "mobility" .
 gistd:_Aspect_mobility_ratio gist:hasUnitGroup gistd:_UnitGroup_ratio .
 gistd:_Aspect_mobility_ratio gist:isCategorizedBy gistd:_Discipline_solid_state_physics .
 gistd:_Aspect_mobility_ratio rdf:type gist:Aspect .
-gistd:_Aspect_mobility_ratio rdfs:seeAlso "https://baervan.nmt.edu/Reservoir%20Sweep%20improvement%20HomePage.html"^^xsd:anyURI .
+gistd:_Aspect_mobility_ratio rdfs:seeAlso "http://baervan.nmt.edu/Reservoir%20Sweep%20Improvement%20HomePage.html"^^xsd:anyURI .
 gistd:_Aspect_mobility_ratio rdfs:seeAlso "https://www.iso.org/iso/catalogue_detail?csnumber=31897"^^xsd:anyURI .
 gistd:_Aspect_mobility_ratio skos:closeMatch <http://qudt.org/vocab/quantitykind/MobilityRatio> .
 gistd:_Aspect_mobility_ratio skos:definition "from QUDT: \"MobilityRatio\" describes permeability of a porous material to a given phase divided by the viscosity of that phase." .
@@ -3674,7 +3671,7 @@ gistd:_Aspect_molar_absorption_coefficient skos:prefLabel "molar absorption coef
 gistd:_Aspect_molar_angular_momentum gist:hasUnitGroup gistd:_UnitGroup_molar_angular_momentum .
 gistd:_Aspect_molar_angular_momentum gist:isCategorizedBy gistd:_Discipline_mechanics .
 gistd:_Aspect_molar_angular_momentum rdf:type gist:Aspect .
-gistd:_Aspect_molar_angular_momentum rdfs:seeAlso "https://cvika.grimoar.cz/callen/callen_21.pdf"^^xsd:anyURI .
+gistd:_Aspect_molar_angular_momentum rdfs:seeAlso "http://cvika.grimoar.cz/callen/callen_21.pdf"^^xsd:anyURI .
 gistd:_Aspect_molar_angular_momentum skos:closeMatch <http://qudt.org/vocab/quantitykind/MolarAngularMomentum> .
 gistd:_Aspect_molar_angular_momentum skos:prefLabel "molar angular momentum" .
 gistd:_Aspect_molar_attenuation_coefficient gist:hasUnitGroup gistd:_UnitGroup_molar_absorption_coefficient .
@@ -4228,7 +4225,6 @@ gistd:_Aspect_permittivity gist:hasUnitGroup gistd:_UnitGroup_permittivity .
 gistd:_Aspect_permittivity gist:isCategorizedBy gistd:_Discipline_electricity_and_magnetism .
 gistd:_Aspect_permittivity rdf:type gist:Aspect .
 gistd:_Aspect_permittivity rdfs:seeAlso "https://en.wikipedia.org/wiki/Permittivity"^^xsd:anyURI .
-gistd:_Aspect_permittivity rdfs:seeAlso "https://maxwells-equations.com/materials/permittivity.php"^^xsd:anyURI .
 gistd:_Aspect_permittivity rdfs:seeAlso "https://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.htm?csnumber=31891"^^xsd:anyURI .
 gistd:_Aspect_permittivity skos:closeMatch <http://qudt.org/vocab/quantitykind/Permittivity> .
 gistd:_Aspect_permittivity skos:definition "from QUDT: \"Permittivity\" is a physical quantity that describes how an electric field affects, and is affected by a dielectric medium, and is determined by the ability of a material to polarize in response to the field, and thereby reduce the total electric field inside the material. Permittivity is often a scalar valued quantity, however in the general case it is tensor-valued." .
@@ -5437,7 +5433,7 @@ gistd:_Aspect_stoichiometric_number skos:prefLabel "stoichiometric number" .
 gistd:_Aspect_strain gist:hasUnitGroup gistd:_UnitGroup_ratio .
 gistd:_Aspect_strain gist:isCategorizedBy gistd:_Discipline_mechanics .
 gistd:_Aspect_strain rdf:type gist:Aspect .
-gistd:_Aspect_strain rdfs:seeAlso "https://www.freestudy.co.uk/mech%20prin%20h2/stress.pdf"^^xsd:anyURI .
+gistd:_Aspect_strain rdfs:seeAlso "https://en.wikipedia.org/wiki/Strain_(mechanics)"^^xsd:anyURI .
 gistd:_Aspect_strain skos:closeMatch <http://qudt.org/vocab/quantitykind/Strain> .
 gistd:_Aspect_strain skos:definition "from QUDT: In any branch of science dealing with materials and their behaviour, strain is the geometrical expression of deformation caused by the action of stress on a physical body. Strain is calculated by first assuming a change between two body states: the beginning state and the final state. Then the difference in placement of two points in this body in those two states expresses the numerical value of strain. Strain therefore expresses itself as a change in size and/or shape. [Wikipedia]" .
 gistd:_Aspect_strain skos:prefLabel "strain" .
@@ -5450,7 +5446,7 @@ gistd:_Aspect_strain_energy_density skos:prefLabel "strain energy density" .
 gistd:_Aspect_stress gist:hasUnitGroup gistd:_UnitGroup_force_per_area .
 gistd:_Aspect_stress gist:isCategorizedBy gistd:_Discipline_mechanics .
 gistd:_Aspect_stress rdf:type gist:Aspect .
-gistd:_Aspect_stress rdfs:seeAlso "https://www.freestudy.co.uk/mech%20prin%20h2/stress.pdf"^^xsd:anyURI .
+gistd:_Aspect_stress rdfs:seeAlso "https://en.wikipedia.org/wiki/Stress_(mechanics)"^^xsd:anyURI .
 gistd:_Aspect_stress skos:closeMatch <http://qudt.org/vocab/quantitykind/Stress> .
 gistd:_Aspect_stress skos:definition "from QUDT: Stress is a measure of the average amount of force exerted per unit area of a surface within a deformable body on which internal forces act. In other words, it is a measure of the intensity or internal distribution of the total internal forces acting within a deformable body across imaginary surfaces. These internal forces are produced between the particles in the body as a reaction to external forces applied on the body. Stress is defined as \\({\\rm{Stress}} = \\frac{F}{A}\\)." .
 gistd:_Aspect_stress skos:prefLabel "stress" .
@@ -11156,7 +11152,6 @@ gistd:_UnitOfMeasure_abampere gist:conversionFactor "10.0"^^xsd:decimal .
 gistd:_UnitOfMeasure_abampere gist:isMemberOf gistd:_UnitGroup_electric_current .
 gistd:_UnitOfMeasure_abampere rdf:type gist:UnitOfMeasure .
 gistd:_UnitOfMeasure_abampere rdfs:seeAlso "https://en.wikipedia.org/wiki/Abampere"^^xsd:anyURI .
-gistd:_UnitOfMeasure_abampere rdfs:seeAlso "https://wordinfo.info/results/abampere"^^xsd:anyURI .
 gistd:_UnitOfMeasure_abampere rdfs:seeAlso "https://www.oxfordreference.com/view/10.1093/acref/9780198605225.001.0001/acref-9780198605225-e-13?rskey=i2kRRz"^^xsd:anyURI .
 gistd:_UnitOfMeasure_abampere skos:altLabel "abamperes" .
 gistd:_UnitOfMeasure_abampere skos:closeMatch <http://qudt.org/vocab/unit/A_Ab> .
@@ -11461,7 +11456,7 @@ gistd:_UnitOfMeasure_arcsecond skos:prefLabel "arcsecond" .
 gistd:_UnitOfMeasure_are gist:conversionFactor "100.0"^^xsd:decimal .
 gistd:_UnitOfMeasure_are gist:isMemberOf gistd:_UnitGroup_area .
 gistd:_UnitOfMeasure_are rdf:type gist:UnitOfMeasure .
-gistd:_UnitOfMeasure_are rdfs:seeAlso "https://www.anidatech.com/units.html"^^xsd:anyURI .
+gistd:_UnitOfMeasure_are rdfs:seeAlso "http://www.anidatech.com/units.html"^^xsd:anyURI .
 gistd:_UnitOfMeasure_are skos:altLabel "ares" .
 gistd:_UnitOfMeasure_are skos:closeMatch <http://qudt.org/vocab/unit/ARE> .
 gistd:_UnitOfMeasure_are skos:prefLabel "are" .
@@ -19978,7 +19973,7 @@ gistd:_UnitOfMeasure_part_per_billion_per_second skos:scopeNote "1 part per bill
 gistd:_UnitOfMeasure_part_per_million gist:conversionFactor "1.0"^^xsd:decimal .
 gistd:_UnitOfMeasure_part_per_million gist:isMemberOf gistd:_UnitGroup_concentration .
 gistd:_UnitOfMeasure_part_per_million rdf:type gist:UnitOfMeasure .
-gistd:_UnitOfMeasure_part_per_million rdfs:seeAlso "https://aurora.regenstrief.org/~ucum/ucum.html#section-Derived-Unit-Atoms"^^xsd:anyURI .
+gistd:_UnitOfMeasure_part_per_million rdfs:seeAlso "https://ucum.org/ucum#section-Customary-Unit-Atoms"^^xsd:anyURI .
 gistd:_UnitOfMeasure_part_per_million skos:altLabel "parts per million" .
 gistd:_UnitOfMeasure_part_per_million skos:closeMatch <http://qudt.org/vocab/unit/PPM> .
 gistd:_UnitOfMeasure_part_per_million skos:prefLabel "part per million" .
@@ -20004,7 +19999,7 @@ gistd:_UnitOfMeasure_part_per_ten_million_per_second skos:scopeNote "1 part per 
 gistd:_UnitOfMeasure_part_per_thousand gist:conversionFactor "1000.0"^^xsd:decimal .
 gistd:_UnitOfMeasure_part_per_thousand gist:isMemberOf gistd:_UnitGroup_concentration .
 gistd:_UnitOfMeasure_part_per_thousand rdf:type gist:UnitOfMeasure .
-gistd:_UnitOfMeasure_part_per_thousand rdfs:seeAlso "https://aurora.regenstrief.org/~ucum/ucum.html#section-Derived-Unit-Atoms"^^xsd:anyURI .
+gistd:_UnitOfMeasure_part_per_million rdfs:seeAlso "https://ucum.org/ucum#section-Customary-Unit-Atoms"^^xsd:anyURI .
 gistd:_UnitOfMeasure_part_per_thousand skos:altLabel "parts per thousand" .
 gistd:_UnitOfMeasure_part_per_thousand skos:closeMatch <http://qudt.org/vocab/unit/PPTH> .
 gistd:_UnitOfMeasure_part_per_thousand skos:prefLabel "parts per thousand" .
@@ -20030,7 +20025,7 @@ gistd:_UnitOfMeasure_part_per_thousand_per_second skos:scopeNote "1 part per tho
 gistd:_UnitOfMeasure_part_per_trillion gist:conversionFactor "0.000001"^^xsd:decimal .
 gistd:_UnitOfMeasure_part_per_trillion gist:isMemberOf gistd:_UnitGroup_concentration .
 gistd:_UnitOfMeasure_part_per_trillion rdf:type gist:UnitOfMeasure .
-gistd:_UnitOfMeasure_part_per_trillion rdfs:seeAlso "https://aurora.regenstrief.org/~ucum/ucum.html#section-Derived-Unit-Atoms"^^xsd:anyURI .
+gistd:_UnitOfMeasure_part_per_million rdfs:seeAlso "https://ucum.org/ucum#section-Customary-Unit-Atoms"^^xsd:anyURI .
 gistd:_UnitOfMeasure_part_per_trillion skos:altLabel "parts per trillion" .
 gistd:_UnitOfMeasure_part_per_trillion skos:closeMatch <http://qudt.org/vocab/unit/PPTR> .
 gistd:_UnitOfMeasure_part_per_trillion skos:prefLabel "parts per trillion" .
