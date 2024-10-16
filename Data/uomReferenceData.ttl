@@ -389,7 +389,7 @@ gistd:_Aspect_area_temperature skos:prefLabel "area temperature" .
 gistd:_Aspect_area_thermal_expansion gist:hasUnitGroup gistd:_UnitGroup_area_thermal_expansion .
 gistd:_Aspect_area_thermal_expansion gist:isCategorizedBy gistd:_Discipline_thermodynamics .
 gistd:_Aspect_area_thermal_expansion rdf:type gist:Aspect .
-gistd:_Aspect_area_thermal_expansion rdfs:seeAlso "https://en.wikipedia.org/Thermal_expansion#Area"^^xsd:anyURI .
+gistd:_Aspect_area_thermal_expansion rdfs:seeAlso "https://en.wikipedia.org/wiki/Thermal_expansion#Area"^^xsd:anyURI .
 gistd:_Aspect_area_thermal_expansion skos:closeMatch <http://qudt.org/vocab/quantitykind/AreaThermalExpansion> .
 gistd:_Aspect_area_thermal_expansion skos:definition "from QUDT: When the temperature of a substance changes, the energy that is stored in the intermolecular bonds between atoms changes. When the stored energy increases, so does the length of the molecular bonds. As a result, solids typically expand in response to heating and contract on cooling; this dimensional response to temperature change is expressed by its coefficient of thermal expansion." .
 gistd:_Aspect_area_thermal_expansion skos:prefLabel "area thermal expansion" .
@@ -891,17 +891,10 @@ gistd:_Aspect_convective_heat_transfer rdfs:seeAlso "https://www.iso.org/iso/cat
 gistd:_Aspect_convective_heat_transfer skos:closeMatch <http://qudt.org/vocab/quantitykind/ConvectiveHeatTransfer> .
 gistd:_Aspect_convective_heat_transfer skos:definition "from QUDT: \"Convective Heat Transfer\" is convective heat transfer coefficient multiplied by temperature difference and exchange area. " .
 gistd:_Aspect_convective_heat_transfer skos:prefLabel "convective heat transfer" .
-gistd:_Aspect_correlated_color_temperature gist:hasUnitGroup gistd:_UnitGroup_temperature .
-gistd:_Aspect_correlated_color_temperature gist:isCategorizedBy gistd:_Discipline_optics .
-gistd:_Aspect_correlated_color_temperature rdf:type gist:Aspect .
-gistd:_Aspect_correlated_color_temperature rdfs:seeAlso "https://www.lrc.rpi.edu/programs/NLPIP/lightingAnswers/pdf/print/lightSources.pdf"^^xsd:anyURI .
-gistd:_Aspect_correlated_color_temperature skos:closeMatch <http://qudt.org/vocab/quantitykind/CorrelatedColorTemperature> .
-gistd:_Aspect_correlated_color_temperature skos:definition "from QUDT: Correlated color temperature (CCT) is a measure of light source color appearance defined by the proximity of the light source's chromaticity coordinates to the blackbody locus, as a single number rather than the two required to specify a chromaticity." .
-gistd:_Aspect_correlated_color_temperature skos:prefLabel "correlated color temperature" .
 gistd:_Aspect_correlated_colour_temperature gist:hasUnitGroup gistd:_UnitGroup_temperature .
 gistd:_Aspect_correlated_colour_temperature gist:isCategorizedBy gistd:_Discipline_optics .
 gistd:_Aspect_correlated_colour_temperature rdf:type gist:Aspect .
-gistd:_Aspect_correlated_colour_temperature rdfs:seeAlso "https://www.lrc.rpi.edu/programs/nlpip/lightinganswers/lightsources/whatiscct.asp#:~:text=Correlated%20color%20temperature%20(CCT)%20is,required%20to%20specify%20a%20chromaticity."^^xsd:anyURI .
+gistd:_Aspect_correlated_colour_temperature rdfs:seeAlso "https://www.lrc.rpi.edu/programs/NLPIP/lightingAnswers/pdf/print/lightSources.pdf"^^xsd:anyURI .
 gistd:_Aspect_correlated_colour_temperature skos:closeMatch <http://qudt.org/vocab/quantitykind/CorrelatedColorTemperature> .
 gistd:_Aspect_correlated_colour_temperature skos:definition "from QUDT: Correlated color temperature (CCT) is a measure of light source color appearance defined by the proximity of the light source's chromaticity coordinates to the blackbody locus, as a single number rather than the two required to specify a chromaticity." .
 gistd:_Aspect_correlated_colour_temperature skos:prefLabel "correlated colour temperature" .
@@ -2922,7 +2915,7 @@ gistd:_Aspect_linear_strain skos:prefLabel "linear strain" .
 gistd:_Aspect_linear_thermal_expansion gist:hasUnitGroup gistd:_UnitGroup_linear_thermal_expansion .
 gistd:_Aspect_linear_thermal_expansion gist:isCategorizedBy gistd:_Discipline_thermodynamics .
 gistd:_Aspect_linear_thermal_expansion rdf:type gist:Aspect .
-gistd:_Aspect_linear_thermal_expansion rdfs:seeAlso "https://en.wikipedia.org/Thermal_expansion#Length"^^xsd:anyURI .
+gistd:_Aspect_linear_thermal_expansion rdfs:seeAlso "https://en.wikipedia.org/wiki/Thermal_expansion#Length"^^xsd:anyURI .
 gistd:_Aspect_linear_thermal_expansion skos:closeMatch <http://qudt.org/vocab/quantitykind/LinearThermalExpansion> .
 gistd:_Aspect_linear_thermal_expansion skos:definition "from QUDT: When the temperature of a substance changes, the energy that is stored in the intermolecular bonds between atoms changes. When the stored energy increases, so does the length of the molecular bonds. As a result, solids typically expand in response to heating and contract on cooling; this dimensional response to temperature change is expressed by its coefficient of thermal expansion. Different coefficients of thermal expansion can be defined for a substance depending on whether the expansion is measured by: linear thermal expansion, area thermal expansion, or volumetric thermal expansion." .
 gistd:_Aspect_linear_thermal_expansion skos:prefLabel "linear thermal expansion" .
@@ -5187,7 +5180,7 @@ gistd:_Aspect_specific_gibbs_energy skos:prefLabel "specific gibbs energy" .
 gistd:_Aspect_specific_heat_capacity gist:hasUnitGroup gistd:_UnitGroup_specific_heat_capacity .
 gistd:_Aspect_specific_heat_capacity gist:isCategorizedBy gistd:_Discipline_thermodynamics .
 gistd:_Aspect_specific_heat_capacity rdf:type gist:Aspect .
-gistd:_Aspect_specific_heat_capacity rdfs:seeAlso "https://www.taftan.com/thermodynamics/CP.HTM"^^xsd:anyURI .
+gistd:_Aspect_specific_heat_capacity rdfs:seeAlso "http://www.taftan.com/thermodynamics/CP.HTM"^^xsd:anyURI .
 gistd:_Aspect_specific_heat_capacity skos:closeMatch <http://qudt.org/vocab/quantitykind/SpecificHeatCapacity> .
 gistd:_Aspect_specific_heat_capacity skos:definition "from QUDT: \"Specific Heat Capacity} of a solid or liquid is defined as the heat required to raise unit mass of substance by one degree of temperature. This is \\textit{Heat Capacity} divied by \\textit{Mass\". Note that there are corresponding molar quantities." .
 gistd:_Aspect_specific_heat_capacity skos:prefLabel "specific heat capacity" .
