@@ -20361,7 +20361,7 @@ gistd:_UnitOfMeasure_dot_per_inch
 gistd:_UnitOfMeasure_dozen
 	a gist:UnitOfMeasure ;
 	skos:altLabel "count"^^xsd:string ;
-	skos:definition "One thing, when counting."^^xsd:string ;
+	skos:definition "One dozen things, when counting."^^xsd:string ;
 	skos:prefLabel "count"^^xsd:string ;
 	skos:scopeNote "1 dozen = 12 things"^^xsd:string ;
 	gist:conversionFactor "12"^^xsd:decimal ;
@@ -28894,96 +28894,6 @@ gistd:_UnitOfMeasure_number
 		gistd:_UnitGroup_rating ,
 		gistd:_UnitGroup_score
 		;
-	.
-
-gistd:_UnitOfMeasure_number_of_bags
-	a gist:UnitOfMeasure ;
-	skos:altLabel "bags"^^xsd:string ;
-	skos:definition "Number of bags."^^xsd:string ;
-	skos:prefLabel "bag"^^xsd:string ;
-	gist:conversionFactor "1"^^xsd:decimal ;
-	gist:isMemberOf gistd:_UnitGroup_number_of_things ;
-	.
-
-gistd:_UnitOfMeasure_number_of_boxes
-	a gist:UnitOfMeasure ;
-	skos:altLabel "boxes"^^xsd:string ;
-	skos:definition "Number of boxes."^^xsd:string ;
-	skos:prefLabel "box"^^xsd:string ;
-	gist:conversionFactor "1"^^xsd:decimal ;
-	gist:isMemberOf gistd:_UnitGroup_number_of_things ;
-	.
-
-gistd:_UnitOfMeasure_number_of_canisters
-	a gist:UnitOfMeasure ;
-	skos:altLabel "canisters"^^xsd:string ;
-	skos:definition "Number of canisters."^^xsd:string ;
-	skos:prefLabel "canister"^^xsd:string ;
-	gist:conversionFactor "1"^^xsd:decimal ;
-	gist:isMemberOf gistd:_UnitGroup_number_of_things ;
-	.
-
-gistd:_UnitOfMeasure_number_of_cases_containers
-	a gist:UnitOfMeasure ;
-	skos:altLabel "cases"^^xsd:string ;
-	skos:definition "Number of cases (containers)."^^xsd:string ;
-	skos:prefLabel "case"^^xsd:string ;
-	gist:conversionFactor "1"^^xsd:decimal ;
-	gist:isMemberOf gistd:_UnitGroup_number_of_things ;
-	.
-
-gistd:_UnitOfMeasure_number_of_packs
-	a gist:UnitOfMeasure ;
-	skos:altLabel "packs"^^xsd:string ;
-	skos:definition "Number of packs."^^xsd:string ;
-	skos:prefLabel "pack"^^xsd:string ;
-	gist:conversionFactor "1"^^xsd:decimal ;
-	gist:isMemberOf gistd:_UnitGroup_number_of_things ;
-	.
-
-gistd:_UnitOfMeasure_number_of_pairs
-	a gist:UnitOfMeasure ;
-	skos:altLabel "pairs"^^xsd:string ;
-	skos:definition "Number of pairs."^^xsd:string ;
-	skos:prefLabel "pair"^^xsd:string ;
-	gist:conversionFactor "1"^^xsd:decimal ;
-	gist:isMemberOf gistd:_UnitGroup_number_of_things ;
-	.
-
-gistd:_UnitOfMeasure_number_of_pieces
-	a gist:UnitOfMeasure ;
-	skos:altLabel "pieces"^^xsd:string ;
-	skos:definition "Number of pieces."^^xsd:string ;
-	skos:prefLabel "piece"^^xsd:string ;
-	gist:conversionFactor "1"^^xsd:decimal ;
-	gist:isMemberOf gistd:_UnitGroup_number_of_things ;
-	.
-
-gistd:_UnitOfMeasure_number_of_sets
-	a gist:UnitOfMeasure ;
-	skos:altLabel "sets"^^xsd:string ;
-	skos:definition "Number of sets."^^xsd:string ;
-	skos:prefLabel "set"^^xsd:string ;
-	gist:conversionFactor "1"^^xsd:decimal ;
-	gist:isMemberOf gistd:_UnitGroup_number_of_things ;
-	.
-
-gistd:_UnitOfMeasure_number_of_sheets
-	a gist:UnitOfMeasure ;
-	skos:altLabel "sheets"^^xsd:string ;
-	skos:definition "Number of sheets."^^xsd:string ;
-	skos:prefLabel "sheet"^^xsd:string ;
-	gist:conversionFactor "1"^^xsd:decimal ;
-	gist:isMemberOf gistd:_UnitGroup_number_of_things ;
-	.
-
-gistd:_UnitOfMeasure_number_of_tubes
-	a gist:UnitOfMeasure ;
-	skos:altLabel "tubes"^^xsd:string ;
-	skos:definition "Number of tubes."^^xsd:string ;
-	skos:prefLabel "tube"^^xsd:string ;
-	gist:conversionFactor "1"^^xsd:decimal ;
-	gist:isMemberOf gistd:_UnitGroup_number_of_things ;
 	.
 
 gistd:_UnitOfMeasure_number_per_100_grams
