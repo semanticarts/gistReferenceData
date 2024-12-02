@@ -1064,7 +1064,7 @@ gistd:_Aspect_bulk_modulus
 	skos:closeMatch <http://qudt.org/vocab/quantitykind/BulkModulus> ;
 	skos:definition "from QUDT: The bulk modulus of a substance measures the substance's resistance to uniform compression. It is defined as the ratio of the infinitesimal pressure increase to the resulting relative decrease of the volume."^^xsd:string ;
 	skos:prefLabel "bulk modulus"^^xsd:string ;
-	gist:hasUnitGroup gistd:_UnitGroup_force_per_area ;
+	gist:hasUnitGroup gistd:_UnitGroup_pressure ;
 	gist:isCategorizedBy gistd:_Discipline_mechanics ;
 	.
 
@@ -3191,7 +3191,7 @@ gistd:_Aspect_exit_plane_pressure
 	a gist:Aspect ;
 	skos:closeMatch <http://qudt.org/vocab/quantitykind/ExitPlanePressure> ;
 	skos:prefLabel "exit plane pressure"^^xsd:string ;
-	gist:hasUnitGroup gistd:_UnitGroup_force_per_area ;
+	gist:hasUnitGroup gistd:_UnitGroup_pressure ;
 	gist:isCategorizedBy gistd:_Discipline_propulsion ;
 	.
 
@@ -3445,7 +3445,7 @@ gistd:_Aspect_force_per_area
 	skos:closeMatch <http://qudt.org/vocab/quantitykind/ForcePerArea> ;
 	skos:definition "from QUDT: The force applied to a unit area of surface; measured in pascals (SI unit) or in dynes (cgs unit)"^^xsd:string ;
 	skos:prefLabel "force per area"^^xsd:string ;
-	gist:hasUnitGroup gistd:_UnitGroup_force_per_area ;
+	gist:hasUnitGroup gistd:_UnitGroup_pressure ;
 	gist:isCategorizedBy
 		gistd:_Discipline_fluid_dynamics ,
 		gistd:_Discipline_mechanics
@@ -3456,7 +3456,7 @@ gistd:_Aspect_force_per_area_time
 	a gist:Aspect ;
 	skos:closeMatch <http://qudt.org/vocab/quantitykind/ForcePerAreaTime> ;
 	skos:prefLabel "force per area time"^^xsd:string ;
-	gist:hasUnitGroup gistd:_UnitGroup_force_per_area_time ;
+	gist:hasUnitGroup gistd:_UnitGroup_pressure_per_time ;
 	gist:isCategorizedBy gistd:_Discipline_mechanics ;
 	.
 
@@ -3558,7 +3558,7 @@ gistd:_Aspect_fugacity
 	skos:closeMatch <http://qudt.org/vocab/quantitykind/Fugacity> ;
 	skos:definition 'from QUDT: "Fugacity" of a real gas is an effective pressure which replaces the true mechanical pressure in accurate chemical equilibrium calculations. It is equal to the pressure of an ideal gas which has the same chemical potential as the real gas.'^^xsd:string ;
 	skos:prefLabel "fugacity"^^xsd:string ;
-	gist:hasUnitGroup gistd:_UnitGroup_force_per_area ;
+	gist:hasUnitGroup gistd:_UnitGroup_pressure ;
 	gist:isCategorizedBy gistd:_Discipline_chemistry ;
 	.
 
@@ -3829,7 +3829,7 @@ gistd:_Aspect_head_end_pressure
 	a gist:Aspect ;
 	skos:closeMatch <http://qudt.org/vocab/quantitykind/HeadEndPressure> ;
 	skos:prefLabel "head end pressure"^^xsd:string ;
-	gist:hasUnitGroup gistd:_UnitGroup_force_per_area ;
+	gist:hasUnitGroup gistd:_UnitGroup_pressure ;
 	gist:isCategorizedBy gistd:_Discipline_propulsion ;
 	.
 
@@ -5832,7 +5832,7 @@ gistd:_Aspect_maximum_expected_operating_pressure
 	a gist:Aspect ;
 	skos:closeMatch <http://qudt.org/vocab/quantitykind/MaximumExpectedOperatingPressure> ;
 	skos:prefLabel "maximum expected operating pressure"^^xsd:string ;
-	gist:hasUnitGroup gistd:_UnitGroup_force_per_area ;
+	gist:hasUnitGroup gistd:_UnitGroup_pressure ;
 	gist:isCategorizedBy gistd:_Discipline_propulsion ;
 	.
 
@@ -5848,7 +5848,7 @@ gistd:_Aspect_maximum_operating_pressure
 	a gist:Aspect ;
 	skos:closeMatch <http://qudt.org/vocab/quantitykind/MaximumOperatingPressure> ;
 	skos:prefLabel "maximum operating pressure"^^xsd:string ;
-	gist:hasUnitGroup gistd:_UnitGroup_force_per_area ;
+	gist:hasUnitGroup gistd:_UnitGroup_pressure ;
 	gist:isCategorizedBy gistd:_Discipline_propulsion ;
 	.
 
@@ -6086,7 +6086,7 @@ gistd:_Aspect_modulus_of_elasticity
 	skos:closeMatch <http://qudt.org/vocab/quantitykind/ModulusOfElasticity> ;
 	skos:definition "from QUDT: The Modulus of Elasticity is the mathematical description of an object or substance's tendency to be deformed elastically (that is, non-permanently) when a force is applied to it."^^xsd:string ;
 	skos:prefLabel "modulus of elasticity"^^xsd:string ;
-	gist:hasUnitGroup gistd:_UnitGroup_force_per_area ;
+	gist:hasUnitGroup gistd:_UnitGroup_pressure ;
 	gist:isCategorizedBy gistd:_Discipline_mechanics ;
 	.
 
@@ -6596,7 +6596,7 @@ gistd:_Aspect_normal_stress
 	skos:closeMatch <http://qudt.org/vocab/quantitykind/NormalStress> ;
 	skos:definition "from QUDT: Normal stress is defined as the stress resulting from a force acting normal to a body surface. Normal stress can be caused by several loading methods, the most common being axial tension and compression, bending, and hoop stress."^^xsd:string ;
 	skos:prefLabel "normal stress"^^xsd:string ;
-	gist:hasUnitGroup gistd:_UnitGroup_force_per_area ;
+	gist:hasUnitGroup gistd:_UnitGroup_pressure ;
 	gist:isCategorizedBy
 		gistd:_Discipline_mechanics ,
 		gistd:_Discipline_propulsion
@@ -6624,7 +6624,7 @@ gistd:_Aspect_nozzle_throat_pressure
 	a gist:Aspect ;
 	skos:closeMatch <http://qudt.org/vocab/quantitykind/NozzleThroatPressure> ;
 	skos:prefLabel "nozzle throat pressure"^^xsd:string ;
-	gist:hasUnitGroup gistd:_UnitGroup_force_per_area ;
+	gist:hasUnitGroup gistd:_UnitGroup_pressure ;
 	gist:isCategorizedBy gistd:_Discipline_propulsion ;
 	.
 
@@ -7195,7 +7195,7 @@ gistd:_Aspect_planar_force
 	skos:closeMatch <http://qudt.org/vocab/quantitykind/PlanarForce> ;
 	skos:definition "from QUDT: Another name for Force Per Area, used by the Industry Foundation Classes (IFC) standard."^^xsd:string ;
 	skos:prefLabel "planar force"^^xsd:string ;
-	gist:hasUnitGroup gistd:_UnitGroup_force_per_area ;
+	gist:hasUnitGroup gistd:_UnitGroup_pressure ;
 	gist:isCategorizedBy gistd:_Discipline_mechanics ;
 	.
 
@@ -7434,7 +7434,7 @@ gistd:_Aspect_pressure
 	a gist:Aspect ;
 	skos:definition "Force per area"^^xsd:string ;
 	skos:prefLabel "pressure"^^xsd:string ;
-	gist:hasUnitGroup gistd:_UnitGroup_force_per_area ;
+	gist:hasUnitGroup gistd:_UnitGroup_pressure ;
 	gist:isCategorizedBy
 		gistd:_Discipline_hvac ,
 		gistd:_Discipline_mechanics
@@ -8276,7 +8276,7 @@ gistd:_Aspect_shear_stress
 	skos:closeMatch <http://qudt.org/vocab/quantitykind/ShearStress> ;
 	skos:definition "from QUDT: Shear stress occurs when the force occurs in shear, or perpendicular to the normal."^^xsd:string ;
 	skos:prefLabel "shear stress"^^xsd:string ;
-	gist:hasUnitGroup gistd:_UnitGroup_force_per_area ;
+	gist:hasUnitGroup gistd:_UnitGroup_pressure ;
 	gist:isCategorizedBy
 		gistd:_Discipline_mechanics ,
 		gistd:_Discipline_propulsion
@@ -9068,7 +9068,7 @@ gistd:_Aspect_stress
 	skos:closeMatch <http://qudt.org/vocab/quantitykind/Stress> ;
 	skos:definition "from QUDT: Stress is a measure of the average amount of force exerted per unit area of a surface within a deformable body on which internal forces act. In other words, it is a measure of the intensity or internal distribution of the total internal forces acting within a deformable body across imaginary surfaces. These internal forces are produced between the particles in the body as a reaction to external forces applied on the body. Stress is defined as \\({\\rm{Stress}} = \\frac{F}{A}\\)."^^xsd:string ;
 	skos:prefLabel "stress"^^xsd:string ;
-	gist:hasUnitGroup gistd:_UnitGroup_force_per_area ;
+	gist:hasUnitGroup gistd:_UnitGroup_pressure ;
 	gist:isCategorizedBy gistd:_Discipline_mechanics ;
 	.
 
@@ -9794,7 +9794,7 @@ gistd:_Aspect_total_pressure
 	skos:prefLabel "total pressure"^^xsd:string ;
 	gist:hasUnitGroup
 		gistd:_UnitGroup_fluid_pressure ,
-		gistd:_UnitGroup_force_per_area
+		gistd:_UnitGroup_pressure
 		;
 	gist:isCategorizedBy gistd:_Discipline_fluid_dynamics ;
 	.
@@ -12534,46 +12534,6 @@ gistd:_UnitGroup_force_per_angle
 	gist:exponentOfUSDollar "0"^^xsd:decimal ;
 	.
 
-gistd:_UnitGroup_force_per_area
-	a gist:UnitGroup ;
-	skos:definition "Based on QUDT Quantity Kind Dimension Vector A0E0L-1I0M1H0T-2D0."^^xsd:string ;
-	skos:prefLabel "units that measure force per area"^^xsd:string ;
-	skos:scopeNote "kilogram per meter secondSquared"^^xsd:string ;
-	gist:exponentOfAmpere "0"^^xsd:decimal ;
-	gist:exponentOfBit "0"^^xsd:decimal ;
-	gist:exponentOfCandela "0"^^xsd:decimal ;
-	gist:exponentOfKelvin "0"^^xsd:decimal ;
-	gist:exponentOfKilogram "1"^^xsd:decimal ;
-	gist:exponentOfMeter "-1"^^xsd:decimal ;
-	gist:exponentOfMole "0"^^xsd:decimal ;
-	gist:exponentOfNumber "0"^^xsd:decimal ;
-	gist:exponentOfOther "0.0"^^xsd:decimal ;
-	gist:exponentOfRadian "0"^^xsd:decimal ;
-	gist:exponentOfSecond "-2"^^xsd:decimal ;
-	gist:exponentOfSteradian "0.0"^^xsd:decimal ;
-	gist:exponentOfUSDollar "0"^^xsd:decimal ;
-	.
-
-gistd:_UnitGroup_force_per_area_time
-	a gist:UnitGroup ;
-	skos:definition "Based on QUDT Quantity Kind Dimension Vector A0E0L-1I0M1H0T-3D0."^^xsd:string ;
-	skos:prefLabel "units that measure force per area time"^^xsd:string ;
-	skos:scopeNote "kilogram per meter secondCubed"^^xsd:string ;
-	gist:exponentOfAmpere "0"^^xsd:decimal ;
-	gist:exponentOfBit "0"^^xsd:decimal ;
-	gist:exponentOfCandela "0"^^xsd:decimal ;
-	gist:exponentOfKelvin "0"^^xsd:decimal ;
-	gist:exponentOfKilogram "1"^^xsd:decimal ;
-	gist:exponentOfMeter "-1"^^xsd:decimal ;
-	gist:exponentOfMole "0"^^xsd:decimal ;
-	gist:exponentOfNumber "0"^^xsd:decimal ;
-	gist:exponentOfOther "0.0"^^xsd:decimal ;
-	gist:exponentOfRadian "0"^^xsd:decimal ;
-	gist:exponentOfSecond "-3"^^xsd:decimal ;
-	gist:exponentOfSteradian "0.0"^^xsd:decimal ;
-	gist:exponentOfUSDollar "0"^^xsd:decimal ;
-	.
-
 gistd:_UnitGroup_frequency
 	a gist:UnitGroup ;
 	skos:definition "Based on QUDT Quantity Kind Dimension Vector A0E0L0I0M0H0T-1D0."^^xsd:string ;
@@ -14773,6 +14733,46 @@ gistd:_UnitGroup_practical_salinity
 	gist:exponentOfOther "0.0"^^xsd:decimal ;
 	gist:exponentOfRadian "0"^^xsd:decimal ;
 	gist:exponentOfSecond "0"^^xsd:decimal ;
+	gist:exponentOfSteradian "0.0"^^xsd:decimal ;
+	gist:exponentOfUSDollar "0"^^xsd:decimal ;
+	.
+
+gistd:_UnitGroup_pressure
+	a gist:UnitGroup ;
+	skos:definition "Based on QUDT Quantity Kind Dimension Vector A0E0L-1I0M1H0T-2D0."^^xsd:string ;
+	skos:prefLabel "units that measure force per area"^^xsd:string ;
+	skos:scopeNote "kilogram per meter secondSquared"^^xsd:string ;
+	gist:exponentOfAmpere "0"^^xsd:decimal ;
+	gist:exponentOfBit "0"^^xsd:decimal ;
+	gist:exponentOfCandela "0"^^xsd:decimal ;
+	gist:exponentOfKelvin "0"^^xsd:decimal ;
+	gist:exponentOfKilogram "1"^^xsd:decimal ;
+	gist:exponentOfMeter "-1"^^xsd:decimal ;
+	gist:exponentOfMole "0"^^xsd:decimal ;
+	gist:exponentOfNumber "0"^^xsd:decimal ;
+	gist:exponentOfOther "0.0"^^xsd:decimal ;
+	gist:exponentOfRadian "0"^^xsd:decimal ;
+	gist:exponentOfSecond "-2"^^xsd:decimal ;
+	gist:exponentOfSteradian "0.0"^^xsd:decimal ;
+	gist:exponentOfUSDollar "0"^^xsd:decimal ;
+	.
+
+gistd:_UnitGroup_pressure_per_time
+	a gist:UnitGroup ;
+	skos:definition "Based on QUDT Quantity Kind Dimension Vector A0E0L-1I0M1H0T-3D0."^^xsd:string ;
+	skos:prefLabel "units that measure force per area time"^^xsd:string ;
+	skos:scopeNote "kilogram per meter secondCubed"^^xsd:string ;
+	gist:exponentOfAmpere "0"^^xsd:decimal ;
+	gist:exponentOfBit "0"^^xsd:decimal ;
+	gist:exponentOfCandela "0"^^xsd:decimal ;
+	gist:exponentOfKelvin "0"^^xsd:decimal ;
+	gist:exponentOfKilogram "1"^^xsd:decimal ;
+	gist:exponentOfMeter "-1"^^xsd:decimal ;
+	gist:exponentOfMole "0"^^xsd:decimal ;
+	gist:exponentOfNumber "0"^^xsd:decimal ;
+	gist:exponentOfOther "0.0"^^xsd:decimal ;
+	gist:exponentOfRadian "0"^^xsd:decimal ;
+	gist:exponentOfSecond "-3"^^xsd:decimal ;
 	gist:exponentOfSteradian "0.0"^^xsd:decimal ;
 	gist:exponentOfUSDollar "0"^^xsd:decimal ;
 	.
@@ -17139,7 +17139,7 @@ gistd:_UnitOfMeasure_bar
 	gist:isMemberOf
 		gistd:_UnitGroup_atmospheric_pressure ,
 		gistd:_UnitGroup_fluid_pressure ,
-		gistd:_UnitGroup_force_per_area
+		gistd:_UnitGroup_pressure
 		;
 	.
 
@@ -17193,7 +17193,7 @@ gistd:_UnitOfMeasure_barad
 	skos:prefLabel "barad"^^xsd:string ;
 	skos:scopeNote "1 barad = 0.1 x kilogram per meter secondSquared"^^xsd:string ;
 	gist:conversionFactor "0.1"^^xsd:decimal ;
-	gist:isMemberOf gistd:_UnitGroup_force_per_area ;
+	gist:isMemberOf gistd:_UnitGroup_pressure ;
 	.
 
 gistd:_UnitOfMeasure_barn
@@ -17346,7 +17346,7 @@ gistd:_UnitOfMeasure_barye
 	skos:prefLabel "barye"^^xsd:string ;
 	skos:scopeNote "1 barye = 0.1 x kilogram per meter secondSquared"^^xsd:string ;
 	gist:conversionFactor "0.1"^^xsd:decimal ;
-	gist:isMemberOf gistd:_UnitGroup_force_per_area ;
+	gist:isMemberOf gistd:_UnitGroup_pressure ;
 	.
 
 gistd:_UnitOfMeasure_base_pair
@@ -17535,7 +17535,7 @@ gistd:_UnitOfMeasure_british_thermal_unit_international
 	skos:closeMatch <http://qudt.org/vocab/unit/BTU_IT> ;
 	skos:definition "from QUDT: Is part of the IMPERIAL system."^^xsd:string ;
 	skos:prefLabel "british thermal unit (international definition)"^^xsd:string ;
-	skos:scope_note "1 british thermal unit international = 1055.05585 kilogram meterSquared per secondSquared"^^xsd:decimal ;
+	skos:scope_note "1 british thermal unit international = 1055.05585 kilogram meterSquared per secondSquared"^^xsd:string ;
 	gist:conversionFactor "1055.05585"^^xsd:decimal ;
 	gist:isMemberOf gistd:_UnitGroup_amount_of_heat ;
 	.
@@ -17651,9 +17651,14 @@ gistd:_UnitOfMeasure_british_thermal_unit_international_per_second_square_foot_d
 	gist:isMemberOf gistd:_UnitGroup_coefficient_of_heat_transfer ;
 	.
 
-gistd:_UnitOfMeasure_british_thermal_unit_international_scopeNote
-	skos:definition "1 british thermal unit (international definition) = 1055.05585262 x kilogram meterSquared per secondSquared"^^xsd:string ;
-	gist:conversionFactor "1055.05585262"^^xsd:decimal ;
+gistd:_UnitOfMeasure_british_thermal_unit_international_per_watt_hour
+	a gist:UnitOfMeasure ;
+	skos:altLabel "british thermal units international per watt hour"^^xsd:string ;
+	skos:definition "A measure of efficiency of hvac equipment."^^xsd:string ;
+	skos:prefLabel "british thermal unit international per watt hour"^^xsd:string ;
+	skos:scopeNote "1 british thermal unit international per watt hour = 0.293071069 (pure numeric)"^^xsd:string ;
+	gist:conversionFactor "0.293071069"^^xsd:decimal ;
+	gist:isMemberOf gistd:_UnitGroup_hvac_energy_efficiency ;
 	.
 
 gistd:_UnitOfMeasure_british_thermal_unit_mean
@@ -18456,7 +18461,7 @@ gistd:_UnitOfMeasure_centibar
 	skos:prefLabel "centibar"^^xsd:string ;
 	skos:scopeNote "1 centibar = 1000.0 x kilogram per meter secondSquared"^^xsd:string ;
 	gist:conversionFactor "1000.0"^^xsd:decimal ;
-	gist:isMemberOf gistd:_UnitGroup_force_per_area ;
+	gist:isMemberOf gistd:_UnitGroup_pressure ;
 	.
 
 gistd:_UnitOfMeasure_centicoulomb
@@ -18516,7 +18521,7 @@ gistd:_UnitOfMeasure_centimeter_of_mercury
 	gist:conversionFactor "1333.224"^^xsd:decimal ;
 	gist:isMemberOf
 		gistd:_UnitGroup_fluid_pressure ,
-		gistd:_UnitGroup_force_per_area
+		gistd:_UnitGroup_pressure
 		;
 	.
 
@@ -18527,7 +18532,7 @@ gistd:_UnitOfMeasure_centimeter_of_water
 	skos:prefLabel "centimeter of water"^^xsd:string ;
 	skos:scopeNote "1 centimeter of water = 98.0665 x kilogram per meter secondSquared"^^xsd:string ;
 	gist:conversionFactor "98.0665"^^xsd:decimal ;
-	gist:isMemberOf gistd:_UnitGroup_force_per_area ;
+	gist:isMemberOf gistd:_UnitGroup_pressure ;
 	.
 
 gistd:_UnitOfMeasure_centimeter_per_hour
@@ -18730,7 +18735,7 @@ gistd:_UnitOfMeasure_conventional_centimeter_of_water
 	skos:prefLabel "conventional centimeter of water"^^xsd:string ;
 	skos:scopeNote "1 conventional centimeter of water = 98.0665 x kilogram per meter secondSquared"^^xsd:string ;
 	gist:conversionFactor "98.0665"^^xsd:decimal ;
-	gist:isMemberOf gistd:_UnitGroup_force_per_area ;
+	gist:isMemberOf gistd:_UnitGroup_pressure ;
 	.
 
 gistd:_UnitOfMeasure_conventional_millimeter_of_water
@@ -18741,7 +18746,7 @@ gistd:_UnitOfMeasure_conventional_millimeter_of_water
 	skos:prefLabel "conventional millimeter of water"^^xsd:string ;
 	skos:scopeNote "1 conventional millimeter of water = 9.80665 x kilogram per meter secondSquared"^^xsd:string ;
 	gist:conversionFactor "9.80665"^^xsd:decimal ;
-	gist:isMemberOf gistd:_UnitGroup_force_per_area ;
+	gist:isMemberOf gistd:_UnitGroup_pressure ;
 	.
 
 gistd:_UnitOfMeasure_cord
@@ -19753,7 +19758,7 @@ gistd:_UnitOfMeasure_decapascal
 	skos:prefLabel "decapascal"^^xsd:string ;
 	skos:scopeNote "1 decapascal = 10.0 x kilogram per meter secondSquared"^^xsd:string ;
 	gist:conversionFactor "10.0"^^xsd:decimal ;
-	gist:isMemberOf gistd:_UnitGroup_force_per_area ;
+	gist:isMemberOf gistd:_UnitGroup_pressure ;
 	.
 
 gistd:_UnitOfMeasure_decare
@@ -19777,7 +19782,7 @@ gistd:_UnitOfMeasure_decibar
 	skos:prefLabel "decibar"^^xsd:string ;
 	skos:scopeNote "1 decibar = 10000.0 x kilogram per meter secondSquared"^^xsd:string ;
 	gist:conversionFactor "10000.0"^^xsd:decimal ;
-	gist:isMemberOf gistd:_UnitGroup_force_per_area ;
+	gist:isMemberOf gistd:_UnitGroup_pressure ;
 	.
 
 gistd:_UnitOfMeasure_decibar_per_year
@@ -19787,7 +19792,7 @@ gistd:_UnitOfMeasure_decibar_per_year
 	skos:prefLabel "decibars per year"^^xsd:string ;
 	skos:scopeNote "1 decibars per year = 0.00031688 x kilogram per meter secondCubed"^^xsd:string ;
 	gist:conversionFactor "0.00031688"^^xsd:decimal ;
-	gist:isMemberOf gistd:_UnitGroup_force_per_area_time ;
+	gist:isMemberOf gistd:_UnitGroup_pressure_per_time ;
 	.
 
 gistd:_UnitOfMeasure_decibel
@@ -20463,7 +20468,7 @@ gistd:_UnitOfMeasure_dyne_per_square_centimeter
 	skos:prefLabel "dyne per square centimeter"^^xsd:string ;
 	skos:scopeNote "1 dyne per square centimeter = 0.1 x kilogram per meter secondSquared"^^xsd:string ;
 	gist:conversionFactor "0.1"^^xsd:decimal ;
-	gist:isMemberOf gistd:_UnitGroup_force_per_area ;
+	gist:isMemberOf gistd:_UnitGroup_pressure ;
 	.
 
 gistd:_UnitOfMeasure_dyne_second_per_centimeter
@@ -20978,7 +20983,7 @@ gistd:_UnitOfMeasure_foot_of_mercury
 	gist:conversionFactor "40636.66"^^xsd:decimal ;
 	gist:isMemberOf
 		gistd:_UnitGroup_fluid_pressure ,
-		gistd:_UnitGroup_force_per_area
+		gistd:_UnitGroup_pressure
 		;
 	.
 
@@ -20989,7 +20994,7 @@ gistd:_UnitOfMeasure_foot_of_water
 	skos:prefLabel "foot of water"^^xsd:string ;
 	skos:scopeNote "1 foot of water = 2989.067 x kilogram per meter secondSquared"^^xsd:string ;
 	gist:conversionFactor "2989.067"^^xsd:decimal ;
-	gist:isMemberOf gistd:_UnitGroup_force_per_area ;
+	gist:isMemberOf gistd:_UnitGroup_pressure ;
 	.
 
 gistd:_UnitOfMeasure_foot_per_day
@@ -21542,7 +21547,7 @@ gistd:_UnitOfMeasure_gigapascal
 	gist:conversionFactor "1000000000.0"^^xsd:decimal ;
 	gist:isMemberOf
 		gistd:_UnitGroup_fluid_pressure ,
-		gistd:_UnitGroup_force_per_area
+		gistd:_UnitGroup_pressure
 		;
 	.
 
@@ -21811,7 +21816,7 @@ gistd:_UnitOfMeasure_gram_force_per_square_centimeter
 	skos:prefLabel "gram force per square centimeter"^^xsd:string ;
 	skos:scopeNote "1 gram force per square centimeter = 98.0665 x kilogram per meter secondSquared"^^xsd:string ;
 	gist:conversionFactor "98.0665"^^xsd:decimal ;
-	gist:isMemberOf gistd:_UnitGroup_force_per_area ;
+	gist:isMemberOf gistd:_UnitGroup_pressure ;
 	.
 
 gistd:_UnitOfMeasure_gram_millimeter
@@ -22170,7 +22175,7 @@ gistd:_UnitOfMeasure_hectobar
 	skos:prefLabel "hectobar"^^xsd:string ;
 	skos:scopeNote "1 hectobar = 10000000.0 x kilogram per meter secondSquared"^^xsd:string ;
 	gist:conversionFactor "10000000.0"^^xsd:decimal ;
-	gist:isMemberOf gistd:_UnitGroup_force_per_area ;
+	gist:isMemberOf gistd:_UnitGroup_pressure ;
 	.
 
 gistd:_UnitOfMeasure_hectocoulomb
@@ -22223,7 +22228,7 @@ gistd:_UnitOfMeasure_hectopascal
 	skos:prefLabel "hectopascal"^^xsd:string ;
 	skos:scopeNote "1 hectopascal = 100.0 x kilogram per meter secondSquared"^^xsd:string ;
 	gist:conversionFactor "100.0"^^xsd:decimal ;
-	gist:isMemberOf gistd:_UnitGroup_force_per_area ;
+	gist:isMemberOf gistd:_UnitGroup_pressure ;
 	.
 
 gistd:_UnitOfMeasure_hectopascal_cubic_meter_per_second
@@ -22264,7 +22269,7 @@ gistd:_UnitOfMeasure_hectopascal_per_hour
 	skos:prefLabel "hectopascals per hour"^^xsd:string ;
 	skos:scopeNote "1 hectopascals per hour = 0.0277777777777778 x kilogram per meter secondCubed"^^xsd:string ;
 	gist:conversionFactor "0.0277777777777778"^^xsd:decimal ;
-	gist:isMemberOf gistd:_UnitGroup_force_per_area_time ;
+	gist:isMemberOf gistd:_UnitGroup_pressure_per_time ;
 	.
 
 gistd:_UnitOfMeasure_hectopascal_per_kelvin
@@ -22619,7 +22624,7 @@ gistd:_UnitOfMeasure_inch_of_mercury
 	gist:isMemberOf
 		gistd:_UnitGroup_atmospheric_pressure ,
 		gistd:_UnitGroup_fluid_pressure ,
-		gistd:_UnitGroup_force_per_area
+		gistd:_UnitGroup_pressure
 		;
 	.
 
@@ -22631,7 +22636,7 @@ gistd:_UnitOfMeasure_inch_of_water
 	skos:prefLabel "inch of water"^^xsd:string ;
 	skos:scopeNote "1 inch of water = 249.080024 x kilogram per meter secondSquared"^^xsd:string ;
 	gist:conversionFactor "249.080024"^^xsd:decimal ;
-	gist:isMemberOf gistd:_UnitGroup_force_per_area ;
+	gist:isMemberOf gistd:_UnitGroup_pressure ;
 	.
 
 gistd:_UnitOfMeasure_inch_of_water_gauge
@@ -23378,7 +23383,7 @@ gistd:_UnitOfMeasure_kilobar
 	gist:conversionFactor "100000000.0"^^xsd:decimal ;
 	gist:isMemberOf
 		gistd:_UnitGroup_fluid_pressure ,
-		gistd:_UnitGroup_force_per_area
+		gistd:_UnitGroup_pressure
 		;
 	.
 
@@ -23738,7 +23743,7 @@ gistd:_UnitOfMeasure_kilogram_force_per_square_centimeter
 	gist:conversionFactor "98066.5"^^xsd:decimal ;
 	gist:isMemberOf
 		gistd:_UnitGroup_fluid_pressure ,
-		gistd:_UnitGroup_force_per_area
+		gistd:_UnitGroup_pressure
 		;
 	.
 
@@ -23752,7 +23757,7 @@ gistd:_UnitOfMeasure_kilogram_force_per_square_meter
 	gist:conversionFactor "9.80665"^^xsd:decimal ;
 	gist:isMemberOf
 		gistd:_UnitGroup_fluid_pressure ,
-		gistd:_UnitGroup_force_per_area
+		gistd:_UnitGroup_pressure
 		;
 	.
 
@@ -23766,7 +23771,7 @@ gistd:_UnitOfMeasure_kilogram_force_per_square_millimeter
 	gist:conversionFactor "9806650.0"^^xsd:decimal ;
 	gist:isMemberOf
 		gistd:_UnitGroup_fluid_pressure ,
-		gistd:_UnitGroup_force_per_area
+		gistd:_UnitGroup_pressure
 		;
 	.
 
@@ -23936,7 +23941,7 @@ gistd:_UnitOfMeasure_kilogram_per_meter_per_square_second
 	skos:prefLabel "kilograms per meter per square second"^^xsd:string ;
 	skos:scopeNote "1 kilograms per meter per square second = 1.0 x kilogram per meter secondSquared"^^xsd:string ;
 	gist:conversionFactor "1.0"^^xsd:decimal ;
-	gist:isMemberOf gistd:_UnitGroup_force_per_area ;
+	gist:isMemberOf gistd:_UnitGroup_pressure ;
 	.
 
 gistd:_UnitOfMeasure_kilogram_per_meter_square_second
@@ -24401,7 +24406,7 @@ gistd:_UnitOfMeasure_kilopascal
 	gist:isMemberOf
 		gistd:_UnitGroup_blood_pressure ,
 		gistd:_UnitGroup_fluid_pressure ,
-		gistd:_UnitGroup_force_per_area
+		gistd:_UnitGroup_pressure
 		;
 	.
 
@@ -24412,7 +24417,7 @@ gistd:_UnitOfMeasure_kilopascal_absolute
 	skos:prefLabel "kilopascal absolute"^^xsd:string ;
 	skos:scopeNote "1 kilopascal absolute = 1000.0 x kilogram per meter secondSquared"^^xsd:string ;
 	gist:conversionFactor "1000.0"^^xsd:decimal ;
-	gist:isMemberOf gistd:_UnitGroup_force_per_area ;
+	gist:isMemberOf gistd:_UnitGroup_pressure ;
 	.
 
 gistd:_UnitOfMeasure_kilopascal_per_bar
@@ -24478,7 +24483,7 @@ gistd:_UnitOfMeasure_kilopound_force_per_square_inch
 	skos:prefLabel "kilopound force per square inch"^^xsd:string ;
 	skos:scopeNote "1 kilopound force per square inch = 6894757.89 x kilogram per meter secondSquared"^^xsd:string ;
 	gist:conversionFactor "6894757.89"^^xsd:decimal ;
-	gist:isMemberOf gistd:_UnitGroup_force_per_area ;
+	gist:isMemberOf gistd:_UnitGroup_pressure ;
 	.
 
 gistd:_UnitOfMeasure_kiloroentgen
@@ -24722,7 +24727,7 @@ gistd:_UnitOfMeasure_kip_per_square_inch
 	skos:prefLabel "kip per square inch"^^xsd:string ;
 	skos:scopeNote "1 kip per square inch = 6894757.89 x kilogram per meter secondSquared"^^xsd:string ;
 	gist:conversionFactor "6894757.89"^^xsd:decimal ;
-	gist:isMemberOf gistd:_UnitGroup_force_per_area ;
+	gist:isMemberOf gistd:_UnitGroup_pressure ;
 	.
 
 gistd:_UnitOfMeasure_knot
@@ -25208,7 +25213,7 @@ gistd:_UnitOfMeasure_megabar
 	gist:conversionFactor "100000000000.0"^^xsd:decimal ;
 	gist:isMemberOf
 		gistd:_UnitGroup_fluid_pressure ,
-		gistd:_UnitGroup_force_per_area
+		gistd:_UnitGroup_pressure
 		;
 	.
 
@@ -25433,7 +25438,7 @@ gistd:_UnitOfMeasure_megapascal
 	gist:conversionFactor "1000000.0"^^xsd:decimal ;
 	gist:isMemberOf
 		gistd:_UnitGroup_fluid_pressure ,
-		gistd:_UnitGroup_force_per_area
+		gistd:_UnitGroup_pressure
 		;
 	.
 
@@ -25858,7 +25863,7 @@ gistd:_UnitOfMeasure_microatmosphere
 	gist:conversionFactor "0.101325"^^xsd:decimal ;
 	gist:isMemberOf
 		gistd:_UnitGroup_fluid_pressure ,
-		gistd:_UnitGroup_force_per_area
+		gistd:_UnitGroup_pressure
 		;
 	.
 
@@ -25872,7 +25877,7 @@ gistd:_UnitOfMeasure_microbar
 	gist:conversionFactor "0.1"^^xsd:decimal ;
 	gist:isMemberOf
 		gistd:_UnitGroup_fluid_pressure ,
-		gistd:_UnitGroup_force_per_area
+		gistd:_UnitGroup_pressure
 		;
 	.
 
@@ -26387,7 +26392,7 @@ gistd:_UnitOfMeasure_micropascal
 	gist:conversionFactor "0.000001"^^xsd:decimal ;
 	gist:isMemberOf
 		gistd:_UnitGroup_fluid_pressure ,
-		gistd:_UnitGroup_force_per_area
+		gistd:_UnitGroup_pressure
 		;
 	.
 
@@ -26501,7 +26506,7 @@ gistd:_UnitOfMeasure_microtorr
 	skos:prefLabel "microtorr"^^xsd:string ;
 	skos:scopeNote "1 microtorr = 0.000133322 x kilogram per meter secondSquared"^^xsd:string ;
 	gist:conversionFactor "0.000133322"^^xsd:decimal ;
-	gist:isMemberOf gistd:_UnitGroup_force_per_area ;
+	gist:isMemberOf gistd:_UnitGroup_pressure ;
 	.
 
 gistd:_UnitOfMeasure_microvolt
@@ -26732,7 +26737,7 @@ gistd:_UnitOfMeasure_millibar
 	gist:conversionFactor "100.0"^^xsd:decimal ;
 	gist:isMemberOf
 		gistd:_UnitGroup_fluid_pressure ,
-		gistd:_UnitGroup_force_per_area
+		gistd:_UnitGroup_pressure
 		;
 	.
 
@@ -27325,7 +27330,7 @@ gistd:_UnitOfMeasure_millimeter_of_mercury
 		gistd:_UnitGroup_atmospheric_pressure ,
 		gistd:_UnitGroup_blood_pressure ,
 		gistd:_UnitGroup_fluid_pressure ,
-		gistd:_UnitGroup_force_per_area
+		gistd:_UnitGroup_pressure
 		;
 	.
 
@@ -27336,7 +27341,7 @@ gistd:_UnitOfMeasure_millimeter_of_mercury_absolute
 	skos:prefLabel "millimeter of mercury - absolute"^^xsd:string ;
 	gist:isMemberOf
 		gistd:_UnitGroup_fluid_pressure ,
-		gistd:_UnitGroup_force_per_area
+		gistd:_UnitGroup_pressure
 		;
 	.
 
@@ -27604,7 +27609,7 @@ gistd:_UnitOfMeasure_millipascal
 	gist:conversionFactor "0.001"^^xsd:decimal ;
 	gist:isMemberOf
 		gistd:_UnitGroup_fluid_pressure ,
-		gistd:_UnitGroup_force_per_area
+		gistd:_UnitGroup_pressure
 		;
 	.
 
@@ -27745,7 +27750,7 @@ gistd:_UnitOfMeasure_millitorr
 	skos:prefLabel "millitorr"^^xsd:string ;
 	skos:scopeNote "1 millitorr = 0.133322 x kilogram per meter secondSquared"^^xsd:string ;
 	gist:conversionFactor "0.133322"^^xsd:decimal ;
-	gist:isMemberOf gistd:_UnitGroup_force_per_area ;
+	gist:isMemberOf gistd:_UnitGroup_pressure ;
 	.
 
 gistd:_UnitOfMeasure_millivolt
@@ -27812,7 +27817,7 @@ gistd:_UnitOfMeasure_milliwatt_per_square_meter_per_nanometer
 	skos:prefLabel "milliwatts per square meter per nanometer"^^xsd:string ;
 	skos:scopeNote "1 milliwatts per square meter per nanometer = 1000000.0 x kilogram per meter secondCubed"^^xsd:string ;
 	gist:conversionFactor "1000000.0"^^xsd:decimal ;
-	gist:isMemberOf gistd:_UnitGroup_force_per_area_time ;
+	gist:isMemberOf gistd:_UnitGroup_pressure_per_time ;
 	.
 
 gistd:_UnitOfMeasure_milliweber
@@ -28780,7 +28785,7 @@ gistd:_UnitOfMeasure_newton_per_square_centimeter
 	gist:conversionFactor "10000.0"^^xsd:decimal ;
 	gist:isMemberOf
 		gistd:_UnitGroup_fluid_pressure ,
-		gistd:_UnitGroup_force_per_area
+		gistd:_UnitGroup_pressure
 		;
 	.
 
@@ -28794,7 +28799,7 @@ gistd:_UnitOfMeasure_newton_per_square_meter
 	gist:conversionFactor "1.0"^^xsd:decimal ;
 	gist:isMemberOf
 		gistd:_UnitGroup_fluid_pressure ,
-		gistd:_UnitGroup_force_per_area
+		gistd:_UnitGroup_pressure
 		;
 	.
 
@@ -28808,7 +28813,7 @@ gistd:_UnitOfMeasure_newton_per_square_millimeter
 	gist:conversionFactor "1000000.0"^^xsd:decimal ;
 	gist:isMemberOf
 		gistd:_UnitGroup_fluid_pressure ,
-		gistd:_UnitGroup_force_per_area
+		gistd:_UnitGroup_pressure
 		;
 	.
 
@@ -29458,7 +29463,7 @@ gistd:_UnitOfMeasure_pascal
 	gist:conversionFactor "1.0"^^xsd:decimal ;
 	gist:isMemberOf
 		gistd:_UnitGroup_fluid_pressure ,
-		gistd:_UnitGroup_force_per_area ,
+		gistd:_UnitGroup_pressure ,
 		gistd:_UnitGroup_shear_modulus
 		;
 	.
@@ -29522,7 +29527,7 @@ gistd:_UnitOfMeasure_pascal_per_hour
 	skos:prefLabel "pascal per hour"^^xsd:string ;
 	skos:scopeNote "1 pascal per hour = 0.000277777778 x kilogram per meter secondCubed"^^xsd:string ;
 	gist:conversionFactor "0.000277777778"^^xsd:decimal ;
-	gist:isMemberOf gistd:_UnitGroup_force_per_area_time ;
+	gist:isMemberOf gistd:_UnitGroup_pressure_per_time ;
 	.
 
 gistd:_UnitOfMeasure_pascal_per_kelvin
@@ -29551,7 +29556,7 @@ gistd:_UnitOfMeasure_pascal_per_minute
 	skos:prefLabel "pascal per minute"^^xsd:string ;
 	skos:scopeNote "1 pascal per minute = 0.0166666667 x kilogram per meter secondCubed"^^xsd:string ;
 	gist:conversionFactor "0.0166666667"^^xsd:decimal ;
-	gist:isMemberOf gistd:_UnitGroup_force_per_area_time ;
+	gist:isMemberOf gistd:_UnitGroup_pressure_per_time ;
 	.
 
 gistd:_UnitOfMeasure_pascal_per_second
@@ -29561,7 +29566,7 @@ gistd:_UnitOfMeasure_pascal_per_second
 	skos:prefLabel "pascal per second"^^xsd:string ;
 	skos:scopeNote "1 pascal per second = 1.0 x kilogram per meter secondCubed"^^xsd:string ;
 	gist:conversionFactor "1.0"^^xsd:decimal ;
-	gist:isMemberOf gistd:_UnitGroup_force_per_area_time ;
+	gist:isMemberOf gistd:_UnitGroup_pressure_per_time ;
 	.
 
 gistd:_UnitOfMeasure_pascal_second
@@ -30064,7 +30069,7 @@ gistd:_UnitOfMeasure_picopascal
 	skos:prefLabel "picopascal"^^xsd:string ;
 	skos:scopeNote "1 picopascal = 0.000000000001 x kilogram per meter secondSquared"^^xsd:string ;
 	gist:conversionFactor "0.000000000001"^^xsd:decimal ;
-	gist:isMemberOf gistd:_UnitGroup_force_per_area ;
+	gist:isMemberOf gistd:_UnitGroup_pressure ;
 	.
 
 gistd:_UnitOfMeasure_picopascal_per_kilometer
@@ -30416,7 +30421,7 @@ gistd:_UnitOfMeasure_planck_pressure
 	skos:prefLabel "planck pressure"^^xsd:string ;
 	skos:scopeNote "1 planck pressure = 4.63309E113 x kilogram per meter secondSquared"^^xsd:string ;
 	gist:conversionFactor "4.63309E113"^^xsd:double ;
-	gist:isMemberOf gistd:_UnitGroup_force_per_area ;
+	gist:isMemberOf gistd:_UnitGroup_pressure ;
 	.
 
 gistd:_UnitOfMeasure_planck_time
@@ -30723,7 +30728,7 @@ gistd:_UnitOfMeasure_pound_force_per_square_foot
 	gist:conversionFactor "47.8802631"^^xsd:decimal ;
 	gist:isMemberOf
 		gistd:_UnitGroup_fluid_pressure ,
-		gistd:_UnitGroup_force_per_area
+		gistd:_UnitGroup_pressure
 		;
 	.
 
@@ -30741,7 +30746,7 @@ gistd:_UnitOfMeasure_pound_force_per_square_inch
 	gist:conversionFactor "6894.75789"^^xsd:decimal ;
 	gist:isMemberOf
 		gistd:_UnitGroup_fluid_pressure ,
-		gistd:_UnitGroup_force_per_area ,
+		gistd:_UnitGroup_pressure ,
 		gistd:_UnitGroup_shear_modulus
 		;
 	.
@@ -30775,7 +30780,7 @@ gistd:_UnitOfMeasure_pound_force_per_square_inch_second
 	skos:prefLabel "pound force per square inch second"^^xsd:string ;
 	skos:scopeNote "1 pound force per square inch second = 6894.75789 x kilogram per meter secondCubed"^^xsd:string ;
 	gist:conversionFactor "6894.75789"^^xsd:decimal ;
-	gist:isMemberOf gistd:_UnitGroup_force_per_area_time ;
+	gist:isMemberOf gistd:_UnitGroup_pressure_per_time ;
 	.
 
 gistd:_UnitOfMeasure_pound_force_second_per_square_foot
@@ -31077,7 +31082,7 @@ gistd:_UnitOfMeasure_poundal_per_square_foot
 	skos:prefLabel "poundal per square foot"^^xsd:string ;
 	skos:scopeNote "1 poundal per square foot = 1.48816443 x kilogram per meter secondSquared"^^xsd:string ;
 	gist:conversionFactor "1.48816443"^^xsd:decimal ;
-	gist:isMemberOf gistd:_UnitGroup_force_per_area ;
+	gist:isMemberOf gistd:_UnitGroup_pressure ;
 	.
 
 gistd:_UnitOfMeasure_practical_salinity_unit
@@ -31103,7 +31108,7 @@ gistd:_UnitOfMeasure_psi
 	gist:isMemberOf
 		gistd:_UnitGroup_atmospheric_pressure ,
 		gistd:_UnitGroup_fluid_pressure ,
-		gistd:_UnitGroup_force_per_area ,
+		gistd:_UnitGroup_pressure ,
 		gistd:_UnitGroup_shear_modulus
 		;
 	.
@@ -32932,7 +32937,7 @@ gistd:_UnitOfMeasure_standard_atmosphere
 	gist:isMemberOf
 		gistd:_UnitGroup_atmospheric_pressure ,
 		gistd:_UnitGroup_fluid_pressure ,
-		gistd:_UnitGroup_force_per_area
+		gistd:_UnitGroup_pressure
 		;
 	.
 
@@ -33253,7 +33258,7 @@ gistd:_UnitOfMeasure_technical_atmosphere
 	gist:conversionFactor "98066.5"^^xsd:decimal ;
 	gist:isMemberOf
 		gistd:_UnitGroup_fluid_pressure ,
-		gistd:_UnitGroup_force_per_area
+		gistd:_UnitGroup_pressure
 		;
 	.
 
@@ -33644,7 +33649,7 @@ gistd:_UnitOfMeasure_torr
 	skos:prefLabel "torr"^^xsd:string ;
 	skos:scopeNote "1 torr = 133.322 x kilogram per meter secondSquared"^^xsd:string ;
 	gist:conversionFactor "133.322"^^xsd:decimal ;
-	gist:isMemberOf gistd:_UnitGroup_force_per_area ;
+	gist:isMemberOf gistd:_UnitGroup_pressure ;
 	.
 
 gistd:_UnitOfMeasure_tropical_year
@@ -34124,7 +34129,7 @@ gistd:_UnitOfMeasure_watt_per_cubic_meter
 	skos:prefLabel "watt per cubic meter"^^xsd:string ;
 	skos:scopeNote "1 watt per cubic meter = 1.0 x kilogram per meter secondCubed"^^xsd:string ;
 	gist:conversionFactor "1.0"^^xsd:decimal ;
-	gist:isMemberOf gistd:_UnitGroup_force_per_area_time ;
+	gist:isMemberOf gistd:_UnitGroup_pressure_per_time ;
 	.
 
 gistd:_UnitOfMeasure_watt_per_kelvin
@@ -34219,7 +34224,7 @@ gistd:_UnitOfMeasure_watt_per_square_meter_per_meter
 	skos:prefLabel "watts per square meter per meter"^^xsd:string ;
 	skos:scopeNote "1 watts per square meter per meter = 1.0 x kilogram per meter secondCubed"^^xsd:string ;
 	gist:conversionFactor "1.0"^^xsd:decimal ;
-	gist:isMemberOf gistd:_UnitGroup_force_per_area_time ;
+	gist:isMemberOf gistd:_UnitGroup_pressure_per_time ;
 	.
 
 gistd:_UnitOfMeasure_watt_per_square_meter_per_nanometer
@@ -34229,7 +34234,7 @@ gistd:_UnitOfMeasure_watt_per_square_meter_per_nanometer
 	skos:prefLabel "watts per square meter per nanometer"^^xsd:string ;
 	skos:scopeNote "1 watts per square meter per nanometer = 1000000000.0 x kilogram per meter secondCubed"^^xsd:string ;
 	gist:conversionFactor "1000000000.0"^^xsd:decimal ;
-	gist:isMemberOf gistd:_UnitGroup_force_per_area_time ;
+	gist:isMemberOf gistd:_UnitGroup_pressure_per_time ;
 	.
 
 gistd:_UnitOfMeasure_watt_per_square_meter_quartic_kelvin
