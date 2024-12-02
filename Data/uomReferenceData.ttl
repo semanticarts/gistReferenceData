@@ -12724,25 +12724,6 @@ gistd:_UnitGroup_hvac_energy_efficiency_ratio
 	gist:exponentOfUSDollar "0"^^xsd:decimal ;
 	.
 
-gistd:_UnitGroup_hvac_seasonal_energy_efficiency_ratio
-	a gist:UnitGroup ;
-	skos:prefLabel "units that measure hvac seasonal efficiency"^^xsd:string ;
-	skos:scopeNote "number"^^xsd:string ;
-	gist:exponentOfAmpere "0"^^xsd:decimal ;
-	gist:exponentOfBit "0"^^xsd:decimal ;
-	gist:exponentOfCandela "0"^^xsd:decimal ;
-	gist:exponentOfKelvin "0"^^xsd:decimal ;
-	gist:exponentOfKilogram "0"^^xsd:decimal ;
-	gist:exponentOfMeter "0"^^xsd:decimal ;
-	gist:exponentOfMole "0"^^xsd:decimal ;
-	gist:exponentOfNumber "1"^^xsd:decimal ;
-	gist:exponentOfOther "0"^^xsd:decimal ;
-	gist:exponentOfRadian "0"^^xsd:decimal ;
-	gist:exponentOfSecond "0"^^xsd:decimal ;
-	gist:exponentOfSteradian "0"^^xsd:decimal ;
-	gist:exponentOfUSDollar "0"^^xsd:decimal ;
-	.
-
 gistd:_UnitGroup_inductance
 	a gist:UnitGroup ;
 	skos:definition "Based on QUDT Quantity Kind Dimension Vector A0E-2L2I0M1H0T-2D0."^^xsd:string ;
@@ -17658,7 +17639,7 @@ gistd:_UnitOfMeasure_british_thermal_unit_international_per_watt_hour
 	skos:prefLabel "british thermal unit international per watt hour"^^xsd:string ;
 	skos:scopeNote "1 british thermal unit international per watt hour = 0.293071069 (pure numeric)"^^xsd:string ;
 	gist:conversionFactor "0.293071069"^^xsd:decimal ;
-	gist:isMemberOf gistd:_UnitGroup_hvac_energy_efficiency ;
+	gist:isMemberOf gistd:_UnitGroup_hvac_energy_efficiency_ratio ;
 	.
 
 gistd:_UnitOfMeasure_british_thermal_unit_mean
