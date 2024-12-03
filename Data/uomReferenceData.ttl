@@ -2731,15 +2731,6 @@ gistd:_Aspect_electric_vehicle_efficiency
 	gist:isCategorizedBy gistd:_Discipline_Other ;
 	.
 
-gistd:_Aspect_electric_vehicle_efficiency_inverse
-	a gist:Aspect ;
-	rdfs:seeAlso "https://www.inchcalculator.com/convert/electric-car-efficiency/"^^xsd:anyURI ;
-	skos:definition "How efficiently the vehicle uses electricity, expressed as the distance it can go on a given amount of energy."^^xsd:string ;
-	skos:prefLabel "electric vehicle efficiency (inverse)"^^xsd:string ;
-	gist:hasUnitGroup gistd:_UnitGroup_electric_vehicle_efficiency_inverse ;
-	gist:isCategorizedBy gistd:_Discipline_Other ;
-	.
-
 gistd:_Aspect_electrolytic_conductivity
 	a gist:Aspect ;
 	rdfs:seeAlso
@@ -4311,6 +4302,15 @@ gistd:_Aspect_inverse_distance_temperature
 
 gistd:_Aspect_inverse_duration
 	gist:hasUnitGroup gistd:_UnitGroup_inverse_duration ;
+	.
+
+gistd:_Aspect_inverse_electric_vehicle_efficiency
+	a gist:Aspect ;
+	rdfs:seeAlso "https://www.inchcalculator.com/convert/electric-car-efficiency/"^^xsd:anyURI ;
+	skos:definition "How efficiently the vehicle uses electricity, expressed as the distance it can go on a given amount of energy."^^xsd:string ;
+	skos:prefLabel "electric vehicle efficiency (inverse)"^^xsd:string ;
+	gist:hasUnitGroup gistd:_UnitGroup_inverse_electric_vehicle_efficiency ;
+	gist:isCategorizedBy gistd:_Discipline_Other ;
 	.
 
 gistd:_Aspect_inverse_energy
@@ -12200,25 +12200,6 @@ gistd:_UnitGroup_electric_vehicle_efficiency
 	gist:exponentOfUSDollar "0"^^xsd:decimal ;
 	.
 
-gistd:_UnitGroup_electric_vehicle_efficiency_inverse
-	a gist:UnitGroup ;
-	skos:prefLabel "units that measure electric vehicle efficiency (distance per energy)"^^xsd:string ;
-	skos:scopeNote "secondSquared per kilogram meter"^^xsd:string ;
-	gist:exponentOfAmpere "0"^^xsd:decimal ;
-	gist:exponentOfBit "0"^^xsd:decimal ;
-	gist:exponentOfCandela "0"^^xsd:decimal ;
-	gist:exponentOfKelvin "0"^^xsd:decimal ;
-	gist:exponentOfKilogram "-1"^^xsd:decimal ;
-	gist:exponentOfMeter "-1"^^xsd:decimal ;
-	gist:exponentOfMole "0"^^xsd:decimal ;
-	gist:exponentOfNumber "0"^^xsd:decimal ;
-	gist:exponentOfOther "0"^^xsd:decimal ;
-	gist:exponentOfRadian "0"^^xsd:decimal ;
-	gist:exponentOfSecond "2"^^xsd:decimal ;
-	gist:exponentOfSteradian "0"^^xsd:decimal ;
-	gist:exponentOfUSDollar "0"^^xsd:decimal ;
-	.
-
 gistd:_UnitGroup_employee_er_share_multiplier
 	a gist:UnitGroup ;
 	skos:prefLabel "units that measure employee earned revenue share multiplier"^^xsd:string ;
@@ -12857,6 +12838,25 @@ gistd:_UnitGroup_inverse_duration
 	gist:exponentOfRadian "0"^^xsd:decimal ;
 	gist:exponentOfSecond "-1"^^xsd:decimal ;
 	gist:exponentOfSteradian "0.0"^^xsd:decimal ;
+	gist:exponentOfUSDollar "0"^^xsd:decimal ;
+	.
+
+gistd:_UnitGroup_inverse_electric_vehicle_efficiency
+	a gist:UnitGroup ;
+	skos:prefLabel "units that measure electric vehicle efficiency (distance per energy)"^^xsd:string ;
+	skos:scopeNote "secondSquared per kilogram meter"^^xsd:string ;
+	gist:exponentOfAmpere "0"^^xsd:decimal ;
+	gist:exponentOfBit "0"^^xsd:decimal ;
+	gist:exponentOfCandela "0"^^xsd:decimal ;
+	gist:exponentOfKelvin "0"^^xsd:decimal ;
+	gist:exponentOfKilogram "-1"^^xsd:decimal ;
+	gist:exponentOfMeter "-1"^^xsd:decimal ;
+	gist:exponentOfMole "0"^^xsd:decimal ;
+	gist:exponentOfNumber "0"^^xsd:decimal ;
+	gist:exponentOfOther "0"^^xsd:decimal ;
+	gist:exponentOfRadian "0"^^xsd:decimal ;
+	gist:exponentOfSecond "2"^^xsd:decimal ;
+	gist:exponentOfSteradian "0"^^xsd:decimal ;
 	gist:exponentOfUSDollar "0"^^xsd:decimal ;
 	.
 
@@ -26579,7 +26579,7 @@ gistd:_UnitOfMeasure_mile_per_gallon_equivalent
 	skos:prefLabel "mile per gallon equivalent"^^xsd:string ;
 	skos:scopeNote "1 mile per gallon equivalent = 0.000013227 x secondSquared per kilogram meter "^^xsd:string ;
 	gist:conversionFactor "0.000013227"^^xsd:decimal ;
-	gist:isMemberOf gistd:_UnitGroup_electric_vehicle_efficiency_inverse ;
+	gist:isMemberOf gistd:_UnitGroup_inverse_electric_vehicle_efficiency ;
 	.
 
 gistd:_UnitOfMeasure_mile_per_hour
