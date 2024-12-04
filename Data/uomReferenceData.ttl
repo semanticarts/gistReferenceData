@@ -98,10 +98,6 @@ gistd:_Aspect_acceleration
 	gist:isCategorizedBy gistd:_Discipline_space_and_time ;
 	.
 
-gistd:_Aspect_acceleration_of_gravity
-	gist:isCategorizedBy gistd:_Discipline_space_and_time ;
-	.
-
 gistd:_Aspect_acceptor_density
 	a gist:Aspect ;
 	rdfs:seeAlso "https://www.iso.org/iso/catalogue_detail?csnumber=31897"^^xsd:anyURI ;
@@ -6098,9 +6094,7 @@ gistd:_Aspect_modulus_of_impedance
 		"https://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.htm?csnumber=31891"^^xsd:anyURI
 		;
 	skos:closeMatch <http://qudt.org/vocab/quantitykind/ModulusOfImpedance> ;
-	skos:definition '''from QUDT: "Modulus Of Impedance} is the absolute value of the quantity \\textit{impedance". Apparent impedance is defined more generally as
-
-the quotient of rms voltage and rms electric current; it is often denoted by \\(Z\\).'''^^xsd:string ;
+	skos:definition 'from QUDT: "Modulus Of Impedance} is the absolute value of the quantity \\textit{impedance". Apparent impedance is defined more generally as the quotient of rms voltage and rms electric current; it is often denoted by \\(Z\\).'^^xsd:string ;
 	skos:prefLabel "modulus of impedance"^^xsd:string ;
 	gist:hasUnitGroup gistd:_UnitGroup_electric_resistance ;
 	gist:isCategorizedBy gistd:_Discipline_electricity_and_magnetism ;
@@ -8511,9 +8505,7 @@ gistd:_Aspect_source_voltage
 	a gist:Aspect ;
 	rdfs:seeAlso "https://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.htm?csnumber=31891"^^xsd:anyURI ;
 	skos:closeMatch <http://qudt.org/vocab/quantitykind/SourceVoltage> ;
-	skos:definition '''from QUDT: "Source Voltage}, also referred to as \\textit{Source Tension" is the voltage between the two terminals of a voltage source when there is no
-
-electric current through the source. The name "electromotive force} with the abbreviation \\textit{EMF" and the symbol \\(E\\) is deprecated.'''^^xsd:string ;
+	skos:definition 'from QUDT: "Source Voltage}, also referred to as \\textit{Source Tension" is the voltage between the two terminals of a voltage source when there is no electric current through the source. The name "electromotive force} with the abbreviation \\textit{EMF" and the symbol \\(E\\) is deprecated.'^^xsd:string ;
 	skos:prefLabel "source voltage"^^xsd:string ;
 	gist:hasUnitGroup gistd:_UnitGroup_energy_or_work_per_electric_charge ;
 	gist:isCategorizedBy gistd:_Discipline_electricity_and_magnetism ;
@@ -17523,10 +17515,7 @@ gistd:_UnitOfMeasure_british_thermal_unit_international
 
 gistd:_UnitOfMeasure_british_thermal_unit_international_inch_per_hour_square_foot_degree_fahrenheit
 	a gist:UnitOfMeasure ;
-	skos:altLabel
-		"british thermal units (international table) inch per hour square foot degree fahrenheit"^^xsd:string ,
-		"british thermal units (international table) inch per hour square foot degree fahrenheit"^^xsd:string
-		;
+	skos:altLabel "british thermal units (international table) inch per hour square foot degree fahrenheit"^^xsd:string ;
 	skos:closeMatch
 		<http://qudt.org/vocab/unit/BTU_IT-IN-PER-FT2-HR-DEG_F> ,
 		<http://qudt.org/vocab/unit/BTU_IT-IN-PER-HR-FT2-DEG_F>
@@ -17535,14 +17524,8 @@ gistd:_UnitOfMeasure_british_thermal_unit_international_inch_per_hour_square_foo
 		"from QUDT: BTU (th) Inch per Square Foot Hour Degree Fahrenheit is an Imperial unit for 'Thermal Conductivity', an International British thermal unit inch per second per square foot per degree Fahrenheit is a unit of thermal conductivity in the US Customary Units and British Imperial Units."^^xsd:string ,
 		"from QUDT: unit of the thermal conductivity according to the Imperial system of units"^^xsd:string
 		;
-	skos:prefLabel
-		"british thermal unit (international table) inch per hour square foot degree fahrenheit"^^xsd:string ,
-		"british thermal unit (international table) inch per hour square foot degree fahrenheit"^^xsd:string
-		;
-	skos:scopeNote
-		"1 british thermal unit (international table) inch per hour square foot degree fahrenheit = 0.144227889 x kilogram meter per kelvin secondCubed"^^xsd:string ,
-		"1 british thermal unit (international table) inch per hour square foot degree fahrenheit = 0.1442279 x kilogram meter per kelvin secondCubed"^^xsd:string
-		;
+	skos:prefLabel "british thermal unit (international table) inch per hour square foot degree fahrenheit"^^xsd:string ;
+	skos:scopeNote "1 british thermal unit (international table) inch per hour square foot degree fahrenheit = 0.144227889 x kilogram meter per kelvin secondCubed"^^xsd:string ;
 	gist:conversionFactor "0.144227889"^^xsd:decimal ;
 	gist:isMemberOf gistd:_UnitGroup_thermal_conductivity ;
 	.
@@ -17667,7 +17650,7 @@ gistd:_UnitOfMeasure_british_thermal_unit_th_per_pound
 	gist:isMemberOf gistd:_UnitGroup_specific_energy ;
 	.
 
-gistd:_UnitOfMeasure_british_thermal_unit_thermochemical_definition
+gistd:_UnitOfMeasure_british_thermal_unit_thermochemical
 	a gist:UnitOfMeasure ;
 	rdfs:seeAlso
 		"https://en.wikipedia.org/wiki/British_thermal_unit"^^xsd:anyURI ,
@@ -17678,6 +17661,8 @@ gistd:_UnitOfMeasure_british_thermal_unit_thermochemical_definition
 	skos:altLabel "british thermal units (thermochemical definition)"^^xsd:string ;
 	skos:closeMatch <http://qudt.org/vocab/unit/BTU_TH> ;
 	skos:prefLabel "british thermal unit (thermochemical definition)"^^xsd:string ;
+	skos:scopeNote "1 british thermal unit (thermochemical definition) = 1054.3502645 x kilogram meterSquared per secondSquared"^^xsd:string ;
+	gist:conversionFactor "1054.3502645"^^xsd:decimal ;
 	gist:isMemberOf gistd:_UnitGroup_amount_of_heat ;
 	.
 
@@ -17743,11 +17728,6 @@ gistd:_UnitOfMeasure_british_thermal_unit_thermochemical_per_second
 		gistd:_UnitGroup_heat_flow_rate ,
 		gistd:_UnitGroup_power
 		;
-	.
-
-gistd:_UnitOfMeasure_british_thermal_unit_thermochemical_scopeNote
-	skos:definition "1 british thermal unit (thermochemical definition) = 1054.3502645 x kilogram meterSquared per secondSquared"^^xsd:string ;
-	gist:conversionFactor "1054.3502645"^^xsd:decimal ;
 	.
 
 gistd:_UnitOfMeasure_btu_foot
@@ -19746,11 +19726,9 @@ gistd:_UnitOfMeasure_decare
 	a gist:UnitOfMeasure ;
 	skos:altLabel "decares"^^xsd:string ;
 	skos:closeMatch <http://qudt.org/vocab/unit/DecaARE> ;
+	skos:definition "from QUDT: unit of the area which is mainly common in the agriculture and forestry: 1 da = 10 a"^^xsd:string ;
 	skos:prefLabel "decare"^^xsd:string ;
-	skos:scopeNote
-		"1 decare = 1000.0 x meterSquared"^^xsd:string ,
-		"from QUDT: unit of the area which is mainly common in the agriculture and forestry: 1 da = 10 a"^^xsd:string
-		;
+	skos:scopeNote "1 decare = 1000.0 x meterSquared"^^xsd:string ;
 	gist:conversionFactor "1000.0"^^xsd:decimal ;
 	gist:isMemberOf gistd:_UnitGroup_area ;
 	.
@@ -20369,11 +20347,9 @@ gistd:_UnitOfMeasure_dram_us
 	a gist:UnitOfMeasure ;
 	skos:altLabel "drams (us)"^^xsd:string ;
 	skos:closeMatch <http://qudt.org/vocab/unit/DRAM_US> ;
+	skos:definition "from QUDT: non SI-conform unit of the mass according to the avoirdupois system of units: 1 dram (av. ) = 1/16 ounce (av. ) = 1/256 pound (av.)"^^xsd:string ;
 	skos:prefLabel "dram (us)"^^xsd:string ;
-	skos:scopeNote
-		"1 dram (us) = 0.0038879346 x kilogram"^^xsd:string ,
-		"from QUDT: non SI-conform unit of the mass according to the avoirdupois system of units: 1 dram (av. ) = 1/16 ounce (av. ) = 1/256 pound (av.)"^^xsd:string
-		;
+	skos:scopeNote "1 dram (us) = 0.0038879346 x kilogram"^^xsd:string ;
 	gist:conversionFactor "0.0038879346"^^xsd:decimal ;
 	gist:isMemberOf gistd:_UnitGroup_mass ;
 	.
@@ -21272,11 +21248,9 @@ gistd:_UnitOfMeasure_galileo
 	rdfs:seeAlso "https://en.wikipedia.org/wiki/Gal_(unit)"^^xsd:anyURI ;
 	skos:altLabel "galileos"^^xsd:string ;
 	skos:closeMatch <http://qudt.org/vocab/unit/GALILEO> ;
+	skos:definition "from QUDT: CGS unit of acceleration called gal with the definition: 1 Gal = 1 cm/s"^^xsd:string ;
 	skos:prefLabel "galileo"^^xsd:string ;
-	skos:scopeNote
-		"1 galileo = 0.01 x meter per secondSquared"^^xsd:string ,
-		"from QUDT: CGS unit of acceleration called gal with the definition: 1 Gal = 1 cm/s"^^xsd:string
-		;
+	skos:scopeNote "1 galileo = 0.01 x meter per secondSquared"^^xsd:string ;
 	gist:conversionFactor "0.01"^^xsd:decimal ;
 	gist:isMemberOf gistd:_UnitGroup_linear_acceleration ;
 	.
@@ -23210,8 +23184,12 @@ gistd:_UnitOfMeasure_kilo_british_thermal_unit_international
 	a gist:UnitOfMeasure ;
 	skos:altLabel "kilo british thermal units (international definition)"^^xsd:string ;
 	skos:closeMatch <http://qudt.org/vocab/unit/KiloBTU_IT> ;
-	skos:definition "from QUDT: Is part of the IMPERIAL system."^^xsd:string ;
+	skos:definition
+		"1 kilo british thermal unit (international definition) per hour = 293.07107 x kilogram meterSquared per secondCubed"^^xsd:string ,
+		"from QUDT: Is part of the IMPERIAL system."^^xsd:string
+		;
 	skos:prefLabel "kilo british thermal unit (international definition)"^^xsd:string ;
+	gist:conversionFactor "293.07107"^^xsd:decimal ;
 	gist:isMemberOf gistd:_UnitGroup_amount_of_heat ;
 	.
 
@@ -23234,17 +23212,7 @@ gistd:_UnitOfMeasure_kilo_british_thermal_unit_international_per_hour
 		;
 	.
 
-gistd:_UnitOfMeasure_kilo_british_thermal_unit_international_scopeNote
-	skos:definition "1 kilo british thermal unit (international definition) = 105505.585262 x kilogram meterSquared per secondSquared"^^xsd:string ;
-	gist:conversionFactor "105505.585262"^^xsd:decimal ;
-	.
-
-gistd:_UnitOfMeasure_kilo_british_thermal_unit_international_scopeNote_per_hour
-	skos:definition "1 kilo british thermal unit (international definition) per hour = 293.07107 x kilogram meterSquared per secondCubed"^^xsd:string ;
-	gist:conversionFactor "293.07107"^^xsd:decimal ;
-	.
-
-gistd:_UnitOfMeasure_kilo_british_thermal_unit_thermochemical_definition
+gistd:_UnitOfMeasure_kilo_british_thermal_unit_thermochemical
 	a gist:UnitOfMeasure ;
 	skos:altLabel "kilo british thermal units (thermochemical definition)"^^xsd:string ;
 	skos:closeMatch <http://qudt.org/vocab/unit/KiloBTU_TH> ;
@@ -23264,11 +23232,6 @@ gistd:_UnitOfMeasure_kilo_british_thermal_unit_thermochemical_per_hour
 		gistd:_UnitGroup_heat_flow_rate ,
 		gistd:_UnitGroup_power
 		;
-	.
-
-gistd:_UnitOfMeasure_kilo_british_thermal_unit_thermochemical_scopeNote
-	skos:definition "1 kilo british thermal unit (thermochemical definition) = 1054350.2645 x kilogram meterSquared per secondSquared"^^xsd:string ;
-	gist:conversionFactor "1054350.2645"^^xsd:decimal ;
 	.
 
 gistd:_UnitOfMeasure_kilo_byte
@@ -25064,19 +25027,16 @@ gistd:_UnitOfMeasure_mega_british_thermal_unit_international_per_hour
 	skos:altLabel "mega british thermal units (international definition) per hour"^^xsd:string ;
 	skos:closeMatch <http://qudt.org/vocab/unit/MegaBTU_IT-PER-HR> ;
 	skos:definition
+		"1 mega british thermal unit (international definition) per hour = 293071.07 x kilogram meterSquared per secondCubed"^^xsd:string ,
 		"from QUDT: Is part of the IMPERIAL system."^^xsd:string ,
 		"from QUDT: Is part of the USCS system."^^xsd:string
 		;
 	skos:prefLabel "mega british thermal unit (international definition) per hour"^^xsd:string ;
+	gist:conversionFactor "293071.07"^^xsd:decimal ;
 	gist:isMemberOf
 		gistd:_UnitGroup_heat_flow_rate ,
 		gistd:_UnitGroup_power
 		;
-	.
-
-gistd:_UnitOfMeasure_mega_british_thermal_unit_international_scopeNote_per_hour
-	skos:definition "1 mega british thermal unit (international definition) per hour = 293071.07 x kilogram meterSquared per secondCubed"^^xsd:string ;
-	gist:conversionFactor "293071.07"^^xsd:decimal ;
 	.
 
 gistd:_UnitOfMeasure_mega_byte
@@ -28693,18 +28653,9 @@ gistd:_UnitOfMeasure_newton_per_cubic_meter
 	skos:altLabel "newtons per cubic meter"^^xsd:string ;
 	skos:closeMatch <http://qudt.org/vocab/unit/N-PER-M3> ;
 	skos:definition "Newton per cubic meter."^^xsd:string ;
-	skos:prefLabel
-		"newton per cubic meter"^^xsd:string ,
-		"newtons per cubic meter"^^xsd:string
-		;
-	skos:scopeNote
-		"1 newton per cubic meter = 1 x kilogram per meterSquared secondSquared"^^xsd:string ,
-		"1 newtons per cubic meter = 1.0 x kilogram per meterSquared secondSquared"^^xsd:string
-		;
-	gist:conversionFactor
-		"1"^^xsd:decimal ,
-		"1.0"^^xsd:decimal
-		;
+	skos:prefLabel "newton per cubic meter"^^xsd:string ;
+	skos:scopeNote "1 newton per cubic meter = 1.0 x kilogram per meterSquared secondSquared"^^xsd:string ;
+	gist:conversionFactor "1.0"^^xsd:decimal ;
 	gist:isMemberOf
 		gistd:_UnitGroup_bedding_measure ,
 		gistd:_UnitGroup_spectral_radiant_energy_density
@@ -29391,17 +29342,11 @@ gistd:_UnitOfMeasure_part_per_thousand
 
 gistd:_UnitOfMeasure_part_per_thousand_per_hour
 	a gist:UnitOfMeasure ;
-	skos:altLabel
-		"part per thousand per hour"^^xsd:string ,
-		"parts per thousand per hour"^^xsd:string
-		;
+	skos:altLabel "parts per thousand per hour"^^xsd:string ;
 	skos:closeMatch <http://qudt.org/vocab/unit/PPTH-PER-HR> ;
 	skos:definition "Part per thousand per hour."^^xsd:string ;
 	skos:prefLabel "parts per thousand per hour"^^xsd:string ;
-	skos:scopeNote
-		"1 part per thousand per hour = 0.000277777777777778 x part per million per second"^^xsd:string ,
-		"1 part per thousand per hour = 0.2777778 x part per million per second (verify)"^^xsd:string
-		;
+	skos:scopeNote "1 part per thousand per hour = 0.000277777777777778 x part per million per second"^^xsd:string ;
 	gist:conversionFactor "0.000277777777777778"^^xsd:decimal ;
 	gist:isMemberOf gistd:_UnitGroup_concentration_per_duration ;
 	.
@@ -29703,11 +29648,9 @@ gistd:_UnitOfMeasure_pennyweight
 	a gist:UnitOfMeasure ;
 	skos:altLabel "pennyweight"^^xsd:string ;
 	skos:closeMatch <http://qudt.org/vocab/unit/Pennyweight> ;
+	skos:definition "from QUDT: non SI-conforming unit of mass which comes from the Anglo-American Troy or Apothecaries' Weight System of units according to NIST of 1 pwt = 1.555174 10^3 kg"^^xsd:string ;
 	skos:prefLabel "pennyweight"^^xsd:string ;
-	skos:scopeNote
-		"1 pennyweight = 0.001555174 x kilogram"^^xsd:string ,
-		"from QUDT: non SI-conforming unit of mass which comes from the Anglo-American Troy or Apothecaries' Weight System of units according to NIST of 1 pwt = 1.555174 10^3 kg"^^xsd:string
-		;
+	skos:scopeNote "1 pennyweight = 0.001555174 x kilogram"^^xsd:string ;
 	gist:conversionFactor "0.001555174"^^xsd:decimal ;
 	gist:isMemberOf gistd:_UnitGroup_mass ;
 	.
@@ -30647,24 +30590,15 @@ gistd:_UnitOfMeasure_pound_force_inch
 gistd:_UnitOfMeasure_pound_force_per_foot
 	a gist:UnitOfMeasure ;
 	skos:altLabel "pounds force per foot"^^xsd:string ;
-	skos:closeMatch
-		<http://qudt.org/vocab/unit/KiloLB_F-PER-FT> ,
-		<http://qudt.org/vocab/unit/LB_F-PER-FT>
-		;
+	skos:closeMatch <http://qudt.org/vocab/unit/LB_F-PER-FT> ;
 	skos:definition
 		"from QUDT: Is part of the IMPERIAL system."^^xsd:string ,
 		"from QUDT: Is part of the USCS system."^^xsd:string ,
 		"from QUDT: unit of the length-related force"^^xsd:string
 		;
 	skos:prefLabel "pound force per foot"^^xsd:string ;
-	skos:scopeNote
-		"1 pound force per foot = 14.5939042 x kilogram per secondSquared"^^xsd:string ,
-		"1 pound force per foot = 14593.904199475066 x kilogram per secondSquared"^^xsd:string
-		;
-	gist:conversionFactor
-		"14.5939042"^^xsd:decimal ,
-		"14593.904199475066"^^xsd:decimal
-		;
+	skos:scopeNote "1 pound force per foot = 14.5939042 x kilogram per secondSquared"^^xsd:string ;
+	gist:conversionFactor "14.5939042"^^xsd:decimal ;
 	gist:isMemberOf gistd:_UnitGroup_energy_or_work_per_area ;
 	.
 
@@ -31266,11 +31200,9 @@ gistd:_UnitOfMeasure_quarter_uk
 	a gist:UnitOfMeasure ;
 	skos:altLabel "quarters (uk)"^^xsd:string ;
 	skos:closeMatch <http://qudt.org/vocab/unit/Quarter_UK> ;
+	skos:definition "from QUDT: unit of the mass according to the avoirdupois system of units: 1 qr. l. = 28 lb"^^xsd:string ;
 	skos:prefLabel "quarter (uk)"^^xsd:string ;
-	skos:scopeNote
-		"1 quarter (uk) = 12.70058636 x kilogram"^^xsd:string ,
-		"from QUDT: unit of the mass according to the avoirdupois system of units: 1 qr. l. = 28 lb"^^xsd:string
-		;
+	skos:scopeNote "1 quarter (uk) = 12.70058636 x kilogram"^^xsd:string ;
 	gist:conversionFactor "12.70058636"^^xsd:decimal ;
 	gist:isMemberOf gistd:_UnitGroup_mass ;
 	.
@@ -32895,11 +32827,9 @@ gistd:_UnitOfMeasure_standard
 	a gist:UnitOfMeasure ;
 	skos:altLabel "standards"^^xsd:string ;
 	skos:closeMatch <http://qudt.org/vocab/unit/Standard> ;
+	skos:definition "from QUDT: non SI-conform unit of the volume of readily finished wood material : 1 standard = 1,980 board feet or approximate 4.672 cubic metre"^^xsd:string ;
 	skos:prefLabel "standard"^^xsd:string ;
-	skos:scopeNote
-		"1 standard = 4.672 x meterCubed"^^xsd:string ,
-		"from QUDT: non SI-conform unit of the volume of readily finished wood material : 1 standard = 1,980 board feet or approximate 4.672 cubic metre"^^xsd:string
-		;
+	skos:scopeNote "1 standard = 4.672 x meterCubed"^^xsd:string ;
 	gist:conversionFactor "4.672"^^xsd:decimal ;
 	gist:isMemberOf
 		gistd:_UnitGroup_liquid_volume ,
@@ -33149,11 +33079,9 @@ gistd:_UnitOfMeasure_stone_uk
 	a gist:UnitOfMeasure ;
 	skos:altLabel "stones (uk)"^^xsd:string ;
 	skos:closeMatch <http://qudt.org/vocab/unit/Stone_UK> ;
+	skos:definition "from QUDT: unit of the mass which is commonly used for the determination of the weight of living beings regarding to the conversion to the avoirdupois system of units: 1 st = 14 lb (av)"^^xsd:string ;
 	skos:prefLabel "stone (uk)"^^xsd:string ;
-	skos:scopeNote
-		"1 stone (uk) = 6.35029318 x kilogram"^^xsd:string ,
-		"from QUDT: unit of the mass which is commonly used for the determination of the weight of living beings regarding to the conversion to the avoirdupois system of units: 1 st = 14 lb (av)"^^xsd:string
-		;
+	skos:scopeNote "1 stone (uk) = 6.35029318 x kilogram"^^xsd:string ;
 	gist:conversionFactor "6.35029318"^^xsd:decimal ;
 	gist:isMemberOf gistd:_UnitGroup_mass ;
 	.
@@ -33447,14 +33375,8 @@ gistd:_UnitOfMeasure_ton_of_refrigeration
 		"from QUDT: Is part of the USCS system."^^xsd:string
 		;
 	skos:prefLabel "ton of refrigeration"^^xsd:string ;
-	skos:scopeNote
-		"1 ton of refrigeration = 3516.853 x kilogram meterSquared per secondCubed"^^xsd:string ,
-		"1 ton of refrigeration = 3516.86 x watts"^^xsd:string
-		;
-	gist:conversionFactor
-		"3516.853"^^xsd:decimal ,
-		"3516.86"^^xsd:decimal
-		;
+	skos:scopeNote "1 ton of refrigeration = 3516.853 x kilogram meterSquared per secondCubed"^^xsd:string ;
+	gist:conversionFactor "3516.853"^^xsd:decimal ;
 	gist:isMemberOf
 		gistd:_UnitGroup_cooling_capacity ,
 		gistd:_UnitGroup_power
@@ -33646,20 +33568,11 @@ gistd:_UnitOfMeasure_tropical_year
 gistd:_UnitOfMeasure_u_s_perm
 	a gist:UnitOfMeasure ;
 	rdfs:seeAlso "https://en.wikipedia.org/wiki/Perm_(unit)"^^xsd:anyURI ;
-	skos:altLabel "u.s.s perms"^^xsd:string ;
-	skos:closeMatch
-		<http://qudt.org/vocab/unit/PERM_Metric> ,
-		<http://qudt.org/vocab/unit/PERM_US>
-		;
+	skos:altLabel "u.s. perms"^^xsd:string ;
+	skos:closeMatch <http://qudt.org/vocab/unit/PERM_US> ;
 	skos:prefLabel "u.s. perm"^^xsd:string ;
-	skos:scopeNote
-		"1 u.s. perm = 0.0000000000572135 x second per meter"^^xsd:string ,
-		"1 u.s. perm = 0.0000000000868127 x second per meter"^^xsd:string
-		;
-	gist:conversionFactor
-		"0.0000000000572135"^^xsd:decimal ,
-		"0.0000000000868127"^^xsd:decimal
-		;
+	skos:scopeNote "1 u.s. perm = 0.0000000000572135 x second per meter"^^xsd:string ;
+	gist:conversionFactor "0.0000000000572135"^^xsd:decimal ;
 	gist:isMemberOf gistd:_UnitGroup_vapor_permeability ;
 	.
 
@@ -34058,17 +33971,11 @@ gistd:_UnitOfMeasure_watt
 gistd:_UnitOfMeasure_watt_hour
 	a gist:UnitOfMeasure ;
 	rdfs:seeAlso "https://en.wikipedia.org/wiki/Kilowatt-hour"^^xsd:anyURI ;
-	skos:altLabel
-		"watt hour"^^xsd:string ,
-		"watt hours"^^xsd:string
-		;
+	skos:altLabel "watt hours"^^xsd:string ;
 	skos:closeMatch <http://qudt.org/vocab/unit/W-HR> ;
 	skos:definition "An amount of electricity defined as one watt for one hour."^^xsd:string ;
 	skos:prefLabel "watt hour"^^xsd:string ;
-	skos:scopeNote
-		"1 watt hour = 3600 x kilogram meterSquared per secondSquared"^^xsd:string ,
-		"1 watt-hour = 3600 x kilogram meterSquared per secondSquared "^^xsd:string
-		;
+	skos:scopeNote "1 watt hour = 3600 x kilogram meterSquared per secondSquared"^^xsd:string ;
 	gist:conversionFactor "3600"^^xsd:decimal ;
 	gist:isMemberOf gistd:_UnitGroup_electric_energy ;
 	.
