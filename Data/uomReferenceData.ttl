@@ -1644,8 +1644,8 @@ gistd:_Aspect_curvature
 	skos:definition
 		'from QUDT: In mathematics "Curvature" is the amount by which a geometric object deviates from being flat, or straight in the case of a line, but this is defined in different ways depending on the context.'^^xsd:string ,
 		"""from QUDT: The canonical example of extrinsic curvature is that of a circle, which has curvature equal to the inverse of its radius everywhere. Smaller circles bend more sharply, and hence have higher curvature. The curvature of a smooth curve is defined as the curvature of its osculating circle at each point. The osculating circle of a sufficiently smooth plane curve at a given point on the curve is the circle whose center lies on the inner normal line and whose curvature is the same as that of the given curve at that point. This circle is tangent to the curve at the given point.
-That is, given a point P on a smooth curve C, the curvature of C at P is defined to be 1/R where R is the radius of the osculating circle of C at P. The magnitude of curvature at points on physical curves can be measured in diopters (also spelled dioptre) — this is the convention in optics. [Wikipedia],"""^^xsd:string ,
-		"from QUDT: The canonical example of extrinsic curvature is that of a circle, which has curvature equal to the inverse of its radius everywhere. Smaller circles bend more sharply, and hence have higher curvature. The curvature of a smooth curve is defined as the curvature of its osculating circle at each point. The osculating circle of a sufficiently smooth plane curve at a given point on the curve is the circle whose center lies on the inner normal line and whose curvature is the same as that of the given curve at that point. This circle is tangent to the curve at the given point. The magnitude of curvature at points on physical curves can be measured in \\(diopters\\) (also spelled \\(dioptre\\)) — this is the convention in optics."^^xsd:string
+That is, given a point P on a smooth curve C, the curvature of C at P is defined to be 1/R where R is the radius of the osculating circle of C at P. The magnitude of curvature at points on physical curves can be measured in diopters (also spelled dioptre) - this is the convention in optics. [Wikipedia],"""^^xsd:string ,
+		"from QUDT: The canonical example of extrinsic curvature is that of a circle, which has curvature equal to the inverse of its radius everywhere. Smaller circles bend more sharply, and hence have higher curvature. The curvature of a smooth curve is defined as the curvature of its osculating circle at each point. The osculating circle of a sufficiently smooth plane curve at a given point on the curve is the circle whose center lies on the inner normal line and whose curvature is the same as that of the given curve at that point. This circle is tangent to the curve at the given point. The magnitude of curvature at points on physical curves can be measured in \\(diopters\\) (also spelled \\(dioptre\\)) - this is the convention in optics."^^xsd:string
 		;
 	skos:prefLabel "curvature"^^xsd:string ;
 	gist:hasUnitGroup gistd:_UnitGroup_inverse_distance ;
@@ -1723,7 +1723,7 @@ gistd:_Aspect_debye_temperature
 gistd:_Aspect_debye_waller_factor
 	a gist:Aspect ;
 	rdfs:seeAlso
-		"https://en.wikipedia.org/wiki/Debye–Waller_factor"^^xsd:anyURI ,
+		"https://en.wikipedia.org/wiki/Debye-Waller_factor"^^xsd:anyURI ,
 		"https://www.iso.org/iso/catalogue_detail?csnumber=31897"^^xsd:anyURI
 		;
 	skos:closeMatch <http://qudt.org/vocab/quantitykind/Debye-WallerFactor> ;
@@ -3802,11 +3802,11 @@ gistd:_Aspect_hall_coefficient
 gistd:_Aspect_hamilton_function
 	a gist:Aspect ;
 	rdfs:seeAlso
-		"https://en.wikipedia.org/wiki/Hamilton–Jacobi_equation"^^xsd:anyURI ,
+		"https://en.wikipedia.org/wiki/Hamilton-Jacobi_equation"^^xsd:anyURI ,
 		"https://www.iso.org/iso/catalogue_detail?csnumber=31889"^^xsd:anyURI
 		;
 	skos:closeMatch <http://qudt.org/vocab/quantitykind/HamiltonFunction> ;
-	skos:definition "from QUDT: The Hamilton–Jacobi equation (HJE) is a necessary condition describing extremal geometry in generalizations of problems from the calculus of variations."^^xsd:string ;
+	skos:definition "from QUDT: The Hamilton-Jacobi equation (HJE) is a necessary condition describing extremal geometry in generalizations of problems from the calculus of variations."^^xsd:string ;
 	skos:prefLabel "hamilton function"^^xsd:string ;
 	gist:hasUnitGroup gistd:_UnitGroup_energy_or_work ;
 	gist:isCategorizedBy gistd:_Discipline_mechanics ;
@@ -3824,7 +3824,7 @@ gistd:_Aspect_heart_rate
 	a gist:Aspect ;
 	rdfs:seeAlso "https://www.oxfordreference.com/view/10.1093/oi/authority.20110803100354463"^^xsd:anyURI ;
 	skos:closeMatch <http://qudt.org/vocab/quantitykind/HeartRate> ;
-	skos:definition "from QUDT: The number of heartbeats per unit of time, usually per minute. The heart rate is based on the number of contractions of the ventricles (the lower chambers of the heart). The heart rate may be too fast (tachycardia) or too slow (bradycardia). The average adult pulse rate at rest is 60–80 per minute, but exercise, injury, illness, and emotion may produce much faster rates."^^xsd:string ;
+	skos:definition "from QUDT: The number of heartbeats per unit of time, usually per minute. The heart rate is based on the number of contractions of the ventricles (the lower chambers of the heart). The heart rate may be too fast (tachycardia) or too slow (bradycardia). The average adult pulse rate at rest is 60-80 per minute, but exercise, injury, illness, and emotion may produce much faster rates."^^xsd:string ;
 	skos:prefLabel "heart rate"^^xsd:string ;
 	gist:hasUnitGroup gistd:_UnitGroup_count_per_minute_duration ;
 	gist:isCategorizedBy
@@ -4640,7 +4640,7 @@ gistd:_Aspect_lagrange_function
 gistd:_Aspect_landau_ginzburg_number
 	a gist:Aspect ;
 	rdfs:seeAlso
-		"https://en.wikipedia.org/wiki/Ginzburg–Landau_theory"^^xsd:anyURI ,
+		"https://en.wikipedia.org/wiki/Ginzburg-Landau_theory"^^xsd:anyURI ,
 		"https://www.iso.org/iso/catalogue_detail?csnumber=31897"^^xsd:anyURI
 		;
 	skos:closeMatch <http://qudt.org/vocab/quantitykind/Landau-GinzburgNumber> ;
@@ -6921,7 +6921,7 @@ gistd:_Aspect_particle_fluence
 		"https://www.iso.org/iso/catalogue_detail?csnumber=31895"^^xsd:anyURI
 		;
 	skos:closeMatch <http://qudt.org/vocab/quantitykind/ParticleFluence> ;
-	skos:definition 'from QUDT: "Particle Fluence" is the total number of particles that intersect a unit area in a specific time interval of interest, and has units of m–2 (number of particles per meter squared).'^^xsd:string ;
+	skos:definition 'from QUDT: "Particle Fluence" is the total number of particles that intersect a unit area in a specific time interval of interest, and has units of m-2 (number of particles per meter squared).'^^xsd:string ;
 	skos:prefLabel "particle fluence"^^xsd:string ;
 	gist:hasUnitGroup gistd:_UnitGroup_particle_fluence ;
 	gist:isCategorizedBy gistd:_Discipline_atomic_physics ;
@@ -7177,7 +7177,7 @@ gistd:_Aspect_photosynthetic_photon_flux_density
 	a gist:Aspect ;
 	rdfs:seeAlso "https://www.gigahertz-optik.com/en-us/service-and-support/knowledge-base/measurement-of-par/"^^xsd:anyURI ;
 	skos:closeMatch <http://qudt.org/vocab/quantitykind/PhotosyntheticPhotonFluxDensity> ;
-	skos:definition "from QUDT: Photosynthetically Active Radiation are the wavelengths of light within the visible range of 400 to 700 nanometers (nm) that are critical for photosynthesis. PPFD measures the amount of PAR light (photons) that arrive at the plant’s surface each second. The PPFD is measured at various distances with a Full-spectrum Quantum Sensor, also known as a PAR meter. Natural sunlight has a PAR value of 900-1500μMol/m2/s when the sun is directly overhead. For a grow light to be effective, it should have PAR values of 500-1500 μMol/m2/s."^^xsd:string ;
+	skos:definition "from QUDT: Photosynthetically Active Radiation are the wavelengths of light within the visible range of 400 to 700 nanometers (nm) that are critical for photosynthesis. PPFD measures the amount of PAR light (photons) that arrive at the plant's surface each second. The PPFD is measured at various distances with a Full-spectrum Quantum Sensor, also known as a PAR meter. Natural sunlight has a PAR value of 900-1500μMol/m2/s when the sun is directly overhead. For a grow light to be effective, it should have PAR values of 500-1500 μMol/m2/s."^^xsd:string ;
 	skos:prefLabel "photosynthetic photon flux density"^^xsd:string ;
 	gist:hasUnitGroup gistd:_UnitGroup_photosynthetic_photon_flux_density ;
 	gist:isCategorizedBy gistd:_Discipline_biology ;
@@ -9487,7 +9487,7 @@ gistd:_Aspect_thermodynamic_entropy
 	a gist:Aspect ;
 	rdfs:seeAlso "https://www.iso.org/iso/catalogue_detail?csnumber=31890"^^xsd:anyURI ;
 	skos:closeMatch <http://qudt.org/vocab/quantitykind/ThermodynamicEntropy> ;
-	skos:definition "from QUDT: Thermodynamic Entropy is a measure of the unavailability of a system’s energy to do work. It is a measure of the randomness of molecules in a system and is central to the second law of thermodynamics and the fundamental thermodynamic relation, which deal with physical processes and whether they occur spontaneously. The dimensions of entropy are energy divided by temperature, which is the same as the dimensions of Boltzmann's constant (\\(kB\\)) and heat capacity. The SI unit of entropy is \\(joule\\ per\\ kelvin\\). [Wikipedia]"^^xsd:string ;
+	skos:definition "from QUDT: Thermodynamic Entropy is a measure of the unavailability of a system's energy to do work. It is a measure of the randomness of molecules in a system and is central to the second law of thermodynamics and the fundamental thermodynamic relation, which deal with physical processes and whether they occur spontaneously. The dimensions of entropy are energy divided by temperature, which is the same as the dimensions of Boltzmann's constant (\\(kB\\)) and heat capacity. The SI unit of entropy is \\(joule\\ per\\ kelvin\\). [Wikipedia]"^^xsd:string ;
 	skos:prefLabel "thermodynamic entropy"^^xsd:string ;
 	gist:hasUnitGroup gistd:_UnitGroup_energy_or_work_per_temperature ;
 	gist:isCategorizedBy gistd:_Discipline_thermodynamics ;
@@ -10094,7 +10094,7 @@ gistd:_Aspect_volumetric_flux
 	a gist:Aspect ;
 	rdfs:seeAlso "https://en.wikipedia.org/wiki/Volumetric_flux"^^xsd:anyURI ;
 	skos:closeMatch <http://qudt.org/vocab/quantitykind/VolumetricFlux> ;
-	skos:definition "from QUDT: In fluid dynamics, the volumetric flux is the rate of volume flow across a unit area (m3·s−1·m−2).[Wikipedia]"^^xsd:string ;
+	skos:definition "from QUDT: In fluid dynamics, the volumetric flux is the rate of volume flow across a unit area (m3 s-1 m-2).[Wikipedia]"^^xsd:string ;
 	skos:prefLabel "volumetric flux"^^xsd:string ;
 	gist:hasUnitGroup gistd:_UnitGroup_volumetric_flux ;
 	gist:isCategorizedBy gistd:_Discipline_space_and_time ;
@@ -10183,7 +10183,7 @@ gistd:_Aspect_wavelength
 	a gist:Aspect ;
 	rdfs:seeAlso "https://en.wikipedia.org/wiki/Wavelength"^^xsd:anyURI ;
 	skos:closeMatch <http://qudt.org/vocab/quantitykind/Wavelength> ;
-	skos:definition "from QUDT: For a monochromatic wave, \"wavelength\" is the distance between two successive points in a direction perpendicular to the wavefront where at a given instant the phase differs by \\(2\\pi\\). The wavelength of a sinusoidal wave is the spatial period of the wave—the distance over which the wave's shape repeats. The SI unit of wavelength is the meter."^^xsd:string ;
+	skos:definition "from QUDT: For a monochromatic wave, \"wavelength\" is the distance between two successive points in a direction perpendicular to the wavefront where at a given instant the phase differs by \\(2\\pi\\). The wavelength of a sinusoidal wave is the spatial period of the wave-the distance over which the wave's shape repeats. The SI unit of wavelength is the meter."^^xsd:string ;
 	skos:prefLabel "wavelength"^^xsd:string ;
 	gist:hasUnitGroup gistd:_UnitGroup_distance ;
 	gist:isCategorizedBy
@@ -10277,7 +10277,7 @@ gistd:_Aspect_work
 	skos:closeMatch <http://qudt.org/vocab/quantitykind/Work> ;
 	skos:definition
 		"from QUDT: A force is said to do Work when it acts on a body so that there is a displacement of the point of application, however small, in the direction of the force. The concepts of work and energy are closely tied to the concept of force because an applied force can do work on an object and cause a change in energy. Energy is defined as the ability to do work. Work is done on an object when an applied force moves it through a distance. Kinetic energy is the energy of an object in motion. The net work is equal to the change in kinetic energy."^^xsd:string ,
-		"from QUDT: The net work is equal to the change in kinetic energy. This relationship is called the work-energy theorem: \\(Wnet = K. E._f − K. E._o \\), where \\(K. E._f\\) is the final kinetic energy and \\(K. E._o\\) is the original kinetic energy. Potential energy, also referred to as stored energy, is the ability of a system to do work due to its position or internal structure. Change in potential energy is equal to work. The potential energy equations can also be derived from the integral form of work, \\(\\Delta P. E. = W = \\int F \\cdot dx\\)."^^xsd:string
+		"from QUDT: The net work is equal to the change in kinetic energy. This relationship is called the work-energy theorem: \\(Wnet = K. E._f - K. E._o \\), where \\(K. E._f\\) is the final kinetic energy and \\(K. E._o\\) is the original kinetic energy. Potential energy, also referred to as stored energy, is the ability of a system to do work due to its position or internal structure. Change in potential energy is equal to work. The potential energy equations can also be derived from the integral form of work, \\(\\Delta P. E. = W = \\int F \\cdot dx\\)."^^xsd:string
 		;
 	skos:prefLabel "work"^^xsd:string ;
 	gist:hasUnitGroup gistd:_UnitGroup_energy_or_work ;
@@ -17515,7 +17515,7 @@ gistd:_UnitOfMeasure_british_thermal_unit_international
 
 gistd:_UnitOfMeasure_british_thermal_unit_international_inch_per_hour_square_foot_degree_fahrenheit
 	a gist:UnitOfMeasure ;
-	skos:altLabel "british thermal units (international table) inch per hour square foot degree fahrenheit"^^xsd:string ;
+	skos:altLabel "british thermal units (international table) inch per hour square foot degree fahrenheit"^^xsd:string ;
 	skos:closeMatch
 		<http://qudt.org/vocab/unit/BTU_IT-IN-PER-FT2-HR-DEG_F> ,
 		<http://qudt.org/vocab/unit/BTU_IT-IN-PER-HR-FT2-DEG_F>
@@ -17524,7 +17524,7 @@ gistd:_UnitOfMeasure_british_thermal_unit_international_inch_per_hour_square_foo
 		"from QUDT: BTU (th) Inch per Square Foot Hour Degree Fahrenheit is an Imperial unit for 'Thermal Conductivity', an International British thermal unit inch per second per square foot per degree Fahrenheit is a unit of thermal conductivity in the US Customary Units and British Imperial Units."^^xsd:string ,
 		"from QUDT: unit of the thermal conductivity according to the Imperial system of units"^^xsd:string
 		;
-	skos:prefLabel "british thermal unit (international table) inch per hour square foot degree fahrenheit"^^xsd:string ;
+	skos:prefLabel "british thermal unit (international table) inch per hour square foot degree fahrenheit"^^xsd:string ;
 	skos:scopeNote "1 british thermal unit (international table) inch per hour square foot degree fahrenheit = 0.144227889 x kilogram meter per kelvin secondCubed"^^xsd:string ;
 	gist:conversionFactor "0.144227889"^^xsd:decimal ;
 	gist:isMemberOf gistd:_UnitGroup_thermal_conductivity ;
@@ -17532,11 +17532,11 @@ gistd:_UnitOfMeasure_british_thermal_unit_international_inch_per_hour_square_foo
 
 gistd:_UnitOfMeasure_british_thermal_unit_international_inch_per_second_square_foot_degree_fahrenheit
 	a gist:UnitOfMeasure ;
-	skos:altLabel "british thermal units (international table) inch per second square foot degree fahrenheit"^^xsd:string ;
+	skos:altLabel "british thermal units (international table) inch per second square foot degree fahrenheit"^^xsd:string ;
 	skos:closeMatch <http://qudt.org/vocab/unit/BTU_IT-IN-PER-SEC-FT2-DEG_F> ;
 	skos:definition "from QUDT: unit of the thermal conductivity according to the Imperial system of units"^^xsd:string ;
-	skos:prefLabel "british thermal unit (international table) inch per second square foot degree fahrenheit"^^xsd:string ;
-	skos:scopeNote "1 british thermal unit (international table) inch per second square foot degree fahrenheit = 519.2204 x kilogram meter per kelvin secondCubed"^^xsd:string ;
+	skos:prefLabel "british thermal unit (international table) inch per second square foot degree fahrenheit"^^xsd:string ;
+	skos:scopeNote "1 british thermal unit (international table) inch per second square foot degree fahrenheit = 519.2204 x kilogram meter per kelvin secondCubed"^^xsd:string ;
 	gist:conversionFactor "519.2204"^^xsd:decimal ;
 	gist:isMemberOf gistd:_UnitGroup_thermal_conductivity ;
 	.
@@ -17559,11 +17559,11 @@ gistd:_UnitOfMeasure_british_thermal_unit_international_per_hour
 
 gistd:_UnitOfMeasure_british_thermal_unit_international_per_hour_square_foot_degree_rankine
 	a gist:UnitOfMeasure ;
-	skos:altLabel "british thermal units (international table) per hour square foot degree rankine"^^xsd:string ;
+	skos:altLabel "british thermal units (international table) per hour square foot degree rankine"^^xsd:string ;
 	skos:closeMatch <http://qudt.org/vocab/unit/BTU_IT-PER-HR-FT2-DEG_R> ;
 	skos:definition "from QUDT: unit of the heat transfer coefficient according to the Imperial system of units"^^xsd:string ;
-	skos:prefLabel "british thermal unit (international table) per hour square foot degree rankine"^^xsd:string ;
-	skos:scopeNote "1 british thermal unit (international table) per hour square foot degree rankine = 0.555556 x kilogram per kelvin secondCubed"^^xsd:string ;
+	skos:prefLabel "british thermal unit (international table) per hour square foot degree rankine"^^xsd:string ;
+	skos:scopeNote "1 british thermal unit (international table) per hour square foot degree rankine = 0.555556 x kilogram per kelvin secondCubed"^^xsd:string ;
 	gist:conversionFactor "0.555556"^^xsd:decimal ;
 	gist:isMemberOf gistd:_UnitGroup_coefficient_of_heat_transfer ;
 	.
@@ -17606,11 +17606,11 @@ gistd:_UnitOfMeasure_british_thermal_unit_international_per_second_foot_degree_r
 
 gistd:_UnitOfMeasure_british_thermal_unit_international_per_second_square_foot_degree_rankine
 	a gist:UnitOfMeasure ;
-	skos:altLabel "british thermal units (international table) per second square foot degree rankine"^^xsd:string ;
+	skos:altLabel "british thermal units (international table) per second square foot degree rankine"^^xsd:string ;
 	skos:closeMatch <http://qudt.org/vocab/unit/BTU_IT-PER-SEC-FT2-DEG_R> ;
 	skos:definition "from QUDT: unit of the heat transfer coefficient according to the Imperial system of units"^^xsd:string ;
-	skos:prefLabel "british thermal unit (international table) per second square foot degree rankine"^^xsd:string ;
-	skos:scopeNote "1 british thermal unit (international table) per second square foot degree rankine = 14.89 x kilogram per kelvin secondCubed"^^xsd:string ;
+	skos:prefLabel "british thermal unit (international table) per second square foot degree rankine"^^xsd:string ;
+	skos:scopeNote "1 british thermal unit (international table) per second square foot degree rankine = 14.89 x kilogram per kelvin secondCubed"^^xsd:string ;
 	gist:conversionFactor "14.89"^^xsd:decimal ;
 	gist:isMemberOf gistd:_UnitGroup_coefficient_of_heat_transfer ;
 	.
@@ -17668,11 +17668,11 @@ gistd:_UnitOfMeasure_british_thermal_unit_thermochemical
 
 gistd:_UnitOfMeasure_british_thermal_unit_thermochemical_foot_per_hour_square_foot_degree_fahrenheit
 	a gist:UnitOfMeasure ;
-	skos:altLabel "british thermal units (thermochemical) foot per hour square foot degree fahrenheit"^^xsd:string ;
+	skos:altLabel "british thermal units (thermochemical) foot per hour square foot degree fahrenheit"^^xsd:string ;
 	skos:closeMatch <http://qudt.org/vocab/unit/BTU_TH-FT-PER-HR-FT2-DEG_F> ;
 	skos:definition "from QUDT: unit of the thermal conductivity according to the Imperial system of units"^^xsd:string ;
-	skos:prefLabel "british thermal unit (thermochemical) foot per hour square foot degree fahrenheit"^^xsd:string ;
-	skos:scopeNote "1 british thermal unit (thermochemical) foot per hour square foot degree fahrenheit = 1.73 x kilogram meter per kelvin secondCubed"^^xsd:string ;
+	skos:prefLabel "british thermal unit (thermochemical) foot per hour square foot degree fahrenheit"^^xsd:string ;
+	skos:scopeNote "1 british thermal unit (thermochemical) foot per hour square foot degree fahrenheit = 1.73 x kilogram meter per kelvin secondCubed"^^xsd:string ;
 	gist:conversionFactor "1.73"^^xsd:decimal ;
 	gist:isMemberOf gistd:_UnitGroup_thermal_conductivity ;
 	.
@@ -17763,7 +17763,7 @@ gistd:_UnitOfMeasure_btu_it_foot_per_square_foot_hour_degree_fahrenheit
 	rdfs:seeAlso "https://en.wikipedia.org/wiki/Thermal_conductivity"^^xsd:anyURI ;
 	skos:altLabel "btu (it) feet per square foot hour degree fahrenheit"^^xsd:string ;
 	skos:closeMatch <http://qudt.org/vocab/unit/BTU_IT-FT-PER-FT2-HR-DEG_F> ;
-	skos:definition "from QUDT: British thermal unit (international table) foot per hour Square foot degree Fahrenheit is the unit of the thermal conductivity according to the Imperial system of units."^^xsd:string ;
+	skos:definition "from QUDT: British thermal unit (international table) foot per hour Square foot degree Fahrenheit is the unit of the thermal conductivity according to the Imperial system of units."^^xsd:string ;
 	skos:prefLabel "btu (it) foot per square foot hour degree fahrenheit"^^xsd:string ;
 	skos:scopeNote "1 btu (it) foot per square foot hour degree fahrenheit = 1.730734666 x kilogram meter per kelvin secondCubed"^^xsd:string ;
 	gist:conversionFactor "1.730734666"^^xsd:decimal ;
@@ -17774,7 +17774,7 @@ gistd:_UnitOfMeasure_btu_it_inch_per_square_foot_second_degree_fahrenheit
 	a gist:UnitOfMeasure ;
 	skos:altLabel "btu (it) inches per square foot second degree fahrenheit"^^xsd:string ;
 	skos:closeMatch <http://qudt.org/vocab/unit/BTU_IT-IN-PER-FT2-SEC-DEG_F> ;
-	skos:definition "from QUDT: British thermal unit (international table) inch per second Square foot degree Fahrenheit is the unit of the thermal conductivity according to the Imperial system of units."^^xsd:string ;
+	skos:definition "from QUDT: British thermal unit (international table) inch per second Square foot degree Fahrenheit is the unit of the thermal conductivity according to the Imperial system of units."^^xsd:string ;
 	skos:prefLabel "btu (it) inch per square foot second degree fahrenheit"^^xsd:string ;
 	skos:scopeNote "1 btu (it) inch per square foot second degree fahrenheit = 519.220399911 x kilogram meter per kelvin secondCubed"^^xsd:string ;
 	gist:conversionFactor "519.220399911"^^xsd:decimal ;
@@ -18191,11 +18191,11 @@ gistd:_UnitOfMeasure_calorie_international_per_second_centimeter_kelvin
 
 gistd:_UnitOfMeasure_calorie_international_per_second_square_centimeter_kelvin
 	a gist:UnitOfMeasure ;
-	skos:altLabel "calories (international table) per second square centimeter kelvin"^^xsd:string ;
+	skos:altLabel "calories (international table) per second square centimeter kelvin"^^xsd:string ;
 	skos:closeMatch <http://qudt.org/vocab/unit/CAL_IT-PER-SEC-CentiM2-K> ;
 	skos:definition "from QUDT: unit of the heat transfer coefficient according to the Imperial system of units"^^xsd:string ;
-	skos:prefLabel "calorie (international table) per second square centimeter kelvin"^^xsd:string ;
-	skos:scopeNote "1 calorie (international table) per second square centimeter kelvin = 41868.0 x kilogram per kelvin secondCubed"^^xsd:string ;
+	skos:prefLabel "calorie (international table) per second square centimeter kelvin"^^xsd:string ;
+	skos:scopeNote "1 calorie (international table) per second square centimeter kelvin = 41868.0 x kilogram per kelvin secondCubed"^^xsd:string ;
 	gist:conversionFactor "41868.0"^^xsd:decimal ;
 	gist:isMemberOf gistd:_UnitGroup_coefficient_of_heat_transfer ;
 	.
@@ -18323,11 +18323,11 @@ gistd:_UnitOfMeasure_calorie_thermochemical_per_second_centimeter_kelvin
 
 gistd:_UnitOfMeasure_calorie_thermochemical_per_second_square_centimeter_kelvin
 	a gist:UnitOfMeasure ;
-	skos:altLabel "calories (thermochemical) per second square centimeter kelvin"^^xsd:string ;
+	skos:altLabel "calories (thermochemical) per second square centimeter kelvin"^^xsd:string ;
 	skos:closeMatch <http://qudt.org/vocab/unit/CAL_TH-PER-SEC-CentiM2-K> ;
 	skos:definition "from QUDT: unit of the heat transfer coefficient according to the Imperial system of units"^^xsd:string ;
-	skos:prefLabel "calorie (thermochemical) per second square centimeter kelvin"^^xsd:string ;
-	skos:scopeNote "1 calorie (thermochemical) per second square centimeter kelvin = 41840.0 x kilogram per kelvin secondCubed"^^xsd:string ;
+	skos:prefLabel "calorie (thermochemical) per second square centimeter kelvin"^^xsd:string ;
+	skos:scopeNote "1 calorie (thermochemical) per second square centimeter kelvin = 41840.0 x kilogram per kelvin secondCubed"^^xsd:string ;
 	gist:conversionFactor "41840.0"^^xsd:decimal ;
 	gist:isMemberOf gistd:_UnitGroup_coefficient_of_heat_transfer ;
 	.
@@ -20090,22 +20090,22 @@ gistd:_UnitOfMeasure_degree_fahrenheit_hour_per_btu
 
 gistd:_UnitOfMeasure_degree_fahrenheit_hour_square_foot_per_british_thermal_unit_international
 	a gist:UnitOfMeasure ;
-	skos:altLabel "degrees fahrenheit hour square foot per british thermal unit (international table)"^^xsd:string ;
+	skos:altLabel "degrees fahrenheit hour square foot per british thermal unit (international table)"^^xsd:string ;
 	skos:closeMatch <http://qudt.org/vocab/unit/DEG_F-HR-FT2-PER-BTU_IT> ;
 	skos:definition "from QUDT: unit of the thermal resistor according to the Imperial system of units"^^xsd:string ;
-	skos:prefLabel "degree fahrenheit hour square foot per british thermal unit (international table)"^^xsd:string ;
-	skos:scopeNote "1 degree fahrenheit hour square foot per british thermal unit (international table) = 1.89563 x kelvin secondCubed per kilogram"^^xsd:string ;
+	skos:prefLabel "degree fahrenheit hour square foot per british thermal unit (international table)"^^xsd:string ;
+	skos:scopeNote "1 degree fahrenheit hour square foot per british thermal unit (international table) = 1.89563 x kelvin secondCubed per kilogram"^^xsd:string ;
 	gist:conversionFactor "1.89563"^^xsd:decimal ;
 	gist:isMemberOf gistd:_UnitGroup_thermal_insulance ;
 	.
 
 gistd:_UnitOfMeasure_degree_fahrenheit_hour_square_foot_per_british_thermal_unit_thermochemical
 	a gist:UnitOfMeasure ;
-	skos:altLabel "degrees fahrenheit hour square foot per british thermal unit (thermochemical)"^^xsd:string ;
+	skos:altLabel "degrees fahrenheit hour square foot per british thermal unit (thermochemical)"^^xsd:string ;
 	skos:closeMatch <http://qudt.org/vocab/unit/DEG_F-HR-FT2-PER-BTU_TH> ;
 	skos:definition "from QUDT: unit of the thermal resistor according to the according to the Imperial system of units"^^xsd:string ;
-	skos:prefLabel "degree fahrenheit hour square foot per british thermal unit (thermochemical)"^^xsd:string ;
-	skos:scopeNote "1 degree fahrenheit hour square foot per british thermal unit (thermochemical) = 1.8969 x kelvin secondCubed per kilogram"^^xsd:string ;
+	skos:prefLabel "degree fahrenheit hour square foot per british thermal unit (thermochemical)"^^xsd:string ;
+	skos:scopeNote "1 degree fahrenheit hour square foot per british thermal unit (thermochemical) = 1.8969 x kelvin secondCubed per kilogram"^^xsd:string ;
 	gist:conversionFactor "1.8969"^^xsd:decimal ;
 	gist:isMemberOf gistd:_UnitGroup_thermal_insulance ;
 	.
@@ -21737,7 +21737,7 @@ gistd:_UnitOfMeasure_gram_carbon_per_square_meter_per_day
 	a gist:UnitOfMeasure ;
 	skos:altLabel "grams carbon per square meter per day"^^xsd:string ;
 	skos:closeMatch <http://qudt.org/vocab/unit/GM_Carbon-PER-M2-DAY> ;
-	skos:definition "from QUDT: A metric unit of volume over time indicating the amount generated across one square meter over a day. Used to express productivity of an ecosystem."^^xsd:string ;
+	skos:definition "from QUDT: A metric unit of volume over time indicating the amount generated across one square meter over a day. Used to express productivity of an ecosystem."^^xsd:string ;
 	skos:prefLabel "grams carbon per square meter per day"^^xsd:string ;
 	skos:scopeNote "1 grams carbon per square meter per day = 0.000000011574073 x kilogram per meterSquared second"^^xsd:string ;
 	gist:conversionFactor "0.000000011574073"^^xsd:decimal ;
@@ -21789,7 +21789,7 @@ gistd:_UnitOfMeasure_gram_nitrogen_per_square_meter_per_day
 	a gist:UnitOfMeasure ;
 	skos:altLabel "grams nitrogen per square meter per day"^^xsd:string ;
 	skos:closeMatch <http://qudt.org/vocab/unit/GM_Nitrogen-PER-M2-DAY> ;
-	skos:definition "from QUDT: A metric unit of volume over time indicating the amount of Nitrogen generated across one square meter over a day. Used to express productivity of an ecosystem."^^xsd:string ;
+	skos:definition "from QUDT: A metric unit of volume over time indicating the amount of Nitrogen generated across one square meter over a day. Used to express productivity of an ecosystem."^^xsd:string ;
 	skos:prefLabel "grams nitrogen per square meter per day"^^xsd:string ;
 	skos:scopeNote "1 grams nitrogen per square meter per day = 0.000000011574073 x kilogram per meterSquared second"^^xsd:string ;
 	gist:conversionFactor "0.000000011574073"^^xsd:decimal ;
@@ -21999,7 +21999,7 @@ gistd:_UnitOfMeasure_gram_per_square_meter_per_day
 	a gist:UnitOfMeasure ;
 	skos:altLabel "grams per square meter per day"^^xsd:string ;
 	skos:closeMatch <http://qudt.org/vocab/unit/GM-PER-M2-DAY> ;
-	skos:definition "from QUDT: A metric unit of volume over time indicating the amount generated across one square meter over a day."^^xsd:string ;
+	skos:definition "from QUDT: A metric unit of volume over time indicating the amount generated across one square meter over a day."^^xsd:string ;
 	skos:prefLabel "grams per square meter per day"^^xsd:string ;
 	skos:scopeNote "1 grams per square meter per day = 0.000000011574073 x kilogram per meterSquared second"^^xsd:string ;
 	gist:conversionFactor "0.000000011574073"^^xsd:decimal ;
