@@ -29297,7 +29297,7 @@ gistd:_UnitOfMeasure_ounce_us_fluid_per_second
 gistd:_UnitOfMeasure_pair
 	a gist:UnitOfMeasure ;
 	skos:altLabel "pairs"^^xsd:string ;
-	skos:definition "A pair is two things, usually of the same type."^^xsd:string ;
+	skos:definition "A pair is a set of two things regarded as a unit, e.g. used together or matched in some other way."^^xsd:string ;
 	skos:prefLabel "pair"^^xsd:string ;
 	skos:scopeNote "1 pair = 2 x one thing"^^xsd:string ;
 	gist:conversionFactor "2.0"^^xsd:decimal ;
@@ -32072,7 +32072,7 @@ gistd:_UnitOfMeasure_sheet_metal_gauge
 	skos:altLabel "gauge"^^xsd:string ;
 	skos:definition "A measure of thickness of sheet metal."^^xsd:string ;
 	skos:prefLabel "gauge"^^xsd:string ;
-	skos:scopeNote "For a given thickness of a sheet of metal, the value of gauage depends on the type of metal."^^xsd:string ;
+	skos:scopeNote "For a given thickness of a sheet of metal, the value of gauge depends on the type of metal."^^xsd:string ;
 	gist:isMemberOf gistd:_UnitGroup_sheet_metal_thickness ;
 	.
 
