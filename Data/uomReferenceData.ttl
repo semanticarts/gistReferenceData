@@ -8277,6 +8277,18 @@ gistd:_Aspect_shear_stress
 		;
 	.
 
+gistd:_Aspect_sheet_metal_thickness
+	a gist:Aspect ;
+	rdfs:seeAlso
+		"https://en.wikipedia.org/wiki/gauge"^^xsd:anyURI ,
+		"https://www.metalsupermarkets.com/sheet-metal-gauge-chart/"^^xsd:anyURI
+		;
+	skos:definition "Thickness of sheet metal."^^xsd:string ;
+	skos:prefLabel "sheet metal thickness"^^xsd:string ;
+	gist:hasUnitGroup gistd:_UnitGroup_sheet_metal_thickness ;
+	gist:isCategorizedBy gistd:_Discipline_hvac ;
+	.
+
 gistd:_Aspect_short_range_order_parameter
 	a gist:Aspect ;
 	rdfs:seeAlso "https://www.iso.org/iso/catalogue_detail?csnumber=31897"^^xsd:anyURI ;
@@ -15393,6 +15405,24 @@ gistd:_UnitGroup_shear_modulus
 	gist:exponentOfMole "0"^^xsd:decimal ;
 	gist:exponentOfNumber "1"^^xsd:decimal ;
 	gist:exponentOfOther "0"^^xsd:decimal ;
+	gist:exponentOfRadian "0"^^xsd:decimal ;
+	gist:exponentOfSecond "0"^^xsd:decimal ;
+	gist:exponentOfSteradian "0"^^xsd:decimal ;
+	gist:exponentOfUSDollar "0"^^xsd:decimal ;
+	.
+
+gistd:_UnitGroup_sheet_metal_thickness
+	a gist:UnitGroup ;
+	skos:prefLabel "units that measure sheet metal thickness"^^xsd:string ;
+	skos:scopeNote "includes sheet metal gauge, which varies by type of metal"^^xsd:string ;
+	gist:exponentOfBit "0"^^xsd:decimal ;
+	gist:exponentOfCandela "0"^^xsd:decimal ;
+	gist:exponentOfKelvin "0"^^xsd:decimal ;
+	gist:exponentOfKilogram "0"^^xsd:decimal ;
+	gist:exponentOfMeter "0"^^xsd:decimal ;
+	gist:exponentOfMole "0"^^xsd:decimal ;
+	gist:exponentOfNumber "0"^^xsd:decimal ;
+	gist:exponentOfOther "1"^^xsd:decimal ;
 	gist:exponentOfRadian "0"^^xsd:decimal ;
 	gist:exponentOfSecond "0"^^xsd:decimal ;
 	gist:exponentOfSteradian "0"^^xsd:decimal ;
@@ -22564,6 +22594,7 @@ gistd:_UnitOfMeasure_inch
 	gist:conversionFactor "0.0254"^^xsd:decimal ;
 	gist:isMemberOf
 		gistd:_UnitGroup_distance ,
+		gistd:_UnitGroup_sheet_metal_thickness ,
 		gistd:_UnitGroup_touch_threshold
 		;
 	.
@@ -27255,6 +27286,7 @@ gistd:_UnitOfMeasure_millimeter
 	gist:isMemberOf
 		gistd:_UnitGroup_distance ,
 		gistd:_UnitGroup_half_value_distance ,
+		gistd:_UnitGroup_sheet_metal_thickness ,
 		gistd:_UnitGroup_touch_threshold
 		;
 	.
@@ -29260,6 +29292,16 @@ gistd:_UnitOfMeasure_ounce_us_fluid_per_second
 	skos:scopeNote "1 ounce (us fluid) per second = 0.0000295735296 x meterCubed per second"^^xsd:string ;
 	gist:conversionFactor "0.0000295735296"^^xsd:decimal ;
 	gist:isMemberOf gistd:_UnitGroup_volume_per_duration ;
+	.
+
+gistd:_UnitOfMeasure_pair
+	a gist:UnitOfMeasure ;
+	skos:altLabel "pairs"^^xsd:string ;
+	skos:definition "A pair is two things, usually of the same type."^^xsd:string ;
+	skos:prefLabel "pair"^^xsd:string ;
+	skos:scopeNote "1 pair = 2 x one thing"^^xsd:string ;
+	gist:conversionFactor "2.0"^^xsd:decimal ;
+	gist:isMemberOf gistd:_UnitGroup_number_of_things ;
 	.
 
 gistd:_UnitOfMeasure_parsec
@@ -32019,6 +32061,19 @@ gistd:_UnitOfMeasure_shannon_per_second
 	skos:scopeNote "1 shannon per second = 1.0 x per second"^^xsd:string ;
 	gist:conversionFactor "1.0"^^xsd:decimal ;
 	gist:isMemberOf gistd:_UnitGroup_information_entropy_per_duration ;
+	.
+
+gistd:_UnitOfMeasure_sheet_metal_gauge
+	a gist:UnitOfMeasure ;
+	rdfs:seeAlso
+		"http://en.wikipedia.org/wiki/gauge"^^xsd:anyURI ,
+		"https://www.metalsupermarkets.com/sheet-metal-gauge-chart/"^^xsd:anyURI
+		;
+	skos:altLabel "gauge"^^xsd:string ;
+	skos:definition "A measure of thickness of sheet metal."^^xsd:string ;
+	skos:prefLabel "gauge"^^xsd:string ;
+	skos:scopeNote "For a given thickness of a sheet of metal, the value of gauage depends on the type of metal."^^xsd:string ;
+	gist:isMemberOf gistd:_UnitGroup_sheet_metal_thickness ;
 	.
 
 gistd:_UnitOfMeasure_short_ton
