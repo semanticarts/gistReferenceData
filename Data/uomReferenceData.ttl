@@ -35076,18 +35076,6 @@ gistd:_UnitOfMeasure_tropical_year
 	gist:symbol "a{tropical}"^^xsd:string ;
 	.
 
-gistd:_UnitOfMeasure_u_s_perm
-	a gist:UnitOfMeasure ;
-	rdfs:seeAlso "https://en.wikipedia.org/wiki/Perm_(unit)"^^xsd:anyURI ;
-	skos:altLabel "u.s. perms"^^xsd:string ;
-	skos:closeMatch <http://qudt.org/vocab/unit/PERM_US> ;
-	skos:prefLabel "u.s. perm"^^xsd:string ;
-	skos:scopeNote "1 u.s. perm = 0.0000000000572135 x second per meter"^^xsd:string ;
-	gist:conversionFactor "0.0000000000572135"^^xsd:decimal ;
-	gist:isMemberOf gistd:_UnitGroup_vapor_permeability ;
-	gist:symbol "perm{US}"^^xsd:string ;
-	.
-
 gistd:_UnitOfMeasure_unified_atomic_mass_unit
 	a gist:UnitOfMeasure ;
 	rdfs:seeAlso "https://en.wikipedia.org/wiki/Atomic_mass_unit"^^xsd:anyURI ;
@@ -35267,6 +35255,18 @@ gistd:_UnitOfMeasure_us_peck
 		gistd:_UnitGroup_volume
 		;
 	gist:symbol "peck{US Dry}"^^xsd:string ;
+	.
+
+gistd:_UnitOfMeasure_us_perm
+	a gist:UnitOfMeasure ;
+	rdfs:seeAlso "https://en.wikipedia.org/wiki/Perm_(unit)"^^xsd:anyURI ;
+	skos:altLabel "u.s. perms"^^xsd:string ;
+	skos:closeMatch <http://qudt.org/vocab/unit/PERM_US> ;
+	skos:prefLabel "u.s. perm"^^xsd:string ;
+	skos:scopeNote "1 u.s. perm = 0.0000000000572135 x second per meter"^^xsd:string ;
+	gist:conversionFactor "0.0000000000572135"^^xsd:decimal ;
+	gist:isMemberOf gistd:_UnitGroup_vapor_permeability ;
+	gist:symbol "perm{US}"^^xsd:string ;
 	.
 
 gistd:_UnitOfMeasure_us_survey_foot
