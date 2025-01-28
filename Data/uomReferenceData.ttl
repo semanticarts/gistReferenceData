@@ -420,6 +420,7 @@ gistd:_Aspect_amount_of_substance_per_mass_per_duration
 gistd:_Aspect_amount_of_substance_per_unit_mass
 	a gist:Aspect ;
 	skos:closeMatch <http://qudt.org/vocab/quantitykind/AmountOfSubstancePerUnitMass> ;
+	skos:definition "The amount of substance per unit mass, measured in mole/kg. It is the inverse of molar mass."^^xsd:string ;
 	skos:prefLabel "amount of substance per unit mass"^^xsd:string ;
 	gist:hasUnitGroup gistd:_UnitGroup_amount_of_substance_per_unit_mass ;
 	gist:isCategorizedBy gistd:_Discipline_chemistry ;
@@ -433,7 +434,7 @@ gistd:_Aspect_amount_of_substance_per_volume
 	a gist:Aspect ;
 	rdfs:seeAlso "https://en.wikipedia.org/wiki/Molar_concentration"^^xsd:anyURI ;
 	skos:closeMatch <http://qudt.org/vocab/quantitykind/AmountOfSubstancePerUnitVolume> ;
-	skos:definition "from QUDT: The amount of substance per unit volume is called the molar density. Molar density is an intensive property of a substance and depends on the temperature and pressure."^^xsd:string ;
+	skos:definition "The amount of substance per unit volume is called the molar density. Molar density is an intensive property of a substance and depends on the temperature and pressure. [QUDT] Also, it is the inverse of molar volume."^^xsd:string ;
 	skos:prefLabel "amount of substance per unit volume"^^xsd:string ;
 	gist:hasUnitGroup gistd:_UnitGroup_amount_of_substance_per_volume ;
 	gist:isCategorizedBy
@@ -1293,7 +1294,7 @@ gistd:_Aspect_coefficient_of_heat_transfer
 	a gist:Aspect ;
 	rdfs:seeAlso "https://en.wikipedia.org/wiki/Heat_transfer_coefficient"^^xsd:anyURI ;
 	skos:closeMatch <http://qudt.org/vocab/quantitykind/CoefficientOfHeatTransfer> ;
-	skos:definition 'from QUDT: "Coefficient of Heat Transfer", in thermodynamics and in mechanical and chemical engineering, is used in calculating the heat transfer, typically by convection or phase transition between a fluid and a solid. The heat transfer coefficient is the proportionality coefficient between the heat flux, that is heat flow per unit area, q/A, and the thermodynamic driving force for the flow of heat (that is, the temperature difference, (Delta T). Areic heat flow rate divided by thermodynamic temperature difference. In building technology, the "Coefficient of Heat Transfer", is often called "thermal transmittance}" with the symbol "U". It has SI units in watts per squared meter kelvin.'^^xsd:string ;
+	skos:definition 'Coefficient of Heat Transfer, in thermodynamics and in mechanical and chemical engineering, is used in calculating the heat transfer, typically by convection or phase transition between a fluid and a solid. The heat transfer coefficient is the proportionality coefficient between the heat flux, that is heat flow per unit area, q/A, and the thermodynamic driving force for the flow of heat (that is, the temperature difference, (Delta T). Areic heat flow rate divided by thermodynamic temperature difference. In building technology, the "Coefficient of Heat Transfer", is often called "thermal transmittance}" with the symbol "U". It has SI units in watts per squared meter kelvin. [QUDT] Also, the coefficient of heat transfer is the inverse of thermal insulance.'^^xsd:string ;
 	skos:prefLabel "coefficient of heat transfer"^^xsd:string ;
 	gist:hasUnitGroup gistd:_UnitGroup_coefficient_of_heat_transfer ;
 	gist:isCategorizedBy gistd:_Discipline_thermodynamics ;
@@ -1466,7 +1467,7 @@ gistd:_Aspect_conductance
 		"https://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.htm?csnumber=31891"^^xsd:anyURI
 		;
 	skos:closeMatch <http://qudt.org/vocab/quantitykind/Conductance> ;
-	skos:definition "from QUDT: \\(\\textit{Conductance}\\), for a resistive two-terminal element or two-terminal circuit with terminals A and B, quotient of the electric current i in the element or circuit by the voltage \\(u_{AB}\\) between the terminals: \\(G = \\frac{1}{R}\\), where the electric current is taken as positive if its direction is from A to B and negative in the opposite case. The conductance of an element or circuit is the inverse of its resistance."^^xsd:string ;
+	skos:definition "from QUDT: Conductance, for a resistive two-terminal element or two-terminal circuit with terminals A and B, quotient of the electric current i in the element or circuit by the voltage u_{AB} between the terminals: (G = frac{1}{R}), where the electric current is taken as positive if its direction is from A to B and negative in the opposite case. The conductance of an element or circuit is the inverse of its resistance."^^xsd:string ;
 	skos:prefLabel "conductance"^^xsd:string ;
 	gist:hasUnitGroup gistd:_UnitGroup_conductance ;
 	gist:isCategorizedBy gistd:_Discipline_electricity_and_magnetism ;
@@ -1802,7 +1803,7 @@ gistd:_Aspect_density
 	a gist:Aspect ;
 	rdfs:seeAlso "https://en.wikipedia.org/wiki/Density"^^xsd:anyURI ;
 	skos:closeMatch <http://qudt.org/vocab/quantitykind/Density> ;
-	skos:definition "from QUDT: The mass density or density of a material is defined as its mass per unit volume. The symbol most often used for density is \\(\\rho\\). Mathematically, density is defined as mass divided by volume: \\(\\rho = m/V\\), where \\(\\rho\\) is the density, \\(m\\) is the mass, and \\(V\\) is the volume. In some cases, density is also defined as its weight per unit volume, although this quantity is more properly called specific weight."^^xsd:string ;
+	skos:definition "The mass density or density of a material is defined as its mass per unit volume. The symbol most often used for density is rho. Mathematically, density is defined as mass divided by volume: rho = m/V, where rho is the density, m is the mass, and V is the volume. In some cases, density is also defined as its weight per unit volume, although this quantity is more properly called specific weight. [QUDT] Also, it is the inverse of specific volume."^^xsd:string ;
 	skos:prefLabel "density"^^xsd:string ;
 	gist:hasUnitGroup gistd:_UnitGroup_mass_density ;
 	gist:isCategorizedBy
@@ -2398,7 +2399,7 @@ gistd:_Aspect_electric_charge_per_area
 gistd:_Aspect_electric_charge_per_mass
 	a gist:Aspect ;
 	skos:closeMatch <http://qudt.org/vocab/quantitykind/ElectricChargePerMass> ;
-	skos:definition 'from QUDT: "Electric Charge Per Mass" is the charge associated with a specific mass of a substance. In the SI and ISO systems this is \\(1 kg\\).'^^xsd:string ;
+	skos:definition "from QUDT: Electric Charge Per Mass is the charge associated with a specific mass of a substance."^^xsd:string ;
 	skos:prefLabel "electric charge per mass"^^xsd:string ;
 	gist:hasUnitGroup gistd:_UnitGroup_electric_charge_per_mass ;
 	gist:isCategorizedBy gistd:_Discipline_electricity_and_magnetism ;
@@ -2689,7 +2690,7 @@ gistd:_Aspect_electric_resistance
 		"https://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.htm?csnumber=31891"^^xsd:anyURI
 		;
 	skos:closeMatch <http://qudt.org/vocab/quantitykind/Resistance> ;
-	skos:definition "from QUDT: The electrical resistance of an object is a measure of its opposition to the passage of a steady electric current."^^xsd:string ;
+	skos:definition "The electrical resistance of an object is a measure of its opposition to the passage of a steady electric current. [QUDT] Also, electric resistance is the inverse of electric conductivity."^^xsd:string ;
 	skos:prefLabel "electric resistance"^^xsd:string ;
 	gist:hasUnitGroup gistd:_UnitGroup_electric_resistance ;
 	gist:isCategorizedBy gistd:_Discipline_electricity_and_magnetism ;
@@ -4113,7 +4114,7 @@ gistd:_Aspect_inductance
 		"https://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.htm?csnumber=31891"^^xsd:anyURI
 		;
 	skos:closeMatch <http://qudt.org/vocab/quantitykind/Inductance> ;
-	skos:definition "from QUDT: \"Inductance\" is an electromagentic quantity that characterizes a circuit's resistance to any change of electric current; a change in the electric current through induces an opposing electromotive force (EMF). Quantitatively, inductance is proportional to the magnetic flux per unit of electric current."^^xsd:string ;
+	skos:definition "Inductance is an electromagentic quantity that characterizes a circuit's resistance to any change of electric current; a change in the electric current through induces an opposing electromotive force (EMF). Quantitatively, inductance is proportional to the magnetic flux per unit of electric current. [QUDT]"^^xsd:string ;
 	skos:prefLabel "inductance"^^xsd:string ;
 	gist:hasUnitGroup gistd:_UnitGroup_inductance ;
 	gist:isCategorizedBy gistd:_Discipline_electricity_and_magnetism ;
@@ -5315,8 +5316,8 @@ gistd:_Aspect_magnetic_flux_density
 gistd:_Aspect_magnetic_flux_per_unit_distance
 	a gist:Aspect ;
 	skos:closeMatch <http://qudt.org/vocab/quantitykind/MagneticFluxPerUnitLength> ;
-	skos:definition 'from QUDT: "Magnetic Flux per Unit Length" is a quantity in the SI and C.G.S. Systems of Quantities.'^^xsd:string ;
-	skos:prefLabel "magnetic flux per unit length"^^xsd:string ;
+	skos:definition "from QUDT: Magnetic Flux per Unit Length is a quantity in the SI and C.G.S. Systems of Quantities."^^xsd:string ;
+	skos:prefLabel "magnetic flux per unit distance"^^xsd:string ;
 	gist:hasUnitGroup gistd:_UnitGroup_magnetic_flux_per_unit_distance ;
 	gist:isCategorizedBy gistd:_Discipline_electricity_and_magnetism ;
 	.
@@ -5365,7 +5366,7 @@ gistd:_Aspect_magnetic_reluctivity
 	a gist:Aspect ;
 	rdfs:seeAlso "https://en.wikipedia.org/wiki/Permeability_(electromagnetism)"^^xsd:anyURI ;
 	skos:closeMatch <http://qudt.org/vocab/quantitykind/MagneticReluctivity> ;
-	skos:definition 'from QUDT: "Length Per Unit Magnetic Flux} is the the resistance of a material to the establishment of a magnetic field in it. It is the reciprocal of \\textit{Magnetic Permeability", the inverse of the measure of the ability of a material to support the formation of a magnetic field within itself.'^^xsd:string ;
+	skos:definition "from QUDT: Length Per Unit Magnetic Flux is the the resistance of a material to the establishment of a magnetic field in it. It is the reciprocal of Magnetic Permeability, the inverse of the measure of the ability of a material to support the formation of a magnetic field within itself."^^xsd:string ;
 	skos:prefLabel "magnetic reluctivity"^^xsd:string ;
 	gist:hasUnitGroup gistd:_UnitGroup_magnetic_reluctivity ;
 	gist:isCategorizedBy gistd:_Discipline_electricity_and_magnetism ;
@@ -5734,7 +5735,7 @@ gistd:_Aspect_mass_per_electric_charge
 	a gist:Aspect ;
 	rdfs:seeAlso "https://en.wikipedia.org/wiki/Mass-to-charge_ratio"^^xsd:anyURI ;
 	skos:closeMatch <http://qudt.org/vocab/quantitykind/MassPerElectricCharge> ;
-	skos:definition "from QUDT: The mass-to-charge ratio ratio (\\(m/Q\\)) is a physical quantity that is widely used in the electrodynamics of charged particles, for example, in electron optics and ion optics. The importance of the mass-to-charge ratio, according to classical electrodynamics, is that two particles with the same mass-to-charge ratio move in the same path in a vacuum when subjected to the same electric and magnetic fields. Its SI units are \\(kg/C\\), but it can also be measured in Thomson (\\(Th\\))."^^xsd:string ;
+	skos:definition "from QUDT: The mass-to-charge ratio ratio m/Q is a physical quantity that is widely used in the electrodynamics of charged particles, for example, in electron optics and ion optics. The importance of the mass-to-charge ratio, according to classical electrodynamics, is that two particles with the same mass-to-charge ratio move in the same path in a vacuum when subjected to the same electric and magnetic fields. Its SI units are kg/C, but it can also be measured in Thomson Th."^^xsd:string ;
 	skos:prefLabel "mass per electric charge"^^xsd:string ;
 	gist:hasUnitGroup gistd:_UnitGroup_mass_per_electric_charge ;
 	gist:isCategorizedBy gistd:_Discipline_electricity_and_magnetism ;
@@ -6263,7 +6264,7 @@ gistd:_Aspect_molar_mass
 		"https://www.iso.org/iso/catalogue_detail?csnumber=31894"^^xsd:anyURI
 		;
 	skos:closeMatch <http://qudt.org/vocab/quantitykind/MolarMass> ;
-	skos:definition "from QUDT: In chemistry, the molar mass M is defined as the mass of a given substance (chemical element or chemical compound) divided by its amount of substance. It is a physical property of a given substance. The base SI unit for molar mass is \\(kg/mol\\)."^^xsd:string ;
+	skos:definition "from QUDT: In chemistry, the molar mass M is defined as the mass of a given substance (chemical element or chemical compound) divided by its amount of substance. It is a physical property of a given substance. The base SI unit for molar mass is kg/mol. [QUDT] Also, molar mass is the inverse of amount of substance per unit mass."^^xsd:string ;
 	skos:prefLabel "molar mass"^^xsd:string ;
 	gist:hasUnitGroup gistd:_UnitGroup_molar_mass ;
 	gist:isCategorizedBy gistd:_Discipline_chemistry ;
@@ -6307,7 +6308,7 @@ gistd:_Aspect_molar_volume
 		"https://www.iso.org/iso/catalogue_detail?csnumber=31894"^^xsd:anyURI
 		;
 	skos:closeMatch <http://qudt.org/vocab/quantitykind/MolarVolume> ;
-	skos:definition "from QUDT: The molar volume, symbol \\(V_m\\), is the volume occupied by one mole of a substance (chemical element or chemical compound) at a given temperature and pressure. It is equal to the molar mass (\\(M\\)) divided by the mass density (\\(\\rho\\)). It has the SI unit cubic metres per mole (\\(m^{1}/mol\\)). For ideal gases, the molar volume is given by the ideal gas equation: this is a good approximation for many common gases at standard temperature and pressure. For crystalline solids, the molar volume can be measured by X-ray crystallography."^^xsd:string ;
+	skos:definition "The molar volume, symbol V_m, is the volume occupied by one mole of a substance (chemical element or chemical compound) at a given temperature and pressure. It is equal to the molar mass M divided by the mass density rho. It has the SI unit cubic metres per mole m^{3}/mol. For ideal gases, the molar volume is given by the ideal gas equation: this is a good approximation for many common gases at standard temperature and pressure. For crystalline solids, the molar volume can be measured by X-ray crystallography. [QUDT] Also, it is the inverse of amount of substance per volume."^^xsd:string ;
 	skos:prefLabel "molar volume"^^xsd:string ;
 	gist:hasUnitGroup gistd:_UnitGroup_molar_volume ;
 	gist:isCategorizedBy gistd:_Discipline_chemistry ;
@@ -7920,7 +7921,7 @@ gistd:_Aspect_reluctance
 		"https://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.htm?csnumber=31891"^^xsd:anyURI
 		;
 	skos:closeMatch <http://qudt.org/vocab/quantitykind/Reluctance> ;
-	skos:definition 'from QUDT: "Reluctance" or magnetic resistance, is a concept used in the analysis of magnetic circuits. It is analogous to resistance in an electrical circuit, but rather than dissipating electric energy it stores magnetic energy. In likeness to the way an electric field causes an electric current to follow the path of least resistance, a magnetic field causes magnetic flux to follow the path of least magnetic reluctance. It is a scalar, extensive quantity, akin to electrical resistance.'^^xsd:string ;
+	skos:definition "from QUDT: Reluctance or magnetic resistance, is a concept used in the analysis of magnetic circuits. It is analogous to resistance in an electrical circuit, but rather than dissipating electric energy it stores magnetic energy. In likeness to the way an electric field causes an electric current to follow the path of least resistance, a magnetic field causes magnetic flux to follow the path of least magnetic reluctance. It is a scalar, extensive quantity, akin to electrical resistance."^^xsd:string ;
 	skos:prefLabel "reluctance"^^xsd:string ;
 	gist:hasUnitGroup gistd:_UnitGroup_reluctance ;
 	gist:isCategorizedBy gistd:_Discipline_electricity_and_magnetism ;
@@ -8772,7 +8773,7 @@ gistd:_Aspect_specific_volume
 		"https://www.iso.org/iso/catalogue_detail?csnumber=31889"^^xsd:anyURI
 		;
 	skos:closeMatch <http://qudt.org/vocab/quantitykind/SpecificVolume> ;
-	skos:definition 'from QUDT: "Specific Volume" (\\(\\nu\\)) is the volume occupied by a unit of mass of a material. It is equal to the inverse of density.'^^xsd:string ;
+	skos:definition "from QUDT: Specific Volume nu is the volume occupied by a unit of mass of a material. It is equal to the inverse of density."^^xsd:string ;
 	skos:prefLabel "specific volume"^^xsd:string ;
 	gist:hasUnitGroup gistd:_UnitGroup_specific_volume ;
 	gist:isCategorizedBy gistd:_Discipline_mechanics ;
@@ -9312,7 +9313,7 @@ gistd:_Aspect_thermal_conductance
 		"https://www.iso.org/iso/catalogue_detail?csnumber=31890"^^xsd:anyURI
 		;
 	skos:closeMatch <http://qudt.org/vocab/quantitykind/ThermalConductance> ;
-	skos:definition 'from QUDT: This quantity is also called "Heat Transfer Coefficient".'^^xsd:string ;
+	skos:definition "This quantity is also called Heat Transfer Coefficient. [QUDT] Also, it is the inverse of thermal resistance."^^xsd:string ;
 	skos:prefLabel "thermal conductance"^^xsd:string ;
 	gist:hasUnitGroup gistd:_UnitGroup_thermal_conductance ;
 	gist:isCategorizedBy gistd:_Discipline_thermodynamics ;
@@ -9322,7 +9323,7 @@ gistd:_Aspect_thermal_conductivity
 	a gist:Aspect ;
 	rdfs:seeAlso "https://en.wikipedia.org/wiki/Thermal_conductivity"^^xsd:anyURI ;
 	skos:closeMatch <http://qudt.org/vocab/quantitykind/ThermalConductivity> ;
-	skos:definition "from QUDT: In physics, thermal conductivity, \\(k\\) (also denoted as \\(\\lambda\\)), is the property of a material's ability to conduct heat. It appears primarily in Fourier's Law for heat conduction and is the areic heat flow rate divided by temperature gradient."^^xsd:string ;
+	skos:definition "In physics, thermal conductivity, k (also denoted as lambda, is the property of a material's ability to conduct heat. It appears primarily in Fourier's Law for heat conduction and is the areic heat flow rate divided by temperature gradient. [QUDT] Also, it is the inverse of thermal resistivity."^^xsd:string ;
 	skos:prefLabel "thermal conductivity"^^xsd:string ;
 	gist:hasUnitGroup gistd:_UnitGroup_thermal_conductivity ;
 	gist:isCategorizedBy gistd:_Discipline_thermodynamics ;
@@ -9417,7 +9418,7 @@ gistd:_Aspect_thermal_insulance
 	a gist:Aspect ;
 	rdfs:seeAlso "https://en.wikipedia.org/wiki/Thermal_insulation"^^xsd:anyURI ;
 	skos:closeMatch <http://qudt.org/vocab/quantitykind/ThermalInsulance> ;
-	skos:definition "from QUDT: \\(\\textit{Thermal Insulance}\\) is the reduction of heat transfer (the transfer of thermal energy between objects of differing temperature) between objects in thermal contact or in range of radiative influence. In building technology, this quantity is often called \\(\\textit{Thermal Resistance}\\), with the symbol \\(R\\)."^^xsd:string ;
+	skos:definition "Thermal Insulance is the reduction of heat transfer (the transfer of thermal energy between objects of differing temperature) between objects in thermal contact or in range of radiative influence. In building technology, this quantity is often called Thermal Resistance, with the symbol R. [QUDT] Also, thermal insulance is the inverse of coefficient of heat transfer."^^xsd:string ;
 	skos:prefLabel "thermal insulance"^^xsd:string ;
 	gist:hasUnitGroup gistd:_UnitGroup_thermal_insulance ;
 	gist:isCategorizedBy gistd:_Discipline_thermodynamics ;
@@ -9430,7 +9431,7 @@ gistd:_Aspect_thermal_resistance
 		"https://www.iso.org/iso/catalogue_detail?csnumber=31890"^^xsd:anyURI
 		;
 	skos:closeMatch <http://qudt.org/vocab/quantitykind/ThermalResistance> ;
-	skos:definition "from QUDT: \\(\\textit{Thermal Resistance}\\) is a heat property and a measure of a temperature difference by which an object or material resists a heat flow (heat per time unit or thermal resistance). Thermal resistance is the reciprocal thermal conductance. the thermodynamic temperature difference divided by heat flow rate. Thermal resistance \\(R\\) has the units \\(\\frac{m^2 \\cdot K}{W}\\)."^^xsd:string ;
+	skos:definition "from QUDT: Thermal Resistance is a heat property and a measure of a temperature difference by which an object or material resists a heat flow (heat per time unit or thermal resistance). Thermal resistance is the reciprocal thermal conductance. the thermodynamic temperature difference divided by heat flow rate. Thermal resistance R has the units frac{m^2  K}{W}."^^xsd:string ;
 	skos:prefLabel "thermal resistance"^^xsd:string ;
 	gist:hasUnitGroup gistd:_UnitGroup_thermal_resistance ;
 	gist:isCategorizedBy gistd:_Discipline_thermodynamics ;
@@ -9439,7 +9440,7 @@ gistd:_Aspect_thermal_resistance
 gistd:_Aspect_thermal_resistivity
 	a gist:Aspect ;
 	skos:closeMatch <http://qudt.org/vocab/quantitykind/ThermalResistivity> ;
-	skos:definition "from QUDT: The reciprocal of thermal conductivity is thermal resistivity, measured in \\(kelvin-metres\\) per watt (\\(K \\cdot m/W\\))."^^xsd:string ;
+	skos:definition "from QUDT: The reciprocal of thermal conductivity is thermal resistivity, measured in kelvin-metres per watt K m/W."^^xsd:string ;
 	skos:prefLabel "thermal resistivity"^^xsd:string ;
 	gist:hasUnitGroup gistd:_UnitGroup_thermal_resistivity ;
 	gist:isCategorizedBy gistd:_Discipline_thermodynamics ;
@@ -9899,8 +9900,12 @@ gistd:_Aspect_vacuum_thrust
 
 gistd:_Aspect_vapor_permeability
 	a gist:Aspect ;
-	rdfs:seeAlso "https://www.designingbuildings.co.uk/wiki/Vapour_Permeability"^^xsd:anyURI ;
+	rdfs:seeAlso
+		"https://en.wikipedia.org/wiki/Moisture_vapor_transmission_rate"^^xsd:anyURI ,
+		"https://www.designingbuildings.co.uk/wiki/Vapour_Permeability"^^xsd:anyURI
+		;
 	skos:closeMatch <http://qudt.org/vocab/quantitykind/VaporPermeability> ;
+	skos:definition "The ease with which water vapor passes through a material."^^xsd:string ;
 	skos:prefLabel "vapor permeability"^^xsd:string ;
 	gist:hasUnitGroup gistd:_UnitGroup_vapor_permeability ;
 	gist:isCategorizedBy
