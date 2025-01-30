@@ -4502,7 +4502,7 @@ gistd:_Aspect_irradiance
 	a gist:Aspect ;
 	rdfs:seeAlso "https://en.wikipedia.org/wiki/Irradiance"^^xsd:anyURI ;
 	skos:closeMatch <http://qudt.org/vocab/quantitykind/Irradiance> ;
-	skos:definition 'from QUDT: Irradiance and Radiant Emittance are radiometry terms for the power per unit area of electromagnetic radiation at a surface. "Irradiance" is used when the electromagnetic radiation is incident on the surface. "Radiant emmitance" (or "radiant exitance") is used when the radiation is emerging from the surface.'^^xsd:string ;
+	skos:definition 'from QUDT: Irradiance and Radiant Emittance are radiometry terms for the power per unit area of electromagnetic radiation at a surface. "Irradiance" is used when the electromagnetic radiation is incident on the surface. "Radiant emittance" (or "radiant exitance") is used when the radiation is emerging from the surface.'^^xsd:string ;
 	skos:prefLabel "irradiance"^^xsd:string ;
 	gist:hasUnitGroup gistd:_UnitGroup_power_per_area ;
 	gist:isCategorizedBy
@@ -5085,12 +5085,12 @@ gistd:_Aspect_luminous_efficacy
 	gist:isCategorizedBy gistd:_Discipline_optics ;
 	.
 
-gistd:_Aspect_luminous_emmitance
+gistd:_Aspect_luminous_emittance
 	a gist:Aspect ;
 	rdfs:seeAlso "https://www.iso.org/iso/catalogue_detail?csnumber=43012"^^xsd:anyURI ;
 	skos:closeMatch <http://qudt.org/vocab/quantitykind/LuminousEmittance> ;
 	skos:definition 'from QUDT: "Luminous Emittance" is the luminous flux per unit area emitted from a surface.'^^xsd:string ;
-	skos:prefLabel "luminous emmitance"^^xsd:string ;
+	skos:prefLabel "luminous emittance"^^xsd:string ;
 	gist:hasUnitGroup gistd:_UnitGroup_luminous_flux_per_area ;
 	gist:isCategorizedBy
 		gistd:_Discipline_biometrics ,
