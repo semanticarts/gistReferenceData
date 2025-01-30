@@ -17616,7 +17616,7 @@ gistd:_UnitOfMeasure_british_thermal_unit_international
 	skos:closeMatch <http://qudt.org/vocab/unit/BTU_IT> ;
 	skos:definition "from QUDT: Is part of the IMPERIAL system."^^xsd:string ;
 	skos:prefLabel "british thermal unit (international definition)"^^xsd:string ;
-	skos:scope_note "1 british thermal unit international = 1055.05585 kilogram meterSquared per secondSquared"^^xsd:string ;
+	skos:scopeNote "1 british thermal unit international = 1055.05585 kilogram meterSquared per secondSquared"^^xsd:string ;
 	gist:conversionFactor "1055.05585"^^xsd:decimal ;
 	gist:isMemberOf gistd:_UnitGroup_amount_of_heat ;
 	gist:symbol "Btu{IT}"^^xsd:string ;
