@@ -25294,22 +25294,10 @@ gistd:_UnitOfMeasure_kilowatt
 gistd:_UnitOfMeasure_kilowatt_hour
 	a gist:UnitOfMeasure ;
 	rdfs:seeAlso "https://en.wikipedia.org/wiki/Kilowatt_hour"^^xsd:anyURI ;
-	skos:altLabel
-		"kilowatt hours"^^xsd:string ,
-		"kilowatt-hours"^^xsd:string
-		;
-	skos:closeMatch
-		<http://qudt.org/vocab/unit/KiloW> ,
-		<http://qudt.org/vocab/unit/KiloW-HR>
-		;
-	skos:prefLabel
-		"kilowatt hour"^^xsd:string ,
-		"kilowatt-hour"^^xsd:string
-		;
-	skos:scopeNote
-		"1 kilowatt hour = 3600000.0 x kilogram meterSquared per secondSquared"^^xsd:string ,
-		"1 kilowatt-hour = 3600000.0 x kilogram meterSquared per secondSquared"^^xsd:string
-		;
+	skos:altLabel "kilowatt-hours"^^xsd:string ;
+	skos:closeMatch <http://qudt.org/vocab/unit/KiloW-HR> ;
+	skos:prefLabel "kilowatt-hour"^^xsd:string ;
+	skos:scopeNote "1 kilowatt-hour = 3600000.0 x kilogram meterSquared per secondSquared"^^xsd:string ;
 	gist:conversionFactor "3600000.0"^^xsd:decimal ;
 	gist:isMemberOf
 		gistd:_UnitGroup_electric_energy ,
@@ -35541,20 +35529,11 @@ gistd:_UnitOfMeasure_watt
 gistd:_UnitOfMeasure_watt_hour
 	a gist:UnitOfMeasure ;
 	rdfs:seeAlso "https://en.wikipedia.org/wiki/Kilowatt-hour"^^xsd:anyURI ;
-	skos:altLabel
-		"watt hours"^^xsd:string ,
-		"watt-hours"^^xsd:string
-		;
+	skos:altLabel "watt-hours"^^xsd:string ;
 	skos:closeMatch <http://qudt.org/vocab/unit/W-HR> ;
 	skos:definition "An amount of electricity defined as one watt for one hour."^^xsd:string ;
-	skos:prefLabel
-		"watt hour"^^xsd:string ,
-		"watt-hour"^^xsd:string
-		;
-	skos:scopeNote
-		"1 watt hour = 3600 x kilogram meterSquared per secondSquared"^^xsd:string ,
-		"1 watt-hour = 3600.0 x kilogram meterSquared per secondSquared"^^xsd:string
-		;
+	skos:prefLabel "watt-hour"^^xsd:string ;
+	skos:scopeNote "1 watt-hour = 3600.0 x kilogram meterSquared per secondSquared"^^xsd:string ;
 	gist:conversionFactor
 		"3600"^^xsd:decimal ,
 		"3600.0"^^xsd:decimal
