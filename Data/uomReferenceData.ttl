@@ -35798,23 +35798,14 @@ gistd:_UnitOfMeasure_volt_ampere_reactive
 		;
 	skos:closeMatch <http://qudt.org/vocab/unit/V-A_Reactive> ;
 	skos:definition "from QUDT: unit with special name for reactive power"^^xsd:string ;
-	skos:prefLabel
-		"volt ampere reactive"^^xsd:string ,
-		"volt-ampere reactive"^^xsd:string
-		;
-	skos:scopeNote
-		"1 volt ampere reactive = 1.0 x kilogram meterSquared per secondCubed"^^xsd:string ,
-		"1 volt-ampere reactive = 1 kilogram meterSquared per secondCubed"^^xsd:string
-		;
+	skos:prefLabel "volt-ampere reactive"^^xsd:string ;
+	skos:scopeNote "1 volt-ampere reactive = 1 kilogram meterSquared per secondCubed"^^xsd:string ;
 	gist:conversionFactor "1.0"^^xsd:decimal ;
 	gist:isMemberOf
 		gistd:_UnitGroup_power ,
 		gistd:_UnitGroup_reactive_power
 		;
-	gist:symbol
-		"V·A{Reactive}"^^xsd:string ,
-		"var"^^xsd:string
-		;
+	gist:symbol "var"^^xsd:string ;
 	.
 
 gistd:_UnitOfMeasure_volt_ampere_reactive_hour
