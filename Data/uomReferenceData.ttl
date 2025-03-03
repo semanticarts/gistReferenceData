@@ -434,7 +434,7 @@ gistd:_Aspect_amount_of_substance_per_volume
 	a gist:Aspect ;
 	rdfs:seeAlso "https://en.wikipedia.org/wiki/Molar_concentration"^^xsd:anyURI ;
 	skos:closeMatch <http://qudt.org/vocab/quantitykind/AmountOfSubstancePerUnitVolume> ;
-	skos:definition "The amount of substance per unit volume is called the molar density. Molar density is an intensive property of a substance and depends on the temperature and pressure. [QUDT] Also, it is the inverse of molar volume."^^xsd:string ;
+	skos:definition "The amount of substance per unit volume is called the molar density. Molar density is an intensive property of a substance and depends on the temperature and pressure. [QUDT] It is the inverse of molar volume."^^xsd:string ;
 	skos:prefLabel "amount of substance per unit volume"^^xsd:string ;
 	gist:hasUnitGroup gistd:_UnitGroup_amount_of_substance_per_volume ;
 	gist:isCategorizedBy
@@ -1294,7 +1294,7 @@ gistd:_Aspect_coefficient_of_heat_transfer
 	a gist:Aspect ;
 	rdfs:seeAlso "https://en.wikipedia.org/wiki/Heat_transfer_coefficient"^^xsd:anyURI ;
 	skos:closeMatch <http://qudt.org/vocab/quantitykind/CoefficientOfHeatTransfer> ;
-	skos:definition 'Coefficient of Heat Transfer, in thermodynamics and in mechanical and chemical engineering, is used in calculating the heat transfer, typically by convection or phase transition between a fluid and a solid. The heat transfer coefficient is the proportionality coefficient between the heat flux, that is heat flow per unit area, q/A, and the thermodynamic driving force for the flow of heat (that is, the temperature difference, (Delta T). Areic heat flow rate divided by thermodynamic temperature difference. In building technology, the "Coefficient of Heat Transfer", is often called "thermal transmittance}" with the symbol "U". It has SI units in watts per squared meter kelvin. [QUDT] Also, the coefficient of heat transfer is the inverse of thermal insulance.'^^xsd:string ;
+	skos:definition 'Coefficient of Heat Transfer, in thermodynamics and in mechanical and chemical engineering, is used in calculating the heat transfer, typically by convection or phase transition between a fluid and a solid. The heat transfer coefficient is the proportionality coefficient between the heat flux, that is heat flow per unit area, q/A, and the thermodynamic driving force for the flow of heat (that is, the temperature difference, (Delta T). Areic heat flow rate divided by thermodynamic temperature difference. In building technology, the "Coefficient of Heat Transfer", is often called "thermal transmittance}" with the symbol "U". It has SI units in watts per squared meter kelvin. [QUDT] The coefficient of heat transfer is the inverse of thermal insulance.'^^xsd:string ;
 	skos:prefLabel "coefficient of heat transfer"^^xsd:string ;
 	gist:hasUnitGroup gistd:_UnitGroup_coefficient_of_heat_transfer ;
 	gist:isCategorizedBy gistd:_Discipline_thermodynamics ;
@@ -1803,7 +1803,7 @@ gistd:_Aspect_density
 	a gist:Aspect ;
 	rdfs:seeAlso "https://en.wikipedia.org/wiki/Density"^^xsd:anyURI ;
 	skos:closeMatch <http://qudt.org/vocab/quantitykind/Density> ;
-	skos:definition "The mass density or density of a material is defined as its mass per unit volume. The symbol most often used for density is rho. Mathematically, density is defined as mass divided by volume: rho = m/V, where rho is the density, m is the mass, and V is the volume. In some cases, density is also defined as its weight per unit volume, although this quantity is more properly called specific weight. [QUDT] Also, it is the inverse of specific volume."^^xsd:string ;
+	skos:definition "The mass density or density of a material is defined as its mass per unit volume. The symbol most often used for density is rho. Mathematically, density is defined as mass divided by volume: rho = m/V, where rho is the density, m is the mass, and V is the volume. In some cases, density is also defined as its weight per unit volume, although this quantity is more properly called specific weight. [QUDT] It is the inverse of specific volume."^^xsd:string ;
 	skos:prefLabel "density"^^xsd:string ;
 	gist:hasUnitGroup gistd:_UnitGroup_mass_density ;
 	gist:isCategorizedBy
@@ -2690,7 +2690,7 @@ gistd:_Aspect_electric_resistance
 		"https://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.htm?csnumber=31891"^^xsd:anyURI
 		;
 	skos:closeMatch <http://qudt.org/vocab/quantitykind/Resistance> ;
-	skos:definition "The electrical resistance of an object is a measure of its opposition to the passage of a steady electric current. [QUDT] Also, electric resistance is the inverse of electric conductivity."^^xsd:string ;
+	skos:definition "The electrical resistance of an object is a measure of its opposition to the passage of a steady electric current. [QUDT] Electric resistance is the inverse of electric conductivity."^^xsd:string ;
 	skos:prefLabel "electric resistance"^^xsd:string ;
 	gist:hasUnitGroup gistd:_UnitGroup_electric_resistance ;
 	gist:isCategorizedBy gistd:_Discipline_electricity_and_magnetism ;
@@ -6264,7 +6264,7 @@ gistd:_Aspect_molar_mass
 		"https://www.iso.org/iso/catalogue_detail?csnumber=31894"^^xsd:anyURI
 		;
 	skos:closeMatch <http://qudt.org/vocab/quantitykind/MolarMass> ;
-	skos:definition "from QUDT: In chemistry, the molar mass M is defined as the mass of a given substance (chemical element or chemical compound) divided by its amount of substance. It is a physical property of a given substance. The base SI unit for molar mass is kg/mol. [QUDT] Also, molar mass is the inverse of amount of substance per unit mass."^^xsd:string ;
+	skos:definition "from QUDT: In chemistry, the molar mass M is defined as the mass of a given substance (chemical element or chemical compound) divided by its amount of substance. It is a physical property of a given substance. The base SI unit for molar mass is kg/mol. [QUDT] Molar mass is the inverse of amount of substance per unit mass."^^xsd:string ;
 	skos:prefLabel "molar mass"^^xsd:string ;
 	gist:hasUnitGroup gistd:_UnitGroup_molar_mass ;
 	gist:isCategorizedBy gistd:_Discipline_chemistry ;
@@ -6308,7 +6308,7 @@ gistd:_Aspect_molar_volume
 		"https://www.iso.org/iso/catalogue_detail?csnumber=31894"^^xsd:anyURI
 		;
 	skos:closeMatch <http://qudt.org/vocab/quantitykind/MolarVolume> ;
-	skos:definition "The molar volume, symbol V_m, is the volume occupied by one mole of a substance (chemical element or chemical compound) at a given temperature and pressure. It is equal to the molar mass M divided by the mass density rho. It has the SI unit cubic metres per mole m^{3}/mol. For ideal gases, the molar volume is given by the ideal gas equation: this is a good approximation for many common gases at standard temperature and pressure. For crystalline solids, the molar volume can be measured by X-ray crystallography. [QUDT] Also, it is the inverse of amount of substance per volume."^^xsd:string ;
+	skos:definition "The molar volume, symbol V_m, is the volume occupied by one mole of a substance (chemical element or chemical compound) at a given temperature and pressure. It is equal to the molar mass M divided by the mass density rho. It has the SI unit cubic metres per mole m^{3}/mol. For ideal gases, the molar volume is given by the ideal gas equation: this is a good approximation for many common gases at standard temperature and pressure. For crystalline solids, the molar volume can be measured by X-ray crystallography. [QUDT] It is the inverse of amount of substance per volume."^^xsd:string ;
 	skos:prefLabel "molar volume"^^xsd:string ;
 	gist:hasUnitGroup gistd:_UnitGroup_molar_volume ;
 	gist:isCategorizedBy gistd:_Discipline_chemistry ;
@@ -9313,7 +9313,7 @@ gistd:_Aspect_thermal_conductance
 		"https://www.iso.org/iso/catalogue_detail?csnumber=31890"^^xsd:anyURI
 		;
 	skos:closeMatch <http://qudt.org/vocab/quantitykind/ThermalConductance> ;
-	skos:definition "This quantity is also called Heat Transfer Coefficient. [QUDT] Also, it is the inverse of thermal resistance."^^xsd:string ;
+	skos:definition "This quantity is also called Heat Transfer Coefficient. [QUDT] It is the inverse of thermal resistance."^^xsd:string ;
 	skos:prefLabel "thermal conductance"^^xsd:string ;
 	gist:hasUnitGroup gistd:_UnitGroup_thermal_conductance ;
 	gist:isCategorizedBy gistd:_Discipline_thermodynamics ;
@@ -9323,7 +9323,7 @@ gistd:_Aspect_thermal_conductivity
 	a gist:Aspect ;
 	rdfs:seeAlso "https://en.wikipedia.org/wiki/Thermal_conductivity"^^xsd:anyURI ;
 	skos:closeMatch <http://qudt.org/vocab/quantitykind/ThermalConductivity> ;
-	skos:definition "In physics, thermal conductivity, k (also denoted as lambda, is the property of a material's ability to conduct heat. It appears primarily in Fourier's Law for heat conduction and is the areic heat flow rate divided by temperature gradient. [QUDT] Also, it is the inverse of thermal resistivity."^^xsd:string ;
+	skos:definition "In physics, thermal conductivity, k (also denoted as lambda, is the property of a material's ability to conduct heat. It appears primarily in Fourier's Law for heat conduction and is the areic heat flow rate divided by temperature gradient. [QUDT] It is the inverse of thermal resistivity."^^xsd:string ;
 	skos:prefLabel "thermal conductivity"^^xsd:string ;
 	gist:hasUnitGroup gistd:_UnitGroup_thermal_conductivity ;
 	gist:isCategorizedBy gistd:_Discipline_thermodynamics ;
@@ -9418,7 +9418,7 @@ gistd:_Aspect_thermal_insulance
 	a gist:Aspect ;
 	rdfs:seeAlso "https://en.wikipedia.org/wiki/Thermal_insulation"^^xsd:anyURI ;
 	skos:closeMatch <http://qudt.org/vocab/quantitykind/ThermalInsulance> ;
-	skos:definition "Thermal Insulance is the reduction of heat transfer (the transfer of thermal energy between objects of differing temperature) between objects in thermal contact or in range of radiative influence. In building technology, this quantity is often called Thermal Resistance, with the symbol R. [QUDT] Also, thermal insulance is the inverse of coefficient of heat transfer."^^xsd:string ;
+	skos:definition "Thermal Insulance is the reduction of heat transfer (the transfer of thermal energy between objects of differing temperature) between objects in thermal contact or in range of radiative influence. In building technology, this quantity is often called Thermal Resistance, with the symbol R. [QUDT] Thermal insulance is the inverse of coefficient of heat transfer."^^xsd:string ;
 	skos:prefLabel "thermal insulance"^^xsd:string ;
 	gist:hasUnitGroup gistd:_UnitGroup_thermal_insulance ;
 	gist:isCategorizedBy gistd:_Discipline_thermodynamics ;
