@@ -202,7 +202,32 @@ gistd:_Aspect_active_power
 	skos:closeMatch <http://qudt.org/vocab/quantitykind/ActivePower> ;
 	skos:definition 'from QUDT: \\(Active Power\\) is, under periodic conditions, the mean value, taken over one period \\(T\\), of the instantaneous power \\(p\\). In complex notation, \\(P = \\mathbf{Re} \\; \\underline{S}\\), where \\(\\underline{S}\\) is \\(\\textit{complex power}\\)".'^^xsd:string ;
 	skos:prefLabel "active power"^^xsd:string ;
-	gist:hasUnitGroup gistd:_UnitGroup_electric_power ;
+	gist:hasUnitGroup gistd:_UnitGroup_active_power ;
+	gist:isCategorizedBy gistx:_Discipline_electricity_and_magnetism ;
+	.
+
+gistd:_Aspect_active_power_change_rate
+	a gist:Aspect ;
+	rdfs:seeAlso "http://en.wikipedia.org/wiki/Watt"^^xsd:anyURI ;
+	skos:definition "Rate of change of active power per unit time."^^xsd:string ;
+	skos:prefLabel "active power change rate"^^xsd:string ;
+	gist:hasUnitGroup gistd:_UnitGroup_active_power_change_rate ;
+	.
+
+gistd:_Aspect_active_power_per_electric_current
+	a gist:Aspect ;
+	rdfs:seeAlso "http://en.wikipedia.org/wiki/Active_power"^^xsd:anyURI ;
+	skos:definition "Active power variation with respect to current flow."^^xsd:string ;
+	skos:prefLabel "active power per current flow"^^xsd:string ;
+	gist:hasUnitGroup gistd:_UnitGroup_active_power_per_electric_current ;
+	.
+
+gistd:_Aspect_active_power_per_frequency
+	a gist:Aspect ;
+	rdfs:seeAlso "http://en.wikipedia.org/wiki/Hertz"^^xsd:anyURI ;
+	skos:definition "Active power variation with frequency."^^xsd:string ;
+	skos:prefLabel "active power per frequency"^^xsd:string ;
+	gist:hasUnitGroup gistd:_UnitGroup_active_power_per_frequency ;
 	gist:isCategorizedBy gistx:_Discipline_electricity_and_magnetism ;
 	.
 
@@ -646,7 +671,7 @@ gistd:_Aspect_apparent_power
 	skos:closeMatch <http://qudt.org/vocab/quantitykind/ApparentPower> ;
 	skos:definition 'from QUDT: "Apparent Power" is the product of the rms voltage \\(U\\) between the terminals of a two-terminal element or two-terminal circuit and the rms electric current I in the element or circuit. Under sinusoidal conditions, the apparent power is the modulus of the complex power.'^^xsd:string ;
 	skos:prefLabel "apparent power"^^xsd:string ;
-	gist:hasUnitGroup gistd:_UnitGroup_electric_power ;
+	gist:hasUnitGroup gistd:_UnitGroup_apparent_power ;
 	gist:isCategorizedBy gistx:_Discipline_electricity_and_magnetism ;
 	.
 
@@ -1113,6 +1138,14 @@ gistd:_Aspect_capacitance
 	gist:isCategorizedBy gistx:_Discipline_electricity_and_magnetism ;
 	.
 
+gistd:_Aspect_capacitance_per_length
+	a gist:Aspect ;
+	rdfs:seeAlso "http://en.wikipedia.org/wiki/Capacitance"^^xsd:anyURI ;
+	skos:definition "Capacitance per unit length."^^xsd:string ;
+	skos:prefLabel "capacitance per length"^^xsd:string ;
+	gist:hasUnitGroup gistd:_UnitGroup_capacitance_per_length ;
+	.
+
 gistd:_Aspect_carrier_lifetime
 	a gist:Aspect ;
 	rdfs:seeAlso
@@ -1383,7 +1416,7 @@ gistd:_Aspect_complex_power
 	skos:closeMatch <http://qudt.org/vocab/quantitykind/ComplexPower> ;
 	skos:definition 'from QUDT: "Complex Power", under sinusoidal conditions, is the product of the phasor \\(U\\) representing the voltage between the terminals of a linear two-terminal element or two-terminal circuit and the complex conjugate of the phasor \\(I\\) representing the electric current in the element or circuit.'^^xsd:string ;
 	skos:prefLabel "complex power"^^xsd:string ;
-	gist:hasUnitGroup gistd:_UnitGroup_electric_power ;
+	gist:hasUnitGroup gistd:_UnitGroup_complex_power ;
 	gist:isCategorizedBy gistx:_Discipline_electricity_and_magnetism ;
 	.
 
@@ -1472,6 +1505,14 @@ gistd:_Aspect_conductance
 	skos:prefLabel "conductance"^^xsd:string ;
 	gist:hasUnitGroup gistd:_UnitGroup_conductance ;
 	gist:isCategorizedBy gistx:_Discipline_electricity_and_magnetism ;
+	.
+
+gistd:_Aspect_conductance_per_length
+	a gist:Aspect ;
+	rdfs:seeAlso "http://en.wikipedia.org/wiki/Conductance"^^xsd:anyURI ;
+	skos:definition "Real part of admittance per unit length."^^xsd:string ;
+	skos:prefLabel "conductance per length"^^xsd:string ;
+	gist:hasUnitGroup gistd:_UnitGroup_conductance_per_length ;
 	.
 
 gistd:_Aspect_conduction_speed
@@ -4119,6 +4160,14 @@ gistd:_Aspect_inductance
 	skos:prefLabel "inductance"^^xsd:string ;
 	gist:hasUnitGroup gistd:_UnitGroup_inductance ;
 	gist:isCategorizedBy gistx:_Discipline_electricity_and_magnetism ;
+	.
+
+gistd:_Aspect_inductance_per_length
+	a gist:Aspect ;
+	rdfs:seeAlso "http://en.wikipedia.org/wiki/Inductance"^^xsd:anyURI ;
+	skos:definition "Inductance per unit length."^^xsd:string ;
+	skos:prefLabel "inductance per length"^^xsd:string ;
+	gist:hasUnitGroup gistd:_UnitGroup_inductance_per_length ;
 	.
 
 gistd:_Aspect_inert_mass
@@ -7616,6 +7665,14 @@ gistd:_Aspect_ratio_of_volumes
 	gist:isCategorizedBy gistx:_Discipline_space_and_time ;
 	.
 
+gistd:_Aspect_reactance_per_length
+	a gist:Aspect ;
+	rdfs:seeAlso "http://en.wikipedia.org/wiki/Reactance"^^xsd:anyURI ;
+	skos:definition "Reactance (imaginary part of impedance) per unit length."^^xsd:string ;
+	skos:prefLabel "reactance per length"^^xsd:string ;
+	gist:hasUnitGroup gistd:_UnitGroup_reactance_per_length ;
+	.
+
 gistd:_Aspect_reaction_energy
 	a gist:Aspect ;
 	rdfs:seeAlso
@@ -7647,7 +7704,7 @@ gistd:_Aspect_reactive_power
 	skos:closeMatch <http://qudt.org/vocab/quantitykind/ReactivePower> ;
 	skos:definition 'from QUDT: "Reactive Power}, for a linear two-terminal element or two-terminal circuit, under sinusoidal conditions, is the quantity equal to the product of the apparent power \\(S\\) and the sine of the displacement angle \\(\\psi\\). The absolute value of the reactive power is equal to the non-active power. The ISO (and SI) unit for reactive power is the voltampere. The special name \\(\\textit{var}\\) and symbol \\(\\textit{var}\\) are given in IEC 60027 1.'^^xsd:string ;
 	skos:prefLabel "reactive power"^^xsd:string ;
-	gist:hasUnitGroup gistd:_UnitGroup_electric_power ;
+	gist:hasUnitGroup gistd:_UnitGroup_reactive_power ;
 	gist:isCategorizedBy gistx:_Discipline_electricity_and_magnetism ;
 	.
 
@@ -7682,6 +7739,14 @@ gistd:_Aspect_reads_per_genetic_strand_length
 	skos:prefLabel "reads per genetic strand length "^^xsd:string ;
 	gist:hasUnitGroup gistd:_UnitGroup_reads_per_genetic_strand_length ;
 	gist:isCategorizedBy gistx:_Discipline_biology ;
+	.
+
+gistd:_Aspect_real_power
+	a gist:Aspect ;
+	rdfs:seeAlso "http://en.wikipedia.org/wiki/AC_power"^^xsd:anyURI ;
+	skos:definition "Real power."^^xsd:string ;
+	skos:prefLabel "real power"^^xsd:string ;
+	gist:hasUnitGroup gistd:_UnitGroup_real_power ;
 	.
 
 gistd:_Aspect_recombination_coefficient
@@ -7948,6 +8013,14 @@ gistd:_Aspect_residual_electric_resistivity
 	skos:prefLabel "residual electric resistivity"^^xsd:string ;
 	gist:hasUnitGroup gistd:_UnitGroup_electric_resistivity ;
 	gist:isCategorizedBy gistx:_Discipline_solid_state_physics ;
+	.
+
+gistd:_Aspect_resistance_per_length
+	a gist:Aspect ;
+	rdfs:seeAlso "http://en.wikipedia.org/wiki/Resistance"^^xsd:anyURI ;
+	skos:definition "Resistance per unit length, real part of impedance."^^xsd:string ;
+	skos:prefLabel "resistance per length"^^xsd:string ;
+	gist:hasUnitGroup gistd:_UnitGroup_resistance_per_length ;
 	.
 
 gistd:_Aspect_resistance_percentage
@@ -9198,6 +9271,14 @@ gistd:_Aspect_susceptance
 	gist:isCategorizedBy gistx:_Discipline_electricity_and_magnetism ;
 	.
 
+gistd:_Aspect_susceptance_per_length
+	a gist:Aspect ;
+	rdfs:seeAlso "http://en.wikipedia.org/wiki/Admittance"^^xsd:anyURI ;
+	skos:definition "Imaginary part of admittance per unit length."^^xsd:string ;
+	skos:prefLabel "susceptance per length"^^xsd:string ;
+	gist:hasUnitGroup gistd:_UnitGroup_susceptance_per_length ;
+	.
+
 gistd:_Aspect_systolic_blood_pressure
 	a gist:Aspect ;
 	rdfs:seeAlso "https://www.oxfordreference.com/view/10.1093/acref/9780199549351.001.0001/acref-9780199549351-e-1162"^^xsd:anyURI ;
@@ -9999,6 +10080,14 @@ For an irrotational electric field, the voltage is independent of the path betwe
 	gist:isCategorizedBy gistx:_Discipline_electricity_and_magnetism ;
 	.
 
+gistd:_Aspect_voltage_per_reactive_power
+	a gist:Aspect ;
+	rdfs:seeAlso "http://en.wikipedia.org/wiki/Reactive_power"^^xsd:anyURI ;
+	skos:definition "Voltage variation with reactive power."^^xsd:string ;
+	skos:prefLabel "voltage per reactive power"^^xsd:string ;
+	gist:hasUnitGroup gistd:_UnitGroup_voltage_per_reactive_power ;
+	.
+
 gistd:_Aspect_voltage_percentage
 	a gist:Aspect ;
 	skos:closeMatch <http://qudt.org/vocab/quantitykind/VoltagePercentage> ;
@@ -10462,6 +10551,82 @@ gistd:_UnitGroup_acoustic_impedance
 	gist:exponentOfUSDollar "0"^^xsd:decimal ;
 	.
 
+gistd:_UnitGroup_active_power
+	a gist:UnitGroup ;
+	skos:prefLabel "units that measure active power."^^xsd:string ;
+	skos:scopeNote "kilogram meterSquared per secondCubed"^^xsd:string ;
+	gist:exponentOfAmpere "0"^^xsd:decimal ;
+	gist:exponentOfBit "0"^^xsd:decimal ;
+	gist:exponentOfCandela "0"^^xsd:decimal ;
+	gist:exponentOfKelvin "0"^^xsd:decimal ;
+	gist:exponentOfKilogram "1"^^xsd:decimal ;
+	gist:exponentOfMeter "2"^^xsd:decimal ;
+	gist:exponentOfMole "0"^^xsd:decimal ;
+	gist:exponentOfNumber "0"^^xsd:decimal ;
+	gist:exponentOfOther "0"^^xsd:decimal ;
+	gist:exponentOfRadian "0"^^xsd:decimal ;
+	gist:exponentOfSecond "-3"^^xsd:decimal ;
+	gist:exponentOfSteradian "0"^^xsd:decimal ;
+	gist:exponentOfUSDollar "0"^^xsd:decimal ;
+	.
+
+gistd:_UnitGroup_active_power_change_rate
+	a gist:UnitGroup ;
+	skos:prefLabel "units that measure active power change rate"^^xsd:string ;
+	skos:scopeNote "kilogram meterSquared per secondToTheFourth"^^xsd:string ;
+	gist:exponentOfAmpere "0"^^xsd:decimal ;
+	gist:exponentOfBit "0"^^xsd:decimal ;
+	gist:exponentOfCandela "0"^^xsd:decimal ;
+	gist:exponentOfKelvin "0"^^xsd:decimal ;
+	gist:exponentOfKilogram "1"^^xsd:decimal ;
+	gist:exponentOfMeter "2"^^xsd:decimal ;
+	gist:exponentOfMole "0"^^xsd:decimal ;
+	gist:exponentOfNumber "0"^^xsd:decimal ;
+	gist:exponentOfOther "0"^^xsd:decimal ;
+	gist:exponentOfRadian "0"^^xsd:decimal ;
+	gist:exponentOfSecond "-4"^^xsd:decimal ;
+	gist:exponentOfSteradian "0"^^xsd:decimal ;
+	gist:exponentOfUSDollar "0"^^xsd:decimal ;
+	.
+
+gistd:_UnitGroup_active_power_per_electric_current
+	a gist:UnitGroup ;
+	skos:prefLabel "units that measure active power per current"^^xsd:string ;
+	skos:scopeNote "kilogram meterSquared per ampere secondCubed"^^xsd:string ;
+	gist:exponentOfAmpere "-1"^^xsd:decimal ;
+	gist:exponentOfBit "0"^^xsd:decimal ;
+	gist:exponentOfCandela "0"^^xsd:decimal ;
+	gist:exponentOfKelvin "0"^^xsd:decimal ;
+	gist:exponentOfKilogram "1"^^xsd:decimal ;
+	gist:exponentOfMeter "2"^^xsd:decimal ;
+	gist:exponentOfMole "0"^^xsd:decimal ;
+	gist:exponentOfNumber "0"^^xsd:decimal ;
+	gist:exponentOfOther "0"^^xsd:decimal ;
+	gist:exponentOfRadian "0"^^xsd:decimal ;
+	gist:exponentOfSecond "-3"^^xsd:decimal ;
+	gist:exponentOfSteradian "0"^^xsd:decimal ;
+	gist:exponentOfUSDollar "0"^^xsd:decimal ;
+	.
+
+gistd:_UnitGroup_active_power_per_frequency
+	a gist:UnitGroup ;
+	skos:prefLabel "units that measure active power per frequency"^^xsd:string ;
+	skos:scopeNote "kilogram meterSquare per secondSquared"^^xsd:string ;
+	gist:exponentOfAmpere "0"^^xsd:decimal ;
+	gist:exponentOfBit "0"^^xsd:decimal ;
+	gist:exponentOfCandela "0"^^xsd:decimal ;
+	gist:exponentOfKelvin "0"^^xsd:decimal ;
+	gist:exponentOfKilogram "1"^^xsd:decimal ;
+	gist:exponentOfMeter "2"^^xsd:decimal ;
+	gist:exponentOfMole "0"^^xsd:decimal ;
+	gist:exponentOfNumber "0"^^xsd:decimal ;
+	gist:exponentOfOther "0"^^xsd:decimal ;
+	gist:exponentOfRadian "0"^^xsd:decimal ;
+	gist:exponentOfSecond "-2"^^xsd:decimal ;
+	gist:exponentOfSteradian "0"^^xsd:decimal ;
+	gist:exponentOfUSDollar "0"^^xsd:decimal ;
+	.
+
 gistd:_UnitGroup_activity
 	a gist:UnitGroup ;
 	skos:definition "Based on QUDT Quantity Kind Dimension Vector A0E0L0I0M0H0T-1D0."^^xsd:string ;
@@ -10851,6 +11016,25 @@ gistd:_UnitGroup_angular_velocity
 	gist:exponentOfUSDollar "0"^^xsd:decimal ;
 	.
 
+gistd:_UnitGroup_apparent_power
+	a gist:UnitGroup ;
+	skos:prefLabel "units that measure apparent power"^^xsd:string ;
+	skos:scopeNote "kilogram meterSquared per secondCubed"^^xsd:string ;
+	gist:exponentOfAmpere "0"^^xsd:decimal ;
+	gist:exponentOfBit "0"^^xsd:decimal ;
+	gist:exponentOfCandela "0"^^xsd:decimal ;
+	gist:exponentOfKelvin "0"^^xsd:decimal ;
+	gist:exponentOfKilogram "1"^^xsd:decimal ;
+	gist:exponentOfMeter "2"^^xsd:decimal ;
+	gist:exponentOfMole "0"^^xsd:decimal ;
+	gist:exponentOfNumber "0"^^xsd:decimal ;
+	gist:exponentOfOther "0"^^xsd:decimal ;
+	gist:exponentOfRadian "0"^^xsd:decimal ;
+	gist:exponentOfSecond "-3"^^xsd:decimal ;
+	gist:exponentOfSteradian "0"^^xsd:decimal ;
+	gist:exponentOfUSDollar "0"^^xsd:decimal ;
+	.
+
 gistd:_UnitGroup_area
 	a gist:UnitGroup ;
 	skos:definition "Based on QUDT Quantity Kind Dimension Vector A0E0L2I0M0H0T0D0."^^xsd:string ;
@@ -11163,6 +11347,25 @@ gistd:_UnitGroup_capacitance
 	gist:exponentOfUSDollar "0"^^xsd:decimal ;
 	.
 
+gistd:_UnitGroup_capacitance_per_length
+	a gist:UnitGroup ;
+	skos:prefLabel "units that measure capacitance per length"^^xsd:string ;
+	skos:scopeNote "ampereSquared secondToTheFourth per kilogram meterCubed"^^xsd:string ;
+	gist:exponentOfAmpere "2"^^xsd:decimal ;
+	gist:exponentOfBit "0"^^xsd:decimal ;
+	gist:exponentOfCandela "0"^^xsd:decimal ;
+	gist:exponentOfKelvin "0"^^xsd:decimal ;
+	gist:exponentOfKilogram "-1"^^xsd:decimal ;
+	gist:exponentOfMeter "-3"^^xsd:decimal ;
+	gist:exponentOfMole "0"^^xsd:decimal ;
+	gist:exponentOfNumber "0"^^xsd:decimal ;
+	gist:exponentOfOther "0"^^xsd:decimal ;
+	gist:exponentOfRadian "0"^^xsd:decimal ;
+	gist:exponentOfSecond "4"^^xsd:decimal ;
+	gist:exponentOfSteradian "0"^^xsd:decimal ;
+	gist:exponentOfUSDollar "0"^^xsd:decimal ;
+	.
+
 gistd:_UnitGroup_coefficient_of_heat_transfer
 	a gist:UnitGroup ;
 	skos:definition "Based on QUDT Quantity Kind Dimension Vector A0E0L0I0M1H-1T-3D0."^^xsd:string ;
@@ -11198,6 +11401,25 @@ gistd:_UnitGroup_color_rendering
 	gist:exponentOfOther "1"^^xsd:decimal ;
 	gist:exponentOfRadian "0"^^xsd:decimal ;
 	gist:exponentOfSecond "0"^^xsd:decimal ;
+	gist:exponentOfSteradian "0"^^xsd:decimal ;
+	gist:exponentOfUSDollar "0"^^xsd:decimal ;
+	.
+
+gistd:_UnitGroup_complex_power
+	a gist:UnitGroup ;
+	skos:prefLabel "units that measure complex power"^^xsd:string ;
+	skos:scopeNote "kilogram meterSquared per secondCubed"^^xsd:string ;
+	gist:exponentOfAmpere "0"^^xsd:decimal ;
+	gist:exponentOfBit "0"^^xsd:decimal ;
+	gist:exponentOfCandela "0"^^xsd:decimal ;
+	gist:exponentOfKelvin "0"^^xsd:decimal ;
+	gist:exponentOfKilogram "1"^^xsd:decimal ;
+	gist:exponentOfMeter "2"^^xsd:decimal ;
+	gist:exponentOfMole "0"^^xsd:decimal ;
+	gist:exponentOfNumber "0"^^xsd:decimal ;
+	gist:exponentOfOther "0"^^xsd:decimal ;
+	gist:exponentOfRadian "0"^^xsd:decimal ;
+	gist:exponentOfSecond "-3"^^xsd:decimal ;
 	gist:exponentOfSteradian "0"^^xsd:decimal ;
 	gist:exponentOfUSDollar "0"^^xsd:decimal ;
 	.
@@ -11260,6 +11482,25 @@ gistd:_UnitGroup_conductance
 	gist:exponentOfRadian "0"^^xsd:decimal ;
 	gist:exponentOfSecond "3"^^xsd:decimal ;
 	gist:exponentOfSteradian "0.0"^^xsd:decimal ;
+	gist:exponentOfUSDollar "0"^^xsd:decimal ;
+	.
+
+gistd:_UnitGroup_conductance_per_length
+	a gist:UnitGroup ;
+	skos:prefLabel "units that measure conductance per length"^^xsd:string ;
+	skos:scopeNote "ampereSquared secondCubed per kilogram meterCubed"^^xsd:string ;
+	gist:exponentOfAmpere "2"^^xsd:decimal ;
+	gist:exponentOfBit "0"^^xsd:decimal ;
+	gist:exponentOfCandela "0"^^xsd:decimal ;
+	gist:exponentOfKelvin "0"^^xsd:decimal ;
+	gist:exponentOfKilogram "-1"^^xsd:decimal ;
+	gist:exponentOfMeter "-3"^^xsd:decimal ;
+	gist:exponentOfMole "0"^^xsd:decimal ;
+	gist:exponentOfNumber "0"^^xsd:decimal ;
+	gist:exponentOfOther "0"^^xsd:decimal ;
+	gist:exponentOfRadian "0"^^xsd:decimal ;
+	gist:exponentOfSecond "3"^^xsd:decimal ;
+	gist:exponentOfSteradian "0"^^xsd:decimal ;
 	gist:exponentOfUSDollar "0"^^xsd:decimal ;
 	.
 
@@ -12610,6 +12851,25 @@ gistd:_UnitGroup_inductance
 	gist:exponentOfRadian "0"^^xsd:decimal ;
 	gist:exponentOfSecond "-2"^^xsd:decimal ;
 	gist:exponentOfSteradian "0.0"^^xsd:decimal ;
+	gist:exponentOfUSDollar "0"^^xsd:decimal ;
+	.
+
+gistd:_UnitGroup_inductance_per_length
+	a gist:UnitGroup ;
+	skos:prefLabel "units that measure inductance per length"^^xsd:string ;
+	skos:scopeNote "kilogram meter per ampereSquared secondSquared"^^xsd:string ;
+	gist:exponentOfAmpere "-2"^^xsd:decimal ;
+	gist:exponentOfBit "0"^^xsd:decimal ;
+	gist:exponentOfCandela "0"^^xsd:decimal ;
+	gist:exponentOfKelvin "0"^^xsd:decimal ;
+	gist:exponentOfKilogram "1"^^xsd:decimal ;
+	gist:exponentOfMeter "1"^^xsd:decimal ;
+	gist:exponentOfMole "0"^^xsd:decimal ;
+	gist:exponentOfNumber "0"^^xsd:decimal ;
+	gist:exponentOfOther "0"^^xsd:decimal ;
+	gist:exponentOfRadian "0"^^xsd:decimal ;
+	gist:exponentOfSecond "-2"^^xsd:decimal ;
+	gist:exponentOfSteradian "0"^^xsd:decimal ;
 	gist:exponentOfUSDollar "0"^^xsd:decimal ;
 	.
 
@@ -14985,6 +15245,25 @@ gistd:_UnitGroup_ratio_of_volumes
 	gist:exponentOfUSDollar "0"^^xsd:decimal ;
 	.
 
+gistd:_UnitGroup_reactance_per_length
+	a gist:UnitGroup ;
+	skos:prefLabel "units that measure reactance per length"^^xsd:string ;
+	skos:scopeNote "kilogram meter per ampereSquared secondCubed"^^xsd:string ;
+	gist:exponentOfAmpere "-2"^^xsd:decimal ;
+	gist:exponentOfBit "0"^^xsd:decimal ;
+	gist:exponentOfCandela "0"^^xsd:decimal ;
+	gist:exponentOfKelvin "0"^^xsd:decimal ;
+	gist:exponentOfKilogram "1"^^xsd:decimal ;
+	gist:exponentOfMeter "1"^^xsd:decimal ;
+	gist:exponentOfMole "0"^^xsd:decimal ;
+	gist:exponentOfNumber "0"^^xsd:decimal ;
+	gist:exponentOfOther "0"^^xsd:decimal ;
+	gist:exponentOfRadian "0"^^xsd:decimal ;
+	gist:exponentOfSecond "-3"^^xsd:decimal ;
+	gist:exponentOfSteradian "0"^^xsd:decimal ;
+	gist:exponentOfUSDollar "0"^^xsd:decimal ;
+	.
+
 gistd:_UnitGroup_reaction_rate_constant
 	a gist:UnitGroup ;
 	skos:definition "Based on QUDT Quantity Kind Dimension Vector A-1E0L3I0M0H0T-1D0."^^xsd:string ;
@@ -15005,6 +15284,25 @@ gistd:_UnitGroup_reaction_rate_constant
 	gist:exponentOfUSDollar "0"^^xsd:decimal ;
 	.
 
+gistd:_UnitGroup_reactive_power
+	a gist:UnitGroup ;
+	skos:prefLabel "units that measure reactive power"^^xsd:string ;
+	skos:scopeNote "kilogram meterSquared per secondCubed"^^xsd:string ;
+	gist:exponentOfAmpere "0"^^xsd:decimal ;
+	gist:exponentOfBit "0"^^xsd:decimal ;
+	gist:exponentOfCandela "0"^^xsd:decimal ;
+	gist:exponentOfKelvin "0"^^xsd:decimal ;
+	gist:exponentOfKilogram "1"^^xsd:decimal ;
+	gist:exponentOfMeter "2"^^xsd:decimal ;
+	gist:exponentOfMole "0"^^xsd:decimal ;
+	gist:exponentOfNumber "0"^^xsd:decimal ;
+	gist:exponentOfOther "0"^^xsd:decimal ;
+	gist:exponentOfRadian "0"^^xsd:decimal ;
+	gist:exponentOfSecond "-3"^^xsd:decimal ;
+	gist:exponentOfSteradian "0"^^xsd:decimal ;
+	gist:exponentOfUSDollar "0"^^xsd:decimal ;
+	.
+
 gistd:_UnitGroup_reads_per_genetic_strand_length
 	a gist:UnitGroup ;
 	skos:prefLabel "units that measure reads per genetic strand length"^^xsd:string ;
@@ -15021,6 +15319,25 @@ gistd:_UnitGroup_reads_per_genetic_strand_length
 	gist:exponentOfRadian "0"^^xsd:decimal ;
 	gist:exponentOfSecond "0"^^xsd:decimal ;
 	gist:exponentOfSteradian "0.0"^^xsd:decimal ;
+	gist:exponentOfUSDollar "0"^^xsd:decimal ;
+	.
+
+gistd:_UnitGroup_real_power
+	a gist:UnitGroup ;
+	skos:prefLabel "units that measure real power."^^xsd:string ;
+	skos:scopeNote "kilogram meterSquared per secondCubed"^^xsd:string ;
+	gist:exponentOfAmpere "0"^^xsd:decimal ;
+	gist:exponentOfBit "0"^^xsd:decimal ;
+	gist:exponentOfCandela "0"^^xsd:decimal ;
+	gist:exponentOfKelvin "0"^^xsd:decimal ;
+	gist:exponentOfKilogram "1"^^xsd:decimal ;
+	gist:exponentOfMeter "2"^^xsd:decimal ;
+	gist:exponentOfMole "0"^^xsd:decimal ;
+	gist:exponentOfNumber "0"^^xsd:decimal ;
+	gist:exponentOfOther "0"^^xsd:decimal ;
+	gist:exponentOfRadian "0"^^xsd:decimal ;
+	gist:exponentOfSecond "-3"^^xsd:decimal ;
+	gist:exponentOfSteradian "0"^^xsd:decimal ;
 	gist:exponentOfUSDollar "0"^^xsd:decimal ;
 	.
 
@@ -15136,6 +15453,25 @@ gistd:_UnitGroup_reluctance
 	gist:exponentOfRadian "0"^^xsd:decimal ;
 	gist:exponentOfSecond "2"^^xsd:decimal ;
 	gist:exponentOfSteradian "0.0"^^xsd:decimal ;
+	gist:exponentOfUSDollar "0"^^xsd:decimal ;
+	.
+
+gistd:_UnitGroup_resistance_per_length
+	a gist:UnitGroup ;
+	skos:prefLabel "units that measure resistance per length"^^xsd:string ;
+	skos:scopeNote "kilogram meter per ampereSquared secondCubed"^^xsd:string ;
+	gist:exponentOfAmpere "-2"^^xsd:decimal ;
+	gist:exponentOfBit "0"^^xsd:decimal ;
+	gist:exponentOfCandela "0"^^xsd:decimal ;
+	gist:exponentOfKelvin "0"^^xsd:decimal ;
+	gist:exponentOfKilogram "1"^^xsd:decimal ;
+	gist:exponentOfMeter "1"^^xsd:decimal ;
+	gist:exponentOfMole "0"^^xsd:decimal ;
+	gist:exponentOfNumber "0"^^xsd:decimal ;
+	gist:exponentOfOther "0"^^xsd:decimal ;
+	gist:exponentOfRadian "0"^^xsd:decimal ;
+	gist:exponentOfSecond "-3"^^xsd:decimal ;
+	gist:exponentOfSteradian "0"^^xsd:decimal ;
 	gist:exponentOfUSDollar "0"^^xsd:decimal ;
 	.
 
@@ -15796,6 +16132,25 @@ gistd:_UnitGroup_standardized_flow_rate
 	gist:exponentOfUSDollar "0"^^xsd:decimal ;
 	.
 
+gistd:_UnitGroup_susceptance_per_length
+	a gist:UnitGroup ;
+	skos:prefLabel "units that measure susceptance per length"^^xsd:string ;
+	skos:scopeNote "Measured in siemens per meter."^^xsd:string ;
+	gist:exponentOfAmpere "2"^^xsd:decimal ;
+	gist:exponentOfBit "0"^^xsd:decimal ;
+	gist:exponentOfCandela "0"^^xsd:decimal ;
+	gist:exponentOfKelvin "0"^^xsd:decimal ;
+	gist:exponentOfKilogram "-1"^^xsd:decimal ;
+	gist:exponentOfMeter "-3"^^xsd:decimal ;
+	gist:exponentOfMole "0"^^xsd:decimal ;
+	gist:exponentOfNumber "0"^^xsd:decimal ;
+	gist:exponentOfOther "0"^^xsd:decimal ;
+	gist:exponentOfRadian "0"^^xsd:decimal ;
+	gist:exponentOfSecond "3"^^xsd:decimal ;
+	gist:exponentOfSteradian "0"^^xsd:decimal ;
+	gist:exponentOfUSDollar "0"^^xsd:decimal ;
+	.
+
 gistd:_UnitGroup_temperature
 	a gist:UnitGroup ;
 	skos:definition "Based on QUDT Quantity Kind Dimension Vector A0E0L0I0M0H1T0D0."^^xsd:string ;
@@ -16208,6 +16563,25 @@ gistd:_UnitGroup_vapor_permeability
 	gist:exponentOfRadian "0"^^xsd:decimal ;
 	gist:exponentOfSecond "1"^^xsd:decimal ;
 	gist:exponentOfSteradian "0.0"^^xsd:decimal ;
+	gist:exponentOfUSDollar "0"^^xsd:decimal ;
+	.
+
+gistd:_UnitGroup_voltage_per_reactive_power
+	a gist:UnitGroup ;
+	skos:prefLabel "units that measure voltage per reactive power"^^xsd:string ;
+	skos:scopeNote "Measured in volts per var."^^xsd:string ;
+	gist:exponentOfAmpere "-1"^^xsd:decimal ;
+	gist:exponentOfBit "0"^^xsd:decimal ;
+	gist:exponentOfCandela "0"^^xsd:decimal ;
+	gist:exponentOfKelvin "0"^^xsd:decimal ;
+	gist:exponentOfKilogram "1"^^xsd:decimal ;
+	gist:exponentOfMeter "2"^^xsd:decimal ;
+	gist:exponentOfMole "0"^^xsd:decimal ;
+	gist:exponentOfNumber "0"^^xsd:decimal ;
+	gist:exponentOfOther "0"^^xsd:decimal ;
+	gist:exponentOfRadian "0"^^xsd:decimal ;
+	gist:exponentOfSecond "-3"^^xsd:decimal ;
+	gist:exponentOfSteradian "0"^^xsd:decimal ;
 	gist:exponentOfUSDollar "0"^^xsd:decimal ;
 	.
 
@@ -21010,7 +21384,10 @@ gistd:_UnitOfMeasure_farad_per_meter
 	skos:prefLabel "farad per meter"^^xsd:string ;
 	skos:scopeNote "1 farad per meter = 1.0 x ampereSquared secondToTheFourth per kilogram meterCubed"^^xsd:string ;
 	gist:conversionFactor "1.0"^^xsd:decimal ;
-	gist:isMemberOf gistd:_UnitGroup_permittivity ;
+	gist:isMemberOf
+		gistd:_UnitGroup_capacitance_per_length ,
+		gistd:_UnitGroup_permittivity
+		;
 	gist:symbol "F/m"^^xsd:string ;
 	.
 
@@ -22656,7 +23033,10 @@ gistd:_UnitOfMeasure_henry_per_meter
 	skos:prefLabel "henry per meter"^^xsd:string ;
 	skos:scopeNote "1 henry per meter = 1.0 x kilogram meter per ampereSquared secondSquared"^^xsd:string ;
 	gist:conversionFactor "1.0"^^xsd:decimal ;
-	gist:isMemberOf gistd:_UnitGroup_permeability ;
+	gist:isMemberOf
+		gistd:_UnitGroup_inductance_per_length ,
+		gistd:_UnitGroup_permeability
+		;
 	gist:symbol "H/m"^^xsd:string ;
 	.
 
@@ -25214,6 +25594,29 @@ gistd:_UnitOfMeasure_kilowatt_hour_per_square_meter
 	gist:symbol "kW·h/m²"^^xsd:string ;
 	.
 
+gistd:_UnitOfMeasure_kilowatt_per_second
+	a gist:UnitOfMeasure ;
+	rdfs:seeAlso "http://en.wikipedia.org/wiki/Kilowatt"^^xsd:anyURI ;
+	skos:altLabel "kilowatts per second"^^xsd:string ;
+	skos:prefLabel "kilowatt per second"^^xsd:string ;
+	skos:scopeNote "1 kilowatt per second = 1000 kilogram meterSquared per secondToTheFourth"^^xsd:string ;
+	gist:conversionFactor "1000.0"^^xsd:decimal ;
+	gist:isMemberOf gistd:_UnitGroup_active_power_change_rate ;
+	gist:symbol "kW/s"^^xsd:string ;
+	.
+
+gistd:_UnitOfMeasure_kilowatthour
+	a gist:UnitOfMeasure ;
+	rdfs:seeAlso "https://en.wikipedia.org/wiki/Kilowatt_hour"^^xsd:anyURI ;
+	skos:altLabel "kilowatthours"^^xsd:string ;
+	skos:closeMatch <http://qudt.org/vocab/unit/KiloW-HR> ;
+	skos:prefLabel "kilowatthour"^^xsd:string ;
+	skos:scopeNote "1 kilowatthour = 3600000.0 x kilogram meterSquared per secondSquared"^^xsd:string ;
+	gist:conversionFactor "3600000.0"^^xsd:decimal ;
+	gist:isMemberOf gistd:_UnitGroup_energy_or_work ;
+	gist:symbol "kW·h"^^xsd:string ;
+	.
+
 gistd:_UnitOfMeasure_kiloweber
 	a gist:UnitOfMeasure ;
 	skos:altLabel "kilowebers"^^xsd:string ;
@@ -26226,6 +26629,17 @@ gistd:_UnitOfMeasure_megawatt_hour
 	gist:conversionFactor "3600000000.0"^^xsd:decimal ;
 	gist:isMemberOf gistd:_UnitGroup_energy_or_work ;
 	gist:symbol "MW·h"^^xsd:string ;
+	.
+
+gistd:_UnitOfMeasure_megawatt_per_second
+	a gist:UnitOfMeasure ;
+	rdfs:seeAlso "http://en.wikipedia.org/wiki/Megawatt"^^xsd:anyURI ;
+	skos:altLabel "megawatts per second"^^xsd:string ;
+	skos:prefLabel "megawatt per second"^^xsd:string ;
+	skos:scopeNote "1 megawatt per second = 1,000,000 kilogram meterSquared per secondToTheFourth"^^xsd:string ;
+	gist:conversionFactor "1000000.0"^^xsd:decimal ;
+	gist:isMemberOf gistd:_UnitGroup_active_power_change_rate ;
+	gist:symbol "MW/s"^^xsd:string ;
 	.
 
 gistd:_UnitOfMeasure_mesh
@@ -29999,6 +30413,17 @@ gistd:_UnitOfMeasure_ohm_meter
 	gist:symbol "Ω·m"^^xsd:string ;
 	.
 
+gistd:_UnitOfMeasure_ohm_per_meter
+	a gist:UnitOfMeasure ;
+	rdfs:seeAlso "http://en.wikipedia.org/wiki/Ohm"^^xsd:anyURI ;
+	skos:altLabel "ohms per meter"^^xsd:string ;
+	skos:prefLabel "ohm per meter"^^xsd:string ;
+	skos:scopeNote "1 ohm per meter = 1 kilogram meter per ampereSquared secondCubed"^^xsd:string ;
+	gist:conversionFactor "1.0"^^xsd:decimal ;
+	gist:isMemberOf gistd:_UnitGroup_resistance_per_length ;
+	gist:symbol "Ω/m"^^xsd:string ;
+	.
+
 gistd:_UnitOfMeasure_ohm_square_meter_per_meter
 	a gist:UnitOfMeasure ;
 	skos:altLabel "ohm square meters per meter"^^xsd:string ;
@@ -33450,6 +33875,24 @@ gistd:_UnitOfMeasure_siemen_square_meter_per_mole
 	gist:symbol "S·m²/mol"^^xsd:string ;
 	.
 
+gistd:_UnitOfMeasure_siemens_per_meter
+	a gist:UnitOfMeasure ;
+	rdfs:seeAlso "http://en.wikipedia.org/wiki/Siemens_(unit)"^^xsd:anyURI ;
+	skos:altLabel "siemens per meter"^^xsd:string ;
+	skos:altfLabel "siemens per meter"^^xsd:string ;
+	skos:prefLabel "siemens per meter"^^xsd:string ;
+	skos:scopeNote
+		"1 siemens per meter = 1 ampereSquared secondCubed per kilogram meterCubed "^^xsd:string ,
+		"1 siemens per meter measures susceptance per unit length."^^xsd:string
+		;
+	gist:conversionFactor "1.0"^^xsd:decimal ;
+	gist:isMemberOf
+		gistd:_UnitGroup_conductance_per_length ,
+		gistd:_UnitGroup_susceptance_per_length
+		;
+	gist:symbol "S/m"^^xsd:string ;
+	.
+
 gistd:_UnitOfMeasure_sievert
 	a gist:UnitOfMeasure ;
 	rdfs:seeAlso
@@ -35198,8 +35641,9 @@ gistd:_UnitOfMeasure_volt_ampere
 	skos:scopeNote "1 volt ampere = 1.0 x kilogram meterSquared per secondCubed"^^xsd:string ;
 	gist:conversionFactor "1.0"^^xsd:decimal ;
 	gist:isMemberOf
-		gistd:_UnitGroup_non_active_power ,
-		gistd:_UnitGroup_power
+		gistd:_UnitGroup_apparent_power ,
+		gistd:_UnitGroup_complex_power ,
+		gistd:_UnitGroup_non_active_power
 		;
 	gist:symbol "V·A"^^xsd:string ;
 	.
@@ -35218,14 +35662,21 @@ gistd:_UnitOfMeasure_volt_ampere_hour
 
 gistd:_UnitOfMeasure_volt_ampere_reactive
 	a gist:UnitOfMeasure ;
-	skos:altLabel "volt amperes reactive"^^xsd:string ;
+	rdfs:seeAlso "http://en.wikipedia.org/wiki/AC_power"^^xsd:anyURI ;
+	skos:altLabel
+		"volt amperes reactive"^^xsd:string ,
+		"volts-ampere reactive"^^xsd:string
+		;
 	skos:closeMatch <http://qudt.org/vocab/unit/V-A_Reactive> ;
 	skos:definition "from QUDT: unit with special name for reactive power"^^xsd:string ;
-	skos:prefLabel "volt ampere reactive"^^xsd:string ;
-	skos:scopeNote "1 volt ampere reactive = 1.0 x kilogram meterSquared per secondCubed"^^xsd:string ;
+	skos:prefLabel "volt-ampere reactive"^^xsd:string ;
+	skos:scopeNote "1 volt-ampere reactive = 1 kilogram meterSquared per secondCubed"^^xsd:string ;
 	gist:conversionFactor "1.0"^^xsd:decimal ;
-	gist:isMemberOf gistd:_UnitGroup_power ;
-	gist:symbol "V·A{Reactive}"^^xsd:string ;
+	gist:isMemberOf
+		gistd:_UnitGroup_power ,
+		gistd:_UnitGroup_reactive_power
+		;
+	gist:symbol "var"^^xsd:string ;
 	.
 
 gistd:_UnitOfMeasure_volt_ampere_reactive_hour
@@ -35339,6 +35790,17 @@ gistd:_UnitOfMeasure_volt_per_square_meter
 	gist:symbol "V/m²"^^xsd:string ;
 	.
 
+gistd:_UnitOfMeasure_volt_per_volt_ampere_reactive
+	a gist:UnitOfMeasure ;
+	rdfs:seeAlso "http://en.wikipedia.org/wiki/AC_power"^^xsd:anyURI ;
+	skos:altLabel "volts per volt-ampere reactive"^^xsd:string ;
+	skos:prefLabel "volt per volt-ampere reactive"^^xsd:string ;
+	skos:scopeNote "1 volt per volt-ampere reactive = 1 per ampere"^^xsd:string ;
+	gist:conversionFactor "1.0"^^xsd:decimal ;
+	gist:isMemberOf gistd:_UnitGroup_voltage_per_reactive_power ;
+	gist:symbol "V/var"^^xsd:string ;
+	.
+
 gistd:_UnitOfMeasure_volt_second_per_meter
 	a gist:UnitOfMeasure ;
 	skos:altLabel "volt seconds per meter"^^xsd:string ;
@@ -35381,9 +35843,11 @@ gistd:_UnitOfMeasure_watt
 	skos:scopeNote "1 watt = 1.0 x kilogram meterSquared per secondCubed"^^xsd:string ;
 	gist:conversionFactor "1.0"^^xsd:decimal ;
 	gist:isMemberOf
+		gistd:_UnitGroup_active_power ,
 		gistd:_UnitGroup_electric_power ,
 		gistd:_UnitGroup_heat_flow_rate ,
 		gistd:_UnitGroup_power ,
+		gistd:_UnitGroup_real_power ,
 		gistd:_UnitGroup_sound_power
 		;
 	gist:symbol "W"^^xsd:string ;
@@ -35434,6 +35898,17 @@ gistd:_UnitOfMeasure_watt_hour_per_mile
 	gist:isMemberOf gistd:_UnitGroup_electric_vehicle_efficiency ;
 	.
 
+gistd:_UnitOfMeasure_watt_per_ampere
+	a gist:UnitOfMeasure ;
+	rdfs:seeAlso "http://en.wikipedia.org/wiki/Volt"^^xsd:anyURI ;
+	skos:altLabel "watts per ampere"^^xsd:string ;
+	skos:prefLabel "watt per ampere"^^xsd:string ;
+	skos:scopeNote "1 watt per ampere = 1 kilogram meterSquared per ampere secondCubed"^^xsd:string ;
+	gist:conversionFactor "1.0"^^xsd:decimal ;
+	gist:isMemberOf gistd:_UnitGroup_active_power_per_electric_current ;
+	gist:symbol "W/A"^^xsd:string ;
+	.
+
 gistd:_UnitOfMeasure_watt_per_cubic_meter
 	a gist:UnitOfMeasure ;
 	skos:altLabel "watts per cubic meter"^^xsd:string ;
@@ -35444,6 +35919,17 @@ gistd:_UnitOfMeasure_watt_per_cubic_meter
 	gist:conversionFactor "1.0"^^xsd:decimal ;
 	gist:isMemberOf gistd:_UnitGroup_pressure_per_time ;
 	gist:symbol "W/m³"^^xsd:string ;
+	.
+
+gistd:_UnitOfMeasure_watt_per_hertz
+	a gist:UnitOfMeasure ;
+	rdfs:seeAlso "http://en.wikipedia.org/wiki/Hertz"^^xsd:anyURI ;
+	skos:altLabel "watts per hertz"^^xsd:string ;
+	skos:prefLabel "watt per hertz"^^xsd:string ;
+	skos:scopeNote "1 watt per hertz = 1 kilogram meterSquared per secondSquared"^^xsd:string ;
+	gist:conversionFactor "1.0"^^xsd:decimal ;
+	gist:isMemberOf gistd:_UnitGroup_active_power_per_frequency ;
+	gist:symbol "W/Hz"^^xsd:string ;
 	.
 
 gistd:_UnitOfMeasure_watt_per_kelvin
@@ -35479,6 +35965,17 @@ gistd:_UnitOfMeasure_watt_per_meter_kelvin
 	gist:conversionFactor "1.0"^^xsd:decimal ;
 	gist:isMemberOf gistd:_UnitGroup_thermal_conductivity ;
 	gist:symbol "W/(m·K)"^^xsd:string ;
+	.
+
+gistd:_UnitOfMeasure_watt_per_second
+	a gist:UnitOfMeasure ;
+	rdfs:seeAlso "http://en.wikipedia.org/wiki/Watt"^^xsd:anyURI ;
+	skos:altLabel "watts per second"^^xsd:string ;
+	skos:prefLabel "watt per second"^^xsd:string ;
+	skos:scopeNote "1 watt per second = 1 kilogram meterSquared per secondToTheFourth"^^xsd:string ;
+	gist:conversionFactor "1.0"^^xsd:decimal ;
+	gist:isMemberOf gistd:_UnitGroup_active_power_change_rate ;
+	gist:symbol "W/s"^^xsd:string ;
 	.
 
 gistd:_UnitOfMeasure_watt_per_square_centimeter
