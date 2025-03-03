@@ -25303,10 +25303,7 @@ gistd:_UnitOfMeasure_kilowatt_hour
 		gistd:_UnitGroup_electric_energy ,
 		gistd:_UnitGroup_energy_or_work
 		;
-	gist:symbol
-		"kW"^^xsd:string ,
-		"kW·h"^^xsd:string
-		;
+	gist:symbol "kW·h"^^xsd:string ;
 	.
 
 gistd:_UnitOfMeasure_kilowatt_hour_per_100_kilometers
@@ -35534,10 +35531,7 @@ gistd:_UnitOfMeasure_watt_hour
 	skos:definition "An amount of electricity defined as one watt for one hour."^^xsd:string ;
 	skos:prefLabel "watt-hour"^^xsd:string ;
 	skos:scopeNote "1 watt-hour = 3600.0 x kilogram meterSquared per secondSquared"^^xsd:string ;
-	gist:conversionFactor
-		"3600"^^xsd:decimal ,
-		"3600.0"^^xsd:decimal
-		;
+	gist:conversionFactor "3600.0"^^xsd:decimal ;
 	gist:isMemberOf
 		gistd:_UnitGroup_electric_energy ,
 		gistd:_UnitGroup_energy_or_work
