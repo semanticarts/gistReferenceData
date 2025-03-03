@@ -17642,10 +17642,7 @@ gistd:_UnitOfMeasure_british_thermal_unit_international_inch_per_hour_square_foo
 	skos:scopeNote "1 british thermal unit (international table) inch per hour square foot degree fahrenheit = 0.144227889 x kilogram meter per kelvin secondCubed"^^xsd:string ;
 	gist:conversionFactor "0.144227889"^^xsd:decimal ;
 	gist:isMemberOf gistd:_UnitGroup_thermal_conductivity ;
-	gist:symbol
-		"Btu{IT}·in/(ft²·h·°F)"^^xsd:string ,
-		"Btu{IT}·in/(h·ft²·°F)"^^xsd:string
-		;
+	gist:symbol "Btu{IT}·in/(h·ft²·°F)"^^xsd:string ;
 	.
 
 gistd:_UnitOfMeasure_british_thermal_unit_international_inch_per_second_square_foot_degree_fahrenheit
@@ -20982,10 +20979,7 @@ gistd:_UnitOfMeasure_erg_per_gram
 	skos:scopeNote "1 erg per gram = 0.0001 x meterSquared per secondSquared"^^xsd:string ;
 	gist:conversionFactor "0.0001"^^xsd:decimal ;
 	gist:isMemberOf gistd:_UnitGroup_specific_energy ;
-	gist:symbol
-		"erg/G"^^xsd:string ,
-		"erg/g"^^xsd:string
-		;
+	gist:symbol "erg/g"^^xsd:string ;
 	.
 
 gistd:_UnitOfMeasure_erg_per_gram_second
@@ -25118,10 +25112,7 @@ gistd:_UnitOfMeasure_kilopond
 	skos:scopeNote "1 kilopond = 9.80665 x kilogram meter per secondSquared"^^xsd:string ;
 	gist:conversionFactor "9.80665"^^xsd:decimal ;
 	gist:isMemberOf gistd:_UnitGroup_force ;
-	gist:symbol
-		"kP"^^xsd:string ,
-		"kp"^^xsd:string
-		;
+	gist:symbol "kp"^^xsd:string ;
 	.
 
 gistd:_UnitOfMeasure_kilopound_force
@@ -31027,10 +31018,7 @@ gistd:_UnitOfMeasure_picofarad_per_meter
 	skos:scopeNote "1 picofarad per meter = 0.000000000001 x ampereSquared secondToTheFourth per kilogram meterCubed"^^xsd:string ;
 	gist:conversionFactor "0.000000000001"^^xsd:decimal ;
 	gist:isMemberOf gistd:_UnitGroup_permittivity ;
-	gist:symbol
-		"pF/m"^^xsd:string ,
-		"pg/L"^^xsd:string
-		;
+	gist:symbol "pF/m"^^xsd:string ;
 	.
 
 gistd:_UnitOfMeasure_picogram
@@ -31865,10 +31853,7 @@ gistd:_UnitOfMeasure_pound_force_per_foot
 	skos:scopeNote "1 pound force per foot = 14.5939042 x kilogram per secondSquared"^^xsd:string ;
 	gist:conversionFactor "14.5939042"^^xsd:decimal ;
 	gist:isMemberOf gistd:_UnitGroup_energy_or_work_per_area ;
-	gist:symbol
-		"klbf/ft"^^xsd:string ,
-		"lbf/ft"^^xsd:string
-		;
+	gist:symbol "lbf/ft"^^xsd:string ;
 	.
 
 gistd:_UnitOfMeasure_pound_force_per_inch
@@ -35096,21 +35081,6 @@ gistd:_UnitOfMeasure_tropical_year
 	gist:symbol "a{tropical}"^^xsd:string ;
 	.
 
-gistd:_UnitOfMeasure_u_s_perm
-	a gist:UnitOfMeasure ;
-	rdfs:seeAlso "https://en.wikipedia.org/wiki/Perm_(unit)"^^xsd:anyURI ;
-	skos:altLabel "u.s. perms"^^xsd:string ;
-	skos:closeMatch <http://qudt.org/vocab/unit/PERM_US> ;
-	skos:prefLabel "u.s. perm"^^xsd:string ;
-	skos:scopeNote "1 u.s. perm = 0.0000000000572135 x second per meter"^^xsd:string ;
-	gist:conversionFactor "0.0000000000572135"^^xsd:decimal ;
-	gist:isMemberOf gistd:_UnitGroup_vapor_permeability ;
-	gist:symbol
-		"perm{Metric}"^^xsd:string ,
-		"perm{US}"^^xsd:string
-		;
-	.
-
 gistd:_UnitOfMeasure_unified_atomic_mass_unit
 	a gist:UnitOfMeasure ;
 	rdfs:seeAlso "https://en.wikipedia.org/wiki/Atomic_mass_unit"^^xsd:anyURI ;
@@ -35290,6 +35260,18 @@ gistd:_UnitOfMeasure_us_peck
 		gistd:_UnitGroup_volume
 		;
 	gist:symbol "peck{US Dry}"^^xsd:string ;
+	.
+
+gistd:_UnitOfMeasure_us_perm
+	a gist:UnitOfMeasure ;
+	rdfs:seeAlso "https://en.wikipedia.org/wiki/Perm_(unit)"^^xsd:anyURI ;
+	skos:altLabel "u.s. perms"^^xsd:string ;
+	skos:closeMatch <http://qudt.org/vocab/unit/PERM_US> ;
+	skos:prefLabel "u.s. perm"^^xsd:string ;
+	skos:scopeNote "1 u.s. perm = 0.0000000000572135 x second per meter"^^xsd:string ;
+	gist:conversionFactor "0.0000000000572135"^^xsd:decimal ;
+	gist:isMemberOf gistd:_UnitGroup_vapor_permeability ;
+	gist:symbol "perm{US}"^^xsd:string ;
 	.
 
 gistd:_UnitOfMeasure_us_survey_foot
