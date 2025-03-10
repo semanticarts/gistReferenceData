@@ -1,73 +1,64 @@
-# extract entries the client will be using
-# modify the input section to include the aspects and units of measure the client wants to use
+# query to get units of measure reference data for a specific client
+# modify the input data as needed for the client
 
-# note: sequence of clauses in the union is important
-
-# select distinct ?unitGroup ?unitGroupPredicate ?unitGroupObject
+prefix gist:  <https://w3id.org/semanticarts/ns/ontology/gist/>
+prefix gistd: <https://w3id.org/semanticarts/ns/data/gist/>
+prefix gistx: <https://w3id.org/semanticarts/ns/data/gist/>
+prefix owl: <http://www.w3.org/2002/07/owl#>
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+prefix sh: <http://www.w3.org/ns/shacl#>
+prefix skos: <http://www.w3.org/2004/02/skos/core#>
+prefix xsd: <http://www.w3.org/2001/XMLSchema#>
 
 construct {
-  ?unitOfMeasure ?unitOfMeasurePredicate ?unitOfMeasureObject .  
-  ?category      ?categoryPredicate      ?categoryObject .  
+  ?unitOfMeasure gist:isMemberOf   ?unitGroup .
+  ?aspect        gist:hasUnitGroup ?unitGroup .
+  ?aspect        gist:isCategorizedBy ?discipline . 
+  ?discipline    ?disciplinePredicate    ?disciplineObject .
+  ?aspect        ?aspectPredicate        ?aspectObject .
   ?unitGroup     ?unitGroupPredicate     ?unitGroupObject .
-  ?broaderAspect ?broaderAspectPredicate ?broaderAspectObject .
+  ?unitOfMeasure ?unitOfMeasurePredicate ?unitOfMeasureObject .  
   }
 
 where {
 
-# input is a list of Aspects and a list of Units the client will be using
+# input is a list of Aspects, a list of Unit Groups, and a list of Units the client will be using
 
-  values ?aspect {
-
-         gistd:_Aspect_actual_pay_rate
-         gistd:_Aspect_base_pay_rate
-         gistd:_Aspect_billing_rate 
-         gistd:_Aspect_budget
-         gistd:_Aspect_duration
-         gistd:_Aspect_earned_revenue
-         gistd:_Aspect_earned_revenue_adjustment
-         gistd:_Aspect_employee_er_share_multiplier
-         gistd:_Aspect_financial_balance
-         gistd:_Aspect_labor_consumption_rate
-         gistd:_Aspect_monetary_value
-         gistd:_Aspect_monetary_value_per_duration
-         gistd:_Aspect_paid_hours
-         gistd:_Aspect_paid_time_off
-         gistd:_Aspect_worked_hours
-         gistd:_Aspect_write_off
-         }
-    
-# reference data for the units
-  {
-   values ?unitOfMeasure {
-
-         gistd:_UnitOfMeasure_day_per_week
-         gistd:_UnitOfMeasure_decimal
-         gistd:_UnitOfMeasure_hour
-         gistd:_UnitOfMeasure_hour_per_week
-         gistd:_UnitOfMeasure_US_dollar_per_day  
-         gistd:_UnitOfMeasure_US_dollar_per_hour 
-         }
-    
-    ?unitOfMeasure ?unitOfMeasurePredicate ?unitOfMeasureObject .}
-   
-# reference data for the categories
-  union {
-  ?aspect gist:hasBroader* ?broaderAspect .
-  ?broaderAspect gist:isCategorizedBy ?category .
-  ?category ?categoryPredicate ?categoryObject .
-  }
-
-# reference data for the unit groups
-  union {
-  ?aspect gist:hasBroader* ?broaderAspect .
-  ?broaderAspect gist:hasUnitGroup ?unitGroup .
-  ?unitGroup ?unitGroupPredicate ?unitGroupObject .
-  }
-  
-# reference data for the aspects and broader aspects
-  union {
-  ?aspect gist:hasBroader* ?broaderAspect .
-  ?broaderAspect ?broaderAspectPredicate ?broaderAspectObject .
-  }  
+# units to include
+values ?unitOfMeasure {
+gistd:_UnitOfMeasure_kilogram
+gistd:_UnitOfMeasure_ounce_mass
+gistd:_UnitOfMeasure_pound
 }
+  
+# unit groups to include
+values ?unitGroup {
+gistd:_UnitGroup_mass 
+}
+  
+# aspects to include
+values ?aspect {
+gistd:_Aspect_mass
+}
+   
+ ?unitOfMeasure gist:isMemberOf   ?unitGroup .
+ ?aspect        gist:hasUnitGroup ?unitGroup .
 
+ optional {?aspect gist:isCategorizedBy ?discipline}
+  
+# get details of each aspect, unit group, unit, and discipline
+
+{?aspect        ?aspectPredicate        ?aspectObject .
+ filter(?aspectPredicate != gist:hasUnitGroup)
+ filter(?aspectPredicate != gist:isCategorizedBy)
+ }
+  
+union {?unitGroup     ?unitGroupPredicate     ?unitGroupObject .}
+  
+union {?unitOfMeasure ?unitOfMeasurePredicate ?unitOfMeasureObject .
+        filter(?unitOfMeasurePredicate != gist:isMemberOf)
+        }
+
+union {?discipline     ?disciplinePredicate     ?disciplineObject .}
+}
